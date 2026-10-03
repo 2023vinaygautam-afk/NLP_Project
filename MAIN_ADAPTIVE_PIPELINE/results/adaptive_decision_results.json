@@ -1,0 +1,285 @@
+{
+    "project": "Adaptive Lexical Retrieval",
+    "evaluation_type": "Fixed Five-Query Decision Analysis",
+    "total_queries": 5,
+    "retrieval_type": "Lexical",
+    "results": [
+        {
+            "query": "What are the main causes of COVID-19 transmission and how can it be prevented?",
+            "query_type": "KEYWORD",
+            "terms": [
+                "what",
+                "are",
+                "the",
+                "main",
+                "causes",
+                "of",
+                "covid-19",
+                "transmission",
+                "how",
+                "can",
+                "it",
+                "be",
+                "prevented"
+            ],
+            "keywords": [
+                "causes",
+                "covid-19",
+                "transmission",
+                "be",
+                "prevented"
+            ],
+            "domain_terms": [
+                "covid-19",
+                "transmission"
+            ],
+            "term_count": 13,
+            "keyword_count": 5,
+            "contains_question_word": true,
+            "question_words": [
+                "what",
+                "how"
+            ],
+            "complexity": "MEDIUM",
+            "selected_method": "KEYWORD",
+            "decision_reason": "The query contains healthcare or public-health domain terms without explicit Boolean syntax. Keyword retrieval is selected.",
+            "query_complexity": "MEDIUM",
+            "complexity_reason": "The query has moderate complexity and contains multiple meaningful terms.",
+            "number_of_terms": 13,
+            "number_of_keywords": 5,
+            "number_of_domain_terms": 2,
+            "retrieval_scope": "CONTROLLED",
+            "scope_reason": "The query contains several keywords. Relevance ranking should prioritize documents covering more important query terms.",
+            "evidence_requirement": "HIGH",
+            "initial_action": "RETRIEVE",
+            "action_reason": "Meaningful query terms are available for lexical retrieval.",
+            "decision_confidence": 0.85,
+            "query_id": "Q01",
+            "expected_relevant_documents": [
+                "D01"
+            ]
+        },
+        {
+            "query": "How effective are COVID-19 vaccines in preventing infection and reducing disease severity?",
+            "query_type": "KEYWORD",
+            "terms": [
+                "how",
+                "effective",
+                "are",
+                "covid-19",
+                "vaccines",
+                "in",
+                "preventing",
+                "infection",
+                "reducing",
+                "disease",
+                "severity"
+            ],
+            "keywords": [
+                "covid-19",
+                "vaccines",
+                "preventing",
+                "infection",
+                "reducing",
+                "disease",
+                "severity"
+            ],
+            "domain_terms": [
+                "covid-19",
+                "vaccines",
+                "infection",
+                "disease",
+                "severity"
+            ],
+            "term_count": 11,
+            "keyword_count": 7,
+            "contains_question_word": true,
+            "question_words": [
+                "how"
+            ],
+            "complexity": "HIGH",
+            "selected_method": "KEYWORD",
+            "decision_reason": "The query contains healthcare or public-health domain terms without explicit Boolean syntax. Keyword retrieval is selected.",
+            "query_complexity": "HIGH",
+            "complexity_reason": "The query has high complexity based on the query-understanding module.",
+            "number_of_terms": 11,
+            "number_of_keywords": 7,
+            "number_of_domain_terms": 5,
+            "retrieval_scope": "CONTROLLED",
+            "scope_reason": "The query contains several keywords. Relevance ranking should prioritize documents covering more important query terms.",
+            "evidence_requirement": "HIGH",
+            "initial_action": "RETRIEVE",
+            "action_reason": "Meaningful query terms are available for lexical retrieval.",
+            "decision_confidence": 0.85,
+            "query_id": "Q02",
+            "expected_relevant_documents": [
+                "D03"
+            ]
+        },
+        {
+            "query": "How does COVID-19 vaccination help protect individuals and communities from infection?",
+            "query_type": "KEYWORD",
+            "terms": [
+                "how",
+                "does",
+                "covid-19",
+                "vaccination",
+                "help",
+                "protect",
+                "individuals",
+                "communities",
+                "from",
+                "infection"
+            ],
+            "keywords": [
+                "covid-19",
+                "vaccination",
+                "protect",
+                "individuals",
+                "communities",
+                "infection"
+            ],
+            "domain_terms": [
+                "covid-19",
+                "vaccination",
+                "infection"
+            ],
+            "term_count": 10,
+            "keyword_count": 6,
+            "contains_question_word": true,
+            "question_words": [
+                "how"
+            ],
+            "complexity": "HIGH",
+            "selected_method": "KEYWORD",
+            "decision_reason": "The query contains healthcare or public-health domain terms without explicit Boolean syntax. Keyword retrieval is selected.",
+            "query_complexity": "HIGH",
+            "complexity_reason": "The query has high complexity based on the query-understanding module.",
+            "number_of_terms": 10,
+            "number_of_keywords": 6,
+            "number_of_domain_terms": 3,
+            "retrieval_scope": "CONTROLLED",
+            "scope_reason": "The query contains several keywords. Relevance ranking should prioritize documents covering more important query terms.",
+            "evidence_requirement": "HIGH",
+            "initial_action": "RETRIEVE",
+            "action_reason": "Meaningful query terms are available for lexical retrieval.",
+            "decision_confidence": 0.85,
+            "query_id": "Q03",
+            "expected_relevant_documents": [
+                "D02"
+            ]
+        },
+        {
+            "query": "What is the relationship between vaccination, COVID-19 testing, and early detection of infection?",
+            "query_type": "KEYWORD",
+            "terms": [
+                "what",
+                "is",
+                "the",
+                "relationship",
+                "between",
+                "vaccination",
+                "covid-19",
+                "testing",
+                "early",
+                "detection",
+                "of",
+                "infection"
+            ],
+            "keywords": [
+                "vaccination",
+                "covid-19",
+                "testing",
+                "early",
+                "detection",
+                "infection"
+            ],
+            "domain_terms": [
+                "vaccination",
+                "covid-19",
+                "testing",
+                "infection"
+            ],
+            "term_count": 12,
+            "keyword_count": 6,
+            "contains_question_word": true,
+            "question_words": [
+                "what"
+            ],
+            "complexity": "HIGH",
+            "selected_method": "KEYWORD",
+            "decision_reason": "The query contains healthcare or public-health domain terms without explicit Boolean syntax. Keyword retrieval is selected.",
+            "query_complexity": "HIGH",
+            "complexity_reason": "The query has high complexity based on the query-understanding module.",
+            "number_of_terms": 12,
+            "number_of_keywords": 6,
+            "number_of_domain_terms": 4,
+            "retrieval_scope": "CONTROLLED",
+            "scope_reason": "The query contains several keywords. Relevance ranking should prioritize documents covering more important query terms.",
+            "evidence_requirement": "HIGH",
+            "initial_action": "RETRIEVE",
+            "action_reason": "Meaningful query terms are available for lexical retrieval.",
+            "decision_confidence": 0.85,
+            "query_id": "Q04",
+            "expected_relevant_documents": [
+                "D16"
+            ]
+        },
+        {
+            "query": "How do quarantine and contact tracing help control infectious disease outbreaks?",
+            "query_type": "KEYWORD",
+            "terms": [
+                "how",
+                "do",
+                "quarantine",
+                "contact",
+                "tracing",
+                "help",
+                "control",
+                "infectious",
+                "disease",
+                "outbreaks"
+            ],
+            "keywords": [
+                "quarantine",
+                "contact",
+                "tracing",
+                "control",
+                "infectious",
+                "disease",
+                "outbreaks"
+            ],
+            "domain_terms": [
+                "quarantine",
+                "contact",
+                "tracing",
+                "infectious",
+                "disease"
+            ],
+            "term_count": 10,
+            "keyword_count": 7,
+            "contains_question_word": true,
+            "question_words": [
+                "how"
+            ],
+            "complexity": "HIGH",
+            "selected_method": "KEYWORD",
+            "decision_reason": "The query contains healthcare or public-health domain terms without explicit Boolean syntax. Keyword retrieval is selected.",
+            "query_complexity": "HIGH",
+            "complexity_reason": "The query has high complexity based on the query-understanding module.",
+            "number_of_terms": 10,
+            "number_of_keywords": 7,
+            "number_of_domain_terms": 5,
+            "retrieval_scope": "CONTROLLED",
+            "scope_reason": "The query contains several keywords. Relevance ranking should prioritize documents covering more important query terms.",
+            "evidence_requirement": "HIGH",
+            "initial_action": "RETRIEVE",
+            "action_reason": "Meaningful query terms are available for lexical retrieval.",
+            "decision_confidence": 0.85,
+            "query_id": "Q05",
+            "expected_relevant_documents": [
+                "D06"
+            ]
+        }
+    ]
+}

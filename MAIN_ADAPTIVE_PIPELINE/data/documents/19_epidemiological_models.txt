@@ -1,0 +1,9 @@
+Epidemiological Models for Infectious Disease Planning
+
+Mathematical and computational models can help researchers explore how infectious diseases may spread under different assumptions. Compartmental models such as SIR divide populations into categories such as susceptible, infected, and recovered. More detailed models can add age groups, vaccination status, hospitalization, geographic structure, or other characteristics.
+
+Models are not crystal balls. Their outputs depend on assumptions, parameter estimates, data quality, and the scenario being examined. A model can be useful even when its exact numerical forecast is uncertain because it can show how outcomes change when assumptions change.
+
+Model calibration uses observed data to estimate parameters or evaluate whether simulated trajectories are consistent with historical patterns. Validation and sensitivity analysis can identify which assumptions have the greatest effect on results.
+
+Public-health decision-makers should interpret model outputs alongside surveillance data and expert assessment. Scenario projections are particularly sensitive to changes in behavior, immunity, viral characteristics, interventions, and healthcare capacity. Transparent reporting of assumptions and uncertainty is therefore essential.

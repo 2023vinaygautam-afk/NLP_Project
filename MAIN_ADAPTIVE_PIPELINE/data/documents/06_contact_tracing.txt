@@ -1,0 +1,9 @@
+Contact Tracing and Exposure Management
+
+Contact tracing is a public-health process used to identify people who may have been exposed to an infectious disease and provide them with relevant information and support. For respiratory infections, contact definitions may consider proximity, duration, setting, and timing relative to infectiousness.
+
+A typical workflow includes identifying a confirmed or probable case, determining the period during which transmission could have occurred, interviewing the case when appropriate, identifying contacts, and communicating recommended actions. Digital tools can assist with notification or data management, but they do not replace public-health judgment.
+
+Contact tracing is most effective when cases and contacts can be identified quickly and when people have access to testing, healthcare, isolation resources, and accurate information. Privacy and confidentiality are important because contact-tracing systems handle sensitive health and exposure information.
+
+The effectiveness of contact tracing can decrease when community transmission is extremely high, when many infections are asymptomatic, or when cases cannot be identified promptly. In such situations, broad prevention measures and community surveillance may be more practical complements.

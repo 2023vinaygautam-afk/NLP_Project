@@ -1,0 +1,78 @@
+{
+    "evaluation_type": "Baseline Keyword TF-IDF-Style Retrieval",
+    "evaluation_queries": 5,
+    "corpus_documents": 20,
+    "top_k": 5,
+    "per_query_metrics": [
+        {
+            "Query_ID": "Q01",
+            "Query": "What are the main causes of COVID-19 transmission and how can it be prevented?",
+            "Relevant_Documents": "D01",
+            "First_Relevant_Rank": 1,
+            "Precision@1": 1.0,
+            "Precision@5": 0.2,
+            "Recall@5": 1.0,
+            "F1@5": 0.3333,
+            "Reciprocal_Rank": 1.0,
+            "Hit": 1
+        },
+        {
+            "Query_ID": "Q02",
+            "Query": "How effective are COVID-19 vaccines in preventing infection and reducing disease severity?",
+            "Relevant_Documents": "D03",
+            "First_Relevant_Rank": 4,
+            "Precision@1": 0.0,
+            "Precision@5": 0.2,
+            "Recall@5": 1.0,
+            "F1@5": 0.3333,
+            "Reciprocal_Rank": 0.25,
+            "Hit": 1
+        },
+        {
+            "Query_ID": "Q03",
+            "Query": "How does COVID-19 vaccination help protect individuals and communities from infection?",
+            "Relevant_Documents": "D02",
+            "First_Relevant_Rank": 1,
+            "Precision@1": 1.0,
+            "Precision@5": 0.2,
+            "Recall@5": 1.0,
+            "F1@5": 0.3333,
+            "Reciprocal_Rank": 1.0,
+            "Hit": 1
+        },
+        {
+            "Query_ID": "Q04",
+            "Query": "What is the relationship between vaccination, COVID-19 testing, and early detection of infection?",
+            "Relevant_Documents": "D16",
+            "First_Relevant_Rank": 3,
+            "Precision@1": 0.0,
+            "Precision@5": 0.2,
+            "Recall@5": 1.0,
+            "F1@5": 0.3333,
+            "Reciprocal_Rank": 0.3333,
+            "Hit": 1
+        },
+        {
+            "Query_ID": "Q05",
+            "Query": "How do quarantine and contact tracing help control infectious disease outbreaks?",
+            "Relevant_Documents": "D06",
+            "First_Relevant_Rank": 1,
+            "Precision@1": 1.0,
+            "Precision@5": 0.2,
+            "Recall@5": 1.0,
+            "F1@5": 0.3333,
+            "Reciprocal_Rank": 1.0,
+            "Hit": 1
+        }
+    ],
+    "overall_metrics": {
+        "Precision@1": 0.6,
+        "Precision@5": 0.2,
+        "Recall@5": 1.0,
+        "F1@5": 0.3333,
+        "MRR": 0.7167,
+        "Hit_Rate": 1,
+        "Total_Queries": 5,
+        "Total_Documents": 20
+    }
+}

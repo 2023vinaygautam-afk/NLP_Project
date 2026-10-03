@@ -1,0 +1,9 @@
+Public Health Surveillance Systems
+
+Public health surveillance is the continuous and systematic collection, analysis, interpretation, and dissemination of health information for action. Surveillance systems can monitor infectious diseases through case reports, laboratory results, hospital records, mortality data, syndromic indicators, sentinel sites, and community-level measurements.
+
+A surveillance system begins with a defined objective. The case definition determines which events are counted, while reporting rules specify how and when information is submitted. Data quality depends on completeness, timeliness, consistency, and representativeness.
+
+Passive surveillance relies on routine reporting and can be relatively efficient but may miss cases. Active surveillance involves more direct efforts to identify cases and can improve completeness at greater cost. Sentinel surveillance collects detailed information from selected sites and may be useful for monitoring trends.
+
+Surveillance data should be interpreted carefully. Changes in reporting systems, testing practices, healthcare access, or case definitions can create apparent changes that are not purely epidemiological. Public-health decision-making therefore benefits from triangulating multiple data sources.

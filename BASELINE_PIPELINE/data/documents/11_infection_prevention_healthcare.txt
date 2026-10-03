@@ -1,0 +1,9 @@
+Infection Prevention in Healthcare Settings
+
+Healthcare facilities require layered infection-prevention measures because patients and healthcare workers may encounter infectious individuals in close-contact environments. Core practices include hand hygiene, appropriate use of personal protective equipment, environmental cleaning, respiratory hygiene, and safe patient placement.
+
+Administrative measures can include screening or triage procedures, staff training, vaccination programs, and policies for managing symptomatic healthcare workers. Engineering controls include ventilation, physical separation, and room design. Personal protective equipment is selected according to the anticipated exposure and task.
+
+Infection prevention programs also depend on monitoring. Facilities can track healthcare-associated infections, respiratory illness among staff, compliance with selected practices, and environmental indicators. Training should be repeated and adapted when evidence or recommendations change.
+
+No single control is sufficient in every situation. Layered prevention reduces reliance on one barrier and can be adapted according to the pathogen, transmission route, patient population, and local outbreak conditions.

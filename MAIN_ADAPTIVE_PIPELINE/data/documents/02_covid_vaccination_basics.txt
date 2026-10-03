@@ -1,0 +1,9 @@
+COVID-19 Vaccination: Basic Concepts
+
+COVID-19 vaccines are designed to stimulate an immune response against SARS-CoV-2 without requiring a person to experience the disease itself. Different vaccine platforms can present viral information to the immune system in different ways. After vaccination, immune cells can recognize relevant viral components and mount a faster response when exposed later.
+
+Vaccination does not guarantee that a person will never become infected. Vaccine effectiveness varies by outcome, product, population, time since vaccination, and circulating variant. Public-health evaluation commonly distinguishes protection against infection, symptomatic disease, hospitalization, and death. These outcomes should not be treated as interchangeable.
+
+Immunity can change over time. Previous infection may also contribute to immune protection, producing what researchers often describe as hybrid immunity when vaccination and infection have both occurred. Because immunity and circulating viruses change, vaccination recommendations may be updated as evidence develops.
+
+When communicating about vaccines, it is useful to distinguish relative risk, absolute risk, vaccine effectiveness, and adverse-event rates. A clear explanation should specify the population, comparison group, time period, and health outcome. This prevents misleading conclusions from a single percentage or isolated statistic.

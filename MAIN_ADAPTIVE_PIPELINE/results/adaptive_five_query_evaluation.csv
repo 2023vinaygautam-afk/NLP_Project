@@ -1,0 +1,6 @@
+Query_ID,Query,Pipeline,Retrieved_Documents,Expected_Relevant_Documents,Relevant_Count,TP,FP,FN,Precision,Recall,F1_Score,Precision@5,Recall@5,Retrieved_Count
+Q1,What are the main causes of COVID-19 transmission and how can it be prevented?,ADAPTIVE,D01,D01,1,1,0,0,1.0,1.0,1.0,0.2,1.0,1
+Q2,How effective are COVID-19 vaccines in preventing infection and reducing disease severity?,ADAPTIVE,D02; D01,D02; D03,2,1,1,1,0.5,0.5,0.5,0.2,0.5,2
+Q3,How does COVID-19 vaccination help protect individuals and communities from infection?,ADAPTIVE,D01; D02,D01; D02,2,2,0,0,1.0,1.0,1.0,0.4,1.0,2
+Q4,"What is the relationship between vaccination, COVID-19 testing, and early detection of infection?",ADAPTIVE,D16; D02; D01,D02; D03; D16,3,2,1,1,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.4,0.6666666666666666,3
+Q5,How do quarantine and contact tracing help control infectious disease outbreaks?,ADAPTIVE,D06,D06; D09,2,1,0,1,1.0,0.5,0.6666666666666666,0.2,0.5,1

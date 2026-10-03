@@ -1,0 +1,6 @@
+Query,Query_Type,Retrieved_Count,Relevant_Count,TP,FP,FN,Precision,Recall,F1_Score,Precision@5,Recall@5
+COVID,KEYWORD,4,1,1,3,0,0.25,1.0,0.4,0.2,1.0
+vaccine effectiveness,PHRASE,2,2,2,0,0,1.0,1.0,1.0,0.4,1.0
+COVID vaccination,AND,2,2,2,0,0,1.0,1.0,1.0,0.4,1.0
+vaccination testing,OR,17,3,3,14,0,0.17647058823529413,1.0,0.3,0.4,0.6666666666666666
+quarantine,NOT,20,2,2,18,0,0.1,1.0,0.18181818181818182,0.0,0.0

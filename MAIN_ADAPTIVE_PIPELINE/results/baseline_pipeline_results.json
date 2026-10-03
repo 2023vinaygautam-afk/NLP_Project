@@ -1,0 +1,112 @@
+[
+    {
+        "query_id": "Q01",
+        "query": "What are the main causes of COVID-19 transmission and how can it be prevented?",
+        "retrieved_documents": [
+            "D01",
+            "D04",
+            "D02",
+            "D05",
+            "D06",
+            "D16",
+            "D07",
+            "D08",
+            "D09",
+            "D11",
+            "D14",
+            "D15",
+            "D20"
+        ]
+    },
+    {
+        "query_id": "Q02",
+        "query": "How effective are COVID-19 vaccines in preventing infection and reducing disease severity?",
+        "retrieved_documents": [
+            "D02",
+            "D01",
+            "D16",
+            "D03",
+            "D04",
+            "D14",
+            "D05",
+            "D11",
+            "D07",
+            "D08",
+            "D12",
+            "D09",
+            "D17",
+            "D20",
+            "D06",
+            "D13",
+            "D18",
+            "D19"
+        ]
+    },
+    {
+        "query_id": "Q03",
+        "query": "How does COVID-19 vaccination help protect individuals and communities from infection?",
+        "retrieved_documents": [
+            "D01",
+            "D02",
+            "D11",
+            "D16",
+            "D03",
+            "D05",
+            "D14",
+            "D07",
+            "D12",
+            "D15",
+            "D04",
+            "D09",
+            "D18",
+            "D19",
+            "D20"
+        ]
+    },
+    {
+        "query_id": "Q04",
+        "query": "What is the relationship between vaccination, COVID-19 testing, and early detection of infection?",
+        "retrieved_documents": [
+            "D16",
+            "D02",
+            "D01",
+            "D18",
+            "D20",
+            "D03",
+            "D07",
+            "D05",
+            "D04",
+            "D12",
+            "D11",
+            "D09",
+            "D15",
+            "D14",
+            "D06",
+            "D10",
+            "D19"
+        ]
+    },
+    {
+        "query_id": "Q05",
+        "query": "How do quarantine and contact tracing help control infectious disease outbreaks?",
+        "retrieved_documents": [
+            "D06",
+            "D18",
+            "D14",
+            "D09",
+            "D17",
+            "D04",
+            "D20",
+            "D11",
+            "D19",
+            "D01",
+            "D05",
+            "D13",
+            "D02",
+            "D16",
+            "D03",
+            "D07",
+            "D10"
+        ]
+    }
+]

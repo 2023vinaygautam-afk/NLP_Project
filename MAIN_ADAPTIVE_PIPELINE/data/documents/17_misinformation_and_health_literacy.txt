@@ -1,0 +1,9 @@
+Health Literacy and Infectious Disease Misinformation
+
+Health literacy involves the ability to find, understand, evaluate, and use health information. During infectious disease outbreaks, people may encounter rapidly changing information through news, social media, messaging applications, and informal networks.
+
+Misinformation can arise from incorrect information, misunderstanding, outdated evidence, or misleading presentation of accurate facts. A useful evaluation process checks the source, date, evidence, population studied, and whether the claim matches the underlying data.
+
+Health communication should avoid presenting preliminary findings as settled conclusions. A single laboratory experiment or small observational study may not answer a population-level question. Stronger conclusions generally require evidence from multiple complementary studies.
+
+Practical health literacy strategies include checking information against recognized public-health or medical sources, looking for the original study when possible, and distinguishing a reported association from proof of causation. Clear explanations can reduce confusion without assuming that every person who has encountered inaccurate information is acting in bad faith.

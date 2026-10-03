@@ -1,0 +1,9 @@
+Evaluating Public Health Responses After an Outbreak
+
+After an infectious disease outbreak, a structured evaluation can examine what happened, which interventions were implemented, how quickly systems responded, and what improvements are needed. Evaluation should consider epidemiological outcomes as well as operational, social, and economic consequences.
+
+Useful indicators may include time from signal detection to investigation, testing turnaround time, vaccination coverage, hospitalization trends, healthcare capacity, communication reach, and the timeliness of public-health reporting. The exact measures depend on the outbreak and the objectives of the response.
+
+Evaluation should distinguish correlation from causation. A decline in cases after an intervention does not automatically prove that the intervention caused the decline because transmission can also change due to immunity, behavior, seasonality, or other factors.
+
+After-action reviews can translate findings into concrete improvements. These may include updating response plans, strengthening laboratory networks, improving data interoperability, expanding workforce training, or revising communication procedures. The goal is to convert experience into preparedness for future infectious disease events.

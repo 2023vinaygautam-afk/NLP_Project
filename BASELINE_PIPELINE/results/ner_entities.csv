@@ -1,0 +1,45 @@
+Document_ID,Entity,Entity_Label,Start_Position,End_Position,Required_Label
+01_covid_transmission_and_prevention,"COVID-19 Transmission and Community Prevention
+
+COVID-19",ORG,0,56,True
+01_covid_transmission_and_prevention,COVID-19,ORG,922,930,True
+02_covid_vaccination_basics,"COVID-19 Vaccination: Basic Concepts
+
+COVID-19",ORG,0,46,True
+02_covid_vaccination_basics,Vaccine,PERSON,473,480,True
+03_vaccine_effectiveness_and_studies,Vaccine,PERSON,34,41,True
+04_epidemiology_incidence_prevalence,COVID-19,PERSON,988,996,True
+05_basic_reproduction_number,R0,GPE,73,75,True
+06_contact_tracing,"Contact Tracing and Exposure Management
+
+Contact",ORG,0,48,True
+06_contact_tracing,Digital,ORG,587,594,True
+07_wastewater_surveillance,Wastewater Surveillance,PERSON,0,23,True
+07_wastewater_surveillance,Wastewater,PERSON,403,413,True
+07_wastewater_surveillance,Wastewater,PERSON,990,1000,True
+08_variant_surveillance,Variant Surveillance,PERSON,11,31,True
+08_variant_surveillance,Variant,PERSON,721,728,True
+08_variant_surveillance,Sequence,ORG,1125,1133,True
+11_infection_prevention_healthcare,Infection Prevention,ORG,0,20,True
+11_infection_prevention_healthcare,Healthcare,ORG,45,55,True
+11_infection_prevention_healthcare,one,CARDINAL,1101,1104,False
+12_vaccine_safety_monitoring,"Vaccine Safety and Adverse Event Monitoring
+
+Vaccine",ORG,0,52,True
+12_vaccine_safety_monitoring,millions,CARDINAL,188,196,False
+13_risk_communication,Numbers,ORG,318,325,True
+14_school_outbreak_prevention,Respiratory Infection Prevention,ORG,0,32,True
+14_school_outbreak_prevention,Schools,PERSON,569,576,True
+14_school_outbreak_prevention,Outbreak,ORG,901,909,True
+15_vulnerable_populations,Protecting Higher-Risk Populations During Respiratory Virus,ORG,0,59,True
+15_vulnerable_populations,Healthcare,ORG,483,493,True
+15_vulnerable_populations,Equitable,ORG,992,1001,True
+17_misinformation_and_health_literacy,"Health Literacy and Infectious Disease Misinformation
+
+Health",ORG,0,61,True
+18_global_outbreak_preparedness,"Response
+
+Outbreak",ORG,33,51,True
+18_global_outbreak_preparedness,Preparedness,PERSON,1031,1043,True
+19_epidemiological_models,SIR,ORG,216,219,True
+20_post_outbreak_evaluation,Evaluating Public Health Responses After,ORG,0,40,True

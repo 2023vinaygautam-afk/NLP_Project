@@ -1,0 +1,4431 @@
+{
+    "a": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "ability": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "able": [
+        "15_vulnerable_populations"
+    ],
+    "about": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "09_outbreak_investigation",
+        "18_global_outbreak_preparedness"
+    ],
+    "above": [
+        "05_basic_reproduction_number"
+    ],
+    "absolute": [
+        "02_covid_vaccination_basics",
+        "05_basic_reproduction_number",
+        "13_risk_communication"
+    ],
+    "access": [
+        "06_contact_tracing",
+        "10_public_health_surveillance",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "accessibility": [
+        "13_risk_communication"
+    ],
+    "according": [
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention"
+    ],
+    "account": [
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number"
+    ],
+    "accumulated": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "accumulation": [
+        "14_school_outbreak_prevention"
+    ],
+    "accurate": [
+        "06_contact_tracing",
+        "17_misinformation_and_health_literacy"
+    ],
+    "acknowledging": [
+        "13_risk_communication"
+    ],
+    "across": [
+        "01_covid_transmission_and_prevention",
+        "08_variant_surveillance"
+    ],
+    "acting": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "action": [
+        "10_public_health_surveillance"
+    ],
+    "actions": [
+        "06_contact_tracing",
+        "13_risk_communication"
+    ],
+    "active": [
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring"
+    ],
+    "activities": [
+        "14_school_outbreak_prevention"
+    ],
+    "activity": [
+        "04_epidemiology_incidence_prevalence",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "acute": [
+        "14_school_outbreak_prevention"
+    ],
+    "acutely": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "adapted": [
+        "11_infection_prevention_healthcare"
+    ],
+    "add": [
+        "19_epidemiological_models"
+    ],
+    "additional": [
+        "01_covid_transmission_and_prevention",
+        "09_outbreak_investigation",
+        "13_risk_communication",
+        "15_vulnerable_populations"
+    ],
+    "adjustment": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "administered": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "administrative": [
+        "11_infection_prevention_healthcare"
+    ],
+    "administrators": [
+        "14_school_outbreak_prevention"
+    ],
+    "adverse": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "adverse-event": [
+        "02_covid_vaccination_basics"
+    ],
+    "advice": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "affect": [
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "08_variant_surveillance",
+        "15_vulnerable_populations"
+    ],
+    "affected": [
+        "04_epidemiology_incidence_prevalence",
+        "09_outbreak_investigation",
+        "12_vaccine_safety_monitoring"
+    ],
+    "after": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "12_vaccine_safety_monitoring",
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "after-action": [
+        "20_post_outbreak_evaluation"
+    ],
+    "against": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "17_misinformation_and_health_literacy"
+    ],
+    "age": [
+        "03_vaccine_effectiveness_and_studies",
+        "09_outbreak_investigation",
+        "15_vulnerable_populations",
+        "19_epidemiological_models"
+    ],
+    "agencies": [
+        "08_variant_surveillance",
+        "18_global_outbreak_preparedness"
+    ],
+    "agents": [
+        "07_wastewater_surveillance"
+    ],
+    "air": [
+        "01_covid_transmission_and_prevention",
+        "14_school_outbreak_prevention"
+    ],
+    "all": [
+        "05_basic_reproduction_number",
+        "08_variant_surveillance",
+        "15_vulnerable_populations"
+    ],
+    "allocation": [
+        "18_global_outbreak_preparedness"
+    ],
+    "allow": [
+        "08_variant_surveillance"
+    ],
+    "alongside": [
+        "19_epidemiological_models"
+    ],
+    "also": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "11_infection_prevention_healthcare",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "16_antiviral_treatment_and_testing",
+        "20_post_outbreak_evaluation"
+    ],
+    "alternatives": [
+        "14_school_outbreak_prevention"
+    ],
+    "although": [
+        "01_covid_transmission_and_prevention",
+        "07_wastewater_surveillance"
+    ],
+    "always": [
+        "08_variant_surveillance",
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness"
+    ],
+    "among": [
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention"
+    ],
+    "an": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "04_epidemiology_incidence_prevalence",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "09_outbreak_investigation",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "15_vulnerable_populations",
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "analysis": [
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "19_epidemiological_models"
+    ],
+    "analysts": [
+        "05_basic_reproduction_number"
+    ],
+    "analytical": [
+        "09_outbreak_investigation"
+    ],
+    "analyzes": [
+        "07_wastewater_surveillance"
+    ],
+    "and": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "another": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "answer": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "anticipated": [
+        "11_infection_prevention_healthcare"
+    ],
+    "antigen": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "antiviral": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "apparent": [
+        "10_public_health_surveillance"
+    ],
+    "appear": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "applications": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "appropriate": [
+        "06_contact_tracing",
+        "11_infection_prevention_healthcare",
+        "15_vulnerable_populations"
+    ],
+    "are": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "arise": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "around": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "as": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "09_outbreak_investigation",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "17_misinformation_and_health_literacy",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "aspects": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "assess": [
+        "18_global_outbreak_preparedness"
+    ],
+    "assesses": [
+        "08_variant_surveillance"
+    ],
+    "assessment": [
+        "12_vaccine_safety_monitoring",
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models"
+    ],
+    "assist": [
+        "06_contact_tracing"
+    ],
+    "associated": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "association": [
+        "12_vaccine_safety_monitoring",
+        "17_misinformation_and_health_literacy"
+    ],
+    "assuming": [
+        "15_vulnerable_populations",
+        "17_misinformation_and_health_literacy"
+    ],
+    "assumptions": [
+        "05_basic_reproduction_number",
+        "19_epidemiological_models"
+    ],
+    "asymptomatic": [
+        "06_contact_tracing"
+    ],
+    "at": [
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "10_public_health_surveillance",
+        "14_school_outbreak_prevention"
+    ],
+    "attention": [
+        "07_wastewater_surveillance"
+    ],
+    "authorities": [
+        "01_covid_transmission_and_prevention",
+        "14_school_outbreak_prevention",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "authorized": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "automatically": [
+        "08_variant_surveillance",
+        "12_vaccine_safety_monitoring",
+        "14_school_outbreak_prevention",
+        "20_post_outbreak_evaluation"
+    ],
+    "availability": [
+        "04_epidemiology_incidence_prevalence",
+        "15_vulnerable_populations"
+    ],
+    "available": [
+        "09_outbreak_investigation",
+        "13_risk_communication"
+    ],
+    "average": [
+        "05_basic_reproduction_number"
+    ],
+    "avoid": [
+        "13_risk_communication",
+        "15_vulnerable_populations",
+        "17_misinformation_and_health_literacy"
+    ],
+    "background": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "bad": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "balls": [
+        "19_epidemiological_models"
+    ],
+    "barrier": [
+        "11_infection_prevention_healthcare"
+    ],
+    "barriers": [
+        "15_vulnerable_populations"
+    ],
+    "based": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "basic": [
+        "02_covid_vaccination_basics",
+        "05_basic_reproduction_number"
+    ],
+    "be": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models"
+    ],
+    "because": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "15_vulnerable_populations",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "become": [
+        "02_covid_vaccination_basics",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "18_global_outbreak_preparedness"
+    ],
+    "becomes": [
+        "09_outbreak_investigation"
+    ],
+    "been": [
+        "03_vaccine_effectiveness_and_studies",
+        "06_contact_tracing"
+    ],
+    "before": [
+        "18_global_outbreak_preparedness"
+    ],
+    "begins": [
+        "09_outbreak_investigation",
+        "10_public_health_surveillance"
+    ],
+    "behavior": [
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "behavioral": [
+        "05_basic_reproduction_number"
+    ],
+    "being": [
+        "19_epidemiological_models"
+    ],
+    "below": [
+        "05_basic_reproduction_number"
+    ],
+    "benefit-risk": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "benefits": [
+        "10_public_health_surveillance"
+    ],
+    "best": [
+        "01_covid_transmission_and_prevention",
+        "08_variant_surveillance"
+    ],
+    "between": [
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance"
+    ],
+    "bias": [
+        "03_vaccine_effectiveness_and_studies",
+        "09_outbreak_investigation"
+    ],
+    "biases": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "biological": [
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "12_vaccine_safety_monitoring"
+    ],
+    "both": [
+        "02_covid_vaccination_basics",
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "breathing": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "broad": [
+        "06_contact_tracing",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations"
+    ],
+    "broader": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "building": [
+        "18_global_outbreak_preparedness"
+    ],
+    "but": [
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "06_contact_tracing",
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring",
+        "18_global_outbreak_preparedness"
+    ],
+    "by": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance",
+        "09_outbreak_investigation",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "15_vulnerable_populations"
+    ],
+    "calendar": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "calibration": [
+        "19_epidemiological_models"
+    ],
+    "can": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "cannot": [
+        "03_vaccine_effectiveness_and_studies",
+        "06_contact_tracing"
+    ],
+    "capacity": [
+        "08_variant_surveillance",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "care": [
+        "01_covid_transmission_and_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "carefully": [
+        "04_epidemiology_incidence_prevalence",
+        "10_public_health_surveillance"
+    ],
+    "caregivers": [
+        "15_vulnerable_populations"
+    ],
+    "case": [
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance"
+    ],
+    "case-control": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "cases": [
+        "01_covid_transmission_and_prevention",
+        "04_epidemiology_incidence_prevalence",
+        "06_contact_tracing",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "20_post_outbreak_evaluation"
+    ],
+    "categories": [
+        "19_epidemiological_models"
+    ],
+    "category": [
+        "15_vulnerable_populations"
+    ],
+    "causal": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "causation": [
+        "17_misinformation_and_health_literacy",
+        "20_post_outbreak_evaluation"
+    ],
+    "caused": [
+        "01_covid_transmission_and_prevention",
+        "12_vaccine_safety_monitoring",
+        "20_post_outbreak_evaluation"
+    ],
+    "cells": [
+        "02_covid_vaccination_basics"
+    ],
+    "certainty": [
+        "13_risk_communication"
+    ],
+    "change": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "04_epidemiology_incidence_prevalence",
+        "11_infection_prevention_healthcare",
+        "13_risk_communication",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "changes": [
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "16_antiviral_treatment_and_testing",
+        "19_epidemiological_models"
+    ],
+    "changing": [
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance",
+        "13_risk_communication",
+        "17_misinformation_and_health_literacy"
+    ],
+    "characteristic": [
+        "15_vulnerable_populations"
+    ],
+    "characteristics": [
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "16_antiviral_treatment_and_testing",
+        "19_epidemiological_models"
+    ],
+    "characterize": [
+        "09_outbreak_investigation"
+    ],
+    "checking": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "checks": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "chronic": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "circulating": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "08_variant_surveillance",
+        "15_vulnerable_populations"
+    ],
+    "circumstances": [
+        "09_outbreak_investigation"
+    ],
+    "claim": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "cleaning": [
+        "11_infection_prevention_healthcare"
+    ],
+    "clear": [
+        "02_covid_vaccination_basics",
+        "09_outbreak_investigation",
+        "12_vaccine_safety_monitoring",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness"
+    ],
+    "clinical": [
+        "01_covid_transmission_and_prevention",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "12_vaccine_safety_monitoring",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness"
+    ],
+    "close": [
+        "01_covid_transmission_and_prevention",
+        "14_school_outbreak_prevention"
+    ],
+    "close-contact": [
+        "11_infection_prevention_healthcare"
+    ],
+    "closures": [
+        "14_school_outbreak_prevention"
+    ],
+    "clues": [
+        "09_outbreak_investigation"
+    ],
+    "clustering": [
+        "09_outbreak_investigation"
+    ],
+    "clusters": [
+        "14_school_outbreak_prevention"
+    ],
+    "cohort": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "coincidental": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "collect": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "collection": [
+        "10_public_health_surveillance",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "collects": [
+        "10_public_health_surveillance"
+    ],
+    "combined": [
+        "07_wastewater_surveillance"
+    ],
+    "combines": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "commonly": [
+        "02_covid_vaccination_basics"
+    ],
+    "communicate": [
+        "18_global_outbreak_preparedness"
+    ],
+    "communicating": [
+        "02_covid_vaccination_basics",
+        "06_contact_tracing"
+    ],
+    "communication": [
+        "01_covid_transmission_and_prevention",
+        "09_outbreak_investigation",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "communicators": [
+        "13_risk_communication"
+    ],
+    "community": [
+        "01_covid_transmission_and_prevention",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations"
+    ],
+    "community-level": [
+        "10_public_health_surveillance"
+    ],
+    "compare": [
+        "08_variant_surveillance",
+        "09_outbreak_investigation"
+    ],
+    "comparing": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "comparison": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication"
+    ],
+    "compartmental": [
+        "19_epidemiological_models"
+    ],
+    "complement": [
+        "04_epidemiology_incidence_prevalence",
+        "07_wastewater_surveillance"
+    ],
+    "complementary": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "complements": [
+        "06_contact_tracing"
+    ],
+    "completeness": [
+        "10_public_health_surveillance"
+    ],
+    "compliance": [
+        "11_infection_prevention_healthcare"
+    ],
+    "components": [
+        "02_covid_vaccination_basics"
+    ],
+    "computational": [
+        "19_epidemiological_models"
+    ],
+    "concentration": [
+        "01_covid_transmission_and_prevention",
+        "07_wastewater_surveillance"
+    ],
+    "concepts": [
+        "02_covid_vaccination_basics"
+    ],
+    "conclusions": [
+        "02_covid_vaccination_basics",
+        "17_misinformation_and_health_literacy"
+    ],
+    "concrete": [
+        "20_post_outbreak_evaluation"
+    ],
+    "condition": [
+        "04_epidemiology_incidence_prevalence",
+        "12_vaccine_safety_monitoring"
+    ],
+    "conditions": [
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "11_infection_prevention_healthcare",
+        "15_vulnerable_populations"
+    ],
+    "confidentiality": [
+        "06_contact_tracing"
+    ],
+    "confirmation": [
+        "09_outbreak_investigation"
+    ],
+    "confirmed": [
+        "06_contact_tracing",
+        "12_vaccine_safety_monitoring"
+    ],
+    "confounding": [
+        "03_vaccine_effectiveness_and_studies",
+        "09_outbreak_investigation"
+    ],
+    "confusion": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "consequences": [
+        "20_post_outbreak_evaluation"
+    ],
+    "consider": [
+        "01_covid_transmission_and_prevention",
+        "06_contact_tracing",
+        "09_outbreak_investigation",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "16_antiviral_treatment_and_testing",
+        "20_post_outbreak_evaluation"
+    ],
+    "considering": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "considers": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "consistency": [
+        "10_public_health_surveillance"
+    ],
+    "consistent": [
+        "19_epidemiological_models"
+    ],
+    "construct": [
+        "09_outbreak_investigation"
+    ],
+    "consultation": [
+        "14_school_outbreak_prevention"
+    ],
+    "contact": [
+        "06_contact_tracing",
+        "14_school_outbreak_prevention",
+        "18_global_outbreak_preparedness"
+    ],
+    "contact-tracing": [
+        "06_contact_tracing"
+    ],
+    "contacts": [
+        "06_contact_tracing"
+    ],
+    "context": [
+        "03_vaccine_effectiveness_and_studies",
+        "08_variant_surveillance",
+        "13_risk_communication"
+    ],
+    "continue": [
+        "09_outbreak_investigation"
+    ],
+    "continued": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "continues": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "continuity": [
+        "14_school_outbreak_prevention"
+    ],
+    "continuous": [
+        "10_public_health_surveillance"
+    ],
+    "contraindications": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "contribute": [
+        "02_covid_vaccination_basics"
+    ],
+    "control": [
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention"
+    ],
+    "controlled": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "controls": [
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare"
+    ],
+    "conversely": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "convert": [
+        "20_post_outbreak_evaluation"
+    ],
+    "coordination": [
+        "14_school_outbreak_prevention",
+        "18_global_outbreak_preparedness"
+    ],
+    "core": [
+        "11_infection_prevention_healthcare"
+    ],
+    "correlation": [
+        "20_post_outbreak_evaluation"
+    ],
+    "correspond": [
+        "05_basic_reproduction_number"
+    ],
+    "cost": [
+        "10_public_health_surveillance",
+        "15_vulnerable_populations"
+    ],
+    "coughing": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "could": [
+        "06_contact_tracing"
+    ],
+    "counted": [
+        "10_public_health_surveillance"
+    ],
+    "countries": [
+        "18_global_outbreak_preparedness"
+    ],
+    "counts": [
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number"
+    ],
+    "coverage": [
+        "20_post_outbreak_evaluation"
+    ],
+    "covid": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "04_epidemiology_incidence_prevalence",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "create": [
+        "10_public_health_surveillance"
+    ],
+    "cross-border": [
+        "18_global_outbreak_preparedness"
+    ],
+    "crowded": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "crystal": [
+        "19_epidemiological_models"
+    ],
+    "cultural": [
+        "13_risk_communication"
+    ],
+    "current": [
+        "05_basic_reproduction_number"
+    ],
+    "curve": [
+        "09_outbreak_investigation"
+    ],
+    "data": [
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "databases": [
+        "08_variant_surveillance"
+    ],
+    "datasets": [
+        "08_variant_surveillance"
+    ],
+    "date": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "death": [
+        "02_covid_vaccination_basics"
+    ],
+    "decision-makers": [
+        "19_epidemiological_models"
+    ],
+    "decision-making": [
+        "10_public_health_surveillance"
+    ],
+    "decisions": [
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "decline": [
+        "05_basic_reproduction_number",
+        "20_post_outbreak_evaluation"
+    ],
+    "declines": [
+        "07_wastewater_surveillance"
+    ],
+    "decrease": [
+        "06_contact_tracing"
+    ],
+    "define": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "defined": [
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "10_public_health_surveillance"
+    ],
+    "definition": [
+        "04_epidemiology_incidence_prevalence",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance"
+    ],
+    "definitions": [
+        "06_contact_tracing",
+        "10_public_health_surveillance"
+    ],
+    "delay": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "delays": [
+        "05_basic_reproduction_number"
+    ],
+    "demand": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "demographic": [
+        "09_outbreak_investigation"
+    ],
+    "denominator": [
+        "13_risk_communication"
+    ],
+    "depend": [
+        "07_wastewater_surveillance",
+        "11_infection_prevention_healthcare",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "dependence": [
+        "07_wastewater_surveillance"
+    ],
+    "depending": [
+        "05_basic_reproduction_number",
+        "09_outbreak_investigation"
+    ],
+    "depends": [
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness"
+    ],
+    "deployed": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "describe": [
+        "02_covid_vaccination_basics",
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "describes": [
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number"
+    ],
+    "descriptive": [
+        "09_outbreak_investigation"
+    ],
+    "design": [
+        "03_vaccine_effectiveness_and_studies",
+        "11_infection_prevention_healthcare"
+    ],
+    "designed": [
+        "02_covid_vaccination_basics"
+    ],
+    "designs": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "detailed": [
+        "10_public_health_surveillance",
+        "19_epidemiological_models"
+    ],
+    "detect": [
+        "08_variant_surveillance",
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness"
+    ],
+    "detectable": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "detected": [
+        "08_variant_surveillance"
+    ],
+    "detection": [
+        "12_vaccine_safety_monitoring",
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "determine": [
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "18_global_outbreak_preparedness"
+    ],
+    "determined": [
+        "15_vulnerable_populations"
+    ],
+    "determines": [
+        "10_public_health_surveillance"
+    ],
+    "determining": [
+        "06_contact_tracing"
+    ],
+    "develops": [
+        "02_covid_vaccination_basics"
+    ],
+    "diagnostic": [
+        "07_wastewater_surveillance"
+    ],
+    "diagnostics": [
+        "08_variant_surveillance"
+    ],
+    "differ": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "difference": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "differences": [
+        "08_variant_surveillance",
+        "09_outbreak_investigation"
+    ],
+    "different": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "16_antiviral_treatment_and_testing",
+        "19_epidemiological_models"
+    ],
+    "differently": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "difficult": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "digital": [
+        "06_contact_tracing",
+        "15_vulnerable_populations"
+    ],
+    "dilution": [
+        "07_wastewater_surveillance"
+    ],
+    "direct": [
+        "07_wastewater_surveillance",
+        "10_public_health_surveillance"
+    ],
+    "disease": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "09_outbreak_investigation",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "diseases": [
+        "10_public_health_surveillance",
+        "19_epidemiological_models"
+    ],
+    "dissemination": [
+        "10_public_health_surveillance"
+    ],
+    "distinguish": [
+        "02_covid_vaccination_basics",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "20_post_outbreak_evaluation"
+    ],
+    "distinguishes": [
+        "02_covid_vaccination_basics"
+    ],
+    "distinguishing": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "divide": [
+        "19_epidemiological_models"
+    ],
+    "do": [
+        "06_contact_tracing"
+    ],
+    "does": [
+        "02_covid_vaccination_basics",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "13_risk_communication",
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "doses": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "drug": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "due": [
+        "20_post_outbreak_evaluation"
+    ],
+    "duration": [
+        "04_epidemiology_incidence_prevalence",
+        "06_contact_tracing"
+    ],
+    "during": [
+        "04_epidemiology_incidence_prevalence",
+        "06_contact_tracing",
+        "13_risk_communication",
+        "15_vulnerable_populations",
+        "17_misinformation_and_health_literacy"
+    ],
+    "earlier": [
+        "13_risk_communication"
+    ],
+    "early": [
+        "07_wastewater_surveillance",
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness"
+    ],
+    "economic": [
+        "20_post_outbreak_evaluation"
+    ],
+    "educational": [
+        "14_school_outbreak_prevention"
+    ],
+    "effect": [
+        "08_variant_surveillance",
+        "19_epidemiological_models"
+    ],
+    "effective": [
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "13_risk_communication",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "effectiveness": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "06_contact_tracing"
+    ],
+    "efficacy": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "efficient": [
+        "10_public_health_surveillance"
+    ],
+    "efforts": [
+        "10_public_health_surveillance"
+    ],
+    "elevated": [
+        "01_covid_transmission_and_prevention",
+        "15_vulnerable_populations"
+    ],
+    "eligibility": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "eligible": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "emergencies": [
+        "18_global_outbreak_preparedness"
+    ],
+    "emergency": [
+        "18_global_outbreak_preparedness"
+    ],
+    "emerging": [
+        "08_variant_surveillance"
+    ],
+    "encounter": [
+        "11_infection_prevention_healthcare",
+        "17_misinformation_and_health_literacy"
+    ],
+    "encountered": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "encouraging": [
+        "14_school_outbreak_prevention"
+    ],
+    "endpoint": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "engineering": [
+        "11_infection_prevention_healthcare"
+    ],
+    "ensuring": [
+        "15_vulnerable_populations"
+    ],
+    "environmental": [
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare"
+    ],
+    "environments": [
+        "01_covid_transmission_and_prevention",
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention"
+    ],
+    "epidemic": [
+        "09_outbreak_investigation"
+    ],
+    "epidemiological": [
+        "01_covid_transmission_and_prevention",
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "epidemiologists": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "epidemiology": [
+        "04_epidemiology_incidence_prevalence",
+        "09_outbreak_investigation"
+    ],
+    "equipment": [
+        "11_infection_prevention_healthcare"
+    ],
+    "equitable": [
+        "15_vulnerable_populations"
+    ],
+    "equivalent": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "especially": [
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance"
+    ],
+    "essential": [
+        "19_epidemiological_models"
+    ],
+    "estimate": [
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance",
+        "19_epidemiological_models"
+    ],
+    "estimated": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "estimates": [
+        "05_basic_reproduction_number",
+        "12_vaccine_safety_monitoring",
+        "19_epidemiological_models"
+    ],
+    "estimating": [
+        "05_basic_reproduction_number"
+    ],
+    "evaluate": [
+        "08_variant_surveillance",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "19_epidemiological_models"
+    ],
+    "evaluating": [
+        "03_vaccine_effectiveness_and_studies",
+        "09_outbreak_investigation",
+        "20_post_outbreak_evaluation"
+    ],
+    "evaluation": [
+        "02_covid_vaccination_basics",
+        "17_misinformation_and_health_literacy",
+        "20_post_outbreak_evaluation"
+    ],
+    "evaluations": [
+        "18_global_outbreak_preparedness"
+    ],
+    "even": [
+        "19_epidemiological_models"
+    ],
+    "event": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "event-based": [
+        "18_global_outbreak_preparedness"
+    ],
+    "events": [
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "20_post_outbreak_evaluation"
+    ],
+    "every": [
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance",
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare",
+        "17_misinformation_and_health_literacy"
+    ],
+    "evidence": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "17_misinformation_and_health_literacy"
+    ],
+    "evolve": [
+        "13_risk_communication"
+    ],
+    "exact": [
+        "07_wastewater_surveillance",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "examine": [
+        "20_post_outbreak_evaluation"
+    ],
+    "examined": [
+        "19_epidemiological_models"
+    ],
+    "example": [
+        "03_vaccine_effectiveness_and_studies",
+        "13_risk_communication"
+    ],
+    "exclude": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "exercises": [
+        "18_global_outbreak_preparedness"
+    ],
+    "expanding": [
+        "20_post_outbreak_evaluation"
+    ],
+    "expected": [
+        "09_outbreak_investigation"
+    ],
+    "experience": [
+        "02_covid_vaccination_basics",
+        "20_post_outbreak_evaluation"
+    ],
+    "experiment": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "expert": [
+        "19_epidemiological_models"
+    ],
+    "explain": [
+        "13_risk_communication",
+        "14_school_outbreak_prevention"
+    ],
+    "explaining": [
+        "13_risk_communication"
+    ],
+    "explanation": [
+        "02_covid_vaccination_basics"
+    ],
+    "explanations": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "explore": [
+        "19_epidemiological_models"
+    ],
+    "exposed": [
+        "02_covid_vaccination_basics",
+        "06_contact_tracing",
+        "09_outbreak_investigation"
+    ],
+    "exposure": [
+        "01_covid_transmission_and_prevention",
+        "03_vaccine_effectiveness_and_studies",
+        "06_contact_tracing",
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "exposures": [
+        "09_outbreak_investigation"
+    ],
+    "extremely": [
+        "06_contact_tracing"
+    ],
+    "facilities": [
+        "11_infection_prevention_healthcare",
+        "15_vulnerable_populations"
+    ],
+    "factors": [
+        "03_vaccine_effectiveness_and_studies",
+        "15_vulnerable_populations",
+        "20_post_outbreak_evaluation"
+    ],
+    "facts": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "failed": [
+        "18_global_outbreak_preparedness"
+    ],
+    "faith": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "families": [
+        "14_school_outbreak_prevention"
+    ],
+    "family": [
+        "15_vulnerable_populations"
+    ],
+    "faster": [
+        "02_covid_vaccination_basics"
+    ],
+    "favorable": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "filtration": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "find": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "findings": [
+        "17_misinformation_and_health_literacy",
+        "20_post_outbreak_evaluation"
+    ],
+    "fixed": [
+        "05_basic_reproduction_number"
+    ],
+    "focuses": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "following": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "for": [
+        "01_covid_transmission_and_prevention",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "forecast": [
+        "19_epidemiological_models"
+    ],
+    "frequency": [
+        "07_wastewater_surveillance"
+    ],
+    "frequently": [
+        "14_school_outbreak_prevention"
+    ],
+    "from": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "15_vulnerable_populations",
+        "17_misinformation_and_health_literacy",
+        "20_post_outbreak_evaluation"
+    ],
+    "fully": [
+        "05_basic_reproduction_number"
+    ],
+    "further": [
+        "18_global_outbreak_preparedness"
+    ],
+    "future": [
+        "20_post_outbreak_evaluation"
+    ],
+    "generally": [
+        "01_covid_transmission_and_prevention",
+        "07_wastewater_surveillance",
+        "17_misinformation_and_health_literacy"
+    ],
+    "generated": [
+        "05_basic_reproduction_number"
+    ],
+    "genetic": [
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "genomic": [
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "18_global_outbreak_preparedness"
+    ],
+    "geographic": [
+        "09_outbreak_investigation",
+        "19_epidemiological_models"
+    ],
+    "global": [
+        "18_global_outbreak_preparedness"
+    ],
+    "goal": [
+        "20_post_outbreak_evaluation"
+    ],
+    "greater": [
+        "09_outbreak_investigation",
+        "10_public_health_surveillance"
+    ],
+    "greatest": [
+        "19_epidemiological_models"
+    ],
+    "group": [
+        "02_covid_vaccination_basics",
+        "13_risk_communication"
+    ],
+    "groups": [
+        "03_vaccine_effectiveness_and_studies",
+        "09_outbreak_investigation",
+        "12_vaccine_safety_monitoring",
+        "15_vulnerable_populations",
+        "19_epidemiological_models"
+    ],
+    "growth": [
+        "05_basic_reproduction_number"
+    ],
+    "guarantee": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "guidance": [
+        "13_risk_communication"
+    ],
+    "guide": [
+        "01_covid_transmission_and_prevention",
+        "09_outbreak_investigation"
+    ],
+    "hand": [
+        "01_covid_transmission_and_prevention",
+        "11_infection_prevention_healthcare"
+    ],
+    "handle": [
+        "06_contact_tracing"
+    ],
+    "happened": [
+        "20_post_outbreak_evaluation"
+    ],
+    "harm": [
+        "15_vulnerable_populations"
+    ],
+    "has": [
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "09_outbreak_investigation",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy"
+    ],
+    "have": [
+        "02_covid_vaccination_basics",
+        "04_epidemiology_incidence_prevalence",
+        "06_contact_tracing",
+        "08_variant_surveillance",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "19_epidemiological_models"
+    ],
+    "health": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "06_contact_tracing",
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring",
+        "17_misinformation_and_health_literacy",
+        "20_post_outbreak_evaluation"
+    ],
+    "healthcare": [
+        "06_contact_tracing",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "healthcare-associated": [
+        "11_infection_prevention_healthcare"
+    ],
+    "healthcare-seeking": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "help": [
+        "04_epidemiology_incidence_prevalence",
+        "08_variant_surveillance",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "16_antiviral_treatment_and_testing",
+        "19_epidemiological_models"
+    ],
+    "helps": [
+        "08_variant_surveillance"
+    ],
+    "hiding": [
+        "13_risk_communication"
+    ],
+    "high": [
+        "04_epidemiology_incidence_prevalence",
+        "06_contact_tracing"
+    ],
+    "higher": [
+        "15_vulnerable_populations"
+    ],
+    "higher-risk": [
+        "15_vulnerable_populations"
+    ],
+    "historical": [
+        "19_epidemiological_models"
+    ],
+    "history": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "home": [
+        "01_covid_transmission_and_prevention",
+        "14_school_outbreak_prevention"
+    ],
+    "hospital": [
+        "07_wastewater_surveillance",
+        "10_public_health_surveillance"
+    ],
+    "hospitalization": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "hospitalizations": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "hospitals": [
+        "18_global_outbreak_preparedness"
+    ],
+    "how": [
+        "04_epidemiology_incidence_prevalence",
+        "10_public_health_surveillance",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "however": [
+        "08_variant_surveillance"
+    ],
+    "hybrid": [
+        "02_covid_vaccination_basics"
+    ],
+    "hygiene": [
+        "01_covid_transmission_and_prevention",
+        "11_infection_prevention_healthcare"
+    ],
+    "identical": [
+        "15_vulnerable_populations"
+    ],
+    "identified": [
+        "06_contact_tracing"
+    ],
+    "identify": [
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models"
+    ],
+    "identifying": [
+        "06_contact_tracing"
+    ],
+    "ill": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "illness": [
+        "04_epidemiology_incidence_prevalence",
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention"
+    ],
+    "immune": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "15_vulnerable_populations"
+    ],
+    "immunity": [
+        "02_covid_vaccination_basics",
+        "05_basic_reproduction_number",
+        "15_vulnerable_populations",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "immunization": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "implemented": [
+        "20_post_outbreak_evaluation"
+    ],
+    "implying": [
+        "13_risk_communication"
+    ],
+    "important": [
+        "01_covid_transmission_and_prevention",
+        "03_vaccine_effectiveness_and_studies",
+        "06_contact_tracing",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations"
+    ],
+    "improve": [
+        "10_public_health_surveillance"
+    ],
+    "improvements": [
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "improving": [
+        "01_covid_transmission_and_prevention",
+        "20_post_outbreak_evaluation"
+    ],
+    "in": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "inaccurate": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "incidence": [
+        "04_epidemiology_incidence_prevalence",
+        "12_vaccine_safety_monitoring"
+    ],
+    "include": [
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare",
+        "17_misinformation_and_health_literacy",
+        "20_post_outbreak_evaluation"
+    ],
+    "includes": [
+        "06_contact_tracing",
+        "18_global_outbreak_preparedness"
+    ],
+    "including": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "incomplete": [
+        "09_outbreak_investigation",
+        "12_vaccine_safety_monitoring"
+    ],
+    "incorrect": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "increase": [
+        "05_basic_reproduction_number",
+        "09_outbreak_investigation"
+    ],
+    "increases": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "indicate": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "indicators": [
+        "01_covid_transmission_and_prevention",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "20_post_outbreak_evaluation"
+    ],
+    "individual": [
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance",
+        "15_vulnerable_populations"
+    ],
+    "individualized": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "individuals": [
+        "01_covid_transmission_and_prevention",
+        "07_wastewater_surveillance",
+        "11_infection_prevention_healthcare"
+    ],
+    "indoor": [
+        "01_covid_transmission_and_prevention",
+        "14_school_outbreak_prevention"
+    ],
+    "indoors": [
+        "14_school_outbreak_prevention"
+    ],
+    "infected": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "07_wastewater_surveillance",
+        "19_epidemiological_models"
+    ],
+    "infection": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "infection-prevention": [
+        "11_infection_prevention_healthcare"
+    ],
+    "infections": [
+        "01_covid_transmission_and_prevention",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations"
+    ],
+    "infectious": [
+        "01_covid_transmission_and_prevention",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "infectiousness": [
+        "06_contact_tracing"
+    ],
+    "influence": [
+        "08_variant_surveillance"
+    ],
+    "inform": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "informal": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "information": [
+        "02_covid_vaccination_basics",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness"
+    ],
+    "informed": [
+        "13_risk_communication"
+    ],
+    "infrastructure": [
+        "18_global_outbreak_preparedness"
+    ],
+    "institutionalized": [
+        "18_global_outbreak_preparedness"
+    ],
+    "institutions": [
+        "18_global_outbreak_preparedness"
+    ],
+    "intended": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "intensity": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "intentionally": [
+        "13_risk_communication"
+    ],
+    "interact": [
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations"
+    ],
+    "interactions": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "interchangeable": [
+        "02_covid_vaccination_basics"
+    ],
+    "interoperability": [
+        "20_post_outbreak_evaluation"
+    ],
+    "interpret": [
+        "04_epidemiology_incidence_prevalence",
+        "19_epidemiological_models"
+    ],
+    "interpretation": [
+        "03_vaccine_effectiveness_and_studies",
+        "07_wastewater_surveillance",
+        "10_public_health_surveillance",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "interpreted": [
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "10_public_health_surveillance"
+    ],
+    "interval": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "intervals": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "intervention": [
+        "01_covid_transmission_and_prevention",
+        "20_post_outbreak_evaluation"
+    ],
+    "interventions": [
+        "01_covid_transmission_and_prevention",
+        "05_basic_reproduction_number",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "interviewing": [
+        "06_contact_tracing"
+    ],
+    "into": [
+        "07_wastewater_surveillance",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "investigate": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "investigation": [
+        "09_outbreak_investigation",
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "investigators": [
+        "09_outbreak_investigation"
+    ],
+    "investments": [
+        "18_global_outbreak_preparedness"
+    ],
+    "involve": [
+        "15_vulnerable_populations"
+    ],
+    "involves": [
+        "10_public_health_surveillance",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness"
+    ],
+    "is": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "isolated": [
+        "02_covid_vaccination_basics"
+    ],
+    "isolation": [
+        "04_epidemiology_incidence_prevalence",
+        "06_contact_tracing",
+        "09_outbreak_investigation"
+    ],
+    "it": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance",
+        "13_risk_communication",
+        "19_epidemiological_models"
+    ],
+    "its": [
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "19_epidemiological_models"
+    ],
+    "itself": [
+        "02_covid_vaccination_basics"
+    ],
+    "judgment": [
+        "06_contact_tracing"
+    ],
+    "knowing": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "known": [
+        "13_risk_communication"
+    ],
+    "laboratories": [
+        "08_variant_surveillance"
+    ],
+    "laboratory": [
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "language": [
+        "13_risk_communication",
+        "15_vulnerable_populations"
+    ],
+    "large": [
+        "03_vaccine_effectiveness_and_studies",
+        "18_global_outbreak_preparedness"
+    ],
+    "later": [
+        "02_covid_vaccination_basics"
+    ],
+    "layer": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "layered": [
+        "11_infection_prevention_healthcare"
+    ],
+    "lead": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "levels": [
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number"
+    ],
+    "licensed": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "likely": [
+        "09_outbreak_investigation"
+    ],
+    "limitations": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "limited": [
+        "13_risk_communication"
+    ],
+    "lineages": [
+        "08_variant_surveillance"
+    ],
+    "linked": [
+        "08_variant_surveillance"
+    ],
+    "literacy": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "local": [
+        "01_covid_transmission_and_prevention",
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention"
+    ],
+    "location": [
+        "07_wastewater_surveillance",
+        "08_variant_surveillance"
+    ],
+    "locations": [
+        "08_variant_surveillance"
+    ],
+    "long": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "looking": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "low": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "lower": [
+        "04_epidemiology_incidence_prevalence",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "lower-risk": [
+        "14_school_outbreak_prevention"
+    ],
+    "made": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "major": [
+        "01_covid_transmission_and_prevention",
+        "18_global_outbreak_preparedness"
+    ],
+    "make": [
+        "13_risk_communication"
+    ],
+    "management": [
+        "06_contact_tracing"
+    ],
+    "managing": [
+        "11_infection_prevention_healthcare"
+    ],
+    "many": [
+        "01_covid_transmission_and_prevention",
+        "06_contact_tracing"
+    ],
+    "mapping": [
+        "09_outbreak_investigation"
+    ],
+    "mask": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "matched": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "matches": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "material": [
+        "07_wastewater_surveillance",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "mathematical": [
+        "19_epidemiological_models"
+    ],
+    "may": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "mean": [
+        "08_variant_surveillance",
+        "13_risk_communication"
+    ],
+    "measure": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "measured": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "measurement": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "measurements": [
+        "04_epidemiology_incidence_prevalence",
+        "07_wastewater_surveillance",
+        "10_public_health_surveillance"
+    ],
+    "measures": [
+        "01_covid_transmission_and_prevention",
+        "06_contact_tracing",
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "20_post_outbreak_evaluation"
+    ],
+    "mechanisms": [
+        "18_global_outbreak_preparedness"
+    ],
+    "media": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "medical": [
+        "12_vaccine_safety_monitoring",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness"
+    ],
+    "members": [
+        "15_vulnerable_populations"
+    ],
+    "messages": [
+        "13_risk_communication"
+    ],
+    "messaging": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "method": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "methods": [
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance"
+    ],
+    "millions": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "misinformation": [
+        "13_risk_communication",
+        "17_misinformation_and_health_literacy"
+    ],
+    "misleading": [
+        "02_covid_vaccination_basics",
+        "13_risk_communication",
+        "17_misinformation_and_health_literacy"
+    ],
+    "miss": [
+        "10_public_health_surveillance"
+    ],
+    "misunderstanding": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "model": [
+        "19_epidemiological_models"
+    ],
+    "models": [
+        "05_basic_reproduction_number",
+        "19_epidemiological_models"
+    ],
+    "molecular": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "monitor": [
+        "10_public_health_surveillance"
+    ],
+    "monitoring": [
+        "07_wastewater_surveillance",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring"
+    ],
+    "monitors": [
+        "08_variant_surveillance"
+    ],
+    "more": [
+        "06_contact_tracing",
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "13_risk_communication",
+        "19_epidemiological_models"
+    ],
+    "mortality": [
+        "04_epidemiology_incidence_prevalence",
+        "10_public_health_surveillance"
+    ],
+    "most": [
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "mount": [
+        "02_covid_vaccination_basics"
+    ],
+    "multiple": [
+        "04_epidemiology_incidence_prevalence",
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness"
+    ],
+    "must": [
+        "03_vaccine_effectiveness_and_studies",
+        "09_outbreak_investigation"
+    ],
+    "mutation": [
+        "08_variant_surveillance"
+    ],
+    "mutations": [
+        "08_variant_surveillance"
+    ],
+    "national": [
+        "14_school_outbreak_prevention"
+    ],
+    "nature": [
+        "07_wastewater_surveillance"
+    ],
+    "necessarily": [
+        "09_outbreak_investigation",
+        "13_risk_communication"
+    ],
+    "need": [
+        "18_global_outbreak_preparedness"
+    ],
+    "needed": [
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "20_post_outbreak_evaluation"
+    ],
+    "needs": [
+        "14_school_outbreak_prevention"
+    ],
+    "negative": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "networks": [
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "never": [
+        "02_covid_vaccination_basics"
+    ],
+    "new": [
+        "04_epidemiology_incidence_prevalence",
+        "09_outbreak_investigation",
+        "13_risk_communication"
+    ],
+    "newly": [
+        "08_variant_surveillance"
+    ],
+    "news": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "no": [
+        "11_infection_prevention_healthcare"
+    ],
+    "not": [
+        "02_covid_vaccination_basics",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "notification": [
+        "06_contact_tracing"
+    ],
+    "nowcasting": [
+        "05_basic_reproduction_number"
+    ],
+    "number": [
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance"
+    ],
+    "numbers": [
+        "05_basic_reproduction_number",
+        "13_risk_communication"
+    ],
+    "numerical": [
+        "19_epidemiological_models"
+    ],
+    "objective": [
+        "10_public_health_surveillance"
+    ],
+    "objectives": [
+        "20_post_outbreak_evaluation"
+    ],
+    "observational": [
+        "03_vaccine_effectiveness_and_studies",
+        "17_misinformation_and_health_literacy"
+    ],
+    "observations": [
+        "08_variant_surveillance"
+    ],
+    "observed": [
+        "04_epidemiology_incidence_prevalence",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "19_epidemiological_models"
+    ],
+    "occupation": [
+        "09_outbreak_investigation"
+    ],
+    "occur": [
+        "01_covid_transmission_and_prevention",
+        "08_variant_surveillance",
+        "12_vaccine_safety_monitoring"
+    ],
+    "occurred": [
+        "02_covid_vaccination_basics",
+        "06_contact_tracing",
+        "09_outbreak_investigation"
+    ],
+    "occurrence": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "occurring": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "occurs": [
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness"
+    ],
+    "of": [
+        "01_covid_transmission_and_prevention",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "often": [
+        "02_covid_vaccination_basics",
+        "05_basic_reproduction_number"
+    ],
+    "on": [
+        "01_covid_transmission_and_prevention",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "14_school_outbreak_prevention",
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "one": [
+        "05_basic_reproduction_number",
+        "11_infection_prevention_healthcare"
+    ],
+    "ongoing": [
+        "18_global_outbreak_preparedness"
+    ],
+    "only": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "onset": [
+        "05_basic_reproduction_number",
+        "09_outbreak_investigation"
+    ],
+    "operational": [
+        "20_post_outbreak_evaluation"
+    ],
+    "opportunities": [
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations"
+    ],
+    "or": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "original": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "other": [
+        "01_covid_transmission_and_prevention",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "12_vaccine_safety_monitoring",
+        "15_vulnerable_populations",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "outbreak": [
+        "01_covid_transmission_and_prevention",
+        "05_basic_reproduction_number",
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "outbreaks": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "outcome": [
+        "02_covid_vaccination_basics",
+        "13_risk_communication"
+    ],
+    "outcomes": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "08_variant_surveillance",
+        "15_vulnerable_populations",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "outdated": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "outdoor": [
+        "14_school_outbreak_prevention"
+    ],
+    "outputs": [
+        "19_epidemiological_models"
+    ],
+    "over": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "04_epidemiology_incidence_prevalence",
+        "08_variant_surveillance"
+    ],
+    "own": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "parameter": [
+        "19_epidemiological_models"
+    ],
+    "parameters": [
+        "19_epidemiological_models"
+    ],
+    "part": [
+        "15_vulnerable_populations"
+    ],
+    "particles": [
+        "01_covid_transmission_and_prevention",
+        "14_school_outbreak_prevention"
+    ],
+    "particular": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "particularly": [
+        "16_antiviral_treatment_and_testing",
+        "19_epidemiological_models"
+    ],
+    "passive": [
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring"
+    ],
+    "pathogen": [
+        "05_basic_reproduction_number",
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare",
+        "18_global_outbreak_preparedness"
+    ],
+    "patient": [
+        "11_infection_prevention_healthcare"
+    ],
+    "patients": [
+        "11_infection_prevention_healthcare",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "patterns": [
+        "03_vaccine_effectiveness_and_studies",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "19_epidemiological_models"
+    ],
+    "people": [
+        "01_covid_transmission_and_prevention",
+        "04_epidemiology_incidence_prevalence",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "09_outbreak_investigation",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy"
+    ],
+    "percentage": [
+        "02_covid_vaccination_basics",
+        "13_risk_communication"
+    ],
+    "performance": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "period": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "06_contact_tracing",
+        "13_risk_communication"
+    ],
+    "periods": [
+        "01_covid_transmission_and_prevention",
+        "04_epidemiology_incidence_prevalence",
+        "15_vulnerable_populations"
+    ],
+    "person": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "07_wastewater_surveillance",
+        "09_outbreak_investigation",
+        "17_misinformation_and_health_literacy"
+    ],
+    "personal": [
+        "11_infection_prevention_healthcare"
+    ],
+    "personnel": [
+        "18_global_outbreak_preparedness"
+    ],
+    "physical": [
+        "11_infection_prevention_healthcare"
+    ],
+    "picture": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "place": [
+        "09_outbreak_investigation"
+    ],
+    "placement": [
+        "11_infection_prevention_healthcare"
+    ],
+    "planning": [
+        "15_vulnerable_populations",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models"
+    ],
+    "plans": [
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "platforms": [
+        "02_covid_vaccination_basics"
+    ],
+    "plausibility": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "point": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "policies": [
+        "11_infection_prevention_healthcare"
+    ],
+    "poorly": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "population": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance",
+        "11_infection_prevention_healthcare",
+        "17_misinformation_and_health_literacy"
+    ],
+    "population-level": [
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "17_misinformation_and_health_literacy"
+    ],
+    "populations": [
+        "03_vaccine_effectiveness_and_studies",
+        "15_vulnerable_populations",
+        "19_epidemiological_models"
+    ],
+    "positivity": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "possible": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "potential": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "potentially": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "practical": [
+        "06_contact_tracing",
+        "08_variant_surveillance",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "17_misinformation_and_health_literacy"
+    ],
+    "practices": [
+        "04_epidemiology_incidence_prevalence",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare"
+    ],
+    "precautions": [
+        "15_vulnerable_populations"
+    ],
+    "pregnancy": [
+        "15_vulnerable_populations"
+    ],
+    "preliminary": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "preparedness": [
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "prepares": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "presence": [
+        "07_wastewater_surveillance"
+    ],
+    "present": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics"
+    ],
+    "presentation": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "presented": [
+        "13_risk_communication"
+    ],
+    "presenting": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "prevalence": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "prevention": [
+        "01_covid_transmission_and_prevention",
+        "06_contact_tracing",
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations"
+    ],
+    "prevents": [
+        "02_covid_vaccination_basics"
+    ],
+    "previous": [
+        "02_covid_vaccination_basics",
+        "15_vulnerable_populations"
+    ],
+    "prior": [
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number"
+    ],
+    "privacy": [
+        "06_contact_tracing"
+    ],
+    "probable": [
+        "06_contact_tracing"
+    ],
+    "procedures": [
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention",
+        "20_post_outbreak_evaluation"
+    ],
+    "process": [
+        "06_contact_tracing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness"
+    ],
+    "producing": [
+        "02_covid_vaccination_basics"
+    ],
+    "product": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "professionals": [
+        "14_school_outbreak_prevention"
+    ],
+    "profile": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "programs": [
+        "01_covid_transmission_and_prevention",
+        "11_infection_prevention_healthcare",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "projections": [
+        "19_epidemiological_models"
+    ],
+    "prolonged": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "promptly": [
+        "06_contact_tracing",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "proof": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "property": [
+        "05_basic_reproduction_number"
+    ],
+    "proportion": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "proportionate": [
+        "14_school_outbreak_prevention"
+    ],
+    "protecting": [
+        "15_vulnerable_populations"
+    ],
+    "protection": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "15_vulnerable_populations"
+    ],
+    "protective": [
+        "01_covid_transmission_and_prevention",
+        "11_infection_prevention_healthcare"
+    ],
+    "proteins": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "prove": [
+        "20_post_outbreak_evaluation"
+    ],
+    "provide": [
+        "01_covid_transmission_and_prevention",
+        "03_vaccine_effectiveness_and_studies",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "09_outbreak_investigation",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "provides": [
+        "04_epidemiology_incidence_prevalence",
+        "13_risk_communication"
+    ],
+    "proximity": [
+        "01_covid_transmission_and_prevention",
+        "06_contact_tracing"
+    ],
+    "public": [
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "20_post_outbreak_evaluation"
+    ],
+    "public-health": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "purely": [
+        "10_public_health_surveillance"
+    ],
+    "quality": [
+        "10_public_health_surveillance",
+        "19_epidemiological_models"
+    ],
+    "quantity": [
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number"
+    ],
+    "question": [
+        "09_outbreak_investigation",
+        "17_misinformation_and_health_literacy"
+    ],
+    "quickly": [
+        "04_epidemiology_incidence_prevalence",
+        "06_contact_tracing",
+        "20_post_outbreak_evaluation"
+    ],
+    "rainfall": [
+        "07_wastewater_surveillance"
+    ],
+    "randomized": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "rapid": [
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness"
+    ],
+    "rapidly": [
+        "13_risk_communication",
+        "17_misinformation_and_health_literacy"
+    ],
+    "rare": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "rates": [
+        "02_covid_vaccination_basics",
+        "12_vaccine_safety_monitoring"
+    ],
+    "rather": [
+        "01_covid_transmission_and_prevention",
+        "07_wastewater_surveillance",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "18_global_outbreak_preparedness"
+    ],
+    "re": [
+        "05_basic_reproduction_number"
+    ],
+    "reach": [
+        "20_post_outbreak_evaluation"
+    ],
+    "real": [
+        "18_global_outbreak_preparedness"
+    ],
+    "real-world": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "reason": [
+        "13_risk_communication"
+    ],
+    "recall": [
+        "09_outbreak_investigation"
+    ],
+    "recognize": [
+        "02_covid_vaccination_basics"
+    ],
+    "recognized": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "recommendation": [
+        "13_risk_communication"
+    ],
+    "recommendations": [
+        "02_covid_vaccination_basics",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention"
+    ],
+    "recommended": [
+        "06_contact_tracing",
+        "13_risk_communication",
+        "15_vulnerable_populations"
+    ],
+    "records": [
+        "10_public_health_surveillance"
+    ],
+    "recovered": [
+        "19_epidemiological_models"
+    ],
+    "reduce": [
+        "01_covid_transmission_and_prevention",
+        "03_vaccine_effectiveness_and_studies",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy"
+    ],
+    "reduces": [
+        "11_infection_prevention_healthcare"
+    ],
+    "reducing": [
+        "01_covid_transmission_and_prevention",
+        "07_wastewater_surveillance"
+    ],
+    "reflect": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "reflects": [
+        "05_basic_reproduction_number"
+    ],
+    "related": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "relationship": [
+        "07_wastewater_surveillance",
+        "12_vaccine_safety_monitoring"
+    ],
+    "relative": [
+        "02_covid_vaccination_basics",
+        "06_contact_tracing",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication"
+    ],
+    "relatively": [
+        "04_epidemiology_incidence_prevalence",
+        "10_public_health_surveillance"
+    ],
+    "releases": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "relevant": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "08_variant_surveillance"
+    ],
+    "reliable": [
+        "13_risk_communication"
+    ],
+    "reliance": [
+        "11_infection_prevention_healthcare"
+    ],
+    "relies": [
+        "10_public_health_surveillance"
+    ],
+    "relying": [
+        "01_covid_transmission_and_prevention",
+        "14_school_outbreak_prevention"
+    ],
+    "remain": [
+        "01_covid_transmission_and_prevention",
+        "04_epidemiology_incidence_prevalence",
+        "14_school_outbreak_prevention"
+    ],
+    "remains": [
+        "01_covid_transmission_and_prevention",
+        "05_basic_reproduction_number",
+        "13_risk_communication"
+    ],
+    "repeated": [
+        "11_infection_prevention_healthcare"
+    ],
+    "replace": [
+        "06_contact_tracing",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "report": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "reported": [
+        "01_covid_transmission_and_prevention",
+        "04_epidemiology_incidence_prevalence",
+        "12_vaccine_safety_monitoring",
+        "17_misinformation_and_health_literacy"
+    ],
+    "reporting": [
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "reports": [
+        "01_covid_transmission_and_prevention",
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring"
+    ],
+    "represent": [
+        "18_global_outbreak_preparedness"
+    ],
+    "representative": [
+        "08_variant_surveillance"
+    ],
+    "representativeness": [
+        "10_public_health_surveillance"
+    ],
+    "representing": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "reproduction": [
+        "05_basic_reproduction_number"
+    ],
+    "require": [
+        "11_infection_prevention_healthcare",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness"
+    ],
+    "required": [
+        "18_global_outbreak_preparedness"
+    ],
+    "requires": [
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance"
+    ],
+    "requiring": [
+        "02_covid_vaccination_basics"
+    ],
+    "researchers": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "08_variant_surveillance",
+        "19_epidemiological_models"
+    ],
+    "residential": [
+        "15_vulnerable_populations"
+    ],
+    "resolved": [
+        "09_outbreak_investigation"
+    ],
+    "resource": [
+        "18_global_outbreak_preparedness"
+    ],
+    "resources": [
+        "06_contact_tracing"
+    ],
+    "respiratory": [
+        "01_covid_transmission_and_prevention",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations"
+    ],
+    "respond": [
+        "01_covid_transmission_and_prevention",
+        "18_global_outbreak_preparedness"
+    ],
+    "responded": [
+        "20_post_outbreak_evaluation"
+    ],
+    "responding": [
+        "14_school_outbreak_prevention"
+    ],
+    "response": [
+        "02_covid_vaccination_basics",
+        "14_school_outbreak_prevention",
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "responses": [
+        "20_post_outbreak_evaluation"
+    ],
+    "responsibilities": [
+        "18_global_outbreak_preparedness"
+    ],
+    "restrictions": [
+        "09_outbreak_investigation"
+    ],
+    "result": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "results": [
+        "03_vaccine_effectiveness_and_studies",
+        "10_public_health_surveillance",
+        "16_antiviral_treatment_and_testing",
+        "19_epidemiological_models"
+    ],
+    "reveal": [
+        "09_outbreak_investigation"
+    ],
+    "reviews": [
+        "20_post_outbreak_evaluation"
+    ],
+    "revising": [
+        "20_post_outbreak_evaluation"
+    ],
+    "risk": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness"
+    ],
+    "risk-based": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "risks": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "roles": [
+        "18_global_outbreak_preparedness"
+    ],
+    "room": [
+        "11_infection_prevention_healthcare"
+    ],
+    "route": [
+        "01_covid_transmission_and_prevention",
+        "11_infection_prevention_healthcare"
+    ],
+    "routes": [
+        "09_outbreak_investigation"
+    ],
+    "routine": [
+        "10_public_health_surveillance",
+        "14_school_outbreak_prevention",
+        "18_global_outbreak_preparedness"
+    ],
+    "rt": [
+        "05_basic_reproduction_number"
+    ],
+    "rules": [
+        "10_public_health_surveillance"
+    ],
+    "safe": [
+        "11_infection_prevention_healthcare"
+    ],
+    "safety": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "same": [
+        "05_basic_reproduction_number"
+    ],
+    "sample": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "samples": [
+        "08_variant_surveillance"
+    ],
+    "sampling": [
+        "07_wastewater_surveillance",
+        "08_variant_surveillance"
+    ],
+    "sars-cov": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "08_variant_surveillance",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "scale": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "scenario": [
+        "19_epidemiological_models"
+    ],
+    "schedules": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "school": [
+        "14_school_outbreak_prevention"
+    ],
+    "schools": [
+        "14_school_outbreak_prevention"
+    ],
+    "scientific": [
+        "09_outbreak_investigation"
+    ],
+    "screening": [
+        "11_infection_prevention_healthcare"
+    ],
+    "seasonality": [
+        "20_post_outbreak_evaluation"
+    ],
+    "secondary": [
+        "05_basic_reproduction_number"
+    ],
+    "seeking": [
+        "07_wastewater_surveillance"
+    ],
+    "seeks": [
+        "09_outbreak_investigation"
+    ],
+    "selected": [
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare"
+    ],
+    "selection": [
+        "03_vaccine_effectiveness_and_studies",
+        "09_outbreak_investigation",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "sensitive": [
+        "06_contact_tracing",
+        "19_epidemiological_models"
+    ],
+    "sensitivity": [
+        "16_antiviral_treatment_and_testing",
+        "19_epidemiological_models"
+    ],
+    "sentinel": [
+        "10_public_health_surveillance"
+    ],
+    "separation": [
+        "11_infection_prevention_healthcare"
+    ],
+    "sequence": [
+        "08_variant_surveillance"
+    ],
+    "sequences": [
+        "08_variant_surveillance"
+    ],
+    "sequencing": [
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "18_global_outbreak_preparedness"
+    ],
+    "served": [
+        "07_wastewater_surveillance"
+    ],
+    "services": [
+        "15_vulnerable_populations"
+    ],
+    "setting": [
+        "05_basic_reproduction_number",
+        "06_contact_tracing"
+    ],
+    "settings": [
+        "01_covid_transmission_and_prevention",
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare",
+        "15_vulnerable_populations"
+    ],
+    "settled": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "several": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "severe": [
+        "01_covid_transmission_and_prevention",
+        "08_variant_surveillance",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "sewage": [
+        "07_wastewater_surveillance"
+    ],
+    "shared": [
+        "01_covid_transmission_and_prevention",
+        "14_school_outbreak_prevention"
+    ],
+    "sharing": [
+        "18_global_outbreak_preparedness"
+    ],
+    "shed": [
+        "07_wastewater_surveillance"
+    ],
+    "shedding": [
+        "07_wastewater_surveillance"
+    ],
+    "short": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "should": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "show": [
+        "09_outbreak_investigation",
+        "19_epidemiological_models"
+    ],
+    "signal": [
+        "07_wastewater_surveillance",
+        "12_vaccine_safety_monitoring",
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "signals": [
+        "01_covid_transmission_and_prevention",
+        "12_vaccine_safety_monitoring"
+    ],
+    "significance": [
+        "08_variant_surveillance"
+    ],
+    "simulated": [
+        "19_epidemiological_models"
+    ],
+    "simulations": [
+        "18_global_outbreak_preparedness"
+    ],
+    "since": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "single": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "05_basic_reproduction_number",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "15_vulnerable_populations",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness"
+    ],
+    "sir": [
+        "19_epidemiological_models"
+    ],
+    "sites": [
+        "10_public_health_surveillance"
+    ],
+    "situation": [
+        "01_covid_transmission_and_prevention",
+        "11_infection_prevention_healthcare"
+    ],
+    "situations": [
+        "06_contact_tracing"
+    ],
+    "size": [
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number"
+    ],
+    "small": [
+        "05_basic_reproduction_number",
+        "17_misinformation_and_health_literacy"
+    ],
+    "sneezing": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "so": [
+        "14_school_outbreak_prevention"
+    ],
+    "social": [
+        "17_misinformation_and_health_literacy",
+        "20_post_outbreak_evaluation"
+    ],
+    "some": [
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "15_vulnerable_populations"
+    ],
+    "source": [
+        "17_misinformation_and_health_literacy"
+    ],
+    "sources": [
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "13_risk_communication",
+        "17_misinformation_and_health_literacy"
+    ],
+    "speaking": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "specific": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "specified": [
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number"
+    ],
+    "specify": [
+        "02_covid_vaccination_basics",
+        "10_public_health_surveillance"
+    ],
+    "specimen": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "specimens": [
+        "08_variant_surveillance"
+    ],
+    "spread": [
+        "14_school_outbreak_prevention",
+        "19_epidemiological_models"
+    ],
+    "staff": [
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention"
+    ],
+    "stage": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "statistic": [
+        "02_covid_vaccination_basics"
+    ],
+    "statistical": [
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number"
+    ],
+    "status": [
+        "15_vulnerable_populations",
+        "19_epidemiological_models"
+    ],
+    "stay": [
+        "14_school_outbreak_prevention"
+    ],
+    "staying": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "stimulate": [
+        "02_covid_vaccination_basics"
+    ],
+    "stimulated": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "straightforward": [
+        "07_wastewater_surveillance"
+    ],
+    "strains": [
+        "15_vulnerable_populations"
+    ],
+    "strategies": [
+        "14_school_outbreak_prevention",
+        "17_misinformation_and_health_literacy"
+    ],
+    "stratify": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "strengthen": [
+        "18_global_outbreak_preparedness"
+    ],
+    "strengthening": [
+        "20_post_outbreak_evaluation"
+    ],
+    "strong": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "stronger": [
+        "01_covid_transmission_and_prevention",
+        "12_vaccine_safety_monitoring",
+        "17_misinformation_and_health_literacy"
+    ],
+    "structure": [
+        "05_basic_reproduction_number",
+        "19_epidemiological_models"
+    ],
+    "structured": [
+        "20_post_outbreak_evaluation"
+    ],
+    "students": [
+        "14_school_outbreak_prevention"
+    ],
+    "studied": [
+        "03_vaccine_effectiveness_and_studies",
+        "17_misinformation_and_health_literacy"
+    ],
+    "studies": [
+        "03_vaccine_effectiveness_and_studies",
+        "08_variant_surveillance",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "17_misinformation_and_health_literacy"
+    ],
+    "study": [
+        "03_vaccine_effectiveness_and_studies",
+        "17_misinformation_and_health_literacy"
+    ],
+    "submitted": [
+        "10_public_health_surveillance"
+    ],
+    "substantial": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "such": [
+        "01_covid_transmission_and_prevention",
+        "03_vaccine_effectiveness_and_studies",
+        "06_contact_tracing",
+        "15_vulnerable_populations",
+        "19_epidemiological_models"
+    ],
+    "sufficient": [
+        "11_infection_prevention_healthcare"
+    ],
+    "summaries": [
+        "09_outbreak_investigation"
+    ],
+    "supplies": [
+        "18_global_outbreak_preparedness"
+    ],
+    "support": [
+        "06_contact_tracing",
+        "14_school_outbreak_prevention"
+    ],
+    "supported": [
+        "13_risk_communication"
+    ],
+    "supports": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "surge": [
+        "18_global_outbreak_preparedness"
+    ],
+    "surveillance": [
+        "01_covid_transmission_and_prevention",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring",
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models"
+    ],
+    "susceptible": [
+        "05_basic_reproduction_number",
+        "19_epidemiological_models"
+    ],
+    "symptom": [
+        "05_basic_reproduction_number"
+    ],
+    "symptomatic": [
+        "02_covid_vaccination_basics",
+        "11_infection_prevention_healthcare"
+    ],
+    "symptoms": [
+        "14_school_outbreak_prevention",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "syndromic": [
+        "04_epidemiology_incidence_prevalence",
+        "10_public_health_surveillance"
+    ],
+    "system": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "07_wastewater_surveillance",
+        "10_public_health_surveillance"
+    ],
+    "systematic": [
+        "10_public_health_surveillance"
+    ],
+    "systems": [
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring",
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness",
+        "20_post_outbreak_evaluation"
+    ],
+    "targeted": [
+        "09_outbreak_investigation",
+        "14_school_outbreak_prevention"
+    ],
+    "task": [
+        "11_infection_prevention_healthcare"
+    ],
+    "tends": [
+        "05_basic_reproduction_number"
+    ],
+    "test": [
+        "04_epidemiology_incidence_prevalence",
+        "07_wastewater_surveillance",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "test-negative": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "testing": [
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "20_post_outbreak_evaluation"
+    ],
+    "tests": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "than": [
+        "01_covid_transmission_and_prevention",
+        "07_wastewater_surveillance",
+        "09_outbreak_investigation",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "18_global_outbreak_preparedness"
+    ],
+    "that": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "15_vulnerable_populations",
+        "17_misinformation_and_health_literacy",
+        "20_post_outbreak_evaluation"
+    ],
+    "the": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "their": [
+        "01_covid_transmission_and_prevention",
+        "19_epidemiological_models"
+    ],
+    "them": [
+        "01_covid_transmission_and_prevention",
+        "06_contact_tracing"
+    ],
+    "theoretical": [
+        "05_basic_reproduction_number"
+    ],
+    "therapeutics": [
+        "08_variant_surveillance"
+    ],
+    "therefore": [
+        "01_covid_transmission_and_prevention",
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "07_wastewater_surveillance",
+        "10_public_health_surveillance",
+        "12_vaccine_safety_monitoring",
+        "15_vulnerable_populations",
+        "19_epidemiological_models"
+    ],
+    "these": [
+        "02_covid_vaccination_basics",
+        "20_post_outbreak_evaluation"
+    ],
+    "they": [
+        "06_contact_tracing",
+        "13_risk_communication",
+        "18_global_outbreak_preparedness"
+    ],
+    "this": [
+        "02_covid_vaccination_basics"
+    ],
+    "those": [
+        "08_variant_surveillance"
+    ],
+    "threat": [
+        "13_risk_communication"
+    ],
+    "threats": [
+        "18_global_outbreak_preparedness"
+    ],
+    "through": [
+        "10_public_health_surveillance",
+        "14_school_outbreak_prevention",
+        "17_misinformation_and_health_literacy"
+    ],
+    "time": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "04_epidemiology_incidence_prevalence",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "13_risk_communication",
+        "20_post_outbreak_evaluation"
+    ],
+    "timeliness": [
+        "10_public_health_surveillance",
+        "20_post_outbreak_evaluation"
+    ],
+    "timely": [
+        "15_vulnerable_populations",
+        "18_global_outbreak_preparedness"
+    ],
+    "timing": [
+        "06_contact_tracing",
+        "09_outbreak_investigation",
+        "12_vaccine_safety_monitoring",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "to": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "together": [
+        "01_covid_transmission_and_prevention",
+        "05_basic_reproduction_number",
+        "08_variant_surveillance"
+    ],
+    "tool": [
+        "07_wastewater_surveillance"
+    ],
+    "tools": [
+        "06_contact_tracing"
+    ],
+    "tracing": [
+        "06_contact_tracing",
+        "18_global_outbreak_preparedness"
+    ],
+    "track": [
+        "11_infection_prevention_healthcare"
+    ],
+    "trained": [
+        "18_global_outbreak_preparedness"
+    ],
+    "training": [
+        "11_infection_prevention_healthcare",
+        "20_post_outbreak_evaluation"
+    ],
+    "trajectories": [
+        "19_epidemiological_models"
+    ],
+    "translate": [
+        "20_post_outbreak_evaluation"
+    ],
+    "transmissible": [
+        "08_variant_surveillance"
+    ],
+    "transmission": [
+        "01_covid_transmission_and_prevention",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "20_post_outbreak_evaluation"
+    ],
+    "transparent": [
+        "19_epidemiological_models"
+    ],
+    "transportation": [
+        "15_vulnerable_populations"
+    ],
+    "treated": [
+        "02_covid_vaccination_basics"
+    ],
+    "treatment": [
+        "07_wastewater_surveillance",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "trends": [
+        "07_wastewater_surveillance",
+        "10_public_health_surveillance",
+        "20_post_outbreak_evaluation"
+    ],
+    "triage": [
+        "11_infection_prevention_healthcare"
+    ],
+    "trial": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "trials": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "triangulating": [
+        "10_public_health_surveillance"
+    ],
+    "true": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "trust": [
+        "13_risk_communication"
+    ],
+    "turnaround": [
+        "20_post_outbreak_evaluation"
+    ],
+    "type": [
+        "09_outbreak_investigation"
+    ],
+    "typical": [
+        "05_basic_reproduction_number",
+        "06_contact_tracing"
+    ],
+    "uncertain": [
+        "05_basic_reproduction_number",
+        "13_risk_communication",
+        "19_epidemiological_models"
+    ],
+    "uncertainty": [
+        "03_vaccine_effectiveness_and_studies",
+        "13_risk_communication",
+        "19_epidemiological_models"
+    ],
+    "under": [
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "19_epidemiological_models"
+    ],
+    "underlying": [
+        "03_vaccine_effectiveness_and_studies",
+        "15_vulnerable_populations",
+        "17_misinformation_and_health_literacy"
+    ],
+    "underreporting": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "understand": [
+        "13_risk_communication",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy"
+    ],
+    "unexposed": [
+        "09_outbreak_investigation"
+    ],
+    "unnecessary": [
+        "16_antiviral_treatment_and_testing"
+    ],
+    "until": [
+        "09_outbreak_investigation"
+    ],
+    "unusual": [
+        "09_outbreak_investigation"
+    ],
+    "updated": [
+        "02_covid_vaccination_basics",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication"
+    ],
+    "updating": [
+        "20_post_outbreak_evaluation"
+    ],
+    "use": [
+        "01_covid_transmission_and_prevention",
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "15_vulnerable_populations",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness"
+    ],
+    "used": [
+        "06_contact_tracing",
+        "16_antiviral_treatment_and_testing"
+    ],
+    "useful": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "07_wastewater_surveillance",
+        "10_public_health_surveillance",
+        "13_risk_communication",
+        "17_misinformation_and_health_literacy",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "uses": [
+        "19_epidemiological_models"
+    ],
+    "using": [
+        "04_epidemiology_incidence_prevalence",
+        "08_variant_surveillance"
+    ],
+    "usually": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "vaccinated": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "vaccination": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "05_basic_reproduction_number",
+        "09_outbreak_investigation",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "vaccine": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "12_vaccine_safety_monitoring"
+    ],
+    "vaccines": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "08_variant_surveillance",
+        "12_vaccine_safety_monitoring"
+    ],
+    "validation": [
+        "19_epidemiological_models"
+    ],
+    "valuable": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "variant": [
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "08_variant_surveillance"
+    ],
+    "variants": [
+        "01_covid_transmission_and_prevention",
+        "03_vaccine_effectiveness_and_studies",
+        "08_variant_surveillance"
+    ],
+    "varies": [
+        "02_covid_vaccination_basics"
+    ],
+    "ventilated": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "ventilation": [
+        "01_covid_transmission_and_prevention",
+        "11_infection_prevention_healthcare",
+        "14_school_outbreak_prevention"
+    ],
+    "very": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "viral": [
+        "02_covid_vaccination_basics",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "19_epidemiological_models"
+    ],
+    "virus": [
+        "01_covid_transmission_and_prevention",
+        "15_vulnerable_populations"
+    ],
+    "viruses": [
+        "02_covid_vaccination_basics",
+        "07_wastewater_surveillance",
+        "15_vulnerable_populations"
+    ],
+    "vulnerability": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "vulnerable": [
+        "01_covid_transmission_and_prevention"
+    ],
+    "wait": [
+        "09_outbreak_investigation"
+    ],
+    "waning": [
+        "03_vaccine_effectiveness_and_studies"
+    ],
+    "warnings": [
+        "12_vaccine_safety_monitoring"
+    ],
+    "was": [
+        "13_risk_communication"
+    ],
+    "wastewater": [
+        "01_covid_transmission_and_prevention",
+        "04_epidemiology_incidence_prevalence",
+        "07_wastewater_surveillance"
+    ],
+    "ways": [
+        "02_covid_vaccination_basics"
+    ],
+    "weaknesses": [
+        "18_global_outbreak_preparedness"
+    ],
+    "well": [
+        "14_school_outbreak_prevention",
+        "20_post_outbreak_evaluation"
+    ],
+    "were": [
+        "20_post_outbreak_evaluation"
+    ],
+    "what": [
+        "02_covid_vaccination_basics",
+        "08_variant_surveillance",
+        "13_risk_communication",
+        "20_post_outbreak_evaluation"
+    ],
+    "when": [
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "15_vulnerable_populations",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy",
+        "19_epidemiological_models"
+    ],
+    "where": [
+        "01_covid_transmission_and_prevention",
+        "14_school_outbreak_prevention"
+    ],
+    "whether": [
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "15_vulnerable_populations",
+        "17_misinformation_and_health_literacy",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models"
+    ],
+    "which": [
+        "06_contact_tracing",
+        "08_variant_surveillance",
+        "10_public_health_surveillance",
+        "18_global_outbreak_preparedness",
+        "19_epidemiological_models",
+        "20_post_outbreak_evaluation"
+    ],
+    "while": [
+        "01_covid_transmission_and_prevention",
+        "03_vaccine_effectiveness_and_studies",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "16_antiviral_treatment_and_testing",
+        "18_global_outbreak_preparedness"
+    ],
+    "who": [
+        "06_contact_tracing",
+        "17_misinformation_and_health_literacy"
+    ],
+    "why": [
+        "13_risk_communication"
+    ],
+    "widely": [
+        "15_vulnerable_populations"
+    ],
+    "widespread": [
+        "04_epidemiology_incidence_prevalence"
+    ],
+    "will": [
+        "02_covid_vaccination_basics"
+    ],
+    "with": [
+        "01_covid_transmission_and_prevention",
+        "04_epidemiology_incidence_prevalence",
+        "05_basic_reproduction_number",
+        "06_contact_tracing",
+        "07_wastewater_surveillance",
+        "08_variant_surveillance",
+        "09_outbreak_investigation",
+        "10_public_health_surveillance",
+        "11_infection_prevention_healthcare",
+        "12_vaccine_safety_monitoring",
+        "13_risk_communication",
+        "14_school_outbreak_prevention",
+        "19_epidemiological_models"
+    ],
+    "within": [
+        "07_wastewater_surveillance"
+    ],
+    "without": [
+        "02_covid_vaccination_basics",
+        "04_epidemiology_incidence_prevalence",
+        "13_risk_communication",
+        "16_antiviral_treatment_and_testing",
+        "17_misinformation_and_health_literacy"
+    ],
+    "worked": [
+        "18_global_outbreak_preparedness"
+    ],
+    "workers": [
+        "11_infection_prevention_healthcare"
+    ],
+    "workflow": [
+        "06_contact_tracing"
+    ],
+    "workforce": [
+        "20_post_outbreak_evaluation"
+    ],
+    "works": [
+        "01_covid_transmission_and_prevention",
+        "08_variant_surveillance"
+    ],
+    "written": [
+        "05_basic_reproduction_number"
+    ]
+}

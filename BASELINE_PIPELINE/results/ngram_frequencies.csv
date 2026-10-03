@@ -1,0 +1,501 @@
+N,Ngram,Frequency
+1,and,140
+1,can,82
+1,the,67
+1,a,61
+1,to,46
+1,of,44
+1,when,36
+1,or,36
+1,is,35
+1,may,34
+1,in,33
+1,are,31
+1,surveillance,28
+1,for,26
+1,should,25
+1,be,25
+1,disease,24
+1,public-health,22
+1,information,22
+1,vaccination,21
+1,an,20
+1,not,20
+1,transmission,19
+1,infectious,19
+1,on,18
+1,with,17
+1,testing,17
+1,data,17
+1,people,16
+1,as,16
+1,that,16
+1,outbreak,15
+1,by,14
+1,infection,14
+1,respiratory,14
+1,risk,14
+1,health,14
+1,evidence,14
+1,from,14
+1,prevention,13
+1,measures,13
+1,communication,13
+1,systems,13
+1,identify,13
+1,vaccine,12
+1,time,12
+1,population,12
+1,have,12
+1,reporting,12
+1,healthcare,12
+1,other,11
+1,provide,11
+1,useful,11
+1,infections,11
+1,because,11
+1,clinical,11
+1,cases,11
+1,changes,11
+1,while,10
+1,reduce,10
+1,use,10
+1,wastewater,10
+1,therefore,9
+1,exposure,9
+1,change,9
+1,epidemiological,9
+1,different,9
+1,effectiveness,9
+1,case,9
+1,single,8
+1,it,8
+1,indicators,8
+1,response,8
+1,viral,8
+1,after,8
+1,does,8
+1,immunity,8
+1,also,8
+1,incidence,8
+1,during,8
+1,which,8
+1,laboratory,8
+1,covid,7
+1,community,7
+1,than,7
+1,protection,7
+1,against,7
+1,consider,7
+1,outcomes,7
+1,what,7
+1,clear,7
+1,period,7
+1,conditions,7
+1,studies,7
+1,but,7
+1,help,7
+1,reproduction,7
+1,assumptions,7
+1,contact,7
+1,access,7
+2,and the,11
+2,infectious disease,11
+2,can be,10
+2,can reduce,9
+2,does not,8
+2,a single,7
+2,changes in,7
+2,rather than,6
+2,can provide,6
+2,should be,6
+2,surveillance systems,6
+2,can identify,6
+2,is a,5
+2,to the,5
+2,such as,5
+2,vaccine effectiveness,5
+2,may be,5
+2,contact tracing,5
+2,communication should,5
+2,and when,4
+2,may use,4
+2,should not,4
+2,the population,4
+2,be interpreted,4
+2,of a,4
+2,can help,4
+2,cases and,4
+2,reproduction number,4
+2,can also,4
+2,wastewater surveillance,4
+2,depend on,4
+2,public health,4
+2,depends on,4
+2,or other,4
+2,testing and,4
+2,and healthcare,4
+2,according to,4
+2,after an,4
+2,and community,3
+2,when people,3
+2,people are,3
+2,of infectious,3
+2,transmission is,3
+2,is an,3
+2,protection against,3
+2,against infection,3
+2,over time,3
+2,vaccines are,3
+2,vaccination and,3
+2,and circulating,3
+2,it is,3
+2,relative risk,3
+2,incidence and,3
+2,of disease,3
+2,for an,3
+2,an infectious,3
+2,of illness,3
+2,case definition,3
+2,in testing,3
+2,can affect,3
+2,disease activity,3
+2,reproduction numbers,3
+2,reporting and,3
+2,on the,3
+2,of the,3
+2,respiratory infections,3
+2,useful when,3
+2,may provide,3
+2,is not,3
+2,than a,3
+2,variant surveillance,3
+2,not automatically,3
+2,are not,3
+2,not always,3
+2,what is,3
+2,an outbreak,3
+2,control measures,3
+2,and may,3
+2,measures can,3
+2,and can,3
+2,surveillance data,3
+2,infection prevention,3
+2,when evidence,3
+2,vaccine safety,3
+2,should distinguish,3
+2,risk communication,3
+2,should consider,3
+2,health literacy,3
+2,community prevention,2
+2,caused by,2
+2,transmission can,2
+2,can occur,2
+2,infected person,2
+2,respiratory particles,2
+2,than relying,2
+2,ventilation and,2
+2,reduce the,2
+2,reduce exposure,2
+2,provide an,2
+2,respiratory virus,2
+3,an infectious disease,3
+3,changes in testing,3
+3,rather than a,3
+3,and when people,2
+3,rather than relying,2
+3,can reduce exposure,2
+3,is an important,2
+3,the immune system,2
+3,protection against infection,2
+3,can change over,2
+3,change over time,2
+3,over time and,2
+3,time and across,2
+3,works best when,2
+3,time since vaccination,2
+3,should not be,2
+3,comparison group time,2
+3,group time period,2
+3,after vaccines are,2
+3,incidence and prevalence,2
+3,case definition and,2
+3,carefully changes in,2
+3,wastewater measurements can,2
+3,it is a,2
+3,the effective reproduction,2
+3,effective reproduction number,2
+3,numbers should be,2
+3,should be interpreted,2
+3,depending on the,2
+3,contact tracing is,2
+3,most effective when,2
+3,have access to,2
+3,prevention measures and,2
+3,viral genetic material,2
+3,does not automatically,2
+3,infectious disease outbreak,2
+3,begins with a,2
+3,and may provide,2
+3,or other characteristics,2
+3,measures can include,2
+3,public health surveillance,2
+3,and can be,2
+3,infection prevention in,2
+3,personal protective equipment,2
+3,according to the,2
+3,evidence rather than,2
+3,than a single,2
+3,during infectious disease,2
+3,infectious disease events,2
+3,as well as,2
+3,risk of severe,2
+3,or other factors,2
+3,does not always,2
+3,after an outbreak,2
+3,can identify which,2
+3,covid transmission and,1
+3,transmission and community,1
+3,and community prevention,1
+3,community prevention covid,1
+3,prevention covid is,1
+3,covid is caused,1
+3,is caused by,1
+3,caused by infection,1
+3,by infection with,1
+3,infection with sars-cov,1
+3,with sars-cov transmission,1
+3,sars-cov transmission can,1
+3,transmission can occur,1
+3,can occur when,1
+3,occur when an,1
+3,when an infected,1
+3,an infected person,1
+3,infected person releases,1
+3,person releases respiratory,1
+3,releases respiratory particles,1
+3,respiratory particles while,1
+3,particles while breathing,1
+3,while breathing speaking,1
+3,breathing speaking coughing,1
+3,speaking coughing or,1
+3,coughing or sneezing,1
+3,or sneezing risk,1
+3,sneezing risk generally,1
+3,risk generally increases,1
+3,generally increases in,1
+3,increases in crowded,1
+3,in crowded or,1
+3,crowded or poorly,1
+3,or poorly ventilated,1
+3,poorly ventilated indoor,1
+3,ventilated indoor environments,1
+3,indoor environments and,1
+3,environments and when,1
+3,when people are,1
+3,people are in,1
+3,are in close,1
+3,in close proximity,1
+3,close proximity for,1
+3,proximity for prolonged,1
+3,for prolonged periods,1
+4,can change over time,2
+4,over time and across,2
+4,comparison group time period,2
+4,the effective reproduction number,2
+4,rather than a single,2
+4,covid transmission and community,1
+4,transmission and community prevention,1
+4,and community prevention covid,1
+4,community prevention covid is,1
+4,prevention covid is caused,1
+4,covid is caused by,1
+4,is caused by infection,1
+4,caused by infection with,1
+4,by infection with sars-cov,1
+4,infection with sars-cov transmission,1
+4,with sars-cov transmission can,1
+4,sars-cov transmission can occur,1
+4,transmission can occur when,1
+4,can occur when an,1
+4,occur when an infected,1
+4,when an infected person,1
+4,an infected person releases,1
+4,infected person releases respiratory,1
+4,person releases respiratory particles,1
+4,releases respiratory particles while,1
+4,respiratory particles while breathing,1
+4,particles while breathing speaking,1
+4,while breathing speaking coughing,1
+4,breathing speaking coughing or,1
+4,speaking coughing or sneezing,1
+4,coughing or sneezing risk,1
+4,or sneezing risk generally,1
+4,sneezing risk generally increases,1
+4,risk generally increases in,1
+4,generally increases in crowded,1
+4,increases in crowded or,1
+4,in crowded or poorly,1
+4,crowded or poorly ventilated,1
+4,or poorly ventilated indoor,1
+4,poorly ventilated indoor environments,1
+4,ventilated indoor environments and,1
+4,indoor environments and when,1
+4,environments and when people,1
+4,and when people are,1
+4,when people are in,1
+4,people are in close,1
+4,are in close proximity,1
+4,in close proximity for,1
+4,close proximity for prolonged,1
+4,proximity for prolonged periods,1
+4,for prolonged periods prevention,1
+4,prolonged periods prevention therefore,1
+4,periods prevention therefore combines,1
+4,prevention therefore combines several,1
+4,therefore combines several measures,1
+4,combines several measures rather,1
+4,several measures rather than,1
+4,measures rather than relying,1
+4,rather than relying on,1
+4,than relying on a,1
+4,relying on a single,1
+4,on a single intervention,1
+4,a single intervention improving,1
+4,single intervention improving indoor,1
+4,intervention improving indoor ventilation,1
+4,improving indoor ventilation and,1
+4,indoor ventilation and filtration,1
+4,ventilation and filtration can,1
+4,and filtration can reduce,1
+4,filtration can reduce the,1
+4,can reduce the concentration,1
+4,reduce the concentration of,1
+4,the concentration of infectious,1
+4,concentration of infectious particles,1
+4,of infectious particles in,1
+4,infectious particles in shared,1
+4,particles in shared air,1
+4,in shared air staying,1
+4,shared air staying home,1
+4,air staying home when,1
+4,staying home when acutely,1
+4,home when acutely ill,1
+4,when acutely ill can,1
+4,acutely ill can reduce,1
+4,ill can reduce exposure,1
+4,can reduce exposure to,1
+4,reduce exposure to other,1
+4,exposure to other people,1
+4,to other people mask,1
+4,other people mask use,1
+4,people mask use can,1
+4,mask use can provide,1
+4,use can provide an,1
+4,can provide an additional,1
+4,provide an additional layer,1
+4,an additional layer of,1
+4,additional layer of protection,1
+4,layer of protection in,1
+4,of protection in settings,1
+4,protection in settings where,1
+5,covid transmission and community prevention,1
+5,transmission and community prevention covid,1
+5,and community prevention covid is,1
+5,community prevention covid is caused,1
+5,prevention covid is caused by,1
+5,covid is caused by infection,1
+5,is caused by infection with,1
+5,caused by infection with sars-cov,1
+5,by infection with sars-cov transmission,1
+5,infection with sars-cov transmission can,1
+5,with sars-cov transmission can occur,1
+5,sars-cov transmission can occur when,1
+5,transmission can occur when an,1
+5,can occur when an infected,1
+5,occur when an infected person,1
+5,when an infected person releases,1
+5,an infected person releases respiratory,1
+5,infected person releases respiratory particles,1
+5,person releases respiratory particles while,1
+5,releases respiratory particles while breathing,1
+5,respiratory particles while breathing speaking,1
+5,particles while breathing speaking coughing,1
+5,while breathing speaking coughing or,1
+5,breathing speaking coughing or sneezing,1
+5,speaking coughing or sneezing risk,1
+5,coughing or sneezing risk generally,1
+5,or sneezing risk generally increases,1
+5,sneezing risk generally increases in,1
+5,risk generally increases in crowded,1
+5,generally increases in crowded or,1
+5,increases in crowded or poorly,1
+5,in crowded or poorly ventilated,1
+5,crowded or poorly ventilated indoor,1
+5,or poorly ventilated indoor environments,1
+5,poorly ventilated indoor environments and,1
+5,ventilated indoor environments and when,1
+5,indoor environments and when people,1
+5,environments and when people are,1
+5,and when people are in,1
+5,when people are in close,1
+5,people are in close proximity,1
+5,are in close proximity for,1
+5,in close proximity for prolonged,1
+5,close proximity for prolonged periods,1
+5,proximity for prolonged periods prevention,1
+5,for prolonged periods prevention therefore,1
+5,prolonged periods prevention therefore combines,1
+5,periods prevention therefore combines several,1
+5,prevention therefore combines several measures,1
+5,therefore combines several measures rather,1
+5,combines several measures rather than,1
+5,several measures rather than relying,1
+5,measures rather than relying on,1
+5,rather than relying on a,1
+5,than relying on a single,1
+5,relying on a single intervention,1
+5,on a single intervention improving,1
+5,a single intervention improving indoor,1
+5,single intervention improving indoor ventilation,1
+5,intervention improving indoor ventilation and,1
+5,improving indoor ventilation and filtration,1
+5,indoor ventilation and filtration can,1
+5,ventilation and filtration can reduce,1
+5,and filtration can reduce the,1
+5,filtration can reduce the concentration,1
+5,can reduce the concentration of,1
+5,reduce the concentration of infectious,1
+5,the concentration of infectious particles,1
+5,concentration of infectious particles in,1
+5,of infectious particles in shared,1
+5,infectious particles in shared air,1
+5,particles in shared air staying,1
+5,in shared air staying home,1
+5,shared air staying home when,1
+5,air staying home when acutely,1
+5,staying home when acutely ill,1
+5,home when acutely ill can,1
+5,when acutely ill can reduce,1
+5,acutely ill can reduce exposure,1
+5,ill can reduce exposure to,1
+5,can reduce exposure to other,1
+5,reduce exposure to other people,1
+5,exposure to other people mask,1
+5,to other people mask use,1
+5,other people mask use can,1
+5,people mask use can provide,1
+5,mask use can provide an,1
+5,use can provide an additional,1
+5,can provide an additional layer,1
+5,provide an additional layer of,1
+5,an additional layer of protection,1
+5,additional layer of protection in,1
+5,layer of protection in settings,1
+5,of protection in settings where,1
+5,protection in settings where respiratory,1
+5,in settings where respiratory virus,1
+5,settings where respiratory virus transmission,1
+5,where respiratory virus transmission is,1
+5,respiratory virus transmission is elevated,1
+5,virus transmission is elevated or,1

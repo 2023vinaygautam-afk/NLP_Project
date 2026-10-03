@@ -1,0 +1,5 @@
+Method,Total_Tokens,Average_Tokens,Total_Document_Vocabulary
+Custom,3871,193.55,2419
+Hybrid,3871,193.55,2419
+NLTK,3872,193.6,2417
+spaCy,4076,203.8,2493

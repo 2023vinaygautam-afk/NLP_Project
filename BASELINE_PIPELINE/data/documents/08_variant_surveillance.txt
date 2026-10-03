@@ -1,0 +1,9 @@
+SARS-CoV-2 Variant Surveillance
+
+Variant surveillance monitors genetic changes in SARS-CoV-2 and assesses whether emerging lineages have characteristics relevant to public health. Sequencing can identify viral lineages from selected clinical specimens, while genomic databases allow laboratories and researchers to compare sequences over time and across locations.
+
+A newly detected mutation does not automatically mean that a variant is more transmissible or more severe. Researchers evaluate changes using laboratory studies, epidemiological data, clinical outcomes, and population-level observations. Multiple mutations can occur together, and the biological effect of a mutation depends on its location and context.
+
+Variant surveillance helps public-health agencies detect changes that may affect diagnostics, therapeutics, vaccines, or transmission patterns. However, sequencing samples are not always representative of all infections. Differences in sampling and sequencing capacity can influence which variants are observed.
+
+Genomic surveillance works best when linked with epidemiological and clinical information. Sequence data can identify what is circulating, while other datasets help determine the practical public-health significance of those lineages.

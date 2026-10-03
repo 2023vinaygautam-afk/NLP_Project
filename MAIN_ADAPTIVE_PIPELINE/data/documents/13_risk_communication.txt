@@ -1,0 +1,9 @@
+Risk Communication During Infectious Disease Events
+
+Risk communication provides people with information needed to understand a public-health threat and make informed decisions. Effective communication should explain what is known, what is uncertain, what actions are recommended, and why recommendations may change.
+
+Numbers should be presented with context. For example, a percentage without a denominator, comparison group, time period, or outcome can be misleading. Communicators should distinguish absolute risk from relative risk and avoid implying certainty when evidence remains limited.
+
+Trust can be supported by acknowledging uncertainty rather than hiding it. During a rapidly changing outbreak, evidence can evolve as new studies become available. Explaining the reason for an updated recommendation can help people understand that changing guidance does not necessarily mean that earlier information was intentionally misleading.
+
+Communication should also consider language, accessibility, cultural context, and misinformation. Public-health messages are more useful when they provide practical actions and identify reliable sources for additional information.

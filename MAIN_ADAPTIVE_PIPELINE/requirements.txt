@@ -1,0 +1,10 @@
+nltk
+spacy
+pandas
+numpy
+scikit-learn
+matplotlib
+streamlit
+pypdf
+tokenizers
+jupyter

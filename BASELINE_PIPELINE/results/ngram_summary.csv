@@ -1,0 +1,6 @@
+N,Ngram_Type,Total_Ngrams,Unique_Ngrams
+1,Unigram,3375,1027
+2,Bigram,3374,2902
+3,Trigram,3373,3315
+4,Four-Gram,3372,3367
+5,Five-Gram,3371,3371

@@ -1,0 +1,9 @@
+Evaluating Vaccine Effectiveness
+
+Vaccine effectiveness is usually estimated by comparing disease outcomes between vaccinated and comparison groups under real-world conditions. Observational studies may use cohort, case-control, or test-negative designs. Researchers must account for factors such as age, prior infection, underlying conditions, healthcare-seeking behavior, exposure patterns, and calendar period.
+
+Randomized controlled trials can provide strong evidence about efficacy under defined study conditions, while observational studies are especially useful after vaccines are deployed at large scale. Real-world effectiveness may differ from trial efficacy because populations, exposure levels, circulating variants, and vaccination schedules differ.
+
+A useful interpretation of vaccine effectiveness requires knowing the endpoint. For example, effectiveness against hospitalization is a different quantity from effectiveness against infection. Waning protection may also appear differently for different outcomes. Researchers may stratify results by age, time since vaccination, product, or variant period.
+
+Confounding and selection bias are important limitations in observational vaccine studies. Statistical adjustment can reduce some biases, but it cannot guarantee that every relevant difference between groups has been measured. Results should therefore be interpreted in the context of study design, uncertainty intervals, sample size, and the population studied.

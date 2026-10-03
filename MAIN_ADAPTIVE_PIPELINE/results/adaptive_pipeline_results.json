@@ -1,0 +1,401 @@
+[
+    {
+        "query": "What are the main causes of COVID-19 transmission and how can it be prevented?",
+        "query_understanding": {
+            "query": "What are the main causes of COVID-19 transmission and how can it be prevented?",
+            "query_type": "KEYWORD",
+            "terms": [
+                "what",
+                "are",
+                "the",
+                "main",
+                "causes",
+                "of",
+                "covid-19",
+                "transmission",
+                "how",
+                "can",
+                "it",
+                "be",
+                "prevented"
+            ],
+            "keywords": [
+                "causes",
+                "covid-19",
+                "transmission",
+                "be",
+                "prevented"
+            ],
+            "domain_terms": [
+                "covid-19",
+                "transmission"
+            ],
+            "term_count": 13,
+            "keyword_count": 5,
+            "contains_question_word": true,
+            "question_words": [
+                "what",
+                "how"
+            ],
+            "complexity": "MEDIUM"
+        },
+        "adaptive_decision": {
+            "method": "KEYWORD",
+            "confidence": 0.85,
+            "reason": "The query contains domain-specific terms without explicit Boolean syntax. Keyword retrieval will be selected."
+        },
+        "retrieval": {
+            "method": "KEYWORD",
+            "count": 1,
+            "results": [
+                {
+                    "document_id": "D01",
+                    "document_name": "01_covid_transmission_and_prevention",
+                    "score": 10.4644,
+                    "matched_terms": [
+                        "covid-19",
+                        "transmission"
+                    ],
+                    "coverage": 0.5,
+                    "total_term_frequency": 9
+                }
+            ]
+        },
+        "status": "RETRIEVAL_COMPLETED",
+        "query_id": "Q01",
+        "expected_document": "D01",
+        "expected_document_rank": 1,
+        "expected_document_retrieved": true
+    },
+    {
+        "query": "How effective are COVID-19 vaccines in preventing infection and reducing disease severity?",
+        "query_understanding": {
+            "query": "How effective are COVID-19 vaccines in preventing infection and reducing disease severity?",
+            "query_type": "KEYWORD",
+            "terms": [
+                "how",
+                "effective",
+                "are",
+                "covid-19",
+                "vaccines",
+                "in",
+                "preventing",
+                "infection",
+                "reducing",
+                "disease",
+                "severity"
+            ],
+            "keywords": [
+                "covid-19",
+                "vaccines",
+                "preventing",
+                "infection",
+                "reducing",
+                "disease",
+                "severity"
+            ],
+            "domain_terms": [
+                "covid-19",
+                "vaccines",
+                "infection",
+                "disease",
+                "severity"
+            ],
+            "term_count": 11,
+            "keyword_count": 7,
+            "contains_question_word": true,
+            "question_words": [
+                "how"
+            ],
+            "complexity": "HIGH"
+        },
+        "adaptive_decision": {
+            "method": "KEYWORD",
+            "confidence": 0.85,
+            "reason": "The query contains domain-specific terms without explicit Boolean syntax. Keyword retrieval will be selected."
+        },
+        "retrieval": {
+            "method": "KEYWORD",
+            "count": 2,
+            "results": [
+                {
+                    "document_id": "D02",
+                    "document_name": "02_covid_vaccination_basics",
+                    "score": 15.7756,
+                    "matched_terms": [
+                        "covid-19",
+                        "disease",
+                        "infection",
+                        "vaccines"
+                    ],
+                    "coverage": 0.5714,
+                    "total_term_frequency": 9
+                },
+                {
+                    "document_id": "D01",
+                    "document_name": "01_covid_transmission_and_prevention",
+                    "score": 13.8627,
+                    "matched_terms": [
+                        "covid-19",
+                        "disease",
+                        "infection",
+                        "reducing"
+                    ],
+                    "coverage": 0.5714,
+                    "total_term_frequency": 7
+                }
+            ]
+        },
+        "status": "RETRIEVAL_COMPLETED",
+        "query_id": "Q02",
+        "expected_document": "D03",
+        "expected_document_rank": null,
+        "expected_document_retrieved": false
+    },
+    {
+        "query": "How does COVID-19 vaccination help protect individuals and communities from infection?",
+        "query_understanding": {
+            "query": "How does COVID-19 vaccination help protect individuals and communities from infection?",
+            "query_type": "KEYWORD",
+            "terms": [
+                "how",
+                "does",
+                "covid-19",
+                "vaccination",
+                "help",
+                "protect",
+                "individuals",
+                "communities",
+                "from",
+                "infection"
+            ],
+            "keywords": [
+                "covid-19",
+                "vaccination",
+                "protect",
+                "individuals",
+                "communities",
+                "infection"
+            ],
+            "domain_terms": [
+                "covid-19",
+                "vaccination",
+                "infection"
+            ],
+            "term_count": 10,
+            "keyword_count": 6,
+            "contains_question_word": true,
+            "question_words": [
+                "how"
+            ],
+            "complexity": "HIGH"
+        },
+        "adaptive_decision": {
+            "method": "KEYWORD",
+            "confidence": 0.85,
+            "reason": "The query contains domain-specific terms without explicit Boolean syntax. Keyword retrieval will be selected."
+        },
+        "retrieval": {
+            "method": "KEYWORD",
+            "count": 2,
+            "results": [
+                {
+                    "document_id": "D01",
+                    "document_name": "01_covid_transmission_and_prevention",
+                    "score": 14.9342,
+                    "matched_terms": [
+                        "covid-19",
+                        "individuals",
+                        "infection",
+                        "vaccination"
+                    ],
+                    "coverage": 0.6667,
+                    "total_term_frequency": 8
+                },
+                {
+                    "document_id": "D02",
+                    "document_name": "02_covid_vaccination_basics",
+                    "score": 13.3775,
+                    "matched_terms": [
+                        "covid-19",
+                        "infection",
+                        "vaccination"
+                    ],
+                    "coverage": 0.5,
+                    "total_term_frequency": 11
+                }
+            ]
+        },
+        "status": "RETRIEVAL_COMPLETED",
+        "query_id": "Q03",
+        "expected_document": "D02",
+        "expected_document_rank": 2,
+        "expected_document_retrieved": true
+    },
+    {
+        "query": "What is the relationship between vaccination, COVID-19 testing, and early detection of infection?",
+        "query_understanding": {
+            "query": "What is the relationship between vaccination, COVID-19 testing, and early detection of infection?",
+            "query_type": "KEYWORD",
+            "terms": [
+                "what",
+                "is",
+                "the",
+                "relationship",
+                "between",
+                "vaccination",
+                "covid-19",
+                "testing",
+                "early",
+                "detection",
+                "of",
+                "infection"
+            ],
+            "keywords": [
+                "vaccination",
+                "covid-19",
+                "testing",
+                "early",
+                "detection",
+                "infection"
+            ],
+            "domain_terms": [
+                "vaccination",
+                "covid-19",
+                "testing",
+                "infection"
+            ],
+            "term_count": 12,
+            "keyword_count": 6,
+            "contains_question_word": true,
+            "question_words": [
+                "what"
+            ],
+            "complexity": "HIGH"
+        },
+        "adaptive_decision": {
+            "method": "KEYWORD",
+            "confidence": 0.85,
+            "reason": "The query contains domain-specific terms without explicit Boolean syntax. Keyword retrieval will be selected."
+        },
+        "retrieval": {
+            "method": "KEYWORD",
+            "count": 3,
+            "results": [
+                {
+                    "document_id": "D16",
+                    "document_name": "16_antiviral_treatment_and_testing",
+                    "score": 15.4137,
+                    "matched_terms": [
+                        "covid-19",
+                        "early",
+                        "infection",
+                        "testing"
+                    ],
+                    "coverage": 0.6667,
+                    "total_term_frequency": 11
+                },
+                {
+                    "document_id": "D02",
+                    "document_name": "02_covid_vaccination_basics",
+                    "score": 13.3775,
+                    "matched_terms": [
+                        "covid-19",
+                        "infection",
+                        "vaccination"
+                    ],
+                    "coverage": 0.5,
+                    "total_term_frequency": 11
+                },
+                {
+                    "document_id": "D01",
+                    "document_name": "01_covid_transmission_and_prevention",
+                    "score": 11.9426,
+                    "matched_terms": [
+                        "covid-19",
+                        "infection",
+                        "vaccination"
+                    ],
+                    "coverage": 0.5,
+                    "total_term_frequency": 7
+                }
+            ]
+        },
+        "status": "RETRIEVAL_COMPLETED",
+        "query_id": "Q04",
+        "expected_document": "D16",
+        "expected_document_rank": 1,
+        "expected_document_retrieved": true
+    },
+    {
+        "query": "How do quarantine and contact tracing help control infectious disease outbreaks?",
+        "query_understanding": {
+            "query": "How do quarantine and contact tracing help control infectious disease outbreaks?",
+            "query_type": "KEYWORD",
+            "terms": [
+                "how",
+                "do",
+                "quarantine",
+                "contact",
+                "tracing",
+                "help",
+                "control",
+                "infectious",
+                "disease",
+                "outbreaks"
+            ],
+            "keywords": [
+                "quarantine",
+                "contact",
+                "tracing",
+                "control",
+                "infectious",
+                "disease",
+                "outbreaks"
+            ],
+            "domain_terms": [
+                "quarantine",
+                "contact",
+                "tracing",
+                "infectious",
+                "disease"
+            ],
+            "term_count": 10,
+            "keyword_count": 7,
+            "contains_question_word": true,
+            "question_words": [
+                "how"
+            ],
+            "complexity": "HIGH"
+        },
+        "adaptive_decision": {
+            "method": "KEYWORD",
+            "confidence": 0.85,
+            "reason": "The query contains domain-specific terms without explicit Boolean syntax. Keyword retrieval will be selected."
+        },
+        "retrieval": {
+            "method": "KEYWORD",
+            "count": 1,
+            "results": [
+                {
+                    "document_id": "D06",
+                    "document_name": "06_contact_tracing",
+                    "score": 17.7821,
+                    "matched_terms": [
+                        "contact",
+                        "disease",
+                        "infectious",
+                        "tracing"
+                    ],
+                    "coverage": 0.5714,
+                    "total_term_frequency": 11
+                }
+            ]
+        },
+        "status": "RETRIEVAL_COMPLETED",
+        "query_id": "Q05",
+        "expected_document": "D06",
+        "expected_document_rank": 1,
+        "expected_document_retrieved": true
+    }
+]

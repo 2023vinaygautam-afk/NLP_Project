@@ -1,0 +1,9 @@
+Infectious Disease Outbreak Investigation
+
+An outbreak investigation seeks to determine whether an unusual increase in disease has occurred, characterize affected people and settings, identify likely sources or transmission routes, and guide control measures. The investigation begins with a clear case definition and confirmation that the observed increase is greater than expected.
+
+Investigators construct descriptive summaries by time, place, and person. An epidemic curve can show the timing of illness onset and may provide clues about the type of exposure. Mapping cases can identify geographic clustering, while demographic analysis can reveal differences by age, occupation, or other characteristics.
+
+Analytical epidemiology may compare exposures among cases and controls or among exposed and unexposed groups. Investigators must consider recall bias, selection bias, confounding, and incomplete reporting. Laboratory testing and genomic sequencing can provide additional evidence.
+
+Control measures should not necessarily wait until every scientific question is resolved. Depending on the pathogen and circumstances, measures can include isolation, vaccination, environmental controls, communication, testing, and targeted restrictions. Investigators continue evaluating the outbreak as new evidence becomes available.

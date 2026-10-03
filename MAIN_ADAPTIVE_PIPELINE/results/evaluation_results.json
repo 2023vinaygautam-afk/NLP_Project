@@ -1,0 +1,187 @@
+{
+    "summary": {
+        "evaluation_type": "Fixed Five-Query Adaptive Lexical Retrieval",
+        "total_queries": 5,
+        "total_documents": 20,
+        "average_precision": 0.0585,
+        "average_recall": 1.0,
+        "average_f1_score": 0.1105,
+        "average_precision_at_5": 0.16,
+        "average_recall_at_5": 0.8,
+        "mean_reciprocal_rank": 0.8333,
+        "average_latency_seconds": 0.000435
+    },
+    "query_results": [
+        {
+            "query_id": "Q01",
+            "query": "What are the main causes of COVID-19 transmission and how can it be prevented?",
+            "expected_relevant_documents": [
+                "D01"
+            ],
+            "retrieved_documents": [
+                "D01",
+                "D05",
+                "D02",
+                "D06",
+                "D07",
+                "D13",
+                "D14",
+                "D11",
+                "D03",
+                "D04",
+                "D19",
+                "D10",
+                "D12",
+                "D08",
+                "D09",
+                "D15",
+                "D16",
+                "D18",
+                "D20"
+            ],
+            "retrieved_count": 19,
+            "precision": 0.0526,
+            "recall": 1.0,
+            "f1_score": 0.1,
+            "precision_at_5": 0.2,
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "latency_seconds": 0.000777
+        },
+        {
+            "query_id": "Q02",
+            "query": "How effective are COVID-19 vaccines in preventing infection and reducing disease severity?",
+            "expected_relevant_documents": [
+                "D03"
+            ],
+            "retrieved_documents": [
+                "D02",
+                "D01",
+                "D16",
+                "D05",
+                "D04",
+                "D03",
+                "D14",
+                "D06",
+                "D13",
+                "D09",
+                "D11",
+                "D17",
+                "D20",
+                "D07",
+                "D08",
+                "D12",
+                "D18",
+                "D19"
+            ],
+            "retrieved_count": 18,
+            "precision": 0.0556,
+            "recall": 1.0,
+            "f1_score": 0.1053,
+            "precision_at_5": 0.0,
+            "recall_at_5": 0.0,
+            "reciprocal_rank": 0.1667,
+            "latency_seconds": 0.000307
+        },
+        {
+            "query_id": "Q03",
+            "query": "How does COVID-19 vaccination help protect individuals and communities from infection?",
+            "expected_relevant_documents": [
+                "D02"
+            ],
+            "retrieved_documents": [
+                "D02",
+                "D01",
+                "D11",
+                "D03",
+                "D16",
+                "D05",
+                "D14",
+                "D12",
+                "D15",
+                "D04",
+                "D07",
+                "D09",
+                "D18",
+                "D19",
+                "D20"
+            ],
+            "retrieved_count": 15,
+            "precision": 0.0667,
+            "recall": 1.0,
+            "f1_score": 0.125,
+            "precision_at_5": 0.2,
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "latency_seconds": 0.000324
+        },
+        {
+            "query_id": "Q04",
+            "query": "What is the relationship between vaccination, COVID-19 testing, and early detection of infection?",
+            "expected_relevant_documents": [
+                "D16"
+            ],
+            "retrieved_documents": [
+                "D16",
+                "D02",
+                "D01",
+                "D07",
+                "D03",
+                "D05",
+                "D12",
+                "D18",
+                "D20",
+                "D04",
+                "D09",
+                "D11",
+                "D15",
+                "D14",
+                "D06",
+                "D10",
+                "D19"
+            ],
+            "retrieved_count": 17,
+            "precision": 0.0588,
+            "recall": 1.0,
+            "f1_score": 0.1111,
+            "precision_at_5": 0.2,
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "latency_seconds": 0.000374
+        },
+        {
+            "query_id": "Q05",
+            "query": "How do quarantine and contact tracing help control infectious disease outbreaks?",
+            "expected_relevant_documents": [
+                "D06"
+            ],
+            "retrieved_documents": [
+                "D06",
+                "D14",
+                "D18",
+                "D04",
+                "D09",
+                "D17",
+                "D20",
+                "D19",
+                "D01",
+                "D05",
+                "D11",
+                "D13",
+                "D02",
+                "D16",
+                "D03",
+                "D07",
+                "D10"
+            ],
+            "retrieved_count": 17,
+            "precision": 0.0588,
+            "recall": 1.0,
+            "f1_score": 0.1111,
+            "precision_at_5": 0.2,
+            "recall_at_5": 1.0,
+            "reciprocal_rank": 1.0,
+            "latency_seconds": 0.000395
+        }
+    ]
+}

@@ -1,0 +1,401 @@
+query_id,document_id,document,topic,query,expected_document
+D01_Q01,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,What are the main routes of COVID-19 transmission?,01_covid_transmission_and_prevention.txt
+D01_Q02,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,Why is ventilation important for COVID-19 prevention?,01_covid_transmission_and_prevention.txt
+D01_Q03,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,How do respiratory particles contribute to SARS-CoV-2 spread?,01_covid_transmission_and_prevention.txt
+D01_Q04,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,What prevention measures can reduce COVID-19 transmission indoors?,01_covid_transmission_and_prevention.txt
+D01_Q05,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,Why should people stay home when acutely ill?,01_covid_transmission_and_prevention.txt
+D01_Q06,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,How does masking contribute to respiratory infection prevention?,01_covid_transmission_and_prevention.txt
+D01_Q07,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,Is hand hygiene the only important COVID-19 prevention measure?,01_covid_transmission_and_prevention.txt
+D01_Q08,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,How does vaccination fit into a layered prevention strategy?,01_covid_transmission_and_prevention.txt
+D01_Q09,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,Why should COVID-19 prevention measures be adjusted to local transmission?,01_covid_transmission_and_prevention.txt
+D01_Q10,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,What indicators can public-health authorities use to assess COVID-19 activity?,01_covid_transmission_and_prevention.txt
+D01_Q11,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,How do crowded indoor environments affect transmission risk?,01_covid_transmission_and_prevention.txt
+D01_Q12,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,What role does filtration play in reducing respiratory virus exposure?,01_covid_transmission_and_prevention.txt
+D01_Q13,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,Why is no single prevention measure sufficient?,01_covid_transmission_and_prevention.txt
+D01_Q14,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,How can community-level surveillance guide prevention?,01_covid_transmission_and_prevention.txt
+D01_Q15,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,How does vaccination differ from ventilation as a prevention measure?,01_covid_transmission_and_prevention.txt
+D01_Q16,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,What factors should individuals consider when assessing respiratory infection risk?,01_covid_transmission_and_prevention.txt
+D01_Q17,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,Why can reported COVID-19 cases be only one part of disease surveillance?,01_covid_transmission_and_prevention.txt
+D01_Q18,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,How can public-health measures be combined rather than used separately?,01_covid_transmission_and_prevention.txt
+D01_Q19,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,What is the relationship between infectious illness and staying home?,01_covid_transmission_and_prevention.txt
+D01_Q20,D01,01_covid_transmission_and_prevention.txt,COVID-19 Transmission and Community Prevention,How does layered prevention reduce COVID-19 risk?,01_covid_transmission_and_prevention.txt
+D02_Q01,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,What is the purpose of a COVID-19 vaccine?,02_covid_vaccination_basics.txt
+D02_Q02,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,How do vaccines stimulate an immune response?,02_covid_vaccination_basics.txt
+D02_Q03,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,Does COVID-19 vaccination guarantee no infection?,02_covid_vaccination_basics.txt
+D02_Q04,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,What factors affect vaccine effectiveness?,02_covid_vaccination_basics.txt
+D02_Q05,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,How is protection against infection different from protection against hospitalization?,02_covid_vaccination_basics.txt
+D02_Q06,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,What is hybrid immunity?,02_covid_vaccination_basics.txt
+D02_Q07,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,Why can vaccine recommendations change over time?,02_covid_vaccination_basics.txt
+D02_Q08,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,What is the difference between relative and absolute risk?,02_covid_vaccination_basics.txt
+D02_Q09,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,Why is the comparison group important in vaccine studies?,02_covid_vaccination_basics.txt
+D02_Q10,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,How should vaccine effectiveness percentages be interpreted?,02_covid_vaccination_basics.txt
+D02_Q11,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,How can previous infection affect immune protection?,02_covid_vaccination_basics.txt
+D02_Q12,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,Why should vaccine outcomes be defined clearly?,02_covid_vaccination_basics.txt
+D02_Q13,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,What does vaccine protection against severe disease mean?,02_covid_vaccination_basics.txt
+D02_Q14,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,Why does time since vaccination matter?,02_covid_vaccination_basics.txt
+D02_Q15,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,How can circulating variants affect vaccine effectiveness?,02_covid_vaccination_basics.txt
+D02_Q16,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,What information should accompany a vaccine safety or effectiveness statistic?,02_covid_vaccination_basics.txt
+D02_Q17,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,Why should infection and hospitalization outcomes not be treated as identical?,02_covid_vaccination_basics.txt
+D02_Q18,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,How can public-health programs evaluate changing vaccine evidence?,02_covid_vaccination_basics.txt
+D02_Q19,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,What does immune response mean in the context of vaccination?,02_covid_vaccination_basics.txt
+D02_Q20,D02,02_covid_vaccination_basics.txt,COVID-19 Vaccination: Basic Concepts,Why is context important when communicating vaccine effectiveness?,02_covid_vaccination_basics.txt
+D03_Q01,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,What is vaccine effectiveness?,03_vaccine_effectiveness_and_studies.txt
+D03_Q02,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,How is vaccine effectiveness estimated in real-world studies?,03_vaccine_effectiveness_and_studies.txt
+D03_Q03,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,What is a cohort study in vaccine research?,03_vaccine_effectiveness_and_studies.txt
+D03_Q04,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,What is a case-control study?,03_vaccine_effectiveness_and_studies.txt
+D03_Q05,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,What is a test-negative study design?,03_vaccine_effectiveness_and_studies.txt
+D03_Q06,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,Why is confounding important in vaccine effectiveness studies?,03_vaccine_effectiveness_and_studies.txt
+D03_Q07,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,How can age affect vaccine effectiveness estimates?,03_vaccine_effectiveness_and_studies.txt
+D03_Q08,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,Why do trial efficacy and real-world effectiveness differ?,03_vaccine_effectiveness_and_studies.txt
+D03_Q09,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,Why should hospitalization and infection be analyzed separately?,03_vaccine_effectiveness_and_studies.txt
+D03_Q10,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,What is waning vaccine protection?,03_vaccine_effectiveness_and_studies.txt
+D03_Q11,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,How can circulating variants affect effectiveness estimates?,03_vaccine_effectiveness_and_studies.txt
+D03_Q12,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,Why are observational vaccine studies vulnerable to selection bias?,03_vaccine_effectiveness_and_studies.txt
+D03_Q13,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,How can statistical adjustment reduce confounding?,03_vaccine_effectiveness_and_studies.txt
+D03_Q14,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,Can statistical adjustment remove every source of bias?,03_vaccine_effectiveness_and_studies.txt
+D03_Q15,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,What information is needed to interpret a vaccine study?,03_vaccine_effectiveness_and_studies.txt
+D03_Q16,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,Why are uncertainty intervals important?,03_vaccine_effectiveness_and_studies.txt
+D03_Q17,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,How can vaccination timing affect study results?,03_vaccine_effectiveness_and_studies.txt
+D03_Q18,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,Why should vaccine effectiveness be stratified by population when appropriate?,03_vaccine_effectiveness_and_studies.txt
+D03_Q19,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,What is the difference between vaccine efficacy and effectiveness?,03_vaccine_effectiveness_and_studies.txt
+D03_Q20,D03,03_vaccine_effectiveness_and_studies.txt,Evaluating Vaccine Effectiveness,How should limitations of observational vaccine studies be communicated?,03_vaccine_effectiveness_and_studies.txt
+D04_Q01,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,What is incidence in epidemiology?,04_epidemiology_incidence_prevalence.txt
+D04_Q02,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,What is prevalence?,04_epidemiology_incidence_prevalence.txt
+D04_Q03,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,What is the difference between incidence and prevalence?,04_epidemiology_incidence_prevalence.txt
+D04_Q04,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,Why can a disease have high incidence but low prevalence?,04_epidemiology_incidence_prevalence.txt
+D04_Q05,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,How does disease duration affect prevalence?,04_epidemiology_incidence_prevalence.txt
+D04_Q06,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,Why is a case definition important?,04_epidemiology_incidence_prevalence.txt
+D04_Q07,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,How can testing availability affect reported incidence?,04_epidemiology_incidence_prevalence.txt
+D04_Q08,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,Why can reported COVID-19 cases be misleading when testing changes?,04_epidemiology_incidence_prevalence.txt
+D04_Q09,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,What other indicators can complement case counts?,04_epidemiology_incidence_prevalence.txt
+D04_Q10,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,What is point prevalence?,04_epidemiology_incidence_prevalence.txt
+D04_Q11,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,What is period prevalence?,04_epidemiology_incidence_prevalence.txt
+D04_Q12,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,Why must epidemiologists define the population being studied?,04_epidemiology_incidence_prevalence.txt
+D04_Q13,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,How does the time interval affect an incidence measurement?,04_epidemiology_incidence_prevalence.txt
+D04_Q14,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,Why are hospitalization data useful in respiratory disease surveillance?,04_epidemiology_incidence_prevalence.txt
+D04_Q15,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,How can mortality data complement incidence data?,04_epidemiology_incidence_prevalence.txt
+D04_Q16,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,What is test positivity used for?,04_epidemiology_incidence_prevalence.txt
+D04_Q17,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,Why can wastewater data complement reported cases?,04_epidemiology_incidence_prevalence.txt
+D04_Q18,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,How can changes in healthcare access affect observed disease rates?,04_epidemiology_incidence_prevalence.txt
+D04_Q19,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,Why should incidence and prevalence not be used interchangeably?,04_epidemiology_incidence_prevalence.txt
+D04_Q20,D04,04_epidemiology_incidence_prevalence.txt,Incidence and Prevalence in Infectious Disease Epidemiology,How can multiple surveillance indicators improve interpretation?,04_epidemiology_incidence_prevalence.txt
+D05_Q01,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,What is the basic reproduction number R0?,05_basic_reproduction_number.txt
+D05_Q02,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,What does the effective reproduction number mean?,05_basic_reproduction_number.txt
+D05_Q03,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,How is Rt different from R0?,05_basic_reproduction_number.txt
+D05_Q04,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,What happens when the effective reproduction number remains above one?,05_basic_reproduction_number.txt
+D05_Q05,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,What happens when Rt remains below one?,05_basic_reproduction_number.txt
+D05_Q06,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,How can vaccination affect effective transmission?,05_basic_reproduction_number.txt
+D05_Q07,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,How can prior immunity influence reproduction numbers?,05_basic_reproduction_number.txt
+D05_Q08,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,Why is R0 not a fixed property in every setting?,05_basic_reproduction_number.txt
+D05_Q09,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,What assumptions are used when estimating reproduction numbers?,05_basic_reproduction_number.txt
+D05_Q10,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,How can reporting delays affect Rt estimates?,05_basic_reproduction_number.txt
+D05_Q11,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,Why are reproduction number estimates uncertain?,05_basic_reproduction_number.txt
+D05_Q12,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,How can behavior change transmission?,05_basic_reproduction_number.txt
+D05_Q13,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,How do public-health interventions affect effective reproduction?,05_basic_reproduction_number.txt
+D05_Q14,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,Why should reproduction numbers be interpreted with other indicators?,05_basic_reproduction_number.txt
+D05_Q15,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,Can the same reproduction number represent different outbreak sizes?,05_basic_reproduction_number.txt
+D05_Q16,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,Why are small case counts challenging for reproduction-number estimation?,05_basic_reproduction_number.txt
+D05_Q17,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,What role do statistical models play in estimating Rt?,05_basic_reproduction_number.txt
+D05_Q18,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,How do population conditions affect effective reproduction?,05_basic_reproduction_number.txt
+D05_Q19,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,What is the relationship between transmission and epidemic growth?,05_basic_reproduction_number.txt
+D05_Q20,D05,05_basic_reproduction_number.txt,Reproduction Numbers and Outbreak Growth,Why should reproduction numbers not be interpreted in isolation?,05_basic_reproduction_number.txt
+D06_Q01,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,What is contact tracing?,06_contact_tracing.txt
+D06_Q02,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,What is the purpose of contact tracing?,06_contact_tracing.txt
+D06_Q03,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,How are contacts identified after an infectious disease case?,06_contact_tracing.txt
+D06_Q04,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,What factors determine whether someone is considered a contact?,06_contact_tracing.txt
+D06_Q05,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,Why is timing important in contact tracing?,06_contact_tracing.txt
+D06_Q06,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,What role can digital tools play in contact tracing?,06_contact_tracing.txt
+D06_Q07,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,Why are privacy and confidentiality important?,06_contact_tracing.txt
+D06_Q08,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,When is contact tracing most effective?,06_contact_tracing.txt
+D06_Q09,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,How can delayed case identification reduce contact-tracing effectiveness?,06_contact_tracing.txt
+D06_Q10,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,Why might contact tracing become difficult during high community transmission?,06_contact_tracing.txt
+D06_Q11,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,What support do contacts need after notification?,06_contact_tracing.txt
+D06_Q12,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,How can testing support contact tracing?,06_contact_tracing.txt
+D06_Q13,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,What is the typical workflow of a contact-tracing investigation?,06_contact_tracing.txt
+D06_Q14,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,Why is public-health judgment still needed when digital tools are used?,06_contact_tracing.txt
+D06_Q15,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,How can isolation resources affect contact tracing?,06_contact_tracing.txt
+D06_Q16,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,Why might asymptomatic infections make tracing harder?,06_contact_tracing.txt
+D06_Q17,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,What information is collected during contact tracing?,06_contact_tracing.txt
+D06_Q18,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,How can contact tracing complement community prevention?,06_contact_tracing.txt
+D06_Q19,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,When might broad prevention measures be needed alongside tracing?,06_contact_tracing.txt
+D06_Q20,D06,06_contact_tracing.txt,Contact Tracing and Exposure Management,Why does rapid notification matter?,06_contact_tracing.txt
+D07_Q01,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,What is wastewater surveillance?,07_wastewater_surveillance.txt
+D07_Q02,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,How can wastewater be used to monitor COVID-19?,07_wastewater_surveillance.txt
+D07_Q03,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,Why can wastewater surveillance help when clinical testing declines?,07_wastewater_surveillance.txt
+D07_Q04,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,Does wastewater surveillance diagnose individual people?,07_wastewater_surveillance.txt
+D07_Q05,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,What factors affect wastewater measurements?,07_wastewater_surveillance.txt
+D07_Q06,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,How can rainfall influence wastewater surveillance?,07_wastewater_surveillance.txt
+D07_Q07,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,Why is wastewater concentration not a direct count of infections?,07_wastewater_surveillance.txt
+D07_Q08,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,How does wastewater surveillance provide population-level information?,07_wastewater_surveillance.txt
+D07_Q09,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,What are the limitations of wastewater surveillance?,07_wastewater_surveillance.txt
+D07_Q10,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,How can wastewater data be combined with clinical surveillance?,07_wastewater_surveillance.txt
+D07_Q11,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,Why is sampling location important?,07_wastewater_surveillance.txt
+D07_Q12,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,How does population size served by a wastewater plant affect interpretation?,07_wastewater_surveillance.txt
+D07_Q13,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,What role does sampling frequency play?,07_wastewater_surveillance.txt
+D07_Q14,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,Why can shedding patterns affect wastewater signals?,07_wastewater_surveillance.txt
+D07_Q15,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,Can wastewater surveillance identify individual patients?,07_wastewater_surveillance.txt
+D07_Q16,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,How can wastewater surveillance complement testing?,07_wastewater_surveillance.txt
+D07_Q17,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,Why should wastewater trends be interpreted cautiously?,07_wastewater_surveillance.txt
+D07_Q18,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,What is the public-health value of wastewater monitoring?,07_wastewater_surveillance.txt
+D07_Q19,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,How can wastewater surveillance support early warning?,07_wastewater_surveillance.txt
+D07_Q20,D07,07_wastewater_surveillance.txt,Wastewater Surveillance for Respiratory Viruses,Why is wastewater surveillance a monitoring tool rather than a diagnostic test?,07_wastewater_surveillance.txt
+D08_Q01,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,What is SARS-CoV-2 variant surveillance?,08_variant_surveillance.txt
+D08_Q02,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,Why is genomic sequencing used for SARS-CoV-2?,08_variant_surveillance.txt
+D08_Q03,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,What does a viral lineage represent?,08_variant_surveillance.txt
+D08_Q04,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,Does a new mutation automatically make a variant more transmissible?,08_variant_surveillance.txt
+D08_Q05,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,How are variants evaluated for public-health significance?,08_variant_surveillance.txt
+D08_Q06,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,What role does epidemiological evidence play in variant assessment?,08_variant_surveillance.txt
+D08_Q07,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,How can variants affect diagnostics?,08_variant_surveillance.txt
+D08_Q08,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,How can variants affect vaccines?,08_variant_surveillance.txt
+D08_Q09,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,Why are sequencing samples not always representative?,08_variant_surveillance.txt
+D08_Q10,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,How can sampling bias affect variant surveillance?,08_variant_surveillance.txt
+D08_Q11,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,What is genomic surveillance?,08_variant_surveillance.txt
+D08_Q12,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,Why should genomic data be linked with clinical information?,08_variant_surveillance.txt
+D08_Q13,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,How can laboratory studies complement epidemiological studies?,08_variant_surveillance.txt
+D08_Q14,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,Why can multiple mutations occur together?,08_variant_surveillance.txt
+D08_Q15,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,How is a mutation's effect determined?,08_variant_surveillance.txt
+D08_Q16,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,What limitations exist in genomic surveillance?,08_variant_surveillance.txt
+D08_Q17,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,How can sequencing help detect emerging lineages?,08_variant_surveillance.txt
+D08_Q18,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,Why should variant data be interpreted with other surveillance data?,08_variant_surveillance.txt
+D08_Q19,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,What is the purpose of international genomic databases?,08_variant_surveillance.txt
+D08_Q20,D08,08_variant_surveillance.txt,SARS-CoV-2 Variant Surveillance,How can variant surveillance support public-health response?,08_variant_surveillance.txt
+D09_Q01,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,What is an infectious disease outbreak investigation?,09_outbreak_investigation.txt
+D09_Q02,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,What is a case definition?,09_outbreak_investigation.txt
+D09_Q03,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,How do investigators determine whether an outbreak has occurred?,09_outbreak_investigation.txt
+D09_Q04,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,What does an epidemic curve show?,09_outbreak_investigation.txt
+D09_Q05,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,"How are cases analyzed by time, place, and person?",09_outbreak_investigation.txt
+D09_Q06,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,Why is geographic mapping useful during an outbreak?,09_outbreak_investigation.txt
+D09_Q07,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,How can demographic information help an outbreak investigation?,09_outbreak_investigation.txt
+D09_Q08,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,What is analytical epidemiology?,09_outbreak_investigation.txt
+D09_Q09,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,What is the purpose of comparing cases and controls?,09_outbreak_investigation.txt
+D09_Q10,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,What biases can affect outbreak investigations?,09_outbreak_investigation.txt
+D09_Q11,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,How can laboratory testing support an outbreak investigation?,09_outbreak_investigation.txt
+D09_Q12,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,What role can genomic sequencing play?,09_outbreak_investigation.txt
+D09_Q13,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,Why might control measures begin before an investigation is complete?,09_outbreak_investigation.txt
+D09_Q14,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,What interventions can be used during an outbreak?,09_outbreak_investigation.txt
+D09_Q15,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,Why is ongoing evaluation necessary during an outbreak?,09_outbreak_investigation.txt
+D09_Q16,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,How does a case definition affect outbreak counts?,09_outbreak_investigation.txt
+D09_Q17,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,What is recall bias?,09_outbreak_investigation.txt
+D09_Q18,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,What is selection bias?,09_outbreak_investigation.txt
+D09_Q19,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,How can confounding affect outbreak studies?,09_outbreak_investigation.txt
+D09_Q20,D09,09_outbreak_investigation.txt,Infectious Disease Outbreak Investigation,Why is outbreak investigation both descriptive and analytical?,09_outbreak_investigation.txt
+D10_Q01,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,What is public health surveillance?,10_public_health_surveillance.txt
+D10_Q02,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,What are the main components of surveillance?,10_public_health_surveillance.txt
+D10_Q03,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,What is passive surveillance?,10_public_health_surveillance.txt
+D10_Q04,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,What is active surveillance?,10_public_health_surveillance.txt
+D10_Q05,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,What is sentinel surveillance?,10_public_health_surveillance.txt
+D10_Q06,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,Why is a case definition important in surveillance?,10_public_health_surveillance.txt
+D10_Q07,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,What makes surveillance data timely?,10_public_health_surveillance.txt
+D10_Q08,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,What makes surveillance data representative?,10_public_health_surveillance.txt
+D10_Q09,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,How can testing changes affect surveillance trends?,10_public_health_surveillance.txt
+D10_Q10,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,Why should surveillance systems have a defined objective?,10_public_health_surveillance.txt
+D10_Q11,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,What role do laboratory results play in surveillance?,10_public_health_surveillance.txt
+D10_Q12,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,How can hospital data complement case reports?,10_public_health_surveillance.txt
+D10_Q13,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,What is syndromic surveillance?,10_public_health_surveillance.txt
+D10_Q14,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,How can mortality data support infectious disease surveillance?,10_public_health_surveillance.txt
+D10_Q15,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,What are the limitations of passive surveillance?,10_public_health_surveillance.txt
+D10_Q16,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,Why can active surveillance be more resource intensive?,10_public_health_surveillance.txt
+D10_Q17,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,How does sentinel surveillance work?,10_public_health_surveillance.txt
+D10_Q18,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,Why should multiple data sources be triangulated?,10_public_health_surveillance.txt
+D10_Q19,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,How can reporting-system changes create misleading trends?,10_public_health_surveillance.txt
+D10_Q20,D10,10_public_health_surveillance.txt,Public Health Surveillance Systems,Why are data quality and completeness important?,10_public_health_surveillance.txt
+D11_Q01,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,What are core infection-prevention practices in healthcare?,11_infection_prevention_healthcare.txt
+D11_Q02,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,Why is hand hygiene important in healthcare settings?,11_infection_prevention_healthcare.txt
+D11_Q03,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,How is personal protective equipment selected?,11_infection_prevention_healthcare.txt
+D11_Q04,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,What role does ventilation play in healthcare infection prevention?,11_infection_prevention_healthcare.txt
+D11_Q05,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,Why is patient placement important?,11_infection_prevention_healthcare.txt
+D11_Q06,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,What are administrative infection-control measures?,11_infection_prevention_healthcare.txt
+D11_Q07,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,What are engineering controls?,11_infection_prevention_healthcare.txt
+D11_Q08,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,How can healthcare worker vaccination support infection prevention?,11_infection_prevention_healthcare.txt
+D11_Q09,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,Why is staff training important?,11_infection_prevention_healthcare.txt
+D11_Q10,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,How can healthcare facilities monitor infection prevention?,11_infection_prevention_healthcare.txt
+D11_Q11,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,What is a layered infection-prevention strategy?,11_infection_prevention_healthcare.txt
+D11_Q12,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,Why is environmental cleaning important?,11_infection_prevention_healthcare.txt
+D11_Q13,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,How can triage reduce healthcare transmission?,11_infection_prevention_healthcare.txt
+D11_Q14,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,Why should infection prevention be adapted to the pathogen?,11_infection_prevention_healthcare.txt
+D11_Q15,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,How can healthcare-associated infection data be used?,11_infection_prevention_healthcare.txt
+D11_Q16,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,Why are respiratory hygiene practices important?,11_infection_prevention_healthcare.txt
+D11_Q17,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,How can facility design affect infection transmission?,11_infection_prevention_healthcare.txt
+D11_Q18,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,Why is no single infection-control measure sufficient?,11_infection_prevention_healthcare.txt
+D11_Q19,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,How can outbreaks among healthcare workers be monitored?,11_infection_prevention_healthcare.txt
+D11_Q20,D11,11_infection_prevention_healthcare.txt,Infection Prevention in Healthcare Settings,Why should infection-prevention programs be updated?,11_infection_prevention_healthcare.txt
+D12_Q01,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,Why is vaccine safety monitored after authorization?,12_vaccine_safety_monitoring.txt
+D12_Q02,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,What is an adverse event following immunization?,12_vaccine_safety_monitoring.txt
+D12_Q03,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,Does an adverse event after vaccination prove causation?,12_vaccine_safety_monitoring.txt
+D12_Q04,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,Why are rare adverse events difficult to detect before mass vaccination?,12_vaccine_safety_monitoring.txt
+D12_Q05,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,What is passive vaccine safety surveillance?,12_vaccine_safety_monitoring.txt
+D12_Q06,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,What are the limitations of passive reporting systems?,12_vaccine_safety_monitoring.txt
+D12_Q07,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,What is active safety surveillance?,12_vaccine_safety_monitoring.txt
+D12_Q08,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,Why are background rates important in vaccine safety assessment?,12_vaccine_safety_monitoring.txt
+D12_Q09,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,How does timing help assess vaccine safety signals?,12_vaccine_safety_monitoring.txt
+D12_Q10,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,What is stimulated reporting?,12_vaccine_safety_monitoring.txt
+D12_Q11,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,Why can reports be incomplete?,12_vaccine_safety_monitoring.txt
+D12_Q12,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,How are vaccine safety signals investigated?,12_vaccine_safety_monitoring.txt
+D12_Q13,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,Why should a reported event be distinguished from a confirmed causal relationship?,12_vaccine_safety_monitoring.txt
+D12_Q14,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,What evidence is used to evaluate vaccine causality?,12_vaccine_safety_monitoring.txt
+D12_Q15,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,How can epidemiological studies assess vaccine safety?,12_vaccine_safety_monitoring.txt
+D12_Q16,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,Why is sample size important in safety surveillance?,12_vaccine_safety_monitoring.txt
+D12_Q17,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,How can safety monitoring affect recommendations?,12_vaccine_safety_monitoring.txt
+D12_Q18,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,Why is ongoing surveillance necessary?,12_vaccine_safety_monitoring.txt
+D12_Q19,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,What is the benefit-risk concept in vaccine evaluation?,12_vaccine_safety_monitoring.txt
+D12_Q20,D12,12_vaccine_safety_monitoring.txt,Vaccine Safety and Adverse Event Monitoring,How should vaccine safety information be communicated?,12_vaccine_safety_monitoring.txt
+D13_Q01,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,What is risk communication in public health?,13_risk_communication.txt
+D13_Q02,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,Why is uncertainty important to communicate?,13_risk_communication.txt
+D13_Q03,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,How can percentages be misleading without context?,13_risk_communication.txt
+D13_Q04,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,What is the difference between absolute and relative risk?,13_risk_communication.txt
+D13_Q05,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,Why should public-health messages identify the population studied?,13_risk_communication.txt
+D13_Q06,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,Why can recommendations change during an outbreak?,13_risk_communication.txt
+D13_Q07,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,How can communicating uncertainty support trust?,13_risk_communication.txt
+D13_Q08,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,What information should be included in a risk message?,13_risk_communication.txt
+D13_Q09,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,How can misinformation affect outbreak communication?,13_risk_communication.txt
+D13_Q10,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,Why should sources and dates be checked?,13_risk_communication.txt
+D13_Q11,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,How can language affect health communication?,13_risk_communication.txt
+D13_Q12,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,Why is accessibility important in public-health messaging?,13_risk_communication.txt
+D13_Q13,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,How should preliminary evidence be described?,13_risk_communication.txt
+D13_Q14,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,Why should practical actions be included in risk communication?,13_risk_communication.txt
+D13_Q15,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,What makes a public-health message understandable?,13_risk_communication.txt
+D13_Q16,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,Why is the denominator important when presenting risk?,13_risk_communication.txt
+D13_Q17,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,How can communicators explain changing guidance?,13_risk_communication.txt
+D13_Q18,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,Why should risk communication distinguish facts from uncertainty?,13_risk_communication.txt
+D13_Q19,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,How can cultural context affect communication?,13_risk_communication.txt
+D13_Q20,D13,13_risk_communication.txt,Risk Communication During Infectious Disease Events,What role does health literacy play in outbreak response?,13_risk_communication.txt
+D14_Q01,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,Why can respiratory infections spread in schools?,14_school_outbreak_prevention.txt
+D14_Q02,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,How can school ventilation reduce transmission?,14_school_outbreak_prevention.txt
+D14_Q03,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,Why are outdoor activities sometimes useful?,14_school_outbreak_prevention.txt
+D14_Q04,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,How can schools respond to clusters of illness?,14_school_outbreak_prevention.txt
+D14_Q05,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,What role does vaccination play in school prevention?,14_school_outbreak_prevention.txt
+D14_Q06,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,Why should students with acute respiratory illness stay home?,14_school_outbreak_prevention.txt
+D14_Q07,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,How can schools communicate prevention measures to families?,14_school_outbreak_prevention.txt
+D14_Q08,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,Why should outbreak measures be proportionate?,14_school_outbreak_prevention.txt
+D14_Q09,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,How can schools balance disease control with educational continuity?,14_school_outbreak_prevention.txt
+D14_Q10,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,When should schools consult public-health authorities?,14_school_outbreak_prevention.txt
+D14_Q11,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,How can indoor air quality affect respiratory infection risk?,14_school_outbreak_prevention.txt
+D14_Q12,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,What role can symptom awareness play in schools?,14_school_outbreak_prevention.txt
+D14_Q13,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,Why are broad school closures not automatically necessary?,14_school_outbreak_prevention.txt
+D14_Q14,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,How can schools prepare for respiratory virus outbreaks?,14_school_outbreak_prevention.txt
+D14_Q15,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,What information should families receive during a school outbreak?,14_school_outbreak_prevention.txt
+D14_Q16,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,How can school administrators coordinate with health professionals?,14_school_outbreak_prevention.txt
+D14_Q17,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,Why is targeted prevention useful in school settings?,14_school_outbreak_prevention.txt
+D14_Q18,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,How can vaccination programs support school health?,14_school_outbreak_prevention.txt
+D14_Q19,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,What factors determine appropriate school outbreak measures?,14_school_outbreak_prevention.txt
+D14_Q20,D14,14_school_outbreak_prevention.txt,Respiratory Infection Prevention in Schools,Why is communication important during school outbreaks?,14_school_outbreak_prevention.txt
+D15_Q01,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,Who may be at higher risk of severe respiratory infection?,15_vulnerable_populations.txt
+D15_Q02,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,Why can age affect infectious disease severity?,15_vulnerable_populations.txt
+D15_Q03,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,How can vaccination protect higher-risk populations?,15_vulnerable_populations.txt
+D15_Q04,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,Why is timely clinical care important for higher-risk people?,15_vulnerable_populations.txt
+D15_Q05,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,What community measures can protect vulnerable populations?,15_vulnerable_populations.txt
+D15_Q06,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,How can healthcare facilities protect high-risk patients?,15_vulnerable_populations.txt
+D15_Q07,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,Why should risk not be determined by a single characteristic?,15_vulnerable_populations.txt
+D15_Q08,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,How can prior immunity affect risk?,15_vulnerable_populations.txt
+D15_Q09,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,Why can treatment access affect outcomes?,15_vulnerable_populations.txt
+D15_Q10,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,What barriers can reduce access to prevention?,15_vulnerable_populations.txt
+D15_Q11,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,Why are transportation barriers relevant to public health?,15_vulnerable_populations.txt
+D15_Q12,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,How can language barriers affect healthcare access?,15_vulnerable_populations.txt
+D15_Q13,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,What role do caregivers play in protecting higher-risk people?,15_vulnerable_populations.txt
+D15_Q14,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,Why may residential settings need additional precautions?,15_vulnerable_populations.txt
+D15_Q15,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,How can community transmission affect higher-risk populations?,15_vulnerable_populations.txt
+D15_Q16,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,Why should public-health planning consider equity?,15_vulnerable_populations.txt
+D15_Q17,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,How can vaccination access be improved?,15_vulnerable_populations.txt
+D15_Q18,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,Why should risk communication avoid treating all high-risk groups identically?,15_vulnerable_populations.txt
+D15_Q19,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,How do multiple risk factors interact?,15_vulnerable_populations.txt
+D15_Q20,D15,15_vulnerable_populations.txt,Protecting Higher-Risk Populations During Respiratory Virus Activity,Why is access to healthcare part of infectious disease prevention?,15_vulnerable_populations.txt
+D16_Q01,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,What is the difference between molecular and antigen tests?,16_antiviral_treatment_and_testing.txt
+D16_Q02,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,How does a molecular test detect SARS-CoV-2?,16_antiviral_treatment_and_testing.txt
+D16_Q03,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,What does an antigen test detect?,16_antiviral_treatment_and_testing.txt
+D16_Q04,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,Why can a negative test fail to rule out infection?,16_antiviral_treatment_and_testing.txt
+D16_Q05,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,How does testing timing affect results?,16_antiviral_treatment_and_testing.txt
+D16_Q06,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,Why does specimen collection matter?,16_antiviral_treatment_and_testing.txt
+D16_Q07,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,What factors should be considered when interpreting a negative test?,16_antiviral_treatment_and_testing.txt
+D16_Q08,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,What are antivirals used for in COVID-19?,16_antiviral_treatment_and_testing.txt
+D16_Q09,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,Why does timing matter for antiviral treatment?,16_antiviral_treatment_and_testing.txt
+D16_Q10,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,Who should determine antiviral eligibility?,16_antiviral_treatment_and_testing.txt
+D16_Q11,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,Why must drug interactions be considered?,16_antiviral_treatment_and_testing.txt
+D16_Q12,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,Why should public-health information not replace clinical assessment?,16_antiviral_treatment_and_testing.txt
+D16_Q13,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,How can testing support outbreak control?,16_antiviral_treatment_and_testing.txt
+D16_Q14,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,How can testing demand be monitored?,16_antiviral_treatment_and_testing.txt
+D16_Q15,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,Why can antigen test sensitivity vary?,16_antiviral_treatment_and_testing.txt
+D16_Q16,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,How can symptoms affect interpretation of testing?,16_antiviral_treatment_and_testing.txt
+D16_Q17,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,Why is prompt testing useful for eligible patients?,16_antiviral_treatment_and_testing.txt
+D16_Q18,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,What role does healthcare access play in treatment?,16_antiviral_treatment_and_testing.txt
+D16_Q19,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,How can testing and treatment programs work together?,16_antiviral_treatment_and_testing.txt
+D16_Q20,D16,16_antiviral_treatment_and_testing.txt,Testing and Antiviral Treatment in COVID-19 Care,Why should different test types not be treated as identical?,16_antiviral_treatment_and_testing.txt
+D17_Q01,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,What is health literacy?,17_misinformation_and_health_literacy.txt
+D17_Q02,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,Why is health literacy important during outbreaks?,17_misinformation_and_health_literacy.txt
+D17_Q03,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,How can people evaluate health information?,17_misinformation_and_health_literacy.txt
+D17_Q04,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,What are common sources of health misinformation?,17_misinformation_and_health_literacy.txt
+D17_Q05,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,Why should the date of health information be checked?,17_misinformation_and_health_literacy.txt
+D17_Q06,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,Why is the original study useful when evaluating a claim?,17_misinformation_and_health_literacy.txt
+D17_Q07,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,What is the difference between association and causation?,17_misinformation_and_health_literacy.txt
+D17_Q08,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,Why can a small study be insufficient for a population-level conclusion?,17_misinformation_and_health_literacy.txt
+D17_Q09,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,How can social media contribute to misinformation?,17_misinformation_and_health_literacy.txt
+D17_Q10,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,What evidence should support a health claim?,17_misinformation_and_health_literacy.txt
+D17_Q11,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,Why should preliminary findings be described carefully?,17_misinformation_and_health_literacy.txt
+D17_Q12,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,How can people compare information with recognized health sources?,17_misinformation_and_health_literacy.txt
+D17_Q13,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,Why is context important when evaluating statistics?,17_misinformation_and_health_literacy.txt
+D17_Q14,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,How can misinformation arise from outdated information?,17_misinformation_and_health_literacy.txt
+D17_Q15,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,Why is source credibility important?,17_misinformation_and_health_literacy.txt
+D17_Q16,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,How can health literacy improve decision-making?,17_misinformation_and_health_literacy.txt
+D17_Q17,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,Why should laboratory findings not automatically be generalized to populations?,17_misinformation_and_health_literacy.txt
+D17_Q18,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,How can clear explanations reduce confusion?,17_misinformation_and_health_literacy.txt
+D17_Q19,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,What is the role of evidence quality in health communication?,17_misinformation_and_health_literacy.txt
+D17_Q20,D17,17_misinformation_and_health_literacy.txt,Health Literacy and Infectious Disease Misinformation,Why should people distinguish correlation from causation?,17_misinformation_and_health_literacy.txt
+D18_Q01,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,What is infectious disease outbreak preparedness?,18_global_outbreak_preparedness.txt
+D18_Q02,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,What capabilities are needed for outbreak preparedness?,18_global_outbreak_preparedness.txt
+D18_Q03,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,Why are laboratory networks important?,18_global_outbreak_preparedness.txt
+D18_Q04,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,How does surveillance support outbreak preparedness?,18_global_outbreak_preparedness.txt
+D18_Q05,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,What is event-based reporting?,18_global_outbreak_preparedness.txt
+D18_Q06,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,Why is genomic sequencing useful for preparedness?,18_global_outbreak_preparedness.txt
+D18_Q07,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,Why is cross-border information sharing important?,18_global_outbreak_preparedness.txt
+D18_Q08,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,What role does emergency coordination play?,18_global_outbreak_preparedness.txt
+D18_Q09,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,How can hospitals prepare for infectious disease surges?,18_global_outbreak_preparedness.txt
+D18_Q10,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,Why are trained personnel important?,18_global_outbreak_preparedness.txt
+D18_Q11,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,What is the purpose of outbreak exercises?,18_global_outbreak_preparedness.txt
+D18_Q12,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,How can simulations identify weaknesses?,18_global_outbreak_preparedness.txt
+D18_Q13,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,Why should response roles be clearly defined?,18_global_outbreak_preparedness.txt
+D18_Q14,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,How can vaccination infrastructure support preparedness?,18_global_outbreak_preparedness.txt
+D18_Q15,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,What is the value of after-action evaluation?,18_global_outbreak_preparedness.txt
+D18_Q16,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,Why should preparedness be ongoing?,18_global_outbreak_preparedness.txt
+D18_Q17,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,How can data systems support outbreak response?,18_global_outbreak_preparedness.txt
+D18_Q18,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,What resources may be needed during an outbreak?,18_global_outbreak_preparedness.txt
+D18_Q19,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,How can communication capacity affect preparedness?,18_global_outbreak_preparedness.txt
+D18_Q20,D18,18_global_outbreak_preparedness.txt,Global Outbreak Preparedness and Response,Why can routine public-health investment improve outbreak response?,18_global_outbreak_preparedness.txt
+D19_Q01,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,What is an epidemiological model?,19_epidemiological_models.txt
+D19_Q02,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,What is the SIR model?,19_epidemiological_models.txt
+D19_Q03,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,"What do susceptible, infected, and recovered compartments represent?",19_epidemiological_models.txt
+D19_Q04,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,How can models include vaccination status?,19_epidemiological_models.txt
+D19_Q05,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,Why are epidemiological models dependent on assumptions?,19_epidemiological_models.txt
+D19_Q06,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,Are model outputs exact predictions?,19_epidemiological_models.txt
+D19_Q07,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,What is model calibration?,19_epidemiological_models.txt
+D19_Q08,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,What is sensitivity analysis?,19_epidemiological_models.txt
+D19_Q09,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,Why is uncertainty important in epidemic modeling?,19_epidemiological_models.txt
+D19_Q10,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,How can behavior changes affect model results?,19_epidemiological_models.txt
+D19_Q11,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,How can immunity affect model projections?,19_epidemiological_models.txt
+D19_Q12,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,Why can viral characteristics change model scenarios?,19_epidemiological_models.txt
+D19_Q13,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,How can models help compare interventions?,19_epidemiological_models.txt
+D19_Q14,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,What is a scenario projection?,19_epidemiological_models.txt
+D19_Q15,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,Why should models be interpreted alongside surveillance data?,19_epidemiological_models.txt
+D19_Q16,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,How can healthcare capacity be represented in models?,19_epidemiological_models.txt
+D19_Q17,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,Why should model assumptions be reported transparently?,19_epidemiological_models.txt
+D19_Q18,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,What is the value of age-structured models?,19_epidemiological_models.txt
+D19_Q19,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,How can geographic structure be incorporated into models?,19_epidemiological_models.txt
+D19_Q20,D19,19_epidemiological_models.txt,Epidemiological Models for Infectious Disease Planning,Why are models useful even when exact forecasts are uncertain?,19_epidemiological_models.txt
+D20_Q01,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,What is a post-outbreak evaluation?,20_post_outbreak_evaluation.txt
+D20_Q02,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,Why should public-health responses be evaluated after an outbreak?,20_post_outbreak_evaluation.txt
+D20_Q03,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,What indicators can be used to evaluate outbreak response?,20_post_outbreak_evaluation.txt
+D20_Q04,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,How can detection time be evaluated?,20_post_outbreak_evaluation.txt
+D20_Q05,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,Why is testing turnaround time important?,20_post_outbreak_evaluation.txt
+D20_Q06,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,How can vaccination coverage be included in an evaluation?,20_post_outbreak_evaluation.txt
+D20_Q07,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,Why should healthcare capacity be assessed?,20_post_outbreak_evaluation.txt
+D20_Q08,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,How can communication reach be evaluated?,20_post_outbreak_evaluation.txt
+D20_Q09,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,Why must correlation be distinguished from causation?,20_post_outbreak_evaluation.txt
+D20_Q10,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,Why can case declines have multiple explanations?,20_post_outbreak_evaluation.txt
+D20_Q11,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,What is an after-action review?,20_post_outbreak_evaluation.txt
+D20_Q12,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,How can response plans be improved after an outbreak?,20_post_outbreak_evaluation.txt
+D20_Q13,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,Why is laboratory capacity important for future preparedness?,20_post_outbreak_evaluation.txt
+D20_Q14,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,How can data interoperability be improved?,20_post_outbreak_evaluation.txt
+D20_Q15,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,Why is workforce training part of preparedness?,20_post_outbreak_evaluation.txt
+D20_Q16,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,How can public-health communication procedures be revised?,20_post_outbreak_evaluation.txt
+D20_Q17,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,What operational lessons can be learned from an outbreak?,20_post_outbreak_evaluation.txt
+D20_Q18,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,Why should social and economic consequences also be considered?,20_post_outbreak_evaluation.txt
+D20_Q19,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,How can evaluation findings become concrete improvements?,20_post_outbreak_evaluation.txt
+D20_Q20,D20,20_post_outbreak_evaluation.txt,Evaluating Public Health Responses After an Outbreak,Why is post-outbreak evaluation important for future infectious disease events?,20_post_outbreak_evaluation.txt

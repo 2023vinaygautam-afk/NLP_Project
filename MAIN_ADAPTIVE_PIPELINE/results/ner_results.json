@@ -1,0 +1,1166 @@
+{
+    "total_documents": 20,
+    "total_spacy_entities": 10,
+    "total_custom_entities": 81,
+    "entity_categories": [
+        "DISEASE",
+        "MEDICAL_TERM",
+        "ORGANIZATION",
+        "TECHNOLOGY"
+    ],
+    "documents": [
+        {
+            "doc_id": "D01",
+            "document_name": "01_covid_transmission_and_prevention",
+            "spacy_entities": [
+                {
+                    "text": "covid-19",
+                    "label": "DATE",
+                    "start": 0,
+                    "end": 8,
+                    "source": "spaCy"
+                },
+                {
+                    "text": "covid-19",
+                    "label": "PERSON",
+                    "start": 47,
+                    "end": 55,
+                    "source": "spaCy"
+                },
+                {
+                    "text": "covid-19",
+                    "label": "DATE",
+                    "start": 909,
+                    "end": 917,
+                    "source": "spaCy"
+                }
+            ],
+            "custom_entities": [
+                {
+                    "text": "covid-19",
+                    "label": "DISEASE",
+                    "start": 0,
+                    "end": 8,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "covid-19",
+                    "label": "DISEASE",
+                    "start": 47,
+                    "end": 55,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "covid-19",
+                    "label": "DISEASE",
+                    "start": 909,
+                    "end": 917,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 918,
+                    "end": 929,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccine",
+                    "label": "MEDICAL_TERM",
+                    "start": 1027,
+                    "end": 1034,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 1207,
+                    "end": 1218,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 3,
+                "custom_entity_count": 6,
+                "common_entities": [],
+                "spacy_only": [
+                    [
+                        "covid-19",
+                        "DATE"
+                    ],
+                    [
+                        "covid-19",
+                        "PERSON"
+                    ]
+                ],
+                "custom_only": [
+                    [
+                        "covid-19",
+                        "DISEASE"
+                    ],
+                    [
+                        "vaccination",
+                        "MEDICAL_TERM"
+                    ],
+                    [
+                        "vaccine",
+                        "MEDICAL_TERM"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D02",
+            "document_name": "02_covid_vaccination_basics",
+            "spacy_entities": [
+                {
+                    "text": "covid-19",
+                    "label": "DATE",
+                    "start": 0,
+                    "end": 8,
+                    "source": "spaCy"
+                },
+                {
+                    "text": "covid-19",
+                    "label": "DATE",
+                    "start": 36,
+                    "end": 44,
+                    "source": "spaCy"
+                }
+            ],
+            "custom_entities": [
+                {
+                    "text": "covid-19",
+                    "label": "DISEASE",
+                    "start": 0,
+                    "end": 8,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 9,
+                    "end": 20,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "covid-19",
+                    "label": "DISEASE",
+                    "start": 36,
+                    "end": 44,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccine",
+                    "label": "MEDICAL_TERM",
+                    "start": 188,
+                    "end": 195,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 281,
+                    "end": 292,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 393,
+                    "end": 404,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccine",
+                    "label": "MEDICAL_TERM",
+                    "start": 465,
+                    "end": 472,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 535,
+                    "end": 546,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 906,
+                    "end": 917,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 999,
+                    "end": 1010,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccine",
+                    "label": "MEDICAL_TERM",
+                    "start": 1153,
+                    "end": 1160,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 2,
+                "custom_entity_count": 11,
+                "common_entities": [],
+                "spacy_only": [
+                    [
+                        "covid-19",
+                        "DATE"
+                    ]
+                ],
+                "custom_only": [
+                    [
+                        "covid-19",
+                        "DISEASE"
+                    ],
+                    [
+                        "vaccination",
+                        "MEDICAL_TERM"
+                    ],
+                    [
+                        "vaccine",
+                        "MEDICAL_TERM"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D03",
+            "document_name": "03_vaccine_effectiveness_and_studies",
+            "spacy_entities": [],
+            "custom_entities": [
+                {
+                    "text": "vaccine",
+                    "label": "MEDICAL_TERM",
+                    "start": 11,
+                    "end": 18,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccine",
+                    "label": "MEDICAL_TERM",
+                    "start": 33,
+                    "end": 40,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 716,
+                    "end": 727,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccine",
+                    "label": "MEDICAL_TERM",
+                    "start": 772,
+                    "end": 779,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 1055,
+                    "end": 1066,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccine",
+                    "label": "MEDICAL_TERM",
+                    "start": 1167,
+                    "end": 1174,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 0,
+                "custom_entity_count": 6,
+                "common_entities": [],
+                "spacy_only": [],
+                "custom_only": [
+                    [
+                        "vaccination",
+                        "MEDICAL_TERM"
+                    ],
+                    [
+                        "vaccine",
+                        "MEDICAL_TERM"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D04",
+            "document_name": "04_epidemiology_incidence_prevalence",
+            "spacy_entities": [
+                {
+                    "text": "covid-19",
+                    "label": "DATE",
+                    "start": 971,
+                    "end": 979,
+                    "source": "spaCy"
+                }
+            ],
+            "custom_entities": [
+                {
+                    "text": "infectious disease",
+                    "label": "DISEASE",
+                    "start": 28,
+                    "end": 46,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "epidemiology",
+                    "label": "MEDICAL_TERM",
+                    "start": 47,
+                    "end": 59,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "infectious disease",
+                    "label": "DISEASE",
+                    "start": 343,
+                    "end": 361,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "covid-19",
+                    "label": "DISEASE",
+                    "start": 971,
+                    "end": 979,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 1,
+                "custom_entity_count": 4,
+                "common_entities": [],
+                "spacy_only": [
+                    [
+                        "covid-19",
+                        "DATE"
+                    ]
+                ],
+                "custom_only": [
+                    [
+                        "covid-19",
+                        "DISEASE"
+                    ],
+                    [
+                        "epidemiology",
+                        "MEDICAL_TERM"
+                    ],
+                    [
+                        "infectious disease",
+                        "DISEASE"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D05",
+            "document_name": "05_basic_reproduction_number",
+            "spacy_entities": [
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start": 649,
+                    "end": 652,
+                    "source": "spaCy"
+                }
+            ],
+            "custom_entities": [
+                {
+                    "text": "reproduction number",
+                    "label": "MEDICAL_TERM",
+                    "start": 51,
+                    "end": 70,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "reproduction number",
+                    "label": "MEDICAL_TERM",
+                    "start": 374,
+                    "end": 393,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 464,
+                    "end": 475,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "reproduction number",
+                    "label": "MEDICAL_TERM",
+                    "start": 620,
+                    "end": 639,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "reproduction number",
+                    "label": "MEDICAL_TERM",
+                    "start": 1217,
+                    "end": 1236,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 1,
+                "custom_entity_count": 5,
+                "common_entities": [],
+                "spacy_only": [
+                    [
+                        "one",
+                        "CARDINAL"
+                    ]
+                ],
+                "custom_only": [
+                    [
+                        "reproduction number",
+                        "MEDICAL_TERM"
+                    ],
+                    [
+                        "vaccination",
+                        "MEDICAL_TERM"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D06",
+            "document_name": "06_contact_tracing",
+            "spacy_entities": [],
+            "custom_entities": [
+                {
+                    "text": "contact tracing",
+                    "label": "MEDICAL_TERM",
+                    "start": 0,
+                    "end": 15,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "contact tracing",
+                    "label": "MEDICAL_TERM",
+                    "start": 40,
+                    "end": 55,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "who",
+                    "label": "ORGANIZATION",
+                    "start": 107,
+                    "end": 110,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "infectious disease",
+                    "label": "DISEASE",
+                    "start": 139,
+                    "end": 157,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "contact tracing",
+                    "label": "MEDICAL_TERM",
+                    "start": 683,
+                    "end": 698,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "contact tracing",
+                    "label": "MEDICAL_TERM",
+                    "start": 1006,
+                    "end": 1021,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 0,
+                "custom_entity_count": 6,
+                "common_entities": [],
+                "spacy_only": [],
+                "custom_only": [
+                    [
+                        "contact tracing",
+                        "MEDICAL_TERM"
+                    ],
+                    [
+                        "infectious disease",
+                        "DISEASE"
+                    ],
+                    [
+                        "who",
+                        "ORGANIZATION"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D07",
+            "document_name": "07_wastewater_surveillance",
+            "spacy_entities": [],
+            "custom_entities": [
+                {
+                    "text": "wastewater surveillance",
+                    "label": "MEDICAL_TERM",
+                    "start": 0,
+                    "end": 23,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "wastewater surveillance",
+                    "label": "MEDICAL_TERM",
+                    "start": 48,
+                    "end": 71,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "wastewater surveillance",
+                    "label": "MEDICAL_TERM",
+                    "start": 398,
+                    "end": 421,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "wastewater surveillance",
+                    "label": "MEDICAL_TERM",
+                    "start": 971,
+                    "end": 994,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 0,
+                "custom_entity_count": 4,
+                "common_entities": [],
+                "spacy_only": [],
+                "custom_only": [
+                    [
+                        "wastewater surveillance",
+                        "MEDICAL_TERM"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D08",
+            "document_name": "08_variant_surveillance",
+            "spacy_entities": [],
+            "custom_entities": [],
+            "comparison": {
+                "spacy_entity_count": 0,
+                "custom_entity_count": 0,
+                "common_entities": [],
+                "spacy_only": [],
+                "custom_only": []
+            }
+        },
+        {
+            "doc_id": "D09",
+            "document_name": "09_outbreak_investigation",
+            "spacy_entities": [],
+            "custom_entities": [
+                {
+                    "text": "infectious disease",
+                    "label": "DISEASE",
+                    "start": 0,
+                    "end": 18,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "outbreak investigation",
+                    "label": "MEDICAL_TERM",
+                    "start": 19,
+                    "end": 41,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "outbreak investigation",
+                    "label": "MEDICAL_TERM",
+                    "start": 45,
+                    "end": 67,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "epidemiology",
+                    "label": "MEDICAL_TERM",
+                    "start": 706,
+                    "end": 718,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 1134,
+                    "end": 1145,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 0,
+                "custom_entity_count": 5,
+                "common_entities": [],
+                "spacy_only": [],
+                "custom_only": [
+                    [
+                        "epidemiology",
+                        "MEDICAL_TERM"
+                    ],
+                    [
+                        "infectious disease",
+                        "DISEASE"
+                    ],
+                    [
+                        "outbreak investigation",
+                        "MEDICAL_TERM"
+                    ],
+                    [
+                        "vaccination",
+                        "MEDICAL_TERM"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D10",
+            "document_name": "10_public_health_surveillance",
+            "spacy_entities": [],
+            "custom_entities": [
+                {
+                    "text": "public health surveillance",
+                    "label": "MEDICAL_TERM",
+                    "start": 0,
+                    "end": 26,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "public health surveillance",
+                    "label": "MEDICAL_TERM",
+                    "start": 35,
+                    "end": 61,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 0,
+                "custom_entity_count": 2,
+                "common_entities": [],
+                "spacy_only": [],
+                "custom_only": [
+                    [
+                        "public health surveillance",
+                        "MEDICAL_TERM"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D11",
+            "document_name": "11_infection_prevention_healthcare",
+            "spacy_entities": [
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start": 1076,
+                    "end": 1079,
+                    "source": "spaCy"
+                }
+            ],
+            "custom_entities": [
+                {
+                    "text": "infection prevention",
+                    "label": "MEDICAL_TERM",
+                    "start": 0,
+                    "end": 20,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 456,
+                    "end": 467,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "infection prevention",
+                    "label": "MEDICAL_TERM",
+                    "start": 700,
+                    "end": 720,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 1,
+                "custom_entity_count": 3,
+                "common_entities": [],
+                "spacy_only": [
+                    [
+                        "one",
+                        "CARDINAL"
+                    ]
+                ],
+                "custom_only": [
+                    [
+                        "infection prevention",
+                        "MEDICAL_TERM"
+                    ],
+                    [
+                        "vaccination",
+                        "MEDICAL_TERM"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D12",
+            "document_name": "12_vaccine_safety_monitoring",
+            "spacy_entities": [
+                {
+                    "text": "millions",
+                    "label": "CARDINAL",
+                    "start": 187,
+                    "end": 195,
+                    "source": "spaCy"
+                }
+            ],
+            "custom_entities": [
+                {
+                    "text": "vaccine",
+                    "label": "MEDICAL_TERM",
+                    "start": 0,
+                    "end": 7,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccine safety",
+                    "label": "MEDICAL_TERM",
+                    "start": 0,
+                    "end": 14,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccine",
+                    "label": "MEDICAL_TERM",
+                    "start": 44,
+                    "end": 51,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccine safety",
+                    "label": "MEDICAL_TERM",
+                    "start": 44,
+                    "end": 58,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 293,
+                    "end": 304,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccine",
+                    "label": "MEDICAL_TERM",
+                    "start": 446,
+                    "end": 453,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 552,
+                    "end": 563,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccine",
+                    "label": "MEDICAL_TERM",
+                    "start": 1045,
+                    "end": 1052,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccine safety",
+                    "label": "MEDICAL_TERM",
+                    "start": 1045,
+                    "end": 1059,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 1,
+                "custom_entity_count": 9,
+                "common_entities": [],
+                "spacy_only": [
+                    [
+                        "millions",
+                        "CARDINAL"
+                    ]
+                ],
+                "custom_only": [
+                    [
+                        "vaccination",
+                        "MEDICAL_TERM"
+                    ],
+                    [
+                        "vaccine",
+                        "MEDICAL_TERM"
+                    ],
+                    [
+                        "vaccine safety",
+                        "MEDICAL_TERM"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D13",
+            "document_name": "13_risk_communication",
+            "spacy_entities": [],
+            "custom_entities": [
+                {
+                    "text": "infectious disease",
+                    "label": "DISEASE",
+                    "start": 26,
+                    "end": 44,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 0,
+                "custom_entity_count": 1,
+                "common_entities": [],
+                "spacy_only": [],
+                "custom_only": [
+                    [
+                        "infectious disease",
+                        "DISEASE"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D14",
+            "document_name": "14_school_outbreak_prevention",
+            "spacy_entities": [],
+            "custom_entities": [
+                {
+                    "text": "respiratory infection",
+                    "label": "DISEASE",
+                    "start": 0,
+                    "end": 21,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "infection prevention",
+                    "label": "MEDICAL_TERM",
+                    "start": 12,
+                    "end": 32,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 593,
+                    "end": 604,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 0,
+                "custom_entity_count": 3,
+                "common_entities": [],
+                "spacy_only": [],
+                "custom_only": [
+                    [
+                        "infection prevention",
+                        "MEDICAL_TERM"
+                    ],
+                    [
+                        "respiratory infection",
+                        "DISEASE"
+                    ],
+                    [
+                        "vaccination",
+                        "MEDICAL_TERM"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D15",
+            "document_name": "15_vulnerable_populations",
+            "spacy_entities": [],
+            "custom_entities": [
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 323,
+                    "end": 334,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 755,
+                    "end": 766,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 0,
+                "custom_entity_count": 2,
+                "common_entities": [],
+                "spacy_only": [],
+                "custom_only": [
+                    [
+                        "vaccination",
+                        "MEDICAL_TERM"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D16",
+            "document_name": "16_antiviral_treatment_and_testing",
+            "spacy_entities": [
+                {
+                    "text": "covid-19",
+                    "label": "DATE",
+                    "start": 35,
+                    "end": 43,
+                    "source": "spaCy"
+                }
+            ],
+            "custom_entities": [
+                {
+                    "text": "antiviral treatment",
+                    "label": "MEDICAL_TERM",
+                    "start": 12,
+                    "end": 31,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "covid-19",
+                    "label": "DISEASE",
+                    "start": 35,
+                    "end": 43,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "antiviral treatment",
+                    "label": "MEDICAL_TERM",
+                    "start": 615,
+                    "end": 634,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 1,
+                "custom_entity_count": 3,
+                "common_entities": [],
+                "spacy_only": [
+                    [
+                        "covid-19",
+                        "DATE"
+                    ]
+                ],
+                "custom_only": [
+                    [
+                        "antiviral treatment",
+                        "MEDICAL_TERM"
+                    ],
+                    [
+                        "covid-19",
+                        "DISEASE"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D17",
+            "document_name": "17_misinformation_and_health_literacy",
+            "spacy_entities": [],
+            "custom_entities": [
+                {
+                    "text": "infectious disease",
+                    "label": "DISEASE",
+                    "start": 20,
+                    "end": 38,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "infectious disease",
+                    "label": "DISEASE",
+                    "start": 153,
+                    "end": 171,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "who",
+                    "label": "ORGANIZATION",
+                    "start": 1144,
+                    "end": 1147,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 0,
+                "custom_entity_count": 3,
+                "common_entities": [],
+                "spacy_only": [],
+                "custom_only": [
+                    [
+                        "infectious disease",
+                        "DISEASE"
+                    ],
+                    [
+                        "who",
+                        "ORGANIZATION"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D18",
+            "document_name": "18_global_outbreak_preparedness",
+            "spacy_entities": [],
+            "custom_entities": [
+                {
+                    "text": "infectious disease",
+                    "label": "DISEASE",
+                    "start": 145,
+                    "end": 163,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 307,
+                    "end": 318,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "contact tracing",
+                    "label": "MEDICAL_TERM",
+                    "start": 862,
+                    "end": 877,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 0,
+                "custom_entity_count": 3,
+                "common_entities": [],
+                "spacy_only": [],
+                "custom_only": [
+                    [
+                        "contact tracing",
+                        "MEDICAL_TERM"
+                    ],
+                    [
+                        "infectious disease",
+                        "DISEASE"
+                    ],
+                    [
+                        "vaccination",
+                        "MEDICAL_TERM"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D19",
+            "document_name": "19_epidemiological_models",
+            "spacy_entities": [],
+            "custom_entities": [
+                {
+                    "text": "infectious disease",
+                    "label": "DISEASE",
+                    "start": 27,
+                    "end": 45,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 336,
+                    "end": 347,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 0,
+                "custom_entity_count": 2,
+                "common_entities": [],
+                "spacy_only": [],
+                "custom_only": [
+                    [
+                        "infectious disease",
+                        "DISEASE"
+                    ],
+                    [
+                        "vaccination",
+                        "MEDICAL_TERM"
+                    ]
+                ]
+            }
+        },
+        {
+            "doc_id": "D20",
+            "document_name": "20_post_outbreak_evaluation",
+            "spacy_entities": [],
+            "custom_entities": [
+                {
+                    "text": "infectious disease",
+                    "label": "DISEASE",
+                    "start": 62,
+                    "end": 80,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "vaccination",
+                    "label": "MEDICAL_TERM",
+                    "start": 446,
+                    "end": 457,
+                    "source": "Custom Healthcare Rules"
+                },
+                {
+                    "text": "infectious disease",
+                    "label": "DISEASE",
+                    "start": 1220,
+                    "end": 1238,
+                    "source": "Custom Healthcare Rules"
+                }
+            ],
+            "comparison": {
+                "spacy_entity_count": 0,
+                "custom_entity_count": 3,
+                "common_entities": [],
+                "spacy_only": [],
+                "custom_only": [
+                    [
+                        "infectious disease",
+                        "DISEASE"
+                    ],
+                    [
+                        "vaccination",
+                        "MEDICAL_TERM"
+                    ]
+                ]
+            }
+        }
+    ]
+}

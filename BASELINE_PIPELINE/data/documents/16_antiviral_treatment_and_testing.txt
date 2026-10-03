@@ -1,0 +1,9 @@
+Testing and Antiviral Treatment in COVID-19 Care
+
+Testing can help identify SARS-CoV-2 infection and inform clinical or public-health decisions. Different tests have different characteristics. Molecular tests can detect viral genetic material, while antigen tests detect viral proteins and may provide rapid results. Test performance depends on timing, specimen collection, and the stage of infection.
+
+A negative result does not always exclude infection, particularly when testing occurs early or when the test has lower sensitivity. Interpretation should consider symptoms, exposure history, timing, and the specific test used.
+
+Antiviral treatment is intended to reduce the risk of severe disease in eligible patients. Eligibility, timing, contraindications, drug interactions, and treatment selection require clinical assessment. Public-health information should not replace individualized medical advice.
+
+Testing and treatment programs are most effective when people can access testing promptly and healthcare systems can evaluate eligible patients without unnecessary delay. Surveillance data can also help authorities understand changes in testing demand and disease activity.

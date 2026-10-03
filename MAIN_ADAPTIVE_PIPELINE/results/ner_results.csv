@@ -1,0 +1,92 @@
+doc_id,document_name,entity,label,start,end,source
+D01,01_covid_transmission_and_prevention,covid-19,DATE,0,8,spaCy
+D01,01_covid_transmission_and_prevention,covid-19,PERSON,47,55,spaCy
+D01,01_covid_transmission_and_prevention,covid-19,DATE,909,917,spaCy
+D01,01_covid_transmission_and_prevention,covid-19,DISEASE,0,8,Custom Healthcare Rules
+D01,01_covid_transmission_and_prevention,covid-19,DISEASE,47,55,Custom Healthcare Rules
+D01,01_covid_transmission_and_prevention,covid-19,DISEASE,909,917,Custom Healthcare Rules
+D01,01_covid_transmission_and_prevention,vaccination,MEDICAL_TERM,918,929,Custom Healthcare Rules
+D01,01_covid_transmission_and_prevention,vaccine,MEDICAL_TERM,1027,1034,Custom Healthcare Rules
+D01,01_covid_transmission_and_prevention,vaccination,MEDICAL_TERM,1207,1218,Custom Healthcare Rules
+D02,02_covid_vaccination_basics,covid-19,DATE,0,8,spaCy
+D02,02_covid_vaccination_basics,covid-19,DATE,36,44,spaCy
+D02,02_covid_vaccination_basics,covid-19,DISEASE,0,8,Custom Healthcare Rules
+D02,02_covid_vaccination_basics,vaccination,MEDICAL_TERM,9,20,Custom Healthcare Rules
+D02,02_covid_vaccination_basics,covid-19,DISEASE,36,44,Custom Healthcare Rules
+D02,02_covid_vaccination_basics,vaccine,MEDICAL_TERM,188,195,Custom Healthcare Rules
+D02,02_covid_vaccination_basics,vaccination,MEDICAL_TERM,281,292,Custom Healthcare Rules
+D02,02_covid_vaccination_basics,vaccination,MEDICAL_TERM,393,404,Custom Healthcare Rules
+D02,02_covid_vaccination_basics,vaccine,MEDICAL_TERM,465,472,Custom Healthcare Rules
+D02,02_covid_vaccination_basics,vaccination,MEDICAL_TERM,535,546,Custom Healthcare Rules
+D02,02_covid_vaccination_basics,vaccination,MEDICAL_TERM,906,917,Custom Healthcare Rules
+D02,02_covid_vaccination_basics,vaccination,MEDICAL_TERM,999,1010,Custom Healthcare Rules
+D02,02_covid_vaccination_basics,vaccine,MEDICAL_TERM,1153,1160,Custom Healthcare Rules
+D03,03_vaccine_effectiveness_and_studies,vaccine,MEDICAL_TERM,11,18,Custom Healthcare Rules
+D03,03_vaccine_effectiveness_and_studies,vaccine,MEDICAL_TERM,33,40,Custom Healthcare Rules
+D03,03_vaccine_effectiveness_and_studies,vaccination,MEDICAL_TERM,716,727,Custom Healthcare Rules
+D03,03_vaccine_effectiveness_and_studies,vaccine,MEDICAL_TERM,772,779,Custom Healthcare Rules
+D03,03_vaccine_effectiveness_and_studies,vaccination,MEDICAL_TERM,1055,1066,Custom Healthcare Rules
+D03,03_vaccine_effectiveness_and_studies,vaccine,MEDICAL_TERM,1167,1174,Custom Healthcare Rules
+D04,04_epidemiology_incidence_prevalence,covid-19,DATE,971,979,spaCy
+D04,04_epidemiology_incidence_prevalence,infectious disease,DISEASE,28,46,Custom Healthcare Rules
+D04,04_epidemiology_incidence_prevalence,epidemiology,MEDICAL_TERM,47,59,Custom Healthcare Rules
+D04,04_epidemiology_incidence_prevalence,infectious disease,DISEASE,343,361,Custom Healthcare Rules
+D04,04_epidemiology_incidence_prevalence,covid-19,DISEASE,971,979,Custom Healthcare Rules
+D05,05_basic_reproduction_number,one,CARDINAL,649,652,spaCy
+D05,05_basic_reproduction_number,reproduction number,MEDICAL_TERM,51,70,Custom Healthcare Rules
+D05,05_basic_reproduction_number,reproduction number,MEDICAL_TERM,374,393,Custom Healthcare Rules
+D05,05_basic_reproduction_number,vaccination,MEDICAL_TERM,464,475,Custom Healthcare Rules
+D05,05_basic_reproduction_number,reproduction number,MEDICAL_TERM,620,639,Custom Healthcare Rules
+D05,05_basic_reproduction_number,reproduction number,MEDICAL_TERM,1217,1236,Custom Healthcare Rules
+D06,06_contact_tracing,contact tracing,MEDICAL_TERM,0,15,Custom Healthcare Rules
+D06,06_contact_tracing,contact tracing,MEDICAL_TERM,40,55,Custom Healthcare Rules
+D06,06_contact_tracing,who,ORGANIZATION,107,110,Custom Healthcare Rules
+D06,06_contact_tracing,infectious disease,DISEASE,139,157,Custom Healthcare Rules
+D06,06_contact_tracing,contact tracing,MEDICAL_TERM,683,698,Custom Healthcare Rules
+D06,06_contact_tracing,contact tracing,MEDICAL_TERM,1006,1021,Custom Healthcare Rules
+D07,07_wastewater_surveillance,wastewater surveillance,MEDICAL_TERM,0,23,Custom Healthcare Rules
+D07,07_wastewater_surveillance,wastewater surveillance,MEDICAL_TERM,48,71,Custom Healthcare Rules
+D07,07_wastewater_surveillance,wastewater surveillance,MEDICAL_TERM,398,421,Custom Healthcare Rules
+D07,07_wastewater_surveillance,wastewater surveillance,MEDICAL_TERM,971,994,Custom Healthcare Rules
+D09,09_outbreak_investigation,infectious disease,DISEASE,0,18,Custom Healthcare Rules
+D09,09_outbreak_investigation,outbreak investigation,MEDICAL_TERM,19,41,Custom Healthcare Rules
+D09,09_outbreak_investigation,outbreak investigation,MEDICAL_TERM,45,67,Custom Healthcare Rules
+D09,09_outbreak_investigation,epidemiology,MEDICAL_TERM,706,718,Custom Healthcare Rules
+D09,09_outbreak_investigation,vaccination,MEDICAL_TERM,1134,1145,Custom Healthcare Rules
+D10,10_public_health_surveillance,public health surveillance,MEDICAL_TERM,0,26,Custom Healthcare Rules
+D10,10_public_health_surveillance,public health surveillance,MEDICAL_TERM,35,61,Custom Healthcare Rules
+D11,11_infection_prevention_healthcare,one,CARDINAL,1076,1079,spaCy
+D11,11_infection_prevention_healthcare,infection prevention,MEDICAL_TERM,0,20,Custom Healthcare Rules
+D11,11_infection_prevention_healthcare,vaccination,MEDICAL_TERM,456,467,Custom Healthcare Rules
+D11,11_infection_prevention_healthcare,infection prevention,MEDICAL_TERM,700,720,Custom Healthcare Rules
+D12,12_vaccine_safety_monitoring,millions,CARDINAL,187,195,spaCy
+D12,12_vaccine_safety_monitoring,vaccine,MEDICAL_TERM,0,7,Custom Healthcare Rules
+D12,12_vaccine_safety_monitoring,vaccine safety,MEDICAL_TERM,0,14,Custom Healthcare Rules
+D12,12_vaccine_safety_monitoring,vaccine,MEDICAL_TERM,44,51,Custom Healthcare Rules
+D12,12_vaccine_safety_monitoring,vaccine safety,MEDICAL_TERM,44,58,Custom Healthcare Rules
+D12,12_vaccine_safety_monitoring,vaccination,MEDICAL_TERM,293,304,Custom Healthcare Rules
+D12,12_vaccine_safety_monitoring,vaccine,MEDICAL_TERM,446,453,Custom Healthcare Rules
+D12,12_vaccine_safety_monitoring,vaccination,MEDICAL_TERM,552,563,Custom Healthcare Rules
+D12,12_vaccine_safety_monitoring,vaccine,MEDICAL_TERM,1045,1052,Custom Healthcare Rules
+D12,12_vaccine_safety_monitoring,vaccine safety,MEDICAL_TERM,1045,1059,Custom Healthcare Rules
+D13,13_risk_communication,infectious disease,DISEASE,26,44,Custom Healthcare Rules
+D14,14_school_outbreak_prevention,respiratory infection,DISEASE,0,21,Custom Healthcare Rules
+D14,14_school_outbreak_prevention,infection prevention,MEDICAL_TERM,12,32,Custom Healthcare Rules
+D14,14_school_outbreak_prevention,vaccination,MEDICAL_TERM,593,604,Custom Healthcare Rules
+D15,15_vulnerable_populations,vaccination,MEDICAL_TERM,323,334,Custom Healthcare Rules
+D15,15_vulnerable_populations,vaccination,MEDICAL_TERM,755,766,Custom Healthcare Rules
+D16,16_antiviral_treatment_and_testing,covid-19,DATE,35,43,spaCy
+D16,16_antiviral_treatment_and_testing,antiviral treatment,MEDICAL_TERM,12,31,Custom Healthcare Rules
+D16,16_antiviral_treatment_and_testing,covid-19,DISEASE,35,43,Custom Healthcare Rules
+D16,16_antiviral_treatment_and_testing,antiviral treatment,MEDICAL_TERM,615,634,Custom Healthcare Rules
+D17,17_misinformation_and_health_literacy,infectious disease,DISEASE,20,38,Custom Healthcare Rules
+D17,17_misinformation_and_health_literacy,infectious disease,DISEASE,153,171,Custom Healthcare Rules
+D17,17_misinformation_and_health_literacy,who,ORGANIZATION,1144,1147,Custom Healthcare Rules
+D18,18_global_outbreak_preparedness,infectious disease,DISEASE,145,163,Custom Healthcare Rules
+D18,18_global_outbreak_preparedness,vaccination,MEDICAL_TERM,307,318,Custom Healthcare Rules
+D18,18_global_outbreak_preparedness,contact tracing,MEDICAL_TERM,862,877,Custom Healthcare Rules
+D19,19_epidemiological_models,infectious disease,DISEASE,27,45,Custom Healthcare Rules
+D19,19_epidemiological_models,vaccination,MEDICAL_TERM,336,347,Custom Healthcare Rules
+D20,20_post_outbreak_evaluation,infectious disease,DISEASE,62,80,Custom Healthcare Rules
+D20,20_post_outbreak_evaluation,vaccination,MEDICAL_TERM,446,457,Custom Healthcare Rules
+D20,20_post_outbreak_evaluation,infectious disease,DISEASE,1220,1238,Custom Healthcare Rules

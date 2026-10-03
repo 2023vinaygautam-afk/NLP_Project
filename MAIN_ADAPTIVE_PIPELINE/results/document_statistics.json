@@ -1,0 +1,11 @@
+{
+    "corpus_statistics": {
+        "total_documents": 20,
+        "total_sentences": 213,
+        "total_tokens": 3440,
+        "total_characters": 26234,
+        "vocabulary_size": 1018,
+        "average_document_length": 172.0
+    },
+    "empty_documents": []
+}

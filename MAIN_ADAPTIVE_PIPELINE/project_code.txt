@@ -1,0 +1,7506 @@
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\app\streamlit_app.py =====
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\01_covid_transmission_and_prevention.txt =====
+
+COVID-19 Transmission and Community Prevention
+
+COVID-19 is caused by infection with SARS-CoV-2. Transmission can occur when an infected person releases respiratory particles while breathing, speaking, coughing, or sneezing. Risk generally increases in crowded or poorly ventilated indoor environments and when people are in close proximity for prolonged periods. Prevention therefore combines several measures rather than relying on a single intervention.
+
+Improving indoor ventilation and filtration can reduce the concentration of infectious particles in shared air. Staying home when acutely ill can reduce exposure to other people. Mask use can provide an additional layer of protection in settings where respiratory virus transmission is elevated or where vulnerable people are present. Hand hygiene remains useful for reducing transmission of many infections, although respiratory transmission is a major route for COVID-19.
+
+Vaccination is an important prevention measure because it prepares the immune system to respond to the virus. Vaccine protection against infection can change over time and across variants, while protection against severe disease can remain stronger. Public-health programs therefore consider vaccination together with surveillance, clinical care, ventilation, and risk-based protective measures.
+
+Community prevention works best when measures are matched to the local epidemiological situation. Public-health authorities may use indicators such as reported cases, hospitalizations, wastewater signals, and outbreak reports to guide communication and interventions. Individuals can reduce risk by considering the intensity of local transmission, their own health risks, and the vulnerability of people around them.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\02_covid_vaccination_basics.txt =====
+
+COVID-19 Vaccination: Basic Concepts
+
+COVID-19 vaccines are designed to stimulate an immune response against SARS-CoV-2 without requiring a person to experience the disease itself. Different vaccine platforms can present viral information to the immune system in different ways. After vaccination, immune cells can recognize relevant viral components and mount a faster response when exposed later.
+
+Vaccination does not guarantee that a person will never become infected. Vaccine effectiveness varies by outcome, product, population, time since vaccination, and circulating variant. Public-health evaluation commonly distinguishes protection against infection, symptomatic disease, hospitalization, and death. These outcomes should not be treated as interchangeable.
+
+Immunity can change over time. Previous infection may also contribute to immune protection, producing what researchers often describe as hybrid immunity when vaccination and infection have both occurred. Because immunity and circulating viruses change, vaccination recommendations may be updated as evidence develops.
+
+When communicating about vaccines, it is useful to distinguish relative risk, absolute risk, vaccine effectiveness, and adverse-event rates. A clear explanation should specify the population, comparison group, time period, and health outcome. This prevents misleading conclusions from a single percentage or isolated statistic.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\03_vaccine_effectiveness_and_studies.txt =====
+
+Evaluating Vaccine Effectiveness
+
+Vaccine effectiveness is usually estimated by comparing disease outcomes between vaccinated and comparison groups under real-world conditions. Observational studies may use cohort, case-control, or test-negative designs. Researchers must account for factors such as age, prior infection, underlying conditions, healthcare-seeking behavior, exposure patterns, and calendar period.
+
+Randomized controlled trials can provide strong evidence about efficacy under defined study conditions, while observational studies are especially useful after vaccines are deployed at large scale. Real-world effectiveness may differ from trial efficacy because populations, exposure levels, circulating variants, and vaccination schedules differ.
+
+A useful interpretation of vaccine effectiveness requires knowing the endpoint. For example, effectiveness against hospitalization is a different quantity from effectiveness against infection. Waning protection may also appear differently for different outcomes. Researchers may stratify results by age, time since vaccination, product, or variant period.
+
+Confounding and selection bias are important limitations in observational vaccine studies. Statistical adjustment can reduce some biases, but it cannot guarantee that every relevant difference between groups has been measured. Results should therefore be interpreted in the context of study design, uncertainty intervals, sample size, and the population studied.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\04_epidemiology_incidence_prevalence.txt =====
+
+Incidence and Prevalence in Infectious Disease Epidemiology
+
+Incidence and prevalence describe different aspects of disease occurrence. Incidence focuses on new cases occurring in a population during a specified period. Prevalence describes the proportion of a population that has a condition at a particular time or over a defined period.
+
+For an infectious disease, incidence can help describe how quickly new infections are occurring. Prevalence can reflect both new cases and the duration of illness. A disease with short duration may have substantial incidence but relatively low point prevalence. Conversely, a chronic condition can have lower incidence but high prevalence because people remain affected for long periods.
+
+Epidemiologists define the population, time interval, case definition, and measurement method carefully. Changes in testing availability or reporting practices can affect observed incidence without representing an equivalent change in true transmission. For COVID-19, widespread changes in testing behavior made reported case counts difficult to interpret in isolation during some periods.
+
+Other indicators, including hospitalization, mortality, test positivity, syndromic surveillance, and wastewater measurements, can complement reported cases. Using multiple indicators provides a broader picture of disease activity.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\05_basic_reproduction_number.txt =====
+
+Reproduction Numbers and Outbreak Growth
+
+The basic reproduction number, R0, describes the average number of secondary infections generated by a typical infectious individual in a fully susceptible population under specified assumptions. It is a theoretical epidemiological quantity and should not be interpreted as a fixed property of a pathogen in every setting.
+
+The effective reproduction number, often written Rt or Re, reflects transmission under current conditions. Vaccination, prior immunity, behavioral changes, public-health interventions, and population structure can all affect effective transmission. When the effective reproduction number is above one, infections can increase under the relevant conditions; when it remains below one, transmission tends to decline.
+
+Estimating reproduction numbers requires assumptions and data. Delays between infection, symptom onset, testing, reporting, and hospitalization can affect estimates. Analysts may therefore use statistical models and nowcasting methods to account for reporting delays.
+
+Reproduction numbers should be interpreted together with other indicators. A single estimate can be uncertain, especially when case counts are small or surveillance systems are changing. The same reproduction number can also correspond to different absolute levels of disease depending on the size and immunity of the population.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\06_contact_tracing.txt =====
+
+Contact Tracing and Exposure Management
+
+Contact tracing is a public-health process used to identify people who may have been exposed to an infectious disease and provide them with relevant information and support. For respiratory infections, contact definitions may consider proximity, duration, setting, and timing relative to infectiousness.
+
+A typical workflow includes identifying a confirmed or probable case, determining the period during which transmission could have occurred, interviewing the case when appropriate, identifying contacts, and communicating recommended actions. Digital tools can assist with notification or data management, but they do not replace public-health judgment.
+
+Contact tracing is most effective when cases and contacts can be identified quickly and when people have access to testing, healthcare, isolation resources, and accurate information. Privacy and confidentiality are important because contact-tracing systems handle sensitive health and exposure information.
+
+The effectiveness of contact tracing can decrease when community transmission is extremely high, when many infections are asymptomatic, or when cases cannot be identified promptly. In such situations, broad prevention measures and community surveillance may be more practical complements.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\07_wastewater_surveillance.txt =====
+
+Wastewater Surveillance for Respiratory Viruses
+
+Wastewater surveillance analyzes biological material in sewage to estimate the presence or trends of infectious agents within a community. Because infected individuals can shed viral genetic material into wastewater, wastewater measurements can provide population-level information that does not depend on every infected person seeking a clinical test.
+
+Wastewater surveillance can be especially useful when individual testing declines. Trends may provide an early signal of changing transmission, although the relationship between wastewater concentration and the exact number of infections is not straightforward.
+
+Interpretation requires attention to sampling location, population served by the treatment system, rainfall and dilution, laboratory methods, sampling frequency, and changes in shedding patterns. Wastewater data are most useful when combined with clinical surveillance, hospital data, and other epidemiological indicators.
+
+Wastewater surveillance generally does not identify individual infected people. Its population-level nature can therefore complement other surveillance systems while reducing dependence on individual testing. It is a monitoring tool rather than a direct diagnostic test for an individual.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\08_variant_surveillance.txt =====
+
+SARS-CoV-2 Variant Surveillance
+
+Variant surveillance monitors genetic changes in SARS-CoV-2 and assesses whether emerging lineages have characteristics relevant to public health. Sequencing can identify viral lineages from selected clinical specimens, while genomic databases allow laboratories and researchers to compare sequences over time and across locations.
+
+A newly detected mutation does not automatically mean that a variant is more transmissible or more severe. Researchers evaluate changes using laboratory studies, epidemiological data, clinical outcomes, and population-level observations. Multiple mutations can occur together, and the biological effect of a mutation depends on its location and context.
+
+Variant surveillance helps public-health agencies detect changes that may affect diagnostics, therapeutics, vaccines, or transmission patterns. However, sequencing samples are not always representative of all infections. Differences in sampling and sequencing capacity can influence which variants are observed.
+
+Genomic surveillance works best when linked with epidemiological and clinical information. Sequence data can identify what is circulating, while other datasets help determine the practical public-health significance of those lineages.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\09_outbreak_investigation.txt =====
+
+Infectious Disease Outbreak Investigation
+
+An outbreak investigation seeks to determine whether an unusual increase in disease has occurred, characterize affected people and settings, identify likely sources or transmission routes, and guide control measures. The investigation begins with a clear case definition and confirmation that the observed increase is greater than expected.
+
+Investigators construct descriptive summaries by time, place, and person. An epidemic curve can show the timing of illness onset and may provide clues about the type of exposure. Mapping cases can identify geographic clustering, while demographic analysis can reveal differences by age, occupation, or other characteristics.
+
+Analytical epidemiology may compare exposures among cases and controls or among exposed and unexposed groups. Investigators must consider recall bias, selection bias, confounding, and incomplete reporting. Laboratory testing and genomic sequencing can provide additional evidence.
+
+Control measures should not necessarily wait until every scientific question is resolved. Depending on the pathogen and circumstances, measures can include isolation, vaccination, environmental controls, communication, testing, and targeted restrictions. Investigators continue evaluating the outbreak as new evidence becomes available.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\10_public_health_surveillance.txt =====
+
+Public Health Surveillance Systems
+
+Public health surveillance is the continuous and systematic collection, analysis, interpretation, and dissemination of health information for action. Surveillance systems can monitor infectious diseases through case reports, laboratory results, hospital records, mortality data, syndromic indicators, sentinel sites, and community-level measurements.
+
+A surveillance system begins with a defined objective. The case definition determines which events are counted, while reporting rules specify how and when information is submitted. Data quality depends on completeness, timeliness, consistency, and representativeness.
+
+Passive surveillance relies on routine reporting and can be relatively efficient but may miss cases. Active surveillance involves more direct efforts to identify cases and can improve completeness at greater cost. Sentinel surveillance collects detailed information from selected sites and may be useful for monitoring trends.
+
+Surveillance data should be interpreted carefully. Changes in reporting systems, testing practices, healthcare access, or case definitions can create apparent changes that are not purely epidemiological. Public-health decision-making therefore benefits from triangulating multiple data sources.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\11_infection_prevention_healthcare.txt =====
+
+Infection Prevention in Healthcare Settings
+
+Healthcare facilities require layered infection-prevention measures because patients and healthcare workers may encounter infectious individuals in close-contact environments. Core practices include hand hygiene, appropriate use of personal protective equipment, environmental cleaning, respiratory hygiene, and safe patient placement.
+
+Administrative measures can include screening or triage procedures, staff training, vaccination programs, and policies for managing symptomatic healthcare workers. Engineering controls include ventilation, physical separation, and room design. Personal protective equipment is selected according to the anticipated exposure and task.
+
+Infection prevention programs also depend on monitoring. Facilities can track healthcare-associated infections, respiratory illness among staff, compliance with selected practices, and environmental indicators. Training should be repeated and adapted when evidence or recommendations change.
+
+No single control is sufficient in every situation. Layered prevention reduces reliance on one barrier and can be adapted according to the pathogen, transmission route, patient population, and local outbreak conditions.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\12_vaccine_safety_monitoring.txt =====
+
+Vaccine Safety and Adverse Event Monitoring
+
+Vaccine safety monitoring continues after vaccines are authorized or licensed because very rare adverse events may only become detectable when millions of doses are administered. Surveillance systems collect reports of health events that occur after vaccination and investigate signals that may indicate a potential association.
+
+An adverse event following immunization is not automatically caused by the vaccine. The event may be coincidental, associated with another medical condition, or potentially related to vaccination. Safety assessment therefore considers background rates, timing, biological plausibility, comparison groups, and other evidence.
+
+Passive reporting systems are valuable for signal detection but can be affected by underreporting, stimulated reporting, and incomplete clinical information. Active surveillance and epidemiological studies can provide stronger estimates of incidence and relative risk.
+
+Clear communication should distinguish a reported event from a confirmed causal relationship. Vaccine safety decisions are based on accumulated evidence rather than a single report. Monitoring can lead to updated warnings, recommendations, or continued use when evidence supports a favorable benefit-risk profile.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\13_risk_communication.txt =====
+
+Risk Communication During Infectious Disease Events
+
+Risk communication provides people with information needed to understand a public-health threat and make informed decisions. Effective communication should explain what is known, what is uncertain, what actions are recommended, and why recommendations may change.
+
+Numbers should be presented with context. For example, a percentage without a denominator, comparison group, time period, or outcome can be misleading. Communicators should distinguish absolute risk from relative risk and avoid implying certainty when evidence remains limited.
+
+Trust can be supported by acknowledging uncertainty rather than hiding it. During a rapidly changing outbreak, evidence can evolve as new studies become available. Explaining the reason for an updated recommendation can help people understand that changing guidance does not necessarily mean that earlier information was intentionally misleading.
+
+Communication should also consider language, accessibility, cultural context, and misinformation. Public-health messages are more useful when they provide practical actions and identify reliable sources for additional information.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\14_school_outbreak_prevention.txt =====
+
+Respiratory Infection Prevention in Schools
+
+Schools are environments where students and staff interact frequently, so respiratory infections can spread through close contact and shared indoor air. Prevention strategies should be proportionate to local disease activity and the needs of the school community.
+
+Ventilation can reduce accumulation of infectious respiratory particles indoors. Outdoor activities can provide lower-risk alternatives when practical. Encouraging people with acute respiratory illness to stay home can reduce opportunities for transmission.
+
+Schools can also support routine vaccination according to national and local recommendations. Clear procedures for responding to clusters of illness help staff identify when public-health consultation may be needed. Communication with families should explain symptoms, prevention measures, and when students should remain at home.
+
+Outbreak response should consider educational continuity as well as disease control. Measures can be targeted according to evidence rather than relying automatically on broad closures. Coordination among school administrators, healthcare professionals, families, and public-health authorities is important.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\15_vulnerable_populations.txt =====
+
+Protecting Higher-Risk Populations During Respiratory Virus Activity
+
+Some people have a higher risk of severe outcomes from respiratory infections because of age, underlying medical conditions, immune status, pregnancy, or other factors. Public-health planning can reduce harm by ensuring that higher-risk groups have access to vaccination, timely testing when appropriate, clinical care, and clear prevention information.
+
+Protection can involve individual and community measures. Healthcare facilities and residential settings may use additional precautions during periods of elevated transmission. Family members and caregivers can reduce exposure opportunities when respiratory viruses are circulating widely.
+
+Risk is not determined by a single characteristic. Age, vaccination status, previous immunity, treatment access, and circulating viral strains can interact. Public-health communication should therefore avoid assuming that all members of a broad category have identical risk.
+
+Equitable access is an important part of prevention. Barriers such as transportation, cost, language, digital access, and healthcare availability can affect whether people are able to use recommended services.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\16_antiviral_treatment_and_testing.txt =====
+
+Testing and Antiviral Treatment in COVID-19 Care
+
+Testing can help identify SARS-CoV-2 infection and inform clinical or public-health decisions. Different tests have different characteristics. Molecular tests can detect viral genetic material, while antigen tests detect viral proteins and may provide rapid results. Test performance depends on timing, specimen collection, and the stage of infection.
+
+A negative result does not always exclude infection, particularly when testing occurs early or when the test has lower sensitivity. Interpretation should consider symptoms, exposure history, timing, and the specific test used.
+
+Antiviral treatment is intended to reduce the risk of severe disease in eligible patients. Eligibility, timing, contraindications, drug interactions, and treatment selection require clinical assessment. Public-health information should not replace individualized medical advice.
+
+Testing and treatment programs are most effective when people can access testing promptly and healthcare systems can evaluate eligible patients without unnecessary delay. Surveillance data can also help authorities understand changes in testing demand and disease activity.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\17_misinformation_and_health_literacy.txt =====
+
+Health Literacy and Infectious Disease Misinformation
+
+Health literacy involves the ability to find, understand, evaluate, and use health information. During infectious disease outbreaks, people may encounter rapidly changing information through news, social media, messaging applications, and informal networks.
+
+Misinformation can arise from incorrect information, misunderstanding, outdated evidence, or misleading presentation of accurate facts. A useful evaluation process checks the source, date, evidence, population studied, and whether the claim matches the underlying data.
+
+Health communication should avoid presenting preliminary findings as settled conclusions. A single laboratory experiment or small observational study may not answer a population-level question. Stronger conclusions generally require evidence from multiple complementary studies.
+
+Practical health literacy strategies include checking information against recognized public-health or medical sources, looking for the original study when possible, and distinguishing a reported association from proof of causation. Clear explanations can reduce confusion without assuming that every person who has encountered inaccurate information is acting in bad faith.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\18_global_outbreak_preparedness.txt =====
+
+Global Outbreak Preparedness and Response
+
+Outbreak preparedness involves building the capacity to detect, assess, communicate about, and respond to infectious disease threats before they become large emergencies. Preparedness includes laboratory capacity, surveillance systems, trained personnel, medical supplies, vaccination infrastructure, data systems, and emergency coordination mechanisms.
+
+Early detection depends on timely information. Countries and institutions may use laboratory networks, clinical surveillance, event-based reporting, genomic sequencing, and cross-border information sharing. A signal does not always represent a major outbreak, but rapid assessment can determine whether further investigation is required.
+
+Response planning includes clear roles and responsibilities. Hospitals may need surge plans, while public-health agencies may require mechanisms for contact tracing, risk communication, and resource allocation. Exercises and simulations can identify weaknesses before a real emergency occurs.
+
+Preparedness is an ongoing process. After an outbreak, evaluations can identify which systems worked, which failed, and which improvements should be institutionalized. Investments in routine public-health capacity can strengthen response to multiple infectious threats rather than a single pathogen.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\19_epidemiological_models.txt =====
+
+Epidemiological Models for Infectious Disease Planning
+
+Mathematical and computational models can help researchers explore how infectious diseases may spread under different assumptions. Compartmental models such as SIR divide populations into categories such as susceptible, infected, and recovered. More detailed models can add age groups, vaccination status, hospitalization, geographic structure, or other characteristics.
+
+Models are not crystal balls. Their outputs depend on assumptions, parameter estimates, data quality, and the scenario being examined. A model can be useful even when its exact numerical forecast is uncertain because it can show how outcomes change when assumptions change.
+
+Model calibration uses observed data to estimate parameters or evaluate whether simulated trajectories are consistent with historical patterns. Validation and sensitivity analysis can identify which assumptions have the greatest effect on results.
+
+Public-health decision-makers should interpret model outputs alongside surveillance data and expert assessment. Scenario projections are particularly sensitive to changes in behavior, immunity, viral characteristics, interventions, and healthcare capacity. Transparent reporting of assumptions and uncertainty is therefore essential.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\data\documents\20_post_outbreak_evaluation.txt =====
+
+Evaluating Public Health Responses After an Outbreak
+
+After an infectious disease outbreak, a structured evaluation can examine what happened, which interventions were implemented, how quickly systems responded, and what improvements are needed. Evaluation should consider epidemiological outcomes as well as operational, social, and economic consequences.
+
+Useful indicators may include time from signal detection to investigation, testing turnaround time, vaccination coverage, hospitalization trends, healthcare capacity, communication reach, and the timeliness of public-health reporting. The exact measures depend on the outbreak and the objectives of the response.
+
+Evaluation should distinguish correlation from causation. A decline in cases after an intervention does not automatically prove that the intervention caused the decline because transmission can also change due to immunity, behavior, seasonality, or other factors.
+
+After-action reviews can translate findings into concrete improvements. These may include updating response plans, strengthening laboratory networks, improving data interoperability, expanding workforce training, or revising communication procedures. The goal is to convert experience into preparedness for future infectious disease events.
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\experiments\baseline_vs_adaptive.py =====
+
+
+from pathlib import Path
+import json
+import pandas as pd
+
+
+# =====================================================
+# 1. PATH CONFIGURATION
+# =====================================================
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+RESULTS_DIR = BASE_DIR / "results"
+
+RETRIEVAL_FILE = RESULTS_DIR / "retrieval_results.json"
+ADAPTIVE_FILE = RESULTS_DIR / "adaptive_pipeline_results.json"
+
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+
+
+# =====================================================
+# 2. FIVE EVALUATION QUERIES AND RELEVANCE LABELS
+# =====================================================
+
+RELEVANCE = {
+
+    "What are the main causes of COVID-19 transmission and how can it be prevented?": {
+        "01_covid_transmission_and_prevention"
+    },
+
+    "How effective are COVID-19 vaccines in preventing infection and reducing disease severity?": {
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies"
+    },
+
+    "How does COVID-19 vaccination help protect individuals and communities from infection?": {
+        "01_covid_transmission_and_prevention",
+        "02_covid_vaccination_basics"
+    },
+
+    "What is the relationship between vaccination, COVID-19 testing, and early detection of infection?": {
+        "02_covid_vaccination_basics",
+        "03_vaccine_effectiveness_and_studies",
+        "16_antiviral_treatment_and_testing"
+    },
+
+    "How do quarantine and contact tracing help control infectious disease outbreaks?": {
+        "06_contact_tracing",
+        "09_outbreak_investigation"
+    }
+}
+
+
+# =====================================================
+# 3. DOCUMENT ID NORMALIZATION
+# =====================================================
+
+def normalize_document_id(value):
+
+    value = str(value).strip()
+
+    value = value.replace(".txt", "")
+
+    if value.startswith("D") and len(value) == 3:
+        return value
+
+    for number in range(1, 21):
+
+        if value.startswith(f"{number:02d}_"):
+            return f"D{number:02d}"
+
+    return value
+
+
+def normalize_documents(value):
+
+    if value is None:
+        return []
+
+    if isinstance(value, float) and pd.isna(value):
+        return []
+
+    if isinstance(value, str):
+
+        value = value.strip()
+
+        if not value:
+            return []
+
+        try:
+            parsed = json.loads(value)
+
+            if isinstance(parsed, list):
+                value = parsed
+
+        except json.JSONDecodeError:
+
+            value = value.replace(";", ",")
+
+            value = [
+                item.strip()
+                for item in value.split(",")
+                if item.strip()
+            ]
+
+    if isinstance(value, dict):
+        value = list(value.keys())
+
+    if not isinstance(value, (list, tuple, set)):
+        value = [value]
+
+    return list(dict.fromkeys(
+        normalize_document_id(item)
+        for item in value
+        if str(item).strip()
+    ))
+
+
+# =====================================================
+# 4. METRIC CALCULATION
+# =====================================================
+
+def calculate_metrics(retrieved, relevant, k=5):
+
+    retrieved = normalize_documents(retrieved)
+
+    retrieved_set = set(retrieved)
+    relevant_set = set(relevant)
+
+    true_positives = retrieved_set & relevant_set
+
+    false_positives = retrieved_set - relevant_set
+
+    false_negatives = relevant_set - retrieved_set
+
+    tp = len(true_positives)
+    fp = len(false_positives)
+    fn = len(false_negatives)
+
+    precision = (
+        tp / (tp + fp)
+        if tp + fp > 0
+        else 0.0
+    )
+
+    recall = (
+        tp / (tp + fn)
+        if tp + fn > 0
+        else 0.0
+    )
+
+    f1 = (
+        2 * precision * recall / (precision + recall)
+        if precision + recall > 0
+        else 0.0
+    )
+
+    top_k = retrieved[:k]
+
+    relevant_top_k = sum(
+        doc in relevant_set
+        for doc in top_k
+    )
+
+    precision_at_k = relevant_top_k / k
+
+    recall_at_k = (
+        relevant_top_k / len(relevant_set)
+        if relevant_set
+        else 0.0
+    )
+
+    return {
+        "TP": tp,
+        "FP": fp,
+        "FN": fn,
+        "Precision": precision,
+        "Recall": recall,
+        "F1_Score": f1,
+        "Precision@5": precision_at_k,
+        "Recall@5": recall_at_k,
+        "Retrieved_Count": len(retrieved)
+    }
+
+
+# =====================================================
+# 5. LOAD RETRIEVAL RESULTS
+# =====================================================
+
+def load_results(file_path):
+
+    if not file_path.exists():
+
+        print(f"\nFile not found: {file_path}")
+
+        return {}
+
+    with open(file_path, "r", encoding="utf-8") as file:
+
+        data = json.load(file)
+
+    if isinstance(data, dict):
+
+        if isinstance(data.get("results"), list):
+            data = data["results"]
+
+        elif isinstance(data.get("retrieval_results"), list):
+            data = data["retrieval_results"]
+
+        elif isinstance(data.get("queries"), list):
+            data = data["queries"]
+
+        else:
+            data = [
+                {"query": key, **value}
+                for key, value in data.items()
+                if isinstance(value, dict)
+            ]
+
+    result_map = {}
+
+    for item in data:
+
+        if not isinstance(item, dict):
+            continue
+
+        query = (
+            item.get("query")
+            or item.get("Query")
+            or item.get("user_query")
+        )
+
+        if not query:
+            continue
+
+        retrieved = (
+            item.get("retrieved_documents")
+            or item.get("Retrieved_Documents")
+            or item.get("retrieved")
+            or item.get("results")
+            or []
+        )
+
+        result_map[str(query).strip()] = normalize_documents(
+            retrieved
+        )
+
+    return result_map
+
+
+# =====================================================
+# 6. EVALUATE ONE PIPELINE
+# =====================================================
+
+def evaluate_pipeline(result_map, pipeline_name):
+
+    rows = []
+
+    for query_id, (query, relevant) in enumerate(
+        RELEVANCE.items(), start=1
+    ):
+
+        retrieved = result_map.get(query, [])
+
+        metrics = calculate_metrics(
+            retrieved,
+            relevant,
+            k=5
+        )
+
+        rows.append({
+
+            "Query_ID": f"Q{query_id}",
+
+            "Query": query,
+
+            "Pipeline": pipeline_name,
+
+            "Retrieved_Documents": "; ".join(retrieved),
+
+            "Expected_Relevant_Documents": "; ".join(
+                sorted(relevant)
+            ),
+
+            "Relevant_Count": len(relevant),
+
+            **metrics
+
+        })
+
+    return pd.DataFrame(rows)
+
+
+# =====================================================
+# 7. MAIN COMPARATIVE EVALUATION
+# =====================================================
+
+def main():
+
+    print("\nMAIN ADAPTIVE PIPELINE")
+    print("=" * 65)
+
+    print("SAME-QUERY BASELINE VS ADAPTIVE EVALUATION")
+
+    baseline_map = load_results(RETRIEVAL_FILE)
+
+    adaptive_map = load_results(ADAPTIVE_FILE)
+
+    print("\nQueries defined:", len(RELEVANCE))
+
+    print("Baseline query results:", len(baseline_map))
+
+    print("Adaptive query results:", len(adaptive_map))
+
+    baseline = evaluate_pipeline(
+        baseline_map,
+        "BASELINE"
+    )
+
+    adaptive = evaluate_pipeline(
+        adaptive_map,
+        "ADAPTIVE"
+    )
+
+    # -------------------------------------------------
+    # 8. MERGE SAME QUERY RESULTS
+    # -------------------------------------------------
+
+    comparison = baseline.merge(
+        adaptive,
+        on=["Query_ID", "Query", "Relevant_Count"],
+        suffixes=("_Baseline", "_Adaptive")
+    )
+
+    metric_names = [
+        "Precision",
+        "Recall",
+        "F1_Score",
+        "Precision@5",
+        "Recall@5"
+    ]
+
+    for metric in metric_names:
+
+        comparison[f"{metric}_Change"] = (
+            comparison[f"{metric}_Adaptive"]
+            - comparison[f"{metric}_Baseline"]
+        )
+
+    # -------------------------------------------------
+    # 9. QUERY-WISE OUTCOME
+    # -------------------------------------------------
+
+    comparison["F1_Outcome"] = comparison[
+        "F1_Score_Change"
+    ].apply(
+
+        lambda value:
+        "Improved" if value > 0
+        else "Decreased" if value < 0
+        else "Unchanged"
+
+    )
+
+    # -------------------------------------------------
+    # 10. MACRO METRICS
+    # -------------------------------------------------
+
+    summary = {}
+
+    for pipeline_name, frame in [
+        ("Baseline", baseline),
+        ("Adaptive", adaptive)
+    ]:
+
+        summary[pipeline_name] = {
+
+            "Precision": float(frame["Precision"].mean()),
+
+            "Recall": float(frame["Recall"].mean()),
+
+            "F1_Score": float(frame["F1_Score"].mean()),
+
+            "Precision@5": float(frame["Precision@5"].mean()),
+
+            "Recall@5": float(frame["Recall@5"].mean())
+
+        }
+
+    # -------------------------------------------------
+    # 11. MICRO METRICS
+    # -------------------------------------------------
+
+    for pipeline_name, frame in [
+        ("Baseline", baseline),
+        ("Adaptive", adaptive)
+    ]:
+
+        tp = int(frame["TP"].sum())
+        fp = int(frame["FP"].sum())
+        fn = int(frame["FN"].sum())
+
+        micro_precision = (
+            tp / (tp + fp)
+            if tp + fp > 0
+            else 0.0
+        )
+
+        micro_recall = (
+            tp / (tp + fn)
+            if tp + fn > 0
+            else 0.0
+        )
+
+        micro_f1 = (
+            2 * micro_precision * micro_recall
+            / (micro_precision + micro_recall)
+            if micro_precision + micro_recall > 0
+            else 0.0
+        )
+
+        summary[pipeline_name].update({
+
+            "Micro_Precision": micro_precision,
+
+            "Micro_Recall": micro_recall,
+
+            "Micro_F1": micro_f1
+
+        })
+
+    # -------------------------------------------------
+    # 12. ADAPTIVE MINUS BASELINE
+    # -------------------------------------------------
+
+    difference = {}
+
+    for metric in metric_names:
+
+        difference[metric] = (
+            summary["Adaptive"][metric]
+            - summary["Baseline"][metric]
+        )
+
+    summary["Adaptive_Minus_Baseline"] = difference
+
+    summary["Query_Wise_Comparison"] = {
+
+        "Improved": int(
+            (comparison["F1_Outcome"] == "Improved").sum()
+        ),
+
+        "Unchanged": int(
+            (comparison["F1_Outcome"] == "Unchanged").sum()
+        ),
+
+        "Decreased": int(
+            (comparison["F1_Outcome"] == "Decreased").sum()
+        )
+
+    }
+
+    summary["Evaluation_Information"] = {
+
+        "Total_Queries": len(RELEVANCE),
+
+        "Baseline_Queries_Found": len(baseline_map),
+
+        "Adaptive_Queries_Found": len(adaptive_map),
+
+        "Same_Query_Set": True,
+
+        "Relevant_Document_Count": "Multiple documents supported"
+
+    }
+
+    # -------------------------------------------------
+    # 13. SAVE RESULTS
+    # -------------------------------------------------
+
+    baseline.to_csv(
+        RESULTS_DIR / "baseline_five_query_evaluation.csv",
+        index=False
+    )
+
+    adaptive.to_csv(
+        RESULTS_DIR / "adaptive_five_query_evaluation.csv",
+        index=False
+    )
+
+    comparison.to_csv(
+        RESULTS_DIR / "same_query_comparison.csv",
+        index=False
+    )
+
+    with open(
+        RESULTS_DIR / "same_query_evaluation_summary.json",
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            summary,
+            file,
+            indent=4
+        )
+
+    # -------------------------------------------------
+    # 14. DISPLAY RESULTS
+    # -------------------------------------------------
+
+    print("\nQUERY-WISE COMPARISON")
+    print("=" * 65)
+
+    display_columns = [
+        "Query_ID",
+        "Precision_Baseline",
+        "Precision_Adaptive",
+        "Recall_Baseline",
+        "Recall_Adaptive",
+        "F1_Score_Baseline",
+        "F1_Score_Adaptive",
+        "F1_Outcome"
+    ]
+
+    print(
+        comparison[display_columns].to_string(index=False)
+    )
+
+    print("\nOVERALL METRICS")
+    print("=" * 65)
+
+    for pipeline_name in ["Baseline", "Adaptive"]:
+
+        print(f"\n{pipeline_name.upper()}")
+
+        for metric, value in summary[pipeline_name].items():
+
+            print(f"{metric}: {value:.4f}")
+
+    print("\nADAPTIVE MINUS BASELINE")
+    print("=" * 65)
+
+    for metric, value in difference.items():
+
+        print(f"{metric}: {value:+.4f}")
+
+    print("\nQUERY-WISE F1 OUTCOME")
+
+    print(summary["Query_Wise_Comparison"])
+
+    print("\nGenerated files:")
+
+    print("1. baseline_five_query_evaluation.csv")
+
+    print("2. adaptive_five_query_evaluation.csv")
+
+    print("3. same_query_comparison.csv")
+
+    print("4. same_query_evaluation_summary.json")
+
+    print("\nResults directory:")
+    print(RESULTS_DIR)
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\experiments\pipeline_order_comparison.py =====
+
+
+import json
+import re
+import sys
+import pandas as pd
+
+from pathlib import Path
+from collections import defaultdict, Counter
+
+from nltk.stem import PorterStemmer
+from nltk.stem import WordNetLemmatizer
+
+
+# ============================================================
+# PROJECT PATHS
+# ============================================================
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+RESULTS_DIR = PROJECT_ROOT / "results"
+
+QUERY_FILE = (
+    PROJECT_ROOT
+    / "data"
+    / "documents"
+    / "Query"
+    / "queries_400.csv"
+)
+
+OUTPUT_CSV = (
+    RESULTS_DIR
+    / "pipeline_order_comparison.csv"
+)
+
+OUTPUT_JSON = (
+    RESULTS_DIR
+    / "pipeline_order_summary.json"
+)
+
+
+# ============================================================
+# TOKENIZATION
+# ============================================================
+
+def tokenize(text):
+
+    return re.findall(
+        r"\b[a-zA-Z0-9]+(?:[-'][a-zA-Z0-9]+)*\b",
+        text.lower()
+    )
+
+
+# ============================================================
+# STOPWORDS
+# ============================================================
+
+STOPWORDS = {
+    "a", "an", "the", "is", "are", "was", "were",
+    "be", "been", "being", "of", "in", "on", "at",
+    "to", "for", "from", "with", "by", "as", "and",
+    "or", "but", "this", "that", "these", "those",
+    "it", "its", "they", "them", "their", "we",
+    "our", "you", "your", "has", "have", "had"
+}
+
+# Preserve negation and clinically meaningful words.
+STOPWORDS -= {
+    "no", "not", "nor", "without"
+}
+
+
+# ============================================================
+# LOAD CORPUS
+# ============================================================
+
+def load_corpus():
+
+    path = RESULTS_DIR / "cleaned_corpus.json"
+
+    with open(path, "r", encoding="utf-8") as file:
+        data = json.load(file)
+
+    documents = (
+        data.get("documents", [])
+        if isinstance(data, dict)
+        else data
+    )
+
+    normalized = []
+
+    for i, doc in enumerate(documents, start=1):
+
+        doc_id = (
+            doc.get("doc_id")
+            or doc.get("id")
+            or doc.get("document_id")
+            or f"D{i:02d}"
+        )
+
+        text = (
+            doc.get("cleaned_text")
+            or doc.get("cleaned")
+            or doc.get("text")
+            or doc.get("content")
+            or ""
+        )
+
+        normalized.append({
+            "doc_id": str(doc_id),
+            "text": str(text)
+        })
+
+    return normalized
+
+
+# ============================================================
+# PREPROCESSING PIPELINES
+# ============================================================
+
+def pipeline_a(text):
+
+    """
+    Pipeline A:
+    Lowercase -> Tokenize -> Stopword Removal -> Stemming
+    """
+
+    tokens = tokenize(text)
+
+    tokens = [
+        token for token in tokens
+        if token not in STOPWORDS
+    ]
+
+    stemmer = PorterStemmer()
+
+    return [
+        stemmer.stem(token)
+        for token in tokens
+    ]
+
+
+def pipeline_b(text):
+
+    """
+    Pipeline B:
+    Lowercase -> Stopword Removal -> Tokenize -> Lemmatization
+
+    Stopword removal is applied to normalized whitespace-separated
+    terms before the final tokenization step.
+    """
+
+    lowered = text.lower()
+
+    words = lowered.split()
+
+    filtered_text = " ".join(
+        word for word in words
+        if word.strip(".,;:!?()[]{}\"'") not in STOPWORDS
+    )
+
+    tokens = tokenize(filtered_text)
+
+    lemmatizer = WordNetLemmatizer()
+
+    return [
+        lemmatizer.lemmatize(token)
+        for token in tokens
+    ]
+
+
+# ============================================================
+# BUILD INDEX
+# ============================================================
+
+def build_index(corpus, pipeline_function):
+
+    index = defaultdict(set)
+
+    for doc in corpus:
+
+        tokens = pipeline_function(doc["text"])
+
+        for token in set(tokens):
+
+            index[token].add(doc["doc_id"])
+
+    return dict(index)
+
+
+# ============================================================
+# LOAD QUERIES
+# ============================================================
+
+def load_queries():
+
+    df = pd.read_csv(QUERY_FILE)
+
+    df = df.dropna(
+        subset=["query", "expected_document"]
+    ).copy()
+
+    df["query"] = df["query"].astype(str)
+
+    df["expected_document"] = (
+        df["expected_document"].astype(str)
+    )
+
+    return df
+
+
+# ============================================================
+# RETRIEVAL
+# ============================================================
+
+def retrieve_keyword(query, index, pipeline_function):
+
+    query_tokens = pipeline_function(query)
+
+    results = set()
+
+    for token in query_tokens:
+
+        results.update(
+            index.get(token, set())
+        )
+
+    return results
+
+
+# ============================================================
+# METRICS
+# ============================================================
+
+def calculate_metrics(retrieved, relevant):
+
+    retrieved = set(retrieved)
+
+    relevant = set(relevant)
+
+    tp = len(retrieved & relevant)
+
+    precision = (
+        tp / len(retrieved)
+        if retrieved else 0.0
+    )
+
+    recall = (
+        tp / len(relevant)
+        if relevant else 0.0
+    )
+
+    f1 = (
+        2 * precision * recall / (precision + recall)
+        if precision + recall else 0.0
+    )
+
+    return {
+        "precision": precision,
+        "recall": recall,
+        "f1": f1
+    }
+
+
+# ============================================================
+# MAIN EXPERIMENT
+# ============================================================
+
+def main():
+
+    RESULTS_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    corpus = load_corpus()
+
+    queries = load_queries()
+
+    pipelines = {
+        "Pipeline_A_Stemming": pipeline_a,
+        "Pipeline_B_Lemmatization": pipeline_b
+    }
+
+    indexes = {
+        name: build_index(corpus, function)
+        for name, function in pipelines.items()
+    }
+
+    results = []
+
+    for _, row in queries.iterrows():
+
+        query = row["query"]
+
+        expected = row["expected_document"]
+
+        for name, function in pipelines.items():
+
+            retrieved = retrieve_keyword(
+                query,
+                indexes[name],
+                function
+            )
+
+            metrics = calculate_metrics(
+                retrieved,
+                {expected}
+            )
+
+            results.append({
+
+                "query": query,
+
+                "expected_document": expected,
+
+                "pipeline": name,
+
+                "retrieved_documents": json.dumps(
+                    sorted(retrieved)
+                ),
+
+                "retrieved_count": len(retrieved),
+
+                "precision": metrics["precision"],
+
+                "recall": metrics["recall"],
+
+                "f1": metrics["f1"]
+
+            })
+
+    result_df = pd.DataFrame(results)
+
+    result_df.to_csv(
+        OUTPUT_CSV,
+        index=False
+    )
+
+    summary = {}
+
+    for pipeline_name, group in result_df.groupby("pipeline"):
+
+        summary[pipeline_name] = {
+            "queries": int(len(group)),
+            "macro_precision": round(
+                float(group["precision"].mean()),
+                4
+            ),
+            "macro_recall": round(
+                float(group["recall"].mean()),
+                4
+            ),
+            "macro_f1": round(
+                float(group["f1"].mean()),
+                4
+            ),
+            "average_retrieved_documents": round(
+                float(group["retrieved_count"].mean()),
+                2
+            )
+        }
+
+    with open(
+        OUTPUT_JSON,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            summary,
+            file,
+            indent=4
+        )
+
+    print("\nPIPELINE ORDER COMPARISON")
+    print("=" * 60)
+
+    for name, metrics in summary.items():
+
+        print(f"\n{name}")
+
+        for metric, value in metrics.items():
+            print(f"{metric}: {value}")
+
+    print("\nSaved:")
+    print(OUTPUT_CSV)
+    print(OUTPUT_JSON)
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\experiments\query_analysis.py =====
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\notebooks\README.md =====
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\adaptive_decision_engine.py =====
+
+
+import json
+from pathlib import Path
+
+from query_understanding import understand_query
+
+
+# ============================================================
+# PROJECT PATHS
+# ============================================================
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+OUTPUT_DIR = PROJECT_ROOT / "results"
+
+OUTPUT_FILE = OUTPUT_DIR / "adaptive_decision_results.json"
+
+
+# ============================================================
+# ADAPTIVE DECISION ENGINE
+# ============================================================
+
+def select_retrieval_method(query_info):
+    """
+    Select a lexical retrieval strategy using query structure,
+    extracted keywords, domain terms, and complexity.
+    """
+
+    query_type = query_info["query_type"]
+
+    terms = query_info["terms"]
+
+    keywords = query_info.get("keywords", terms)
+
+    domain_terms = query_info.get("domain_terms", [])
+
+    complexity = query_info["complexity"]
+
+    # --------------------------------------------------------
+    # EXPLICIT RETRIEVAL STRATEGY
+    # --------------------------------------------------------
+
+    if query_type == "PHRASE":
+
+        method = "PHRASE"
+
+        reason = (
+            "Quoted phrase syntax was detected. "
+            "Phrase retrieval will be selected."
+        )
+
+        confidence = 1.0
+
+    elif query_type == "NOT":
+
+        method = "NOT"
+
+        reason = (
+            "An explicit NOT operator was detected. "
+            "Exclusion-based retrieval will be selected."
+        )
+
+        confidence = 1.0
+
+    elif query_type == "AND":
+
+        method = "AND"
+
+        reason = (
+            "An explicit AND operator was detected. "
+            "Intersection-based retrieval will be selected."
+        )
+
+        confidence = 1.0
+
+    elif query_type == "OR":
+
+        method = "OR"
+
+        reason = (
+            "An explicit OR operator was detected. "
+            "Union-based retrieval will be selected."
+        )
+
+        confidence = 1.0
+
+    else:
+
+        method = "KEYWORD"
+
+        if domain_terms:
+
+            reason = (
+                "The query contains domain-specific terms "
+                "without explicit Boolean syntax. "
+                "Keyword retrieval will be selected."
+            )
+
+        else:
+
+            reason = (
+                "No explicit Boolean or quoted phrase syntax "
+                "was detected. Keyword retrieval will be selected."
+            )
+
+        confidence = 0.85
+
+    # --------------------------------------------------------
+    # QUERY ANALYSIS
+    # --------------------------------------------------------
+
+    if complexity == "HIGH":
+
+        complexity_reason = (
+            "The query contains several terms or explicit "
+            "Boolean structure."
+        )
+
+    elif complexity == "MEDIUM":
+
+        complexity_reason = (
+            "The query contains a moderate number of "
+            "meaningful terms."
+        )
+
+    else:
+
+        complexity_reason = (
+            "The query contains a small number of meaningful terms."
+        )
+
+    # --------------------------------------------------------
+    # DECISION OUTPUT
+    # --------------------------------------------------------
+
+    return {
+        "selected_method": method,
+        "decision_reason": reason,
+        "complexity_reason": complexity_reason,
+        "query_complexity": complexity,
+        "number_of_terms": len(terms),
+        "number_of_keywords": len(keywords),
+        "number_of_domain_terms": len(domain_terms),
+        "decision_confidence": confidence
+    }
+
+
+# ============================================================
+# ADAPTIVE DECISION FUNCTION
+# ============================================================
+
+def adaptive_decision(query):
+
+    query_info = understand_query(query)
+
+    decision = select_retrieval_method(query_info)
+
+    return {
+        **query_info,
+        **decision
+    }
+
+
+# ============================================================
+# TESTING
+# ============================================================
+
+def main():
+
+    OUTPUT_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    test_queries = [
+        "COVID",
+        "vaccine effectiveness",
+        '"vaccine effectiveness"',
+        "COVID AND vaccination",
+        "vaccination OR testing",
+        "COVID NOT vaccination",
+        "How does contact tracing work?",
+        "COVID vaccination and prevention",
+        "How does vaccination help prevent infection?",
+        "contact tracing AND outbreak investigation"
+    ]
+
+    results = []
+
+    for query in test_queries:
+
+        result = adaptive_decision(query)
+
+        results.append(result)
+
+        print("\n" + "=" * 65)
+
+        print(f"Query: {result['query']}")
+
+        print(f"Query Type: {result['query_type']}")
+
+        print(f"Selected Method: {result['selected_method']}")
+
+        print(f"Complexity: {result['query_complexity']}")
+
+        print(f"Keywords: {result['keywords']}")
+
+        print(f"Domain Terms: {result['domain_terms']}")
+
+        print(
+            f"Decision Confidence: "
+            f"{result['decision_confidence']:.2f}"
+        )
+
+        print(f"Reason: {result['decision_reason']}")
+
+        print(f"Complexity Analysis: {result['complexity_reason']}")
+
+    # --------------------------------------------------------
+    # SAVE RESULTS
+    # --------------------------------------------------------
+
+    with open(
+        OUTPUT_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            results,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    print("\n" + "=" * 65)
+
+    print("ADAPTIVE DECISION ENGINE COMPLETED")
+
+    print("\nResults saved to:")
+
+    print(OUTPUT_FILE)
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\adaptive_pipeline.py =====
+
+
+import json
+from pathlib import Path
+
+from query_understanding import understand_query
+from adaptive_decision_engine import select_retrieval_method
+
+from retrieval import (
+    load_index,
+    load_corpus,
+    retrieve_detailed
+)
+
+
+# ==================================================
+# PATH CONFIGURATION
+# ==================================================
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+RESULTS_DIR = BASE_DIR / "results"
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+
+OUTPUT_FILE = RESULTS_DIR / "adaptive_pipeline_results.json"
+
+
+# ==================================================
+# FIVE FIXED EVALUATION QUERIES
+# ==================================================
+
+FIXED_QUERIES = [
+    {
+        "query_id": "Q01",
+        "query": (
+            "What are the main causes of COVID-19 "
+            "transmission and how can it be prevented?"
+        ),
+        "expected_document": "D01"
+    },
+    {
+        "query_id": "Q02",
+        "query": (
+            "How effective are COVID-19 vaccines in "
+            "preventing infection and reducing disease severity?"
+        ),
+        "expected_document": "D03"
+    },
+    {
+        "query_id": "Q03",
+        "query": (
+            "How does COVID-19 vaccination help protect "
+            "individuals and communities from infection?"
+        ),
+        "expected_document": "D02"
+    },
+    {
+        "query_id": "Q04",
+        "query": (
+            "What is the relationship between vaccination, "
+            "COVID-19 testing, and early detection of infection?"
+        ),
+        "expected_document": "D16"
+    },
+    {
+        "query_id": "Q05",
+        "query": (
+            "How do quarantine and contact tracing help "
+            "control infectious disease outbreaks?"
+        ),
+        "expected_document": "D06"
+    }
+]
+
+
+# ==================================================
+# LOAD PROJECT RESOURCES
+# ==================================================
+
+def load_resources():
+
+    print("\nLoading healthcare document corpus...")
+
+    index_result = load_index()
+
+    if isinstance(index_result, tuple):
+
+        index = index_result[0]
+
+        if len(index_result) > 1:
+            document_mapping = index_result[1]
+        else:
+            document_mapping = {}
+
+    else:
+
+        index = index_result
+        document_mapping = {}
+
+    corpus = load_corpus()
+
+    if not document_mapping:
+
+        document_mapping = {
+            doc_id: doc_name
+            for doc_id, doc_name in index["documents"].items()
+        }
+
+    print(f"Documents loaded: {len(document_mapping)}")
+    print(f"Indexed terms: {len(index['index'])}")
+
+    return index, document_mapping, corpus
+
+
+# ==================================================
+# DOMAIN RELEVANCE CHECK
+# ==================================================
+
+def is_domain_relevant(query_info):
+
+    domain_terms = query_info.get("domain_terms", [])
+
+    if isinstance(domain_terms, str):
+        domain_terms = [domain_terms]
+
+    return len(domain_terms) > 0
+
+
+# ==================================================
+# OUT-OF-DOMAIN RESPONSE
+# ==================================================
+
+def create_out_of_domain_response(query, query_info):
+
+    return {
+
+        "query": query,
+
+        "query_understanding": query_info,
+
+        "adaptive_decision": {
+
+            "method": "ABSTAIN",
+
+            "confidence": 1.0,
+
+            "reason": (
+                "No recognized healthcare or public-health "
+                "domain terms were identified."
+            )
+
+        },
+
+        "retrieval": {
+
+            "method": "NONE",
+
+            "count": 0,
+
+            "results": []
+
+        },
+
+        "status": "OUT_OF_DOMAIN"
+
+    }
+
+
+# ==================================================
+# MAIN ADAPTIVE PIPELINE
+# ==================================================
+
+def run_adaptive_pipeline(
+    query,
+    index,
+    document_mapping,
+    corpus
+):
+
+    # STEP 1: Understand the query
+
+    query_info = understand_query(query)
+
+    # STEP 2: Check domain relevance
+
+    if not is_domain_relevant(query_info):
+
+        return create_out_of_domain_response(
+            query,
+            query_info
+        )
+
+    # STEP 3: Select retrieval method
+
+    decision = select_retrieval_method(query_info)
+
+    retrieval_method = decision.get(
+        "method",
+        "KEYWORD"
+    )
+
+    # STEP 4: Execute selected lexical retrieval
+
+    retrieval_output = retrieve_detailed(
+        query,
+        retrieval_method,
+        index,
+        corpus
+    )
+
+    # STEP 5: Enrich results
+
+    enriched_results = []
+
+    for result in retrieval_output.get("results", []):
+
+        doc_id = result.get("document_id")
+
+        document_name = document_mapping.get(
+            doc_id,
+            "Unknown document"
+        )
+
+        enriched_results.append({
+
+            "document_id": doc_id,
+
+            "document_name": document_name,
+
+            "score": result.get("score", 0),
+
+            "matched_terms": result.get(
+                "matched_terms",
+                []
+            ),
+
+            "coverage": result.get(
+                "coverage",
+                0
+            ),
+
+            "total_term_frequency": result.get(
+                "total_term_frequency",
+                0
+            )
+
+        })
+
+    # STEP 6: Retrieval status
+
+    if not enriched_results:
+
+        status = "NO_MATCHING_EVIDENCE"
+
+        reason = (
+            "The query is within the supported domain, "
+            "but no documents matched the selected "
+            "lexical retrieval strategy."
+        )
+
+    else:
+
+        status = "RETRIEVAL_COMPLETED"
+
+        reason = (
+            "Documents were retrieved using the "
+            "selected lexical retrieval strategy."
+        )
+
+    # STEP 7: Final output
+
+    final_output = {
+
+        "query": query,
+
+        "query_understanding": query_info,
+
+        "adaptive_decision": {
+
+            "method": retrieval_method,
+
+            "confidence": decision.get(
+                "confidence",
+                0
+            ),
+
+            "reason": decision.get(
+                "reason",
+                reason
+            )
+
+        },
+
+        "retrieval": {
+
+            "method": retrieval_method,
+
+            "count": len(enriched_results),
+
+            "results": enriched_results
+
+        },
+
+        "status": status
+
+    }
+
+    return final_output
+
+
+# ==================================================
+# RUN FIVE-QUERY EXPERIMENT
+# ==================================================
+
+def run_fixed_evaluation(
+    index,
+    document_mapping,
+    corpus
+):
+
+    all_results = []
+
+    print("\n" + "=" * 70)
+    print("ADAPTIVE HEALTHCARE NLP PIPELINE")
+    print("FIVE-QUERY EXPERIMENT")
+    print("=" * 70)
+
+    for item in FIXED_QUERIES:
+
+        query_id = item["query_id"]
+        query = item["query"]
+        expected_document = item["expected_document"]
+
+        print("\n" + "-" * 70)
+        print(f"Query ID: {query_id}")
+        print(f"Query: {query}")
+        print(f"Expected Relevant Document: {expected_document}")
+
+        output = run_adaptive_pipeline(
+            query,
+            index,
+            document_mapping,
+            corpus
+        )
+
+        retrieved_ids = [
+            result["document_id"]
+            for result in output["retrieval"]["results"]
+        ]
+
+        expected_rank = (
+            retrieved_ids.index(expected_document) + 1
+            if expected_document in retrieved_ids
+            else None
+        )
+
+        output["query_id"] = query_id
+        output["expected_document"] = expected_document
+        output["expected_document_rank"] = expected_rank
+        output["expected_document_retrieved"] = (
+            expected_document in retrieved_ids
+        )
+
+        all_results.append(output)
+
+        print(
+            f"Selected Method: "
+            f"{output['adaptive_decision']['method']}"
+        )
+
+        print(
+            f"Retrieved Documents: "
+            f"{output['retrieval']['count']}"
+        )
+
+        print(
+            f"Expected Document Rank: "
+            f"{expected_rank if expected_rank is not None else 'Not Retrieved'}"
+        )
+
+        print(
+            f"Status: {output['status']}"
+        )
+
+    # Save complete experiment
+
+    save_results(all_results)
+
+    # Summary
+
+    successful = sum(
+        result["expected_document_retrieved"]
+        for result in all_results
+    )
+
+    print("\n" + "=" * 70)
+    print("FIVE-QUERY EXPERIMENT SUMMARY")
+    print("=" * 70)
+
+    print(f"Total Queries: {len(all_results)}")
+    print(f"Expected Documents Retrieved: {successful}")
+    print(
+        f"Expected Document Retrieval Rate: "
+        f"{successful / len(all_results):.2%}"
+    )
+
+    print("\nDetailed results saved successfully.")
+    print("=" * 70)
+
+
+# ==================================================
+# SAVE RESULTS
+# ==================================================
+
+def save_results(all_results):
+
+    with open(
+        OUTPUT_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            all_results,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    print(f"\nResults saved to: {OUTPUT_FILE}")
+
+
+# ==================================================
+# MAIN
+# ==================================================
+
+def main():
+
+    index, document_mapping, corpus = load_resources()
+
+    run_fixed_evaluation(
+        index,
+        document_mapping,
+        corpus
+    )
+
+
+# ==================================================
+# EXECUTION
+# ==================================================
+
+if __name__ == "__main__":
+
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\bpe_tokenization.py =====
+
+
+import json
+import csv
+import re
+from pathlib import Path
+
+from tokenizers import Tokenizer
+from tokenizers.models import BPE
+from tokenizers.trainers import BpeTrainer
+from tokenizers.pre_tokenizers import Whitespace
+
+
+# ==================================================
+# 1. PATH CONFIGURATION
+# ==================================================
+
+ROOT = Path(__file__).resolve().parents[1]
+
+INPUT_FILE = ROOT / "results" / "cleaned_corpus.json"
+
+OUTPUT_JSON = ROOT / "results" / "bpe_comparison.json"
+
+OUTPUT_CSV = ROOT / "results" / "bpe_token_comparison.csv"
+
+MODEL_FILE = ROOT / "results" / "healthcare_bpe_tokenizer.json"
+
+OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+
+
+# ==================================================
+# 2. TOKENIZATION
+# ==================================================
+
+def word_tokenize(text):
+
+    pattern = (
+        r"\b[A-Za-z]+(?:[-'][A-Za-z0-9]+)*\b"
+        r"|\d+(?:\.\d+)?%?"
+    )
+
+    return re.findall(pattern, text.lower())
+
+
+# ==================================================
+# 3. CORPUS NORMALIZATION
+# ==================================================
+
+def normalize_corpus(corpus):
+
+    if isinstance(corpus, dict):
+
+        corpus = corpus.get("documents", [])
+
+    if not isinstance(corpus, list):
+
+        raise TypeError(
+            "Expected a list of documents."
+        )
+
+    normalized = []
+
+    for index, document in enumerate(corpus, start=1):
+
+        if not isinstance(document, dict):
+
+            raise TypeError(
+                f"Document {index} is not a dictionary."
+            )
+
+        doc_id = (
+            document.get("doc_id")
+            or document.get("id")
+            or document.get("document_id")
+            or f"D{index:02d}"
+        )
+
+        name = (
+            document.get("document_name")
+            or document.get("name")
+            or document.get("filename")
+            or document.get("document")
+            or doc_id
+        )
+
+        text = (
+            document.get("cleaned_text")
+            or document.get("cleaned")
+            or document.get("text")
+            or document.get("content")
+            or document.get("original_text")
+            or ""
+        )
+
+        if not isinstance(text, str) or not text.strip():
+
+            raise ValueError(
+                f"Missing text for {doc_id}. "
+                f"Available fields: {list(document.keys())}"
+            )
+
+        normalized.append({
+
+            "doc_id": str(doc_id),
+
+            "document_name": str(name),
+
+            "text": text
+
+        })
+
+    return normalized
+
+
+# ==================================================
+# 4. TRAIN BPE TOKENIZER
+# ==================================================
+
+def train_bpe(corpus):
+
+    tokenizer = Tokenizer(
+        BPE(unk_token="[UNK]")
+    )
+
+    tokenizer.pre_tokenizer = Whitespace()
+
+    trainer = BpeTrainer(
+
+        vocab_size=500,
+
+        min_frequency=2,
+
+        special_tokens=[
+            "[UNK]",
+            "[PAD]",
+            "[CLS]",
+            "[SEP]",
+            "[MASK]"
+        ]
+
+    )
+
+    training_texts = [
+        document["text"]
+        for document in corpus
+    ]
+
+    tokenizer.train_from_iterator(
+        training_texts,
+        trainer=trainer
+    )
+
+    tokenizer.save(str(MODEL_FILE))
+
+    return tokenizer
+
+
+# ==================================================
+# 5. ANALYZE BPE
+# ==================================================
+
+def analyze_bpe(tokenizer, text):
+
+    encoding = tokenizer.encode(text)
+
+    return {
+
+        "tokens": encoding.tokens,
+
+        "token_ids": encoding.ids,
+
+        "token_count": len(encoding.tokens)
+
+    }
+
+
+# ==================================================
+# 6. MAIN EXECUTION
+# ==================================================
+
+def main():
+
+    print("\nBPE TOKENIZATION")
+    print("================")
+
+    if not INPUT_FILE.exists():
+
+        raise FileNotFoundError(
+            f"Input file not found: {INPUT_FILE}"
+        )
+
+    with open(
+        INPUT_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        raw_corpus = json.load(file)
+
+    corpus = normalize_corpus(raw_corpus)
+
+    print("Training BPE tokenizer...")
+
+    tokenizer = train_bpe(corpus)
+
+    document_results = []
+
+    csv_rows = []
+
+    total_word_tokens = 0
+
+    total_bpe_tokens = 0
+
+    for document in corpus:
+
+        doc_id = document["doc_id"]
+
+        name = document["document_name"]
+
+        text = document["text"]
+
+        word_tokens = word_tokenize(text)
+
+        bpe_result = analyze_bpe(
+            tokenizer,
+            text
+        )
+
+        word_count = len(word_tokens)
+
+        bpe_count = bpe_result["token_count"]
+
+        total_word_tokens += word_count
+
+        total_bpe_tokens += bpe_count
+
+        document_results.append({
+
+            "doc_id": doc_id,
+
+            "document_name": name,
+
+            "word_token_count": word_count,
+
+            "bpe_token_count": bpe_count,
+
+            "word_tokens": word_tokens,
+
+            "bpe_tokens": bpe_result["tokens"],
+
+            "bpe_token_ids": bpe_result["token_ids"]
+
+        })
+
+        csv_rows.append({
+
+            "doc_id": doc_id,
+
+            "document_name": name,
+
+            "word_token_count": word_count,
+
+            "bpe_token_count": bpe_count,
+
+            "word_tokens": " | ".join(word_tokens),
+
+            "bpe_tokens": " | ".join(
+                bpe_result["tokens"]
+            )
+
+        })
+
+        print(
+            f"Processed: {doc_id} | "
+            f"Word tokens={word_count} | "
+            f"BPE tokens={bpe_count}"
+        )
+
+    # ==================================================
+    # 7. SUMMARY
+    # ==================================================
+
+    vocabulary_size = tokenizer.get_vocab_size()
+
+    summary = {
+
+        "total_documents": len(corpus),
+
+        "bpe_vocabulary_size": vocabulary_size,
+
+        "total_word_tokens": total_word_tokens,
+
+        "total_bpe_tokens": total_bpe_tokens,
+
+        "token_count_difference": (
+            total_bpe_tokens - total_word_tokens
+        ),
+
+        "documents": document_results
+
+    }
+
+    # ==================================================
+    # 8. SAVE JSON
+    # ==================================================
+
+    with open(
+        OUTPUT_JSON,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            summary,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    # ==================================================
+    # 9. SAVE CSV
+    # ==================================================
+
+    fieldnames = [
+
+        "doc_id",
+
+        "document_name",
+
+        "word_token_count",
+
+        "bpe_token_count",
+
+        "word_tokens",
+
+        "bpe_tokens"
+
+    ]
+
+    with open(
+        OUTPUT_CSV,
+        "w",
+        newline="",
+        encoding="utf-8"
+    ) as file:
+
+        writer = csv.DictWriter(
+            file,
+            fieldnames=fieldnames
+        )
+
+        writer.writeheader()
+
+        writer.writerows(csv_rows)
+
+    # ==================================================
+    # 10. FINAL OUTPUT
+    # ==================================================
+
+    print("\nBPE TOKENIZATION COMPLETED")
+    print("==========================")
+
+    print("Documents:", len(corpus))
+
+    print("BPE vocabulary size:", vocabulary_size)
+
+    print("Total word tokens:", total_word_tokens)
+
+    print("Total BPE tokens:", total_bpe_tokens)
+
+    print("Difference:", total_bpe_tokens - total_word_tokens)
+
+    print("\nGenerated files:")
+
+    print(OUTPUT_JSON)
+
+    print(OUTPUT_CSV)
+
+    print(MODEL_FILE)
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\custom_pos.py =====
+
+
+import json
+import csv
+import re
+from pathlib import Path
+
+import nltk
+import spacy
+
+from nltk import pos_tag
+
+
+# ==================================================
+# 1. PATH CONFIGURATION
+# ==================================================
+
+ROOT = Path(__file__).resolve().parents[1]
+
+INPUT_FILE = ROOT / "results" / "cleaned_corpus.json"
+
+OUTPUT_JSON = ROOT / "results" / "custom_pos_comparison.json"
+
+OUTPUT_CSV = ROOT / "results" / "custom_pos_comparison.csv"
+
+OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+
+
+# ==================================================
+# 2. HEALTHCARE DOMAIN VOCABULARY
+# ==================================================
+
+HEALTHCARE_NOUNS = {
+
+    "covid-19",
+    "covid",
+    "coronavirus",
+    "virus",
+    "infection",
+    "infections",
+    "disease",
+    "diseases",
+    "vaccine",
+    "vaccines",
+    "vaccination",
+    "vaccinations",
+    "epidemiology",
+    "epidemiologist",
+    "transmission",
+    "outbreak",
+    "outbreaks",
+    "pandemic",
+    "epidemic",
+    "incidence",
+    "prevalence",
+    "surveillance",
+    "immunity",
+    "antibody",
+    "antibodies",
+    "variant",
+    "variants",
+    "pathogen",
+    "pathogens",
+    "testing",
+    "diagnosis",
+    "diagnostic",
+    "quarantine",
+    "isolation",
+    "symptom",
+    "symptoms",
+    "hospital",
+    "hospitals",
+    "patient",
+    "patients",
+    "healthcare",
+    "immunization",
+    "immunisation",
+    "mortality",
+    "morbidity",
+    "prevention",
+    "protection",
+    "contact",
+    "tracing",
+    "risk",
+    "population",
+    "populations",
+    "variant",
+    "variants",
+    "clinical",
+    "epidemiological",
+    "vaccine-safety",
+    "reproduction-number",
+    "rt-pcr",
+    "pcr",
+    "who",
+    "cdc"
+
+}
+
+
+HEALTHCARE_VERBS = {
+
+    "transmit",
+    "transmits",
+    "transmitted",
+    "transmitting",
+    "infect",
+    "infects",
+    "infected",
+    "infecting",
+    "vaccinate",
+    "vaccinates",
+    "vaccinated",
+    "vaccinating",
+    "prevent",
+    "prevents",
+    "prevented",
+    "preventing",
+    "monitor",
+    "monitors",
+    "monitored",
+    "monitoring",
+    "detect",
+    "detects",
+    "detected",
+    "detecting",
+    "spread",
+    "spreads",
+    "spreading",
+    "reduce",
+    "reduces",
+    "reduced",
+    "reducing",
+    "protect",
+    "protects",
+    "protected",
+    "protecting",
+    "test",
+    "tests",
+    "tested",
+    "testing",
+    "track",
+    "tracks",
+    "tracked",
+    "tracking",
+    "isolate",
+    "isolates",
+    "isolated",
+    "isolating"
+
+}
+
+
+HEALTHCARE_ADJECTIVES = {
+
+    "infectious",
+    "infected",
+    "epidemiological",
+    "clinical",
+    "viral",
+    "vaccine-related",
+    "preventive",
+    "preventable",
+    "immune",
+    "immunological",
+    "contagious",
+    "severe",
+    "mild",
+    "asymptomatic",
+    "symptomatic",
+    "effective",
+    "effective",
+    "respiratory",
+    "public-health"
+
+}
+
+
+# ==================================================
+# 3. LOAD MODELS
+# ==================================================
+
+def setup_nltk():
+
+    try:
+        nltk.data.find(
+            "taggers/averaged_perceptron_tagger_eng"
+        )
+
+    except LookupError:
+        nltk.download(
+            "averaged_perceptron_tagger_eng"
+        )
+
+
+def load_spacy():
+
+    try:
+        return spacy.load("en_core_web_sm")
+
+    except OSError:
+
+        raise RuntimeError(
+            "Install spaCy model using:\n"
+            "python -m spacy download en_core_web_sm"
+        )
+
+
+# ==================================================
+# 4. TOKENIZATION
+# ==================================================
+
+def tokenize_text(text):
+
+    pattern = (
+        r"\b[A-Za-z]+(?:[-'][A-Za-z0-9]+)*\b"
+        r"|\d+(?:\.\d+)?%?"
+    )
+
+    return re.findall(pattern, text)
+
+
+# ==================================================
+# 5. CUSTOM POS RULES
+# ==================================================
+
+def custom_pos_tagging(text):
+
+    tokens = tokenize_text(text)
+
+    results = []
+
+    for word in tokens:
+
+        lower_word = word.lower()
+
+        if lower_word in HEALTHCARE_VERBS:
+
+            tag = "DOMAIN_VERB"
+
+        elif lower_word in HEALTHCARE_ADJECTIVES:
+
+            tag = "DOMAIN_ADJ"
+
+        elif lower_word in HEALTHCARE_NOUNS:
+
+            tag = "DOMAIN_NOUN"
+
+        elif re.fullmatch(r"\d+(?:\.\d+)?%?", word):
+
+            tag = "NUM"
+
+        elif word.istitle():
+
+            tag = "PROPN"
+
+        else:
+
+            tag = "GENERAL"
+
+        results.append({
+
+            "token": word,
+
+            "pos": tag,
+
+            "method": "Custom Healthcare Rules"
+
+        })
+
+    return results
+
+
+# ==================================================
+# 6. NLTK POS TAGGING
+# ==================================================
+
+def nltk_pos_tagging(text):
+
+    tokens = tokenize_text(text)
+
+    if not tokens:
+        return []
+
+    return [
+
+        {
+            "token": word,
+            "pos": tag
+        }
+
+        for word, tag in pos_tag(tokens)
+
+    ]
+
+
+# ==================================================
+# 7. SPACY POS TAGGING
+# ==================================================
+
+def spacy_pos_tagging(text, nlp):
+
+    doc = nlp(text)
+
+    return [
+
+        {
+            "token": token.text,
+            "pos": token.pos_,
+            "tag": token.tag_
+        }
+
+        for token in doc
+
+        if not token.is_space and not token.is_punct
+
+    ]
+
+
+# ==================================================
+# 8. CORPUS NORMALIZATION
+# ==================================================
+
+def normalize_corpus(corpus):
+
+    if isinstance(corpus, dict):
+
+        corpus = corpus.get("documents", [])
+
+    if not isinstance(corpus, list):
+
+        raise TypeError(
+            "Expected a list of documents."
+        )
+
+    normalized = []
+
+    for index, document in enumerate(corpus, start=1):
+
+        if not isinstance(document, dict):
+
+            raise TypeError(
+                f"Document {index} is not a dictionary."
+            )
+
+        doc_id = (
+            document.get("doc_id")
+            or document.get("id")
+            or document.get("document_id")
+            or f"D{index:02d}"
+        )
+
+        name = (
+            document.get("document_name")
+            or document.get("name")
+            or document.get("filename")
+            or document.get("document")
+            or doc_id
+        )
+
+        text = (
+            document.get("cleaned_text")
+            or document.get("cleaned")
+            or document.get("text")
+            or document.get("content")
+            or document.get("original_text")
+            or ""
+        )
+
+        if not isinstance(text, str) or not text.strip():
+
+            raise ValueError(
+                f"Missing text for {doc_id}. "
+                f"Fields found: {list(document.keys())}"
+            )
+
+        normalized.append({
+
+            "doc_id": str(doc_id),
+
+            "document_name": str(name),
+
+            "text": text
+
+        })
+
+    return normalized
+
+
+# ==================================================
+# 9. COMPARE TAGGING METHODS
+# ==================================================
+
+def compare_methods(
+    nltk_results,
+    spacy_results,
+    custom_results
+):
+
+    comparison = []
+
+    total = min(
+        len(nltk_results),
+        len(spacy_results),
+        len(custom_results)
+    )
+
+    for index in range(total):
+
+        nltk_item = nltk_results[index]
+
+        spacy_item = spacy_results[index]
+
+        custom_item = custom_results[index]
+
+        comparison.append({
+
+            "token": custom_item["token"],
+
+            "nltk_pos": nltk_item["pos"],
+
+            "spacy_pos": spacy_item["pos"],
+
+            "custom_pos": custom_item["pos"]
+
+        })
+
+    return comparison
+
+
+# ==================================================
+# 10. MAIN EXECUTION
+# ==================================================
+
+def main():
+
+    print("\nCUSTOM HEALTHCARE POS TAGGING")
+    print("=============================")
+
+    setup_nltk()
+
+    nlp = load_spacy()
+
+    if not INPUT_FILE.exists():
+
+        raise FileNotFoundError(
+            f"Missing input file: {INPUT_FILE}"
+        )
+
+    with open(
+        INPUT_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        raw_corpus = json.load(file)
+
+    corpus = normalize_corpus(raw_corpus)
+
+    all_results = []
+
+    csv_rows = []
+
+    total_tokens = 0
+
+    domain_nouns = 0
+
+    domain_verbs = 0
+
+    domain_adjectives = 0
+
+    for document in corpus:
+
+        doc_id = document["doc_id"]
+
+        name = document["document_name"]
+
+        text = document["text"]
+
+        nltk_results = nltk_pos_tagging(text)
+
+        spacy_results = spacy_pos_tagging(text, nlp)
+
+        custom_results = custom_pos_tagging(text)
+
+        comparison = compare_methods(
+            nltk_results,
+            spacy_results,
+            custom_results
+        )
+
+        total_tokens += len(custom_results)
+
+        for item in custom_results:
+
+            if item["pos"] == "DOMAIN_NOUN":
+                domain_nouns += 1
+
+            elif item["pos"] == "DOMAIN_VERB":
+                domain_verbs += 1
+
+            elif item["pos"] == "DOMAIN_ADJ":
+                domain_adjectives += 1
+
+        for item in comparison:
+
+            csv_rows.append({
+
+                "doc_id": doc_id,
+
+                "document_name": name,
+
+                "token": item["token"],
+
+                "nltk_pos": item["nltk_pos"],
+
+                "spacy_pos": item["spacy_pos"],
+
+                "custom_pos": item["custom_pos"]
+
+            })
+
+        all_results.append({
+
+            "doc_id": doc_id,
+
+            "document_name": name,
+
+            "nltk_pos": nltk_results,
+
+            "spacy_pos": spacy_results,
+
+            "custom_pos": custom_results,
+
+            "comparison": comparison
+
+        })
+
+        print(
+            f"Processed: {doc_id} - {name}"
+        )
+
+    # ==================================================
+    # 11. SUMMARY
+    # ==================================================
+
+    summary = {
+
+        "total_documents": len(corpus),
+
+        "total_tokens": total_tokens,
+
+        "domain_nouns": domain_nouns,
+
+        "domain_verbs": domain_verbs,
+
+        "domain_adjectives": domain_adjectives,
+
+        "documents": all_results
+
+    }
+
+    # ==================================================
+    # 12. SAVE JSON
+    # ==================================================
+
+    with open(
+        OUTPUT_JSON,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            summary,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    # ==================================================
+    # 13. SAVE CSV
+    # ==================================================
+
+    fieldnames = [
+
+        "doc_id",
+
+        "document_name",
+
+        "token",
+
+        "nltk_pos",
+
+        "spacy_pos",
+
+        "custom_pos"
+
+    ]
+
+    with open(
+        OUTPUT_CSV,
+        "w",
+        newline="",
+        encoding="utf-8"
+    ) as file:
+
+        writer = csv.DictWriter(
+            file,
+            fieldnames=fieldnames
+        )
+
+        writer.writeheader()
+
+        writer.writerows(csv_rows)
+
+    # ==================================================
+    # 14. FINAL OUTPUT
+    # ==================================================
+
+    print("\nCUSTOM POS TAGGING COMPLETED")
+    print("============================")
+
+    print("Documents:", len(corpus))
+
+    print("Total tokens:", total_tokens)
+
+    print("Domain nouns:", domain_nouns)
+
+    print("Domain verbs:", domain_verbs)
+
+    print("Domain adjectives:", domain_adjectives)
+
+    print("\nGenerated files:")
+
+    print(OUTPUT_JSON)
+
+    print(OUTPUT_CSV)
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\document_loader.py =====
+
+
+from pathlib import Path
+import json
+import re
+
+
+# ==================================================
+# 1. PROJECT PATHS
+# ==================================================
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+DOCUMENT_DIR = PROJECT_ROOT / "data" / "documents"
+RESULT_DIR = PROJECT_ROOT / "results"
+
+CORPUS_FILE = RESULT_DIR / "processed_corpus.json"
+STATISTICS_FILE = RESULT_DIR / "document_statistics.json"
+
+
+# ==================================================
+# 2. TEXT STATISTICS
+# ==================================================
+
+def calculate_document_statistics(text):
+
+    words = re.findall(r"\b\w+\b", text)
+
+    sentences = re.split(r"[.!?]+", text)
+
+    sentences = [
+        sentence.strip()
+        for sentence in sentences
+        if sentence.strip()
+    ]
+
+    return {
+        "character_count": len(text),
+        "word_count": len(words),
+        "sentence_count": len(sentences)
+    }
+
+
+# ==================================================
+# 3. LOAD DOCUMENTS
+# ==================================================
+
+def load_documents():
+
+    if not DOCUMENT_DIR.exists():
+        raise FileNotFoundError(
+            f"Document directory not found: {DOCUMENT_DIR}"
+        )
+
+    files = sorted(
+        DOCUMENT_DIR.glob("*.txt")
+    )
+
+    if not files:
+        raise FileNotFoundError(
+            "No TXT documents found."
+        )
+
+    documents = []
+    empty_documents = []
+
+    for index, file_path in enumerate(files, start=1):
+
+        document_id = f"D{index:02d}"
+
+        text = file_path.read_text(
+            encoding="utf-8",
+            errors="replace"
+        ).strip()
+
+        if not text:
+            empty_documents.append(file_path.name)
+            print(f"WARNING: Empty document: {file_path.name}")
+            continue
+
+        stats = calculate_document_statistics(text)
+
+        document = {
+            "document_id": document_id,
+            "file_name": file_path.name,
+            "document_name": file_path.stem,
+            "text": text,
+            **stats
+        }
+
+        documents.append(document)
+
+    if not documents:
+        raise ValueError("No valid documents were loaded.")
+
+    return documents, empty_documents
+
+
+# ==================================================
+# 4. CORPUS STATISTICS
+# ==================================================
+
+def calculate_corpus_statistics(documents):
+
+    all_text = " ".join(
+        doc["text"] for doc in documents
+    )
+
+    all_words = re.findall(
+        r"\b\w+\b",
+        all_text.lower()
+    )
+
+    vocabulary = set(all_words)
+
+    total_documents = len(documents)
+
+    total_words = len(all_words)
+
+    total_sentences = sum(
+        doc["sentence_count"] for doc in documents
+    )
+
+    total_characters = sum(
+        doc["character_count"] for doc in documents
+    )
+
+    statistics = {
+        "total_documents": total_documents,
+        "total_sentences": total_sentences,
+        "total_tokens": total_words,
+        "total_characters": total_characters,
+        "vocabulary_size": len(vocabulary),
+        "average_document_length": round(
+            total_words / total_documents, 2
+        )
+    }
+
+    return statistics
+
+
+# ==================================================
+# 5. SAVE OUTPUT
+# ==================================================
+
+def save_output(documents, statistics, empty_documents):
+
+    RESULT_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    with open(
+        CORPUS_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            documents,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    output = {
+        "corpus_statistics": statistics,
+        "empty_documents": empty_documents
+    }
+
+    with open(
+        STATISTICS_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            output,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+
+# ==================================================
+# 6. MAIN
+# ==================================================
+
+def main():
+
+    print("=" * 65)
+    print("MAIN ADAPTIVE PIPELINE")
+    print("MODULE 1: DOCUMENT LOADING")
+    print("=" * 65)
+
+    documents, empty_documents = load_documents()
+
+    statistics = calculate_corpus_statistics(documents)
+
+    save_output(
+        documents,
+        statistics,
+        empty_documents
+    )
+
+    print("\nDOCUMENT DETAILS")
+    print("-" * 65)
+
+    for doc in documents:
+
+        print(
+            f"{doc['document_id']} | "
+            f"{doc['file_name']} | "
+            f"Words: {doc['word_count']} | "
+            f"Sentences: {doc['sentence_count']}"
+        )
+
+    print("\nCORPUS STATISTICS")
+    print("-" * 65)
+
+    for key, value in statistics.items():
+
+        print(f"{key.replace('_', ' ').title()}: {value}")
+
+    print("\nVALIDATION")
+    print("-" * 65)
+
+    print(f"Valid documents: {len(documents)}")
+    print(f"Empty documents: {len(empty_documents)}")
+
+    if len(documents) != 20:
+        print("WARNING: Expected 20 valid documents.")
+
+    print("\nOUTPUT FILES")
+    print(f"Corpus: {CORPUS_FILE}")
+    print(f"Statistics: {STATISTICS_FILE}")
+
+    print("\nMODULE 1 COMPLETED SUCCESSFULLY.")
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\evaluation.py =====
+
+
+import json
+from pathlib import Path
+
+from query_understanding import understand_query
+
+
+# ============================================================
+# 1. PROJECT PATHS
+# ============================================================
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+OUTPUT_DIR = PROJECT_ROOT / "results"
+
+OUTPUT_FILE = OUTPUT_DIR / "adaptive_decision_results.json"
+
+
+# ============================================================
+# 2. ADAPTIVE RETRIEVAL DECISION ENGINE
+# ============================================================
+
+def select_retrieval_method(query_info):
+    """
+    Select a lexical retrieval method using:
+
+    1. Query type
+    2. Query complexity
+    3. Number of meaningful terms
+    4. Domain-specific terms
+    5. Query intent
+
+    Supported methods:
+    KEYWORD, PHRASE, AND, OR, NOT
+    """
+
+    query_type = str(
+        query_info.get("query_type", "KEYWORD")
+    ).upper()
+
+    terms = query_info.get("terms", [])
+
+    keywords = query_info.get("keywords", terms)
+
+    domain_terms = query_info.get("domain_terms", [])
+
+    complexity = str(
+        query_info.get("complexity", "LOW")
+    ).upper()
+
+    query = str(query_info.get("query", ""))
+
+    number_of_terms = len(terms)
+
+    number_of_keywords = len(keywords)
+
+    number_of_domain_terms = len(domain_terms)
+
+    # --------------------------------------------------------
+    # STEP 1: SELECT RETRIEVAL METHOD
+    # --------------------------------------------------------
+
+    if query_type == "PHRASE":
+
+        method = "PHRASE"
+
+        reason = (
+            "The query contains an explicitly quoted phrase. "
+            "Phrase retrieval is selected to preserve term order."
+        )
+
+        confidence = 1.0
+
+    elif query_type == "NOT":
+
+        method = "NOT"
+
+        reason = (
+            "The query contains an explicit NOT operator. "
+            "Exclusion-based lexical retrieval is selected."
+        )
+
+        confidence = 1.0
+
+    elif query_type == "AND":
+
+        method = "AND"
+
+        reason = (
+            "The query contains an explicit AND operator. "
+            "Intersection-based lexical retrieval is selected."
+        )
+
+        confidence = 1.0
+
+    elif query_type == "OR":
+
+        method = "OR"
+
+        reason = (
+            "The query contains an explicit OR operator. "
+            "Union-based lexical retrieval is selected."
+        )
+
+        confidence = 1.0
+
+    else:
+
+        method = "KEYWORD"
+
+        if number_of_domain_terms > 0:
+
+            reason = (
+                "The query contains healthcare or public-health "
+                "domain terms without explicit Boolean syntax. "
+                "Keyword retrieval is selected."
+            )
+
+        else:
+
+            reason = (
+                "No explicit Boolean operator or quoted phrase "
+                "was detected. Keyword retrieval is selected."
+            )
+
+        confidence = 0.85
+
+    # --------------------------------------------------------
+    # STEP 2: ANALYZE QUERY COMPLEXITY
+    # --------------------------------------------------------
+
+    if complexity == "HIGH":
+
+        complexity_reason = (
+            "The query has high complexity based on the "
+            "query-understanding module."
+        )
+
+    elif complexity == "MEDIUM":
+
+        complexity_reason = (
+            "The query has moderate complexity and contains "
+            "multiple meaningful terms."
+        )
+
+    else:
+
+        complexity_reason = (
+            "The query has relatively low complexity."
+        )
+
+    # --------------------------------------------------------
+    # STEP 3: DETERMINE RETRIEVAL SCOPE
+    # --------------------------------------------------------
+
+    if method in ["AND", "PHRASE"]:
+
+        retrieval_scope = "RESTRICTIVE"
+
+        scope_reason = (
+            "The retrieval method applies explicit term "
+            "constraints or phrase matching."
+        )
+
+    elif method == "OR":
+
+        retrieval_scope = "BROAD"
+
+        scope_reason = (
+            "OR retrieval allows documents matching any "
+            "specified alternative."
+        )
+
+    elif method == "NOT":
+
+        retrieval_scope = "EXCLUSION_BASED"
+
+        scope_reason = (
+            "The retrieval method excludes documents "
+            "matching the prohibited term."
+        )
+
+    else:
+
+        if number_of_keywords >= 5:
+
+            retrieval_scope = "CONTROLLED"
+
+            scope_reason = (
+                "The query contains several keywords. "
+                "Relevance ranking should prioritize documents "
+                "covering more important query terms."
+            )
+
+        else:
+
+            retrieval_scope = "STANDARD"
+
+            scope_reason = (
+                "Standard keyword retrieval is suitable "
+                "for the detected query structure."
+            )
+
+    # --------------------------------------------------------
+    # STEP 4: DETERMINE EVIDENCE REQUIREMENT
+    # --------------------------------------------------------
+
+    if complexity == "HIGH" or number_of_keywords >= 5:
+
+        evidence_requirement = "HIGH"
+
+    elif number_of_keywords >= 3:
+
+        evidence_requirement = "MEDIUM"
+
+    else:
+
+        evidence_requirement = "LOW"
+
+    # --------------------------------------------------------
+    # STEP 5: DETERMINE INITIAL ACTION
+    # --------------------------------------------------------
+
+    if number_of_keywords == 0:
+
+        initial_action = "REFINE"
+
+        action_reason = (
+            "No meaningful keywords were identified. "
+            "The query should be refined before retrieval."
+        )
+
+    elif method in ["AND", "PHRASE"]:
+
+        initial_action = "RETRIEVE"
+
+        action_reason = (
+            "The query contains explicit retrieval constraints "
+            "that can be applied directly."
+        )
+
+    else:
+
+        initial_action = "RETRIEVE"
+
+        action_reason = (
+            "Meaningful query terms are available for "
+            "lexical retrieval."
+        )
+
+    # --------------------------------------------------------
+    # STEP 6: QUERY ANALYSIS SUMMARY
+    # --------------------------------------------------------
+
+    return {
+        "selected_method": method,
+
+        "decision_reason": reason,
+
+        "query_complexity": complexity,
+
+        "complexity_reason": complexity_reason,
+
+        "number_of_terms": number_of_terms,
+
+        "number_of_keywords": number_of_keywords,
+
+        "number_of_domain_terms": number_of_domain_terms,
+
+        "retrieval_scope": retrieval_scope,
+
+        "scope_reason": scope_reason,
+
+        "evidence_requirement": evidence_requirement,
+
+        "initial_action": initial_action,
+
+        "action_reason": action_reason,
+
+        "decision_confidence": round(confidence, 4)
+    }
+
+
+# ============================================================
+# 3. ADAPTIVE DECISION FUNCTION
+# ============================================================
+
+def adaptive_decision(query):
+
+    query_info = understand_query(query)
+
+    decision = select_retrieval_method(query_info)
+
+    return {
+        **query_info,
+        **decision
+    }
+
+
+# ============================================================
+# 4. FIXED FIVE-QUERY EVALUATION SET
+# ============================================================
+
+EVALUATION_QUERIES = [
+    {
+        "id": "Q01",
+        "query": (
+            "What are the main causes of COVID-19 transmission "
+            "and how can it be prevented?"
+        ),
+        "relevant": ["D01"]
+    },
+    {
+        "id": "Q02",
+        "query": (
+            "How effective are COVID-19 vaccines in preventing "
+            "infection and reducing disease severity?"
+        ),
+        "relevant": ["D03"]
+    },
+    {
+        "id": "Q03",
+        "query": (
+            "How does COVID-19 vaccination help protect individuals "
+            "and communities from infection?"
+        ),
+        "relevant": ["D02"]
+    },
+    {
+        "id": "Q04",
+        "query": (
+            "What is the relationship between vaccination, "
+            "COVID-19 testing, and early detection of infection?"
+        ),
+        "relevant": ["D16"]
+    },
+    {
+        "id": "Q05",
+        "query": (
+            "How do quarantine and contact tracing help control "
+            "infectious disease outbreaks?"
+        ),
+        "relevant": ["D06"]
+    }
+]
+
+
+# ============================================================
+# 5. RUN FIVE-QUERY DECISION ANALYSIS
+# ============================================================
+
+def main():
+
+    OUTPUT_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    results = []
+
+    print("=" * 70)
+
+    print("ADAPTIVE DECISION ENGINE")
+
+    print("FIXED FIVE-QUERY ANALYSIS")
+
+    print("=" * 70)
+
+    for query_data in EVALUATION_QUERIES:
+
+        query_id = query_data["id"]
+
+        query = query_data["query"]
+
+        result = adaptive_decision(query)
+
+        result["query_id"] = query_id
+
+        result["expected_relevant_documents"] = (
+            query_data["relevant"]
+        )
+
+        results.append(result)
+
+        print("\n" + "-" * 70)
+
+        print(f"Query ID: {query_id}")
+
+        print(f"Query: {result['query']}")
+
+        print(f"Query Type: {result['query_type']}")
+
+        print(f"Selected Method: {result['selected_method']}")
+
+        print(f"Complexity: {result['query_complexity']}")
+
+        print(f"Keywords: {result['keywords']}")
+
+        print(f"Domain Terms: {result['domain_terms']}")
+
+        print(f"Retrieval Scope: {result['retrieval_scope']}")
+
+        print(
+            f"Evidence Requirement: "
+            f"{result['evidence_requirement']}"
+        )
+
+        print(f"Initial Action: {result['initial_action']}")
+
+        print(
+            f"Decision Confidence: "
+            f"{result['decision_confidence']:.4f}"
+        )
+
+        print(f"Decision Reason: {result['decision_reason']}")
+
+        print(f"Scope Reason: {result['scope_reason']}")
+
+        print(f"Action Reason: {result['action_reason']}")
+
+    # --------------------------------------------------------
+    # SAVE RESULTS
+    # --------------------------------------------------------
+
+    output_data = {
+        "project": "Adaptive Lexical Retrieval",
+
+        "evaluation_type": "Fixed Five-Query Decision Analysis",
+
+        "total_queries": len(results),
+
+        "retrieval_type": "Lexical",
+
+        "results": results
+    }
+
+    with open(
+        OUTPUT_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            output_data,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    print("\n" + "=" * 70)
+
+    print("ADAPTIVE DECISION ENGINE COMPLETED")
+
+    print(f"Queries processed: {len(results)}")
+
+    print(f"Results saved to: {OUTPUT_FILE}")
+
+    print("=" * 70)
+
+
+# ============================================================
+# 6. ENTRY POINT
+# ============================================================
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\inverted_index.py =====
+
+
+import json
+import re
+from collections import defaultdict, Counter
+from pathlib import Path
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+INPUT_FILE = PROJECT_ROOT / "results" / "cleaned_corpus.json"
+OUTPUT_DIR = PROJECT_ROOT / "results"
+
+INDEX_FILE = OUTPUT_DIR / "inverted_index.json"
+STATS_FILE = OUTPUT_DIR / "inverted_index_statistics.json"
+
+
+def load_corpus():
+    with open(INPUT_FILE, "r", encoding="utf-8") as file:
+        data = json.load(file)
+
+    if isinstance(data, dict):
+        documents = data.get("documents", [])
+    else:
+        documents = data
+
+    normalized = []
+
+    for i, doc in enumerate(documents, start=1):
+        doc_id = (
+            doc.get("doc_id")
+            or doc.get("id")
+            or doc.get("document_id")
+            or f"D{i:02d}"
+        )
+
+        text = (
+            doc.get("cleaned_text")
+            or doc.get("cleaned")
+            or doc.get("text")
+            or doc.get("content")
+            or ""
+        )
+
+        name = (
+            doc.get("document_name")
+            or doc.get("name")
+            or doc.get("filename")
+            or doc_id
+        )
+
+        normalized.append({
+            "doc_id": str(doc_id),
+            "name": str(name),
+            "text": str(text)
+        })
+
+    return normalized
+
+
+def tokenize(text):
+    return re.findall(r"\b[a-zA-Z0-9]+(?:[-'][a-zA-Z0-9]+)*\b", text.lower())
+
+
+def build_index(documents):
+    inverted_index = defaultdict(dict)
+    document_lengths = {}
+
+    for doc in documents:
+        doc_id = doc["doc_id"]
+        tokens = tokenize(doc["text"])
+
+        document_lengths[doc_id] = len(tokens)
+
+        frequencies = Counter(tokens)
+
+        for term, frequency in frequencies.items():
+            inverted_index[term][doc_id] = frequency
+
+    return dict(inverted_index), document_lengths
+
+
+def calculate_statistics(index, documents, document_lengths):
+    total_terms = sum(document_lengths.values())
+
+    statistics = {
+        "total_documents": len(documents),
+        "unique_terms": len(index),
+        "total_token_occurrences": total_terms,
+        "average_document_length": (
+            round(total_terms / len(documents), 2)
+            if documents else 0
+        ),
+        "average_document_frequency": (
+            round(
+                sum(len(postings) for postings in index.values())
+                / len(index),
+                2
+            )
+            if index else 0
+        ),
+        "top_20_terms_by_document_frequency": sorted(
+            [
+                {
+                    "term": term,
+                    "document_frequency": len(postings)
+                }
+                for term, postings in index.items()
+            ],
+            key=lambda item: (
+                -item["document_frequency"],
+                item["term"]
+            )
+        )[:20],
+        "document_lengths": document_lengths
+    }
+
+    return statistics
+
+
+def main():
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    documents = load_corpus()
+
+    if not documents:
+        raise ValueError("No documents found in cleaned_corpus.json")
+
+    index, document_lengths = build_index(documents)
+
+    statistics = calculate_statistics(
+        index,
+        documents,
+        document_lengths
+    )
+
+    output = {
+        "description": "Term-to-document inverted index",
+        "tokenization": "Lowercase alphanumeric words with internal hyphens/apostrophes",
+        "documents": {
+            doc["doc_id"]: doc["name"]
+            for doc in documents
+        },
+        "index": index
+    }
+
+    with open(INDEX_FILE, "w", encoding="utf-8") as file:
+        json.dump(output, file, indent=4, ensure_ascii=False)
+
+    with open(STATS_FILE, "w", encoding="utf-8") as file:
+        json.dump(statistics, file, indent=4, ensure_ascii=False)
+
+    print("=" * 60)
+    print("INVERTED INDEX CONSTRUCTION COMPLETED")
+    print("=" * 60)
+    print(f"Documents indexed: {statistics['total_documents']}")
+    print(f"Unique terms: {statistics['unique_terms']}")
+    print(f"Total token occurrences: {statistics['total_token_occurrences']}")
+    print(f"Average document length: {statistics['average_document_length']}")
+    print(f"Average document frequency: {statistics['average_document_frequency']}")
+
+    print("\nSample postings:")
+
+    for term in ["covid", "vaccine", "vaccination", "testing"]:
+        if term in index:
+            print(f"\n{term}: {index[term]}")
+
+    print("\nFiles saved:")
+    print(INDEX_FILE)
+    print(STATS_FILE)
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\lemmatization.py =====
+
+
+from pathlib import Path
+import json
+import csv
+import re
+import nltk
+
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import wordnet
+import spacy
+
+
+# ==================================================
+# 1. PATHS
+# ==================================================
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+RESULT_DIR = PROJECT_ROOT / "results"
+
+INPUT_FILE = RESULT_DIR / "cleaned_corpus.json"
+
+OUTPUT_JSON = RESULT_DIR / "lemmatization_comparison.json"
+OUTPUT_CSV = RESULT_DIR / "lemmatization_comparison.csv"
+
+
+# ==================================================
+# 2. INITIALIZE MODELS
+# ==================================================
+
+try:
+    wordnet_lemmatizer = WordNetLemmatizer()
+
+    # Check WordNet resource
+    wordnet_lemmatizer.lemmatize("testing")
+
+except LookupError:
+
+    nltk.download("wordnet", quiet=True)
+    nltk.download("omw-1.4", quiet=True)
+
+    wordnet_lemmatizer = WordNetLemmatizer()
+
+
+nlp = spacy.load("en_core_web_sm")
+
+
+# ==================================================
+# 3. TOKENIZATION
+# ==================================================
+
+def tokenize(text):
+
+    return re.findall(
+        r"\b[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*\b",
+        text.lower()
+    )
+
+
+# ==================================================
+# 4. WORDNET POS MAPPING
+# ==================================================
+
+def get_wordnet_pos(tag):
+
+    if tag.startswith("J"):
+        return wordnet.ADJ
+
+    elif tag.startswith("V"):
+        return wordnet.VERB
+
+    elif tag.startswith("N"):
+        return wordnet.NOUN
+
+    elif tag.startswith("R"):
+        return wordnet.ADV
+
+    return wordnet.NOUN
+
+
+# ==================================================
+# 5. NLTK LEMMATIZATION
+# ==================================================
+
+def nltk_lemmatize(tokens):
+
+    tagged_tokens = nltk.pos_tag(tokens)
+
+    results = []
+
+    for word, tag in tagged_tokens:
+
+        pos = get_wordnet_pos(tag)
+
+        lemma = wordnet_lemmatizer.lemmatize(
+            word,
+            pos=pos
+        )
+
+        results.append(lemma)
+
+    return results
+
+
+# ==================================================
+# 6. SPACY LEMMATIZATION
+# ==================================================
+
+def spacy_lemmatize(text):
+
+    doc = nlp(text)
+
+    return [
+        token.lemma_.lower()
+        for token in doc
+        if not token.is_space
+    ]
+
+
+# ==================================================
+# 7. CUSTOM HEALTHCARE LEMMATIZATION
+# ==================================================
+
+CUSTOM_LEMMAS = {
+
+    "vaccines": "vaccine",
+    "vaccinated": "vaccinate",
+    "vaccinating": "vaccinate",
+    "vaccinations": "vaccination",
+
+    "infections": "infection",
+    "infected": "infect",
+    "infecting": "infect",
+
+    "diseases": "disease",
+    "variants": "variant",
+    "outbreaks": "outbreak",
+
+    "cases": "case",
+    "studies": "study",
+    "analyses": "analysis",
+
+    "children": "child",
+    "people": "person",
+    "mice": "mouse"
+}
+
+
+def custom_lemmatize(tokens):
+
+    results = []
+
+    for token in tokens:
+
+        lemma = CUSTOM_LEMMAS.get(
+            token.lower(),
+            token.lower()
+        )
+
+        results.append(lemma)
+
+    return results
+
+
+# ==================================================
+# 8. PROCESS CORPUS
+# ==================================================
+
+def process_corpus(documents):
+
+    methods = {
+        "NLTK": nltk_lemmatize,
+        "Custom": custom_lemmatize
+    }
+
+    summary = {}
+    document_results = []
+    word_examples = {}
+
+    for method_name, method in methods.items():
+
+        all_lemmas = []
+
+        for document in documents:
+
+            tokens = tokenize(
+                document["cleaned_text"]
+            )
+
+            lemmas = method(tokens)
+
+            all_lemmas.extend(lemmas)
+
+            document_results.append({
+
+                "document_id": document["document_id"],
+                "method": method_name,
+                "token_count": len(lemmas),
+                "vocabulary_size": len(set(lemmas)),
+                "lemmatized_tokens": lemmas
+            })
+
+            for original, lemma in zip(tokens, lemmas):
+
+                if original != lemma:
+
+                    word_examples.setdefault(
+                        original, {}
+                    )
+
+                    word_examples[original][method_name] = lemma
+
+        summary[method_name] = {
+
+            "total_tokens": len(all_lemmas),
+
+            "vocabulary_size": len(set(all_lemmas)),
+
+            "average_tokens_per_document": round(
+                len(all_lemmas) / len(documents), 2
+            ) if documents else 0
+        }
+
+    # Process spaCy separately because it uses full text
+    all_spacy_lemmas = []
+
+    for document in documents:
+
+        lemmas = spacy_lemmatize(
+            document["cleaned_text"]
+        )
+
+        all_spacy_lemmas.extend(lemmas)
+
+        document_results.append({
+
+            "document_id": document["document_id"],
+            "method": "spaCy",
+            "token_count": len(lemmas),
+            "vocabulary_size": len(set(lemmas)),
+            "lemmatized_tokens": lemmas
+        })
+
+    summary["spaCy"] = {
+
+        "total_tokens": len(all_spacy_lemmas),
+
+        "vocabulary_size": len(set(all_spacy_lemmas)),
+
+        "average_tokens_per_document": round(
+            len(all_spacy_lemmas) / len(documents), 2
+        ) if documents else 0
+    }
+
+    return summary, document_results, word_examples
+
+
+# ==================================================
+# 9. SAVE RESULTS
+# ==================================================
+
+def save_results(summary, document_results, word_examples):
+
+    with open(
+        OUTPUT_JSON,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            {
+                "summary": summary,
+                "word_examples": word_examples,
+                "document_results": document_results
+            },
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    with open(
+        OUTPUT_CSV,
+        "w",
+        newline="",
+        encoding="utf-8"
+    ) as file:
+
+        writer = csv.DictWriter(
+            file,
+            fieldnames=[
+                "document_id",
+                "method",
+                "token_count",
+                "vocabulary_size",
+                "lemmatized_tokens"
+            ]
+        )
+
+        writer.writeheader()
+
+        for row in document_results:
+
+            writer.writerow({
+
+                **row,
+
+                "lemmatized_tokens": " ".join(
+                    row["lemmatized_tokens"]
+                )
+            })
+
+
+# ==================================================
+# 10. MAIN
+# ==================================================
+
+def main():
+
+    print("=" * 65)
+    print("MODULE 6: LEMMATIZATION COMPARISON")
+    print("=" * 65)
+
+    if not INPUT_FILE.exists():
+
+        raise FileNotFoundError(
+            "cleaned_corpus.json not found. "
+            "Run previous modules first."
+        )
+
+    with open(
+        INPUT_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        documents = json.load(file)
+
+    summary, document_results, word_examples = process_corpus(
+        documents
+    )
+
+    save_results(
+        summary,
+        document_results,
+        word_examples
+    )
+
+    print("\nLEMMATIZATION COMPARISON")
+    print("-" * 65)
+
+    for method, stats in summary.items():
+
+        print(f"\nMethod: {method}")
+
+        print(f"Total Tokens: {stats['total_tokens']}")
+
+        print(f"Vocabulary Size: {stats['vocabulary_size']}")
+
+        print(
+            "Average Tokens per Document:",
+            stats["average_tokens_per_document"]
+        )
+
+    print("\nWORD LEMMATIZATION EXAMPLES")
+    print("-" * 65)
+
+    for word, methods in list(word_examples.items())[:20]:
+
+        print(f"\nOriginal: {word}")
+
+        for method, lemma in methods.items():
+
+            print(f"{method}: {lemma}")
+
+    print("\nOUTPUT FILES")
+    print(OUTPUT_JSON)
+    print(OUTPUT_CSV)
+
+    print("\nMODULE 6 COMPLETED SUCCESSFULLY.")
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\ner.py =====
+
+
+import json
+import csv
+import re
+from pathlib import Path
+
+import spacy
+from spacy.matcher import PhraseMatcher
+
+
+# ==================================================
+# 1. PATH CONFIGURATION
+# ==================================================
+
+ROOT = Path(__file__).resolve().parents[1]
+
+INPUT_FILE = ROOT / "results" / "cleaned_corpus.json"
+
+OUTPUT_JSON = ROOT / "results" / "ner_results.json"
+
+OUTPUT_CSV = ROOT / "results" / "ner_results.csv"
+
+OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+
+
+# ==================================================
+# 2. HEALTHCARE ENTITY DICTIONARY
+# ==================================================
+
+HEALTHCARE_ENTITIES = {
+
+    "DISEASE": [
+        "COVID-19",
+        "coronavirus",
+        "infectious disease",
+        "respiratory infection"
+    ],
+
+    "MEDICAL_TERM": [
+        "vaccination",
+        "vaccine",
+        "epidemiology",
+        "contact tracing",
+        "wastewater surveillance",
+        "public health surveillance",
+        "infection prevention",
+        "vaccine safety",
+        "reproduction number",
+        "antiviral treatment",
+        "outbreak investigation"
+    ],
+
+    "ORGANIZATION": [
+        "World Health Organization",
+        "WHO",
+        "Centers for Disease Control and Prevention",
+        "CDC"
+    ],
+
+    "TECHNOLOGY": [
+        "RT-PCR",
+        "PCR",
+        "rapid antigen test"
+    ]
+
+}
+
+
+# ==================================================
+# 3. LOAD SPACY
+# ==================================================
+
+def load_spacy_model():
+
+    try:
+        return spacy.load("en_core_web_sm")
+
+    except OSError:
+
+        raise RuntimeError(
+            "spaCy model is missing.\n"
+            "Run:\n"
+            "python -m spacy download en_core_web_sm"
+        )
+
+
+# ==================================================
+# 4. LOAD CORPUS
+# ==================================================
+
+def normalize_corpus(corpus):
+
+    if isinstance(corpus, dict):
+
+        corpus = corpus.get("documents", [])
+
+    if not isinstance(corpus, list):
+
+        raise TypeError(
+            "Expected a list of documents."
+        )
+
+    normalized = []
+
+    for index, document in enumerate(corpus, start=1):
+
+        if not isinstance(document, dict):
+
+            raise TypeError(
+                f"Document {index} is not a dictionary."
+            )
+
+        doc_id = (
+            document.get("doc_id")
+            or document.get("id")
+            or document.get("document_id")
+            or f"D{index:02d}"
+        )
+
+        name = (
+            document.get("document_name")
+            or document.get("name")
+            or document.get("filename")
+            or document.get("document")
+            or doc_id
+        )
+
+        text = (
+            document.get("cleaned_text")
+            or document.get("cleaned")
+            or document.get("text")
+            or document.get("content")
+            or document.get("original_text")
+            or ""
+        )
+
+        if not isinstance(text, str) or not text.strip():
+
+            raise ValueError(
+                f"Missing text for {doc_id}. "
+                f"Available fields: {list(document.keys())}"
+            )
+
+        normalized.append({
+
+            "doc_id": str(doc_id),
+
+            "document_name": str(name),
+
+            "text": text
+
+        })
+
+    return normalized
+
+
+# ==================================================
+# 5. CUSTOM HEALTHCARE MATCHER
+# ==================================================
+
+def create_healthcare_matcher(nlp):
+
+    matcher = PhraseMatcher(
+        nlp.vocab,
+        attr="LOWER"
+    )
+
+    for entity_type, terms in HEALTHCARE_ENTITIES.items():
+
+        patterns = [
+            nlp.make_doc(term)
+            for term in terms
+        ]
+
+        matcher.add(entity_type, patterns)
+
+    return matcher
+
+
+# ==================================================
+# 6. SPACY NER
+# ==================================================
+
+def extract_spacy_entities(doc):
+
+    entities = []
+
+    for ent in doc.ents:
+
+        entities.append({
+
+            "text": ent.text,
+
+            "label": ent.label_,
+
+            "start": ent.start_char,
+
+            "end": ent.end_char,
+
+            "source": "spaCy"
+
+        })
+
+    return entities
+
+
+# ==================================================
+# 7. CUSTOM HEALTHCARE NER
+# ==================================================
+
+def extract_custom_entities(doc, matcher):
+
+    matches = matcher(doc)
+
+    entities = []
+
+    for match_id, start, end in matches:
+
+        span = doc[start:end]
+
+        entity_type = doc.vocab.strings[match_id]
+
+        entities.append({
+
+            "text": span.text,
+
+            "label": entity_type,
+
+            "start": span.start_char,
+
+            "end": span.end_char,
+
+            "source": "Custom Healthcare Rules"
+
+        })
+
+    return entities
+
+
+# ==================================================
+# 8. ENTITY COMPARISON
+# ==================================================
+
+def compare_entities(spacy_entities, custom_entities):
+
+    spacy_set = {
+
+        (
+            item["text"].lower(),
+            item["label"]
+        )
+
+        for item in spacy_entities
+
+    }
+
+    custom_set = {
+
+        (
+            item["text"].lower(),
+            item["label"]
+        )
+
+        for item in custom_entities
+
+    }
+
+    return {
+
+        "spacy_entity_count": len(spacy_entities),
+
+        "custom_entity_count": len(custom_entities),
+
+        "common_entities": [
+            list(item)
+            for item in sorted(spacy_set & custom_set)
+        ],
+
+        "spacy_only": [
+            list(item)
+            for item in sorted(spacy_set - custom_set)
+        ],
+
+        "custom_only": [
+            list(item)
+            for item in sorted(custom_set - spacy_set)
+        ]
+
+    }
+
+
+# ==================================================
+# 9. MAIN EXECUTION
+# ==================================================
+
+def main():
+
+    print("\nHEALTHCARE NER")
+    print("==============")
+
+    nlp = load_spacy_model()
+
+    if not INPUT_FILE.exists():
+
+        raise FileNotFoundError(
+            f"Input file not found: {INPUT_FILE}"
+        )
+
+    with open(
+        INPUT_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        raw_corpus = json.load(file)
+
+    corpus = normalize_corpus(raw_corpus)
+
+    matcher = create_healthcare_matcher(nlp)
+
+    all_results = []
+
+    csv_rows = []
+
+    total_spacy_entities = 0
+
+    total_custom_entities = 0
+
+    for document in corpus:
+
+        doc_id = document["doc_id"]
+
+        document_name = document["document_name"]
+
+        text = document["text"]
+
+        doc = nlp(text)
+
+        spacy_entities = extract_spacy_entities(doc)
+
+        custom_entities = extract_custom_entities(
+            doc,
+            matcher
+        )
+
+        comparison = compare_entities(
+            spacy_entities,
+            custom_entities
+        )
+
+        total_spacy_entities += len(spacy_entities)
+
+        total_custom_entities += len(custom_entities)
+
+        for entity in spacy_entities:
+
+            csv_rows.append({
+
+                "doc_id": doc_id,
+
+                "document_name": document_name,
+
+                "entity": entity["text"],
+
+                "label": entity["label"],
+
+                "start": entity["start"],
+
+                "end": entity["end"],
+
+                "source": entity["source"]
+
+            })
+
+        for entity in custom_entities:
+
+            csv_rows.append({
+
+                "doc_id": doc_id,
+
+                "document_name": document_name,
+
+                "entity": entity["text"],
+
+                "label": entity["label"],
+
+                "start": entity["start"],
+
+                "end": entity["end"],
+
+                "source": entity["source"]
+
+            })
+
+        all_results.append({
+
+            "doc_id": doc_id,
+
+            "document_name": document_name,
+
+            "spacy_entities": spacy_entities,
+
+            "custom_entities": custom_entities,
+
+            "comparison": comparison
+
+        })
+
+        print(
+            f"Processed: {doc_id} - {document_name}"
+        )
+
+    # ==================================================
+    # 10. SUMMARY
+    # ==================================================
+
+    summary = {
+
+        "total_documents": len(corpus),
+
+        "total_spacy_entities": total_spacy_entities,
+
+        "total_custom_entities": total_custom_entities,
+
+        "entity_categories": list(
+            HEALTHCARE_ENTITIES.keys()
+        ),
+
+        "documents": all_results
+
+    }
+
+    # ==================================================
+    # 11. SAVE JSON
+    # ==================================================
+
+    with open(
+        OUTPUT_JSON,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            summary,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    # ==================================================
+    # 12. SAVE CSV
+    # ==================================================
+
+    fieldnames = [
+
+        "doc_id",
+
+        "document_name",
+
+        "entity",
+
+        "label",
+
+        "start",
+
+        "end",
+
+        "source"
+
+    ]
+
+    with open(
+        OUTPUT_CSV,
+        "w",
+        newline="",
+        encoding="utf-8"
+    ) as file:
+
+        writer = csv.DictWriter(
+            file,
+            fieldnames=fieldnames
+        )
+
+        writer.writeheader()
+
+        writer.writerows(csv_rows)
+
+    # ==================================================
+    # 13. FINAL OUTPUT
+    # ==================================================
+
+    print("\nNER COMPLETED")
+    print("==============")
+
+    print("Documents:", len(corpus))
+
+    print("spaCy entities:", total_spacy_entities)
+
+    print("Custom healthcare entities:", total_custom_entities)
+
+    print("\nGenerated files:")
+
+    print(OUTPUT_JSON)
+
+    print(OUTPUT_CSV)
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\ngram.py =====
+
+
+import json
+import csv
+import re
+from pathlib import Path
+
+from collections import Counter
+
+
+# ==================================================
+# 1. PATH CONFIGURATION
+# ==================================================
+
+ROOT = Path(__file__).resolve().parents[1]
+
+INPUT_FILE = ROOT / "results" / "cleaned_corpus.json"
+
+OUTPUT_JSON = ROOT / "results" / "ngram_analysis.json"
+
+OUTPUT_CSV = ROOT / "results" / "ngram_frequency.csv"
+
+OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+
+
+# ==================================================
+# 2. TOKENIZATION
+# ==================================================
+
+def tokenize_text(text):
+
+    pattern = (
+        r"\b[A-Za-z]+(?:[-'][A-Za-z0-9]+)*\b"
+        r"|\d+(?:\.\d+)?%?"
+    )
+
+    return re.findall(pattern, text.lower())
+
+
+# ==================================================
+# 3. GENERATE N-GRAMS
+# ==================================================
+
+def generate_ngrams(tokens, n):
+
+    ngrams = []
+
+    for i in range(len(tokens) - n + 1):
+
+        gram = tuple(tokens[i:i + n])
+
+        ngrams.append(gram)
+
+    return ngrams
+
+
+# ==================================================
+# 4. ANALYZE ONE DOCUMENT
+# ==================================================
+
+def analyze_document(text):
+
+    tokens = tokenize_text(text)
+
+    document_result = {}
+
+    for n in range(1, 6):
+
+        ngrams = generate_ngrams(tokens, n)
+
+        counter = Counter(ngrams)
+
+        document_result[f"{n}-gram"] = {
+
+            "total_occurrences": len(ngrams),
+
+            "unique_ngrams": len(counter),
+
+            "top_10": [
+
+                {
+                    "ngram": " ".join(gram),
+
+                    "frequency": frequency
+
+                }
+
+                for gram, frequency in counter.most_common(10)
+
+            ]
+
+        }
+
+    return document_result
+
+
+# ==================================================
+# 5. NORMALIZE CORPUS
+# ==================================================
+
+def normalize_corpus(corpus):
+
+    if isinstance(corpus, dict):
+
+        corpus = corpus.get("documents", [])
+
+    if not isinstance(corpus, list):
+
+        raise TypeError(
+            "Expected a list of documents."
+        )
+
+    normalized = []
+
+    for index, document in enumerate(corpus, start=1):
+
+        if not isinstance(document, dict):
+
+            raise TypeError(
+                f"Document {index} is not a dictionary."
+            )
+
+        doc_id = (
+            document.get("doc_id")
+            or document.get("id")
+            or document.get("document_id")
+            or f"D{index:02d}"
+        )
+
+        name = (
+            document.get("document_name")
+            or document.get("name")
+            or document.get("filename")
+            or document.get("document")
+            or doc_id
+        )
+
+        text = (
+            document.get("cleaned_text")
+            or document.get("cleaned")
+            or document.get("text")
+            or document.get("content")
+            or document.get("original_text")
+            or ""
+        )
+
+        if not isinstance(text, str) or not text.strip():
+
+            raise ValueError(
+                f"Missing text for {doc_id}. "
+                f"Available fields: {list(document.keys())}"
+            )
+
+        normalized.append({
+
+            "doc_id": str(doc_id),
+
+            "document_name": str(name),
+
+            "text": text
+
+        })
+
+    return normalized
+
+
+# ==================================================
+# 6. MAIN EXECUTION
+# ==================================================
+
+def main():
+
+    print("\nN-GRAM ANALYSIS")
+    print("==============")
+
+    if not INPUT_FILE.exists():
+
+        raise FileNotFoundError(
+            f"Input file not found: {INPUT_FILE}"
+        )
+
+    with open(
+        INPUT_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        raw_corpus = json.load(file)
+
+    corpus = normalize_corpus(raw_corpus)
+
+    # Corpus-level frequency counters
+    corpus_counters = {
+        n: Counter()
+        for n in range(1, 6)
+    }
+
+    document_results = []
+
+    csv_rows = []
+
+    # ==================================================
+    # 7. DOCUMENT-LEVEL ANALYSIS
+    # ==================================================
+
+    for document in corpus:
+
+        doc_id = document["doc_id"]
+
+        document_name = document["document_name"]
+
+        text = document["text"]
+
+        tokens = tokenize_text(text)
+
+        document_analysis = {}
+
+        for n in range(1, 6):
+
+            ngrams = generate_ngrams(tokens, n)
+
+            counter = Counter(ngrams)
+
+            corpus_counters[n].update(counter)
+
+            document_analysis[f"{n}-gram"] = {
+
+                "total_occurrences": len(ngrams),
+
+                "unique_ngrams": len(counter),
+
+                "top_10": [
+
+                    {
+                        "ngram": " ".join(gram),
+
+                        "frequency": frequency
+
+                    }
+
+                    for gram, frequency in counter.most_common(10)
+
+                ]
+
+            }
+
+        document_results.append({
+
+            "doc_id": doc_id,
+
+            "document_name": document_name,
+
+            "token_count": len(tokens),
+
+            "analysis": document_analysis
+
+        })
+
+        print(
+            f"Processed: {doc_id} - {document_name}"
+        )
+
+    # ==================================================
+    # 8. CORPUS-LEVEL ANALYSIS
+    # ==================================================
+
+    corpus_analysis = {}
+
+    for n in range(1, 6):
+
+        counter = corpus_counters[n]
+
+        corpus_analysis[f"{n}-gram"] = {
+
+            "total_occurrences": sum(counter.values()),
+
+            "unique_ngrams": len(counter),
+
+            "top_10": [
+
+                {
+                    "ngram": " ".join(gram),
+
+                    "frequency": frequency
+
+                }
+
+                for gram, frequency in counter.most_common(10)
+
+            ]
+
+        }
+
+        for gram, frequency in counter.most_common():
+
+            csv_rows.append({
+
+                "n": n,
+
+                "ngram": " ".join(gram),
+
+                "frequency": frequency
+
+            })
+
+    # ==================================================
+    # 9. FINAL SUMMARY
+    # ==================================================
+
+    summary = {
+
+        "total_documents": len(corpus),
+
+        "ngram_range": "1-gram to 5-gram",
+
+        "corpus_analysis": corpus_analysis,
+
+        "document_analysis": document_results
+
+    }
+
+    # ==================================================
+    # 10. SAVE JSON
+    # ==================================================
+
+    with open(
+        OUTPUT_JSON,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            summary,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    # ==================================================
+    # 11. SAVE CSV
+    # ==================================================
+
+    with open(
+        OUTPUT_CSV,
+        "w",
+        newline="",
+        encoding="utf-8"
+    ) as file:
+
+        writer = csv.DictWriter(
+            file,
+            fieldnames=[
+                "n",
+                "ngram",
+                "frequency"
+            ]
+        )
+
+        writer.writeheader()
+
+        writer.writerows(csv_rows)
+
+    # ==================================================
+    # 12. PRINT SUMMARY
+    # ==================================================
+
+    print("\nN-GRAM ANALYSIS COMPLETED")
+    print("=========================")
+
+    print("Total documents:", len(corpus))
+
+    for n in range(1, 6):
+
+        key = f"{n}-gram"
+
+        data = corpus_analysis[key]
+
+        print(f"\n{key.upper()}")
+
+        print(
+            "Total occurrences:",
+            data["total_occurrences"]
+        )
+
+        print(
+            "Unique n-grams:",
+            data["unique_ngrams"]
+        )
+
+        print("Top 5:")
+
+        for item in data["top_10"][:5]:
+
+            print(
+                f"  {item['ngram']}: "
+                f"{item['frequency']}"
+            )
+
+    print("\nGenerated files:")
+
+    print(OUTPUT_JSON)
+
+    print(OUTPUT_CSV)
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\pos_tagging.py =====
+
+
+import json
+import csv
+import re
+from pathlib import Path
+
+import nltk
+import spacy
+
+from nltk import pos_tag, word_tokenize
+
+
+# --------------------------------------------------
+# PATH CONFIGURATION
+# --------------------------------------------------
+
+ROOT = Path(__file__).resolve().parents[1]
+
+INPUT_FILE = ROOT / "results" / "cleaned_corpus.json"
+
+OUTPUT_JSON = ROOT / "results" / "pos_tagging_comparison.json"
+OUTPUT_CSV = ROOT / "results" / "pos_tagging_comparison.csv"
+
+OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+
+
+# --------------------------------------------------
+# LOAD NLP MODELS
+# --------------------------------------------------
+
+try:
+    nltk.data.find("taggers/averaged_perceptron_tagger_eng")
+except LookupError:
+    nltk.download("averaged_perceptron_tagger_eng")
+
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    raise RuntimeError(
+        "spaCy model missing. Run:\n"
+        "python -m spacy download en_core_web_sm"
+    )
+
+
+# --------------------------------------------------
+# TOKENIZATION
+# --------------------------------------------------
+
+def tokenize_text(text):
+    return re.findall(
+        r"\b[A-Za-z]+(?:[-'][A-Za-z0-9]+)*\b|\d+(?:\.\d+)?%?",
+        text
+    )
+
+
+# --------------------------------------------------
+# NLTK POS TAGGING
+# --------------------------------------------------
+
+def nltk_pos_tagging(text):
+
+    tokens = tokenize_text(text)
+
+    if not tokens:
+        return []
+
+    return [
+        {
+            "token": word,
+            "pos": tag
+        }
+        for word, tag in pos_tag(tokens)
+    ]
+
+
+# --------------------------------------------------
+# SPACY POS TAGGING
+# --------------------------------------------------
+
+def spacy_pos_tagging(text):
+
+    doc = nlp(text)
+
+    return [
+        {
+            "token": token.text,
+            "pos": token.pos_,
+            "tag": token.tag_
+        }
+        for token in doc
+        if not token.is_space and not token.is_punct
+    ]
+
+
+# --------------------------------------------------
+# POS TAGGING COMPARISON
+# --------------------------------------------------
+
+def compare_pos(nltk_results, spacy_results):
+
+    nltk_tags = {}
+
+    for item in nltk_results:
+        token = item["token"].lower()
+        nltk_tags.setdefault(token, []).append(item["pos"])
+
+    spacy_tags = {}
+
+    for item in spacy_results:
+        token = item["token"].lower()
+        spacy_tags.setdefault(token, []).append(item["pos"])
+
+    common_words = set(nltk_tags) & set(spacy_tags)
+
+    comparison = []
+
+    for word in sorted(common_words):
+
+        comparison.append({
+            "word": word,
+            "nltk_tags": nltk_tags[word],
+            "spacy_tags": spacy_tags[word],
+            "same_tag": (
+                nltk_tags[word][0] == spacy_tags[word][0]
+            )
+        })
+
+    return comparison
+
+
+# --------------------------------------------------
+# MAIN EXECUTION
+# --------------------------------------------------
+
+def main():
+
+    if not INPUT_FILE.exists():
+        raise FileNotFoundError(
+            f"Input not found: {INPUT_FILE}\n"
+            "Run text_preprocessing.py first."
+        )
+
+    with open(INPUT_FILE, "r", encoding="utf-8") as file:
+        corpus = json.load(file)
+
+    results = []
+    csv_rows = []
+
+    total_nltk_tokens = 0
+    total_spacy_tokens = 0
+
+    for document in corpus:
+
+        doc_id = document["doc_id"]
+        text = document["cleaned_text"]
+
+        nltk_results = nltk_pos_tagging(text)
+        spacy_results = spacy_pos_tagging(text)
+
+        comparison = compare_pos(
+            nltk_results,
+            spacy_results
+        )
+
+        total_nltk_tokens += len(nltk_results)
+        total_spacy_tokens += len(spacy_results)
+
+        results.append({
+            "doc_id": doc_id,
+            "document_name": document["document_name"],
+            "nltk_token_count": len(nltk_results),
+            "spacy_token_count": len(spacy_results),
+            "nltk_pos": nltk_results,
+            "spacy_pos": spacy_results,
+            "comparison": comparison
+        })
+
+        for item in comparison:
+
+            csv_rows.append({
+                "doc_id": doc_id,
+                "word": item["word"],
+                "nltk_tags": ", ".join(item["nltk_tags"]),
+                "spacy_tags": ", ".join(item["spacy_tags"]),
+                "same_tag": item["same_tag"]
+            })
+
+    summary = {
+        "total_documents": len(results),
+        "total_nltk_tokens": total_nltk_tokens,
+        "total_spacy_tokens": total_spacy_tokens,
+        "documents": results
+    }
+
+    with open(OUTPUT_JSON, "w", encoding="utf-8") as file:
+        json.dump(summary, file, indent=4, ensure_ascii=False)
+
+    with open(
+        OUTPUT_CSV,
+        "w",
+        newline="",
+        encoding="utf-8"
+    ) as file:
+
+        fieldnames = [
+            "doc_id",
+            "word",
+            "nltk_tags",
+            "spacy_tags",
+            "same_tag"
+        ]
+
+        writer = csv.DictWriter(
+            file,
+            fieldnames=fieldnames
+        )
+
+        writer.writeheader()
+        writer.writerows(csv_rows)
+
+    print("\nPOS TAGGING COMPLETED")
+    print("----------------------")
+    print("Documents:", len(results))
+    print("NLTK tokens:", total_nltk_tokens)
+    print("spaCy tokens:", total_spacy_tokens)
+    print("JSON:", OUTPUT_JSON)
+    print("CSV:", OUTPUT_CSV)
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\query_understanding.py =====
+
+
+import re
+import json
+from pathlib import Path
+
+
+# ============================================================
+# PROJECT PATHS
+# ============================================================
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+OUTPUT_DIR = PROJECT_ROOT / "results"
+
+OUTPUT_FILE = OUTPUT_DIR / "query_understanding_results.json"
+
+
+# ============================================================
+# CONFIGURATION
+# ============================================================
+
+BOOLEAN_OPERATORS = {"AND", "OR", "NOT"}
+
+QUESTION_WORDS = {
+    "what", "why", "how", "when", "where", "which", "who"
+}
+
+STOPWORDS = {
+    "what", "why", "how", "when", "where", "which", "who",
+    "is", "are", "was", "were", "do", "does", "did",
+    "can", "could", "would", "should",
+    "the", "a", "an", "of", "to", "for", "in", "on",
+    "with", "by", "from", "about", "between",
+    "and", "or", "it", "its", "this", "that",
+    "help", "main", "relationship", "effective"
+}
+
+DOMAIN_TERMS = {
+    "covid",
+    "covid-19",
+    "vaccination",
+    "vaccine",
+    "vaccines",
+    "transmission",
+    "infection",
+    "epidemiology",
+    "incidence",
+    "prevalence",
+    "outbreak",
+    "surveillance",
+    "testing",
+    "contact",
+    "tracing",
+    "quarantine",
+    "prevention",
+    "effectiveness",
+    "severity",
+    "disease",
+    "infectious",
+    "epidemiological",
+    "variant",
+    "variants",
+    "wastewater",
+    "antiviral",
+    "immunity",
+    "safety",
+    "monitoring"
+}
+
+
+# ============================================================
+# TOKEN EXTRACTION
+# ============================================================
+
+def extract_terms(query):
+
+    tokens = re.findall(
+        r"\b[a-zA-Z0-9]+(?:[-'][a-zA-Z0-9]+)*\b",
+        query.lower()
+    )
+
+    return [
+        token
+        for token in tokens
+        if token.upper() not in BOOLEAN_OPERATORS
+    ]
+
+
+def extract_keywords(terms):
+
+    return [
+        term
+        for term in terms
+        if term not in STOPWORDS
+    ]
+
+
+def extract_domain_terms(terms):
+
+    return [
+        term
+        for term in terms
+        if term in DOMAIN_TERMS
+    ]
+
+
+# ============================================================
+# QUERY TYPE DETECTION
+# ============================================================
+
+def detect_query_type(query):
+
+    # Explicit quoted phrase
+    if re.search(r'"[^"]+"', query):
+        return "PHRASE"
+
+    # Boolean operators must be explicitly written
+    # in uppercase to distinguish them from ordinary English.
+    if re.search(r"\bNOT\b", query):
+        return "NOT"
+
+    if re.search(r"\bAND\b", query):
+        return "AND"
+
+    if re.search(r"\bOR\b", query):
+        return "OR"
+
+    return "KEYWORD"
+
+
+# ============================================================
+# QUERY COMPLEXITY
+# ============================================================
+
+def detect_complexity(terms, keywords, query_type):
+
+    if query_type in {"AND", "OR", "NOT"}:
+        return "HIGH"
+
+    if len(keywords) <= 2:
+        return "LOW"
+
+    if len(keywords) <= 5:
+        return "MEDIUM"
+
+    return "HIGH"
+
+
+# ============================================================
+# QUERY UNDERSTANDING
+# ============================================================
+
+def understand_query(query):
+
+    query = query.strip()
+
+    if not query:
+        raise ValueError("Query cannot be empty.")
+
+    query_type = detect_query_type(query)
+
+    terms = extract_terms(query)
+
+    keywords = extract_keywords(terms)
+
+    domain_terms = extract_domain_terms(terms)
+
+    question_tokens = re.findall(
+        r"\b[a-zA-Z]+\b",
+        query.lower()
+    )
+
+    question_words_found = [
+        word
+        for word in question_tokens
+        if word in QUESTION_WORDS
+    ]
+
+    complexity = detect_complexity(
+        terms,
+        keywords,
+        query_type
+    )
+
+    return {
+        "query": query,
+        "query_type": query_type,
+        "terms": terms,
+        "keywords": keywords,
+        "domain_terms": domain_terms,
+        "term_count": len(terms),
+        "keyword_count": len(keywords),
+        "contains_question_word": bool(question_words_found),
+        "question_words": question_words_found,
+        "complexity": complexity
+    }
+
+
+# ============================================================
+# TESTING
+# ============================================================
+
+def main():
+
+    OUTPUT_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    test_queries = [
+        "COVID",
+        "vaccine effectiveness",
+        "COVID AND vaccination",
+        "vaccination OR testing",
+        "COVID NOT vaccination",
+        '"vaccine effectiveness"',
+        "How does contact tracing work?",
+        "COVID vaccination and prevention",
+        "How does vaccination help prevent infection?",
+        "contact tracing AND outbreak investigation"
+    ]
+
+    results = [
+        understand_query(query)
+        for query in test_queries
+    ]
+
+    with open(
+        OUTPUT_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            results,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    print("=" * 65)
+    print("QUERY UNDERSTANDING COMPLETED")
+    print("=" * 65)
+
+    for result in results:
+
+        print(f"\nQuery: {result['query']}")
+        print(f"Type: {result['query_type']}")
+        print(f"Terms: {result['terms']}")
+        print(f"Keywords: {result['keywords']}")
+        print(f"Domain Terms: {result['domain_terms']}")
+        print(f"Complexity: {result['complexity']}")
+
+    print("\nResults saved to:")
+    print(OUTPUT_FILE)
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\retrieval.py =====
+
+
+import json
+import re
+import math
+
+from pathlib import Path
+
+
+# ==================================================
+# FILE PATHS
+# ==================================================
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+INDEX_PATH = BASE_DIR / "results" / "inverted_index.json"
+
+CORPUS_PATH = BASE_DIR / "results" / "cleaned_corpus.json"
+
+OUTPUT_PATH = BASE_DIR / "results" / "retrieval_results.json"
+
+
+# ==================================================
+# CONFIGURATION
+# ==================================================
+
+BOOLEAN_OPERATORS = {"AND", "OR", "NOT"}
+
+STOPWORDS = {
+    "a", "an", "the",
+    "is", "are", "was", "were",
+    "do", "does", "did",
+    "how", "what", "why",
+    "when", "where", "which",
+    "who", "whom",
+    "can", "could", "would", "should",
+    "of", "in", "on", "at", "to",
+    "for", "with", "by", "from",
+    "about", "and", "or",
+    "help", "explain", "describe",
+    "tell", "me"
+}
+
+
+# ==================================================
+# LOAD INVERTED INDEX
+# ==================================================
+
+def load_index():
+
+    if not INDEX_PATH.exists():
+
+        raise FileNotFoundError(
+            f"Inverted index not found: {INDEX_PATH}"
+        )
+
+    with open(
+        INDEX_PATH,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        data = json.load(file)
+
+    if not isinstance(data, dict):
+
+        raise ValueError(
+            "Invalid inverted index format."
+        )
+
+    if "index" not in data:
+
+        raise KeyError(
+            "The inverted index JSON does not contain "
+            "the required 'index' field."
+        )
+
+    if "documents" not in data:
+
+        raise KeyError(
+            "The inverted index JSON does not contain "
+            "the required 'documents' field."
+        )
+
+    return {
+        "index": data["index"],
+        "documents": data["documents"]
+    }
+
+
+# ==================================================
+# LOAD CLEANED CORPUS
+# ==================================================
+
+def load_corpus():
+
+    if not CORPUS_PATH.exists():
+
+        raise FileNotFoundError(
+            f"Cleaned corpus not found: {CORPUS_PATH}"
+        )
+
+    with open(
+        CORPUS_PATH,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        data = json.load(file)
+
+    documents = {}
+
+    if isinstance(data, dict):
+
+        data = data.get("documents", data)
+
+    if isinstance(data, list):
+
+        for i, doc in enumerate(data, start=1):
+
+            doc_id = (
+                doc.get("document_id")
+                or doc.get("doc_id")
+                or doc.get("id")
+                or f"D{i:02d}"
+            )
+
+            text = (
+                doc.get("cleaned_text")
+                or doc.get("cleaned")
+                or doc.get("text")
+                or doc.get("content")
+                or doc.get("original_text")
+                or ""
+            )
+
+            documents[doc_id] = str(text).lower()
+
+    elif isinstance(data, dict):
+
+        for doc_id, value in data.items():
+
+            if isinstance(value, dict):
+
+                text = (
+                    value.get("cleaned_text")
+                    or value.get("cleaned")
+                    or value.get("text")
+                    or value.get("content")
+                    or ""
+                )
+
+            else:
+
+                text = str(value)
+
+            documents[doc_id] = str(text).lower()
+
+    else:
+
+        raise ValueError(
+            "Unsupported cleaned corpus format."
+        )
+
+    return documents
+
+
+# ==================================================
+# TOKENIZATION
+# ==================================================
+
+def tokenize(text):
+
+    return re.findall(
+        r"\b[a-zA-Z0-9]+(?:[-'][a-zA-Z0-9]+)*\b",
+        str(text).lower()
+    )
+
+
+# ==================================================
+# QUERY NORMALIZATION
+# ==================================================
+
+def remove_boolean_operators(text):
+
+    return re.sub(
+        r"\b(?:AND|OR|NOT)\b",
+        " ",
+        text,
+        flags=re.IGNORECASE
+    )
+
+
+def get_query_terms(query, remove_stopwords=True):
+
+    query = remove_boolean_operators(query)
+
+    terms = tokenize(query)
+
+    if remove_stopwords:
+
+        terms = [
+            term
+            for term in terms
+            if term not in STOPWORDS
+        ]
+
+    return terms
+
+
+# ==================================================
+# QUERY TERM EXPANSION
+# ==================================================
+
+def expand_query_term(term, index):
+
+    term = term.lower().strip()
+
+    if term == "covid":
+
+        return ["covid-19", "covid"]
+
+    return [term]
+
+
+# ==================================================
+# GET DOCUMENTS FOR A TERM
+# ==================================================
+
+def get_term_documents(term, index):
+
+    matched_documents = set()
+
+    for expanded_term in expand_query_term(
+        term,
+        index
+    ):
+
+        postings = index.get(expanded_term, {})
+
+        if isinstance(postings, dict):
+
+            matched_documents.update(
+                postings.keys()
+            )
+
+    return matched_documents
+
+
+# ==================================================
+# TERM FREQUENCY
+# ==================================================
+
+def get_term_frequency(term, doc_id, index):
+
+    frequency = 0
+
+    for expanded_term in expand_query_term(
+        term,
+        index
+    ):
+
+        postings = index.get(expanded_term, {})
+
+        if not isinstance(postings, dict):
+            continue
+
+        value = postings.get(doc_id, 0)
+
+        if isinstance(value, dict):
+
+            value = value.get(
+                "frequency",
+                value.get("tf", 0)
+            )
+
+        try:
+
+            frequency += int(value)
+
+        except (TypeError, ValueError):
+
+            pass
+
+    return frequency
+
+
+# ==================================================
+# KEYWORD SEARCH
+# ==================================================
+
+def keyword_search(query, index):
+
+    terms = get_query_terms(query)
+
+    matched_documents = set()
+
+    for term in terms:
+
+        matched_documents.update(
+            get_term_documents(term, index)
+        )
+
+    return matched_documents
+
+
+# ==================================================
+# PHRASE SEARCH
+# ==================================================
+
+def phrase_search(query, corpus):
+
+    phrase = query.strip().strip('"').lower()
+
+    if not phrase:
+        return set()
+
+    phrase_tokens = tokenize(phrase)
+
+    if not phrase_tokens:
+        return set()
+
+    normalized_phrase = " ".join(phrase_tokens)
+
+    results = set()
+
+    for doc_id, text in corpus.items():
+
+        normalized_text = " ".join(
+            tokenize(text)
+        )
+
+        if normalized_phrase in normalized_text:
+
+            results.add(doc_id)
+
+    return results
+
+
+# ==================================================
+# AND SEARCH
+# ==================================================
+
+def and_search(query, index):
+
+    terms = get_query_terms(query)
+
+    if not terms:
+        return set()
+
+    result = get_term_documents(
+        terms[0],
+        index
+    )
+
+    for term in terms[1:]:
+
+        result = result.intersection(
+            get_term_documents(term, index)
+        )
+
+    return result
+
+
+# ==================================================
+# OR SEARCH
+# ==================================================
+
+def or_search(query, index):
+
+    terms = get_query_terms(query)
+
+    result = set()
+
+    for term in terms:
+
+        result.update(
+            get_term_documents(term, index)
+        )
+
+    return result
+
+
+# ==================================================
+# NOT SEARCH
+# ==================================================
+
+def not_search(query, index, all_documents):
+
+    terms = get_query_terms(query)
+
+    if not terms:
+        return set()
+
+    if len(terms) == 1:
+
+        excluded = get_term_documents(
+            terms[0],
+            index
+        )
+
+        return all_documents - excluded
+
+    positive_documents = get_term_documents(
+        terms[0],
+        index
+    )
+
+    excluded_documents = set()
+
+    for term in terms[1:]:
+
+        excluded_documents.update(
+            get_term_documents(term, index)
+        )
+
+    return positive_documents - excluded_documents
+
+
+# ==================================================
+# IDF WEIGHT CALCULATION
+# ==================================================
+
+def calculate_idf(term, index):
+
+    total_documents = len(
+        index.get("documents", {})
+    )
+
+    if total_documents == 0:
+        return 0.0
+
+    document_frequency = len(
+        get_term_documents(term, index)
+    )
+
+    idf = math.log(
+        (total_documents + 1) /
+        (document_frequency + 1)
+    ) + 1
+
+    return idf
+
+
+# ==================================================
+# DOCUMENT RANKING
+# ==================================================
+
+def rank_documents(doc_ids, query, index):
+
+    terms = get_query_terms(query)
+
+    unique_terms = list(dict.fromkeys(terms))
+
+    ranked = []
+
+    for doc_id in doc_ids:
+
+        matched_terms = []
+
+        total_frequency = 0
+
+        weighted_score = 0.0
+
+        for term in unique_terms:
+
+            frequency = get_term_frequency(
+                term,
+                doc_id,
+                index
+            )
+
+            if frequency <= 0:
+                continue
+
+            matched_terms.append(term)
+
+            total_frequency += frequency
+
+            idf = calculate_idf(
+                term,
+                index
+            )
+
+            tf_weight = 1 + math.log(frequency)
+
+            weighted_score += (
+                tf_weight * idf
+            )
+
+        coverage = (
+
+            len(matched_terms) / len(unique_terms)
+
+            if unique_terms
+
+            else 0
+
+        )
+
+        score = (
+            weighted_score
+            + 2 * coverage
+        )
+
+        ranked.append({
+
+            "document_id": doc_id,
+
+            "score": round(score, 4),
+
+            "matched_terms": sorted(matched_terms),
+
+            "coverage": round(coverage, 4),
+
+            "total_term_frequency": total_frequency,
+
+            "weighted_score": round(
+                weighted_score,
+                4
+            )
+
+        })
+
+    ranked.sort(
+
+        key=lambda item: (
+            -item["score"],
+            item["document_id"]
+        )
+
+    )
+
+    return ranked
+
+
+# ==================================================
+# MAIN RETRIEVAL FUNCTION
+# ==================================================
+
+def retrieve(query, method, index, corpus):
+
+    method = method.upper().strip()
+
+    all_documents = set(corpus.keys())
+
+    if "index" in index and isinstance(
+        index["index"], dict
+    ):
+
+        inverted_index = index["index"]
+
+    else:
+
+        inverted_index = index
+
+    if method == "KEYWORD":
+
+        results = keyword_search(
+            query,
+            inverted_index
+        )
+
+    elif method == "PHRASE":
+
+        results = phrase_search(
+            query,
+            corpus
+        )
+
+    elif method == "AND":
+
+        results = and_search(
+            query,
+            inverted_index
+        )
+
+    elif method == "OR":
+
+        results = or_search(
+            query,
+            inverted_index
+        )
+
+    elif method == "NOT":
+
+        results = not_search(
+            query,
+            inverted_index,
+            all_documents
+        )
+
+    else:
+
+        raise ValueError(
+            f"Unsupported retrieval method: {method}"
+        )
+
+    ranked_results = rank_documents(
+        results,
+        query,
+        inverted_index
+    )
+
+    return [
+        item["document_id"]
+        for item in ranked_results
+    ]
+
+
+# ==================================================
+# DETAILED RETRIEVAL
+# ==================================================
+
+def retrieve_detailed(
+    query,
+    method,
+    index,
+    corpus
+):
+
+    retrieved_ids = retrieve(
+        query,
+        method,
+        index,
+        corpus
+    )
+
+    if "index" in index and isinstance(
+        index["index"], dict
+    ):
+
+        inverted_index = index["index"]
+
+    else:
+
+        inverted_index = index
+
+    ranked_results = rank_documents(
+        retrieved_ids,
+        query,
+        inverted_index
+    )
+
+    return {
+
+        "query": query,
+
+        "method": method,
+
+        "retrieved_count": len(ranked_results),
+
+        "results": ranked_results
+
+    }
+
+
+# ==================================================
+# TEST RETRIEVAL
+# ==================================================
+
+def main():
+
+    index_data = load_index()
+
+    inverted_index = index_data["index"]
+
+    document_mapping = index_data["documents"]
+
+    corpus = load_corpus()
+
+    test_queries = [
+
+        ("COVID", "KEYWORD"),
+
+        ('"vaccine effectiveness"', "PHRASE"),
+
+        ("COVID AND vaccination", "AND"),
+
+        ("vaccination OR testing", "OR"),
+
+        ("COVID NOT vaccination", "NOT")
+
+    ]
+
+    results = []
+
+    print("\n========== RETRIEVAL ENGINE ==========\n")
+
+    print("Documents:", len(document_mapping))
+
+    print("Indexed terms:", len(inverted_index))
+
+    for query, method in test_queries:
+
+        details = retrieve_detailed(
+            query,
+            method,
+            index_data,
+            corpus
+        )
+
+        print("\nQuery:", query)
+
+        print("Method:", method)
+
+        print(
+            "Retrieved count:",
+            details["retrieved_count"]
+        )
+
+        for item in details["results"]:
+
+            doc_id = item["document_id"]
+
+            document_name = document_mapping.get(
+                doc_id,
+                doc_id
+            )
+
+            print(
+
+                f"{doc_id} | {document_name} | "
+                f"Score: {item['score']} | "
+                f"Coverage: {item['coverage']} | "
+                f"Matched terms: {item['matched_terms']}"
+
+            )
+
+        print("-" * 65)
+
+        results.append({
+
+            **details,
+
+            "retrieved_documents": [
+
+                document_mapping.get(
+                    item["document_id"],
+                    item["document_id"]
+                )
+
+                for item in details["results"]
+
+            ]
+
+        })
+
+    OUTPUT_PATH.parent.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    with open(
+        OUTPUT_PATH,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            results,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    print("\nRETRIEVAL ENGINE COMPLETED")
+
+    print("Results saved to:", OUTPUT_PATH)
+
+
+if __name__ == "__main__":
+
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\stemming.py =====
+
+
+from pathlib import Path
+import json
+import csv
+import re
+import nltk
+
+from nltk.stem import PorterStemmer
+from nltk.stem import LancasterStemmer
+from nltk.stem import SnowballStemmer
+
+
+# ==================================================
+# 1. PATHS
+# ==================================================
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+RESULT_DIR = PROJECT_ROOT / "results"
+
+INPUT_FILE = RESULT_DIR / "cleaned_corpus.json"
+
+OUTPUT_JSON = RESULT_DIR / "stemming_comparison.json"
+OUTPUT_CSV = RESULT_DIR / "stemming_comparison.csv"
+
+
+# ==================================================
+# 2. INITIALIZE STEMMERS
+# ==================================================
+
+stemmer_methods = {
+    "Porter": PorterStemmer(),
+    "Lancaster": LancasterStemmer(),
+    "Snowball": SnowballStemmer("english")
+}
+
+
+# ==================================================
+# 3. TOKENIZATION
+# ==================================================
+
+def tokenize(text):
+
+    return re.findall(
+        r"\b[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*\b",
+        text.lower()
+    )
+
+
+# ==================================================
+# 4. APPLY STEMMING
+# ==================================================
+
+def apply_stemming(tokens, stemmer):
+
+    return [
+        stemmer.stem(token)
+        for token in tokens
+    ]
+
+
+# ==================================================
+# 5. PROCESS CORPUS
+# ==================================================
+
+def process_corpus(documents):
+
+    summary = {}
+    document_results = []
+    word_examples = {}
+
+    for method_name, stemmer in stemmer_methods.items():
+
+        all_stems = []
+        total_tokens = 0
+
+        for document in documents:
+
+            tokens = tokenize(document["cleaned_text"])
+
+            stems = apply_stemming(tokens, stemmer)
+
+            total_tokens += len(stems)
+            all_stems.extend(stems)
+
+            document_results.append({
+                "document_id": document["document_id"],
+                "method": method_name,
+                "token_count": len(stems),
+                "vocabulary_size": len(set(stems)),
+                "stemmed_tokens": stems
+            })
+
+            for original, stemmed in zip(tokens, stems):
+
+                if original != stemmed:
+
+                    word_examples.setdefault(
+                        original, {}
+                    )
+
+                    word_examples[original][method_name] = stemmed
+
+        summary[method_name] = {
+            "total_tokens": total_tokens,
+            "vocabulary_size": len(set(all_stems)),
+            "average_tokens_per_document": round(
+                total_tokens / len(documents), 2
+            ) if documents else 0
+        }
+
+    return summary, document_results, word_examples
+
+
+# ==================================================
+# 6. SAVE RESULTS
+# ==================================================
+
+def save_results(summary, document_results, word_examples):
+
+    with open(
+        OUTPUT_JSON,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            {
+                "summary": summary,
+                "word_examples": word_examples,
+                "document_results": document_results
+            },
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    with open(
+        OUTPUT_CSV,
+        "w",
+        newline="",
+        encoding="utf-8"
+    ) as file:
+
+        writer = csv.DictWriter(
+            file,
+            fieldnames=[
+                "document_id",
+                "method",
+                "token_count",
+                "vocabulary_size",
+                "stemmed_tokens"
+            ]
+        )
+
+        writer.writeheader()
+
+        for row in document_results:
+
+            writer.writerow({
+                **row,
+                "stemmed_tokens": " ".join(
+                    row["stemmed_tokens"]
+                )
+            })
+
+
+# ==================================================
+# 7. MAIN
+# ==================================================
+
+def main():
+
+    print("=" * 65)
+    print("MODULE 5: STEMMING COMPARISON")
+    print("=" * 65)
+
+    if not INPUT_FILE.exists():
+
+        raise FileNotFoundError(
+            "cleaned_corpus.json not found. "
+            "Run previous modules first."
+        )
+
+    with open(
+        INPUT_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        documents = json.load(file)
+
+    summary, document_results, word_examples = process_corpus(
+        documents
+    )
+
+    save_results(
+        summary,
+        document_results,
+        word_examples
+    )
+
+    print("\nSTEMMING COMPARISON")
+    print("-" * 65)
+
+    for method, stats in summary.items():
+
+        print(f"\nMethod: {method}")
+        print(f"Total Tokens: {stats['total_tokens']}")
+        print(f"Vocabulary Size: {stats['vocabulary_size']}")
+        print(
+            "Average Tokens per Document:",
+            stats["average_tokens_per_document"]
+        )
+
+    print("\nWORD STEMMING EXAMPLES")
+    print("-" * 65)
+
+    for word, methods in list(word_examples.items())[:20]:
+
+        print(f"\nOriginal: {word}")
+
+        for method, stem in methods.items():
+
+            print(f"{method}: {stem}")
+
+    print("\nOUTPUT FILES")
+    print(OUTPUT_JSON)
+    print(OUTPUT_CSV)
+
+    print("\nMODULE 5 COMPLETED SUCCESSFULLY.")
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\stopwords_analysis.py =====
+
+
+from pathlib import Path
+import json
+import csv
+import re
+import nltk
+
+from nltk.corpus import stopwords
+
+
+# ==================================================
+# 1. PATHS
+# ==================================================
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+RESULT_DIR = PROJECT_ROOT / "results"
+
+INPUT_FILE = RESULT_DIR / "cleaned_corpus.json"
+
+OUTPUT_JSON = RESULT_DIR / "stopwords_analysis.json"
+OUTPUT_CSV = RESULT_DIR / "stopwords_comparison.csv"
+
+
+# ==================================================
+# 2. STOP WORDS
+# ==================================================
+
+def load_stopwords():
+
+    try:
+        stop_words = set(stopwords.words("english"))
+
+    except LookupError:
+
+        nltk.download("stopwords", quiet=True)
+
+        stop_words = set(stopwords.words("english"))
+
+    # Preserve important healthcare terms
+    protected_terms = {
+        "no",
+        "not",
+        "nor",
+        "against",
+        "before",
+        "after",
+        "during",
+        "between",
+        "under",
+        "over",
+        "only",
+        "without"
+    }
+
+    stop_words = stop_words - protected_terms
+
+    return stop_words
+
+
+# ==================================================
+# 3. TOKENIZATION
+# ==================================================
+
+def tokenize(text):
+
+    return re.findall(
+        r"\b[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*\b",
+        text.lower()
+    )
+
+
+# ==================================================
+# 4. REMOVE STOP WORDS
+# ==================================================
+
+def remove_stopwords(tokens, stop_words):
+
+    return [
+        token
+        for token in tokens
+        if token.lower() not in stop_words
+    ]
+
+
+# ==================================================
+# 5. STATISTICS
+# ==================================================
+
+def calculate_statistics(tokens):
+
+    return {
+        "token_count": len(tokens),
+        "vocabulary_size": len(set(tokens))
+    }
+
+
+# ==================================================
+# 6. PROCESS DOCUMENTS
+# ==================================================
+
+def process_documents(documents, stop_words):
+
+    processed_documents = []
+    comparison_results = []
+
+    all_original_tokens = []
+    all_filtered_tokens = []
+
+    for document in documents:
+
+        document_id = document["document_id"]
+
+        text = document["cleaned_text"]
+
+        original_tokens = tokenize(text)
+
+        filtered_tokens = remove_stopwords(
+            original_tokens,
+            stop_words
+        )
+
+        all_original_tokens.extend(original_tokens)
+        all_filtered_tokens.extend(filtered_tokens)
+
+        original_stats = calculate_statistics(
+            original_tokens
+        )
+
+        filtered_stats = calculate_statistics(
+            filtered_tokens
+        )
+
+        removed_count = (
+            len(original_tokens) - len(filtered_tokens)
+        )
+
+        removal_percentage = (
+            removed_count / len(original_tokens) * 100
+            if original_tokens else 0
+        )
+
+        processed_documents.append({
+            "document_id": document_id,
+            "file_name": document["file_name"],
+            "tokens_before_removal": original_tokens,
+            "tokens_after_removal": filtered_tokens,
+            "token_count_before": original_stats["token_count"],
+            "token_count_after": filtered_stats["token_count"],
+            "vocabulary_before": original_stats["vocabulary_size"],
+            "vocabulary_after": filtered_stats["vocabulary_size"]
+        })
+
+        comparison_results.append({
+            "document_id": document_id,
+            "token_count_before": original_stats["token_count"],
+            "token_count_after": filtered_stats["token_count"],
+            "removed_tokens": removed_count,
+            "removal_percentage": round(
+                removal_percentage, 2
+            ),
+            "vocabulary_before": original_stats["vocabulary_size"],
+            "vocabulary_after": filtered_stats["vocabulary_size"]
+        })
+
+    corpus_summary = {
+        "total_tokens_before": len(all_original_tokens),
+        "total_tokens_after": len(all_filtered_tokens),
+        "total_removed_tokens": (
+            len(all_original_tokens) - len(all_filtered_tokens)
+        ),
+        "vocabulary_before": len(set(all_original_tokens)),
+        "vocabulary_after": len(set(all_filtered_tokens))
+    }
+
+    corpus_summary["removal_percentage"] = round(
+        corpus_summary["total_removed_tokens"]
+        / corpus_summary["total_tokens_before"] * 100,
+        2
+    ) if corpus_summary["total_tokens_before"] else 0
+
+    return (
+        processed_documents,
+        comparison_results,
+        corpus_summary
+    )
+
+
+# ==================================================
+# 7. SAVE RESULTS
+# ==================================================
+
+def save_results(
+    processed_documents,
+    comparison_results,
+    corpus_summary
+):
+
+    RESULT_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    with open(
+        OUTPUT_JSON,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            {
+                "corpus_summary": corpus_summary,
+                "documents": processed_documents
+            },
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    with open(
+        OUTPUT_CSV,
+        "w",
+        newline="",
+        encoding="utf-8"
+    ) as file:
+
+        writer = csv.DictWriter(
+            file,
+            fieldnames=list(comparison_results[0].keys())
+        )
+
+        writer.writeheader()
+        writer.writerows(comparison_results)
+
+
+# ==================================================
+# 8. MAIN
+# ==================================================
+
+def main():
+
+    print("=" * 65)
+    print("MODULE 4: STOP-WORD ANALYSIS")
+    print("=" * 65)
+
+    if not INPUT_FILE.exists():
+
+        raise FileNotFoundError(
+            "cleaned_corpus.json not found. "
+            "Run previous modules first."
+        )
+
+    with open(
+        INPUT_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        documents = json.load(file)
+
+    stop_words = load_stopwords()
+
+    (
+        processed_documents,
+        comparison_results,
+        corpus_summary
+    ) = process_documents(documents, stop_words)
+
+    save_results(
+        processed_documents,
+        comparison_results,
+        corpus_summary
+    )
+
+    print("\nSTOP-WORD CORPUS COMPARISON")
+    print("-" * 65)
+
+    for key, value in corpus_summary.items():
+
+        print(f"{key.replace('_', ' ').title()}: {value}")
+
+    print("\nSAMPLE COMPARISON")
+    print("-" * 65)
+
+    sample = processed_documents[0]
+
+    print("\nBefore removal:")
+    print(sample["tokens_before_removal"][:30])
+
+    print("\nAfter removal:")
+    print(sample["tokens_after_removal"][:30])
+
+    print("\nOUTPUT FILES")
+    print(OUTPUT_JSON)
+    print(OUTPUT_CSV)
+
+    print("\nMODULE 4 COMPLETED SUCCESSFULLY.")
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\text_preprocessing.py =====
+
+
+from pathlib import Path
+import json
+import re
+
+
+# ==================================================
+# 1. PROJECT PATHS
+# ==================================================
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+RESULT_DIR = PROJECT_ROOT / "results"
+
+INPUT_FILE = RESULT_DIR / "processed_corpus.json"
+
+OUTPUT_FILE = RESULT_DIR / "cleaned_corpus.json"
+
+
+# ==================================================
+# 2. TEXT CLEANING
+# ==================================================
+
+def clean_text(text):
+
+    original_text = text
+
+    # Convert HTML entities and remove HTML tags
+    text = re.sub(r"&amp;", "and", text)
+    text = re.sub(r"&lt;", " less than ", text)
+    text = re.sub(r"&gt;", " greater than ", text)
+
+    text = re.sub(r"<[^>]+>", " ", text)
+
+    # Remove URLs
+    text = re.sub(
+        r"https?://\S+|www\.\S+",
+        " ",
+        text
+    )
+
+    # Normalize Unicode dash characters
+    text = re.sub(r"[–—−]", "-", text)
+
+    # Lowercase text
+    text = text.lower()
+
+    # Preserve letters, digits, spaces, and hyphens
+    text = re.sub(
+        r"[^a-z0-9\s-]",
+        " ",
+        text
+    )
+
+    # Remove standalone hyphens
+    text = re.sub(r"(?<!\w)-|-(?!\w)", " ", text)
+
+    # Normalize repeated whitespace
+    text = re.sub(r"\s+", " ", text).strip()
+
+    return {
+        "cleaned_text": text,
+        "original_character_count": len(original_text),
+        "cleaned_character_count": len(text)
+    }
+
+
+# ==================================================
+# 3. PROCESS CORPUS
+# ==================================================
+
+def preprocess_documents(documents):
+
+    cleaned_documents = []
+
+    for document in documents:
+
+        result = clean_text(document["text"])
+
+        cleaned_document = {
+            "document_id": document["document_id"],
+            "file_name": document["file_name"],
+            "document_name": document["document_name"],
+            "original_text": document["text"],
+            "cleaned_text": result["cleaned_text"],
+            "original_character_count":
+                result["original_character_count"],
+            "cleaned_character_count":
+                result["cleaned_character_count"]
+        }
+
+        cleaned_documents.append(cleaned_document)
+
+    return cleaned_documents
+
+
+# ==================================================
+# 4. SAVE CLEANED CORPUS
+# ==================================================
+
+def save_cleaned_corpus(documents):
+
+    RESULT_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    with open(
+        OUTPUT_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            documents,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+
+# ==================================================
+# 5. MAIN EXECUTION
+# ==================================================
+
+def main():
+
+    print("=" * 65)
+    print("MAIN ADAPTIVE PIPELINE")
+    print("MODULE 2: TEXT CLEANING AND PREPROCESSING")
+    print("=" * 65)
+
+    if not INPUT_FILE.exists():
+
+        raise FileNotFoundError(
+            "processed_corpus.json not found. "
+            "Run document_loader.py first."
+        )
+
+    with open(
+        INPUT_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        documents = json.load(file)
+
+    cleaned_documents = preprocess_documents(documents)
+
+    save_cleaned_corpus(cleaned_documents)
+
+    print(f"\nDocuments processed: {len(cleaned_documents)}")
+
+    print("\nCLEANING COMPARISON")
+    print("-" * 65)
+
+    for document in cleaned_documents[:3]:
+
+        print(f"\nDocument ID: {document['document_id']}")
+
+        print(
+            "Original characters:",
+            document["original_character_count"]
+        )
+
+        print(
+            "Cleaned characters:",
+            document["cleaned_character_count"]
+        )
+
+        print(
+            "Cleaned preview:",
+            document["cleaned_text"][:200]
+        )
+
+    print("\nOUTPUT")
+    print(f"Cleaned corpus saved at: {OUTPUT_FILE}")
+
+    print("\nMODULE 2 COMPLETED SUCCESSFULLY.")
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\src\tokenization.py =====
+
+
+from pathlib import Path
+import json
+import re
+import csv
+
+from nltk.tokenize import TreebankWordTokenizer
+import spacy
+
+
+# ==================================================
+# 1. PATHS
+# ==================================================
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+RESULT_DIR = PROJECT_ROOT / "results"
+
+INPUT_FILE = RESULT_DIR / "cleaned_corpus.json"
+
+OUTPUT_JSON = RESULT_DIR / "tokenization_comparison.json"
+OUTPUT_CSV = RESULT_DIR / "tokenization_comparison.csv"
+
+nlp = spacy.load("en_core_web_sm")
+
+nltk_tokenizer = TreebankWordTokenizer()
+
+
+# ==================================================
+# 2. CUSTOM HEALTHCARE TOKENIZER
+# ==================================================
+
+def custom_tokenize(text):
+
+    pattern = (
+        r"COVID-19"
+        r"|SARS-CoV-2"
+        r"|MERS-CoV"
+        r"|H1N1"
+        r"|PCR"
+        r"|RT-PCR"
+        r"|[a-zA-Z]+(?:-[a-zA-Z0-9]+)*"
+        r"|\d+(?:\.\d+)?%?"
+    )
+
+    return re.findall(pattern, text, flags=re.IGNORECASE)
+
+
+# ==================================================
+# 3. TOKENIZATION METHODS
+# ==================================================
+
+def nltk_tokenize(text):
+
+    return nltk_tokenizer.tokenize(text)
+
+
+def spacy_tokenize(text):
+
+    doc = nlp(text)
+
+    return [
+        token.text
+        for token in doc
+        if not token.is_space
+    ]
+
+
+def hybrid_tokenize(text):
+
+    # Use custom rules for healthcare terms,
+    # followed by spaCy tokenization for ordinary text.
+
+    domain_terms = [
+        "COVID-19",
+        "SARS-CoV-2",
+        "MERS-CoV",
+        "H1N1",
+        "RT-PCR"
+    ]
+
+    placeholders = {}
+
+    protected_text = text
+
+    for index, term in enumerate(domain_terms):
+
+        placeholder = f"DOMAINTERM{index}TOKEN"
+
+        pattern = re.compile(
+            re.escape(term),
+            flags=re.IGNORECASE
+        )
+
+        if pattern.search(protected_text):
+
+            protected_text = pattern.sub(
+                placeholder,
+                protected_text
+            )
+
+            placeholders[placeholder.lower()] = term
+
+    tokens = spacy_tokenize(protected_text)
+
+    final_tokens = []
+
+    for token in tokens:
+
+        key = token.lower()
+
+        if key in placeholders:
+            final_tokens.append(placeholders[key])
+        else:
+            final_tokens.append(token)
+
+    return final_tokens
+
+
+# ==================================================
+# 4. VOCABULARY STATISTICS
+# ==================================================
+
+def calculate_statistics(token_lists):
+
+    all_tokens = [
+        token.lower()
+        for tokens in token_lists
+        for token in tokens
+    ]
+
+    total_tokens = len(all_tokens)
+
+    vocabulary = set(all_tokens)
+
+    document_count = len(token_lists)
+
+    average_tokens = (
+        total_tokens / document_count
+        if document_count else 0
+    )
+
+    return {
+        "total_tokens": total_tokens,
+        "vocabulary_size": len(vocabulary),
+        "average_tokens_per_document": round(
+            average_tokens, 2
+        )
+    }
+
+
+# ==================================================
+# 5. PROCESS CORPUS
+# ==================================================
+
+def run_comparison(documents):
+
+    methods = {
+        "NLTK": nltk_tokenize,
+        "spaCy": spacy_tokenize,
+        "Custom": custom_tokenize,
+        "Hybrid": hybrid_tokenize
+    }
+
+    results = {}
+    document_results = []
+
+    for method_name, tokenizer in methods.items():
+
+        token_lists = []
+
+        for document in documents:
+
+            text = document["cleaned_text"]
+
+            tokens = tokenizer(text)
+
+            token_lists.append(tokens)
+
+            document_results.append({
+                "document_id": document["document_id"],
+                "method": method_name,
+                "token_count": len(tokens),
+                "tokens": tokens
+            })
+
+        results[method_name] = calculate_statistics(
+            token_lists
+        )
+
+    return results, document_results
+
+
+# ==================================================
+# 6. SAVE RESULTS
+# ==================================================
+
+def save_results(summary, document_results):
+
+    with open(
+        OUTPUT_JSON,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            {
+                "summary": summary,
+                "document_results": document_results
+            },
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    with open(
+        OUTPUT_CSV,
+        "w",
+        newline="",
+        encoding="utf-8"
+    ) as file:
+
+        writer = csv.DictWriter(
+            file,
+            fieldnames=[
+                "document_id",
+                "method",
+                "token_count",
+                "tokens"
+            ]
+        )
+
+        writer.writeheader()
+
+        for row in document_results:
+
+            writer.writerow({
+                **row,
+                "tokens": " ".join(row["tokens"])
+            })
+
+
+# ==================================================
+# 7. MAIN
+# ==================================================
+
+def main():
+
+    print("=" * 65)
+    print("MODULE 3: TOKENIZATION COMPARISON")
+    print("=" * 65)
+
+    if not INPUT_FILE.exists():
+
+        raise FileNotFoundError(
+            "cleaned_corpus.json not found. "
+            "Run document_loader.py and "
+            "text_preprocessing.py first."
+        )
+
+    with open(
+        INPUT_FILE,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        documents = json.load(file)
+
+    summary, document_results = run_comparison(documents)
+
+    save_results(summary, document_results)
+
+    print("\nTOKENIZATION RESULTS")
+    print("-" * 65)
+
+    for method, stats in summary.items():
+
+        print(f"\nMethod: {method}")
+        print(f"Total Tokens: {stats['total_tokens']}")
+        print(f"Vocabulary Size: {stats['vocabulary_size']}")
+        print(
+            "Average Tokens per Document:",
+            stats["average_tokens_per_document"]
+        )
+
+    print("\nSAMPLE TOKEN COMPARISON")
+    print("-" * 65)
+
+    first_document = documents[0]["document_id"]
+
+    for row in document_results:
+
+        if row["document_id"] == first_document:
+
+            print(f"\n{row['method']}:")
+            print(row["tokens"][:30])
+
+    print("\nOUTPUT FILES")
+    print(OUTPUT_JSON)
+    print(OUTPUT_CSV)
+
+    print("\nTOKENIZATION COMPARISON COMPLETED.")
+
+
+if __name__ == "__main__":
+    main()
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\README.md =====
+
+
+===== C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\NLP_Project1\MAIN_ADAPTIVE_PIPELINE\requirements.txt =====
+
+nltk
+spacy
+pandas
+numpy
+scikit-learn
+matplotlib
+streamlit
+pypdf
+tokenizers
+jupyter
+

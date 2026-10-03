@@ -1,0 +1,121 @@
+Document_ID,Method,Token_Count,Vocabulary_Size,Sample_Tokens
+01_covid_transmission_and_prevention,NLTK,261,154,COVID-19 | Transmission | and | Community | Prevention | COVID-19 | is | caused | by | infection | with | SARS-CoV-2 | . | Transmission | can | occur | when | an | infected | person
+01_covid_transmission_and_prevention,spaCy,274,158,"COVID-19 | Transmission | and | Community | Prevention | 
+
+ | COVID-19 | is | caused | by | infection | with | SARS | - | CoV-2 | . | Transmission | can | occur | when"
+01_covid_transmission_and_prevention,Custom,261,154,COVID-19 | Transmission | and | Community | Prevention | COVID-19 | is | caused | by | infection | with | SARS-CoV-2 | . | Transmission | can | occur | when | an | infected | person
+01_covid_transmission_and_prevention,Hybrid,261,154,COVID-19 | Transmission | and | Community | Prevention | COVID-19 | is | caused | by | infection | with | SARS-CoV-2 | . | Transmission | can | occur | when | an | infected | person
+02_covid_vaccination_basics,NLTK,215,130,COVID-19 | Vaccination | : | Basic | Concepts | COVID-19 | vaccines | are | designed | to | stimulate | an | immune | response | against | SARS-CoV-2 | without | requiring | a | person
+02_covid_vaccination_basics,spaCy,226,135,"COVID-19 | Vaccination | : | Basic | Concepts | 
+
+ | COVID-19 | vaccines | are | designed | to | stimulate | an | immune | response | against | SARS | - | CoV-2 | without"
+02_covid_vaccination_basics,Custom,215,130,COVID-19 | Vaccination | : | Basic | Concepts | COVID-19 | vaccines | are | designed | to | stimulate | an | immune | response | against | SARS-CoV-2 | without | requiring | a | person
+02_covid_vaccination_basics,Hybrid,215,130,COVID-19 | Vaccination | : | Basic | Concepts | COVID-19 | vaccines | are | designed | to | stimulate | an | immune | response | against | SARS-CoV-2 | without | requiring | a | person
+03_vaccine_effectiveness_and_studies,NLTK,217,134,Evaluating | Vaccine | Effectiveness | Vaccine | effectiveness | is | usually | estimated | by | comparing | disease | outcomes | between | vaccinated | and | comparison | groups | under | real-world | conditions
+03_vaccine_effectiveness_and_studies,spaCy,232,141,"Evaluating | Vaccine | Effectiveness | 
+
+ | Vaccine | effectiveness | is | usually | estimated | by | comparing | disease | outcomes | between | vaccinated | and | comparison | groups | under | real"
+03_vaccine_effectiveness_and_studies,Custom,216,134,Evaluating | Vaccine | Effectiveness | Vaccine | effectiveness | is | usually | estimated | by | comparing | disease | outcomes | between | vaccinated | and | comparison | groups | under | real-world | conditions
+03_vaccine_effectiveness_and_studies,Hybrid,216,134,Evaluating | Vaccine | Effectiveness | Vaccine | effectiveness | is | usually | estimated | by | comparing | disease | outcomes | between | vaccinated | and | comparison | groups | under | real-world | conditions
+04_epidemiology_incidence_prevalence,NLTK,206,117,Incidence | and | Prevalence | in | Infectious | Disease | Epidemiology | Incidence | and | prevalence | describe | different | aspects | of | disease | occurrence | . | Incidence | focuses | on
+04_epidemiology_incidence_prevalence,spaCy,211,119,"Incidence | and | Prevalence | in | Infectious | Disease | Epidemiology | 
+
+ | Incidence | and | prevalence | describe | different | aspects | of | disease | occurrence | . | Incidence | focuses"
+04_epidemiology_incidence_prevalence,Custom,206,117,Incidence | and | Prevalence | in | Infectious | Disease | Epidemiology | Incidence | and | prevalence | describe | different | aspects | of | disease | occurrence | . | Incidence | focuses | on
+04_epidemiology_incidence_prevalence,Hybrid,206,117,Incidence | and | Prevalence | in | Infectious | Disease | Epidemiology | Incidence | and | prevalence | describe | different | aspects | of | disease | occurrence | . | Incidence | focuses | on
+05_basic_reproduction_number,NLTK,213,123,"Reproduction | Numbers | and | Outbreak | Growth | The | basic | reproduction | number | , | R0 | , | describes | the | average | number | of | secondary | infections | generated"
+05_basic_reproduction_number,spaCy,220,127,"Reproduction | Numbers | and | Outbreak | Growth | 
+
+ | The | basic | reproduction | number | , | R0 | , | describes | the | average | number | of | secondary | infections"
+05_basic_reproduction_number,Custom,214,124,"Reproduction | Numbers | and | Outbreak | Growth | The | basic | reproduction | number | , | R | 0 | , | describes | the | average | number | of | secondary | infections"
+05_basic_reproduction_number,Hybrid,214,124,"Reproduction | Numbers | and | Outbreak | Growth | The | basic | reproduction | number | , | R | 0 | , | describes | the | average | number | of | secondary | infections"
+06_contact_tracing,NLTK,196,116,Contact | Tracing | and | Exposure | Management | Contact | tracing | is | a | public-health | process | used | to | identify | people | who | may | have | been | exposed
+06_contact_tracing,spaCy,207,118,"Contact | Tracing | and | Exposure | Management | 
+
+ | Contact | tracing | is | a | public | - | health | process | used | to | identify | people | who | may"
+06_contact_tracing,Custom,195,117,Contact | Tracing | and | Exposure | Management | Contact | tracing | is | a | public-health | process | used | to | identify | people | who | may | have | been | exposed
+06_contact_tracing,Hybrid,195,117,Contact | Tracing | and | Exposure | Management | Contact | tracing | is | a | public-health | process | used | to | identify | people | who | may | have | been | exposed
+07_wastewater_surveillance,NLTK,182,114,Wastewater | Surveillance | for | Respiratory | Viruses | Wastewater | surveillance | analyzes | biological | material | in | sewage | to | estimate | the | presence | or | trends | of | infectious
+07_wastewater_surveillance,spaCy,191,117,"Wastewater | Surveillance | for | Respiratory | Viruses | 
+
+ | Wastewater | surveillance | analyzes | biological | material | in | sewage | to | estimate | the | presence | or | trends | of"
+07_wastewater_surveillance,Custom,182,114,Wastewater | Surveillance | for | Respiratory | Viruses | Wastewater | surveillance | analyzes | biological | material | in | sewage | to | estimate | the | presence | or | trends | of | infectious
+07_wastewater_surveillance,Hybrid,182,114,Wastewater | Surveillance | for | Respiratory | Viruses | Wastewater | surveillance | analyzes | biological | material | in | sewage | to | estimate | the | presence | or | trends | of | infectious
+08_variant_surveillance,NLTK,181,117,SARS-CoV-2 | Variant | Surveillance | Variant | surveillance | monitors | genetic | changes | in | SARS-CoV-2 | and | assesses | whether | emerging | lineages | have | characteristics | relevant | to | public
+08_variant_surveillance,spaCy,196,121,"SARS | - | CoV-2 | Variant | Surveillance | 
+
+ | Variant | surveillance | monitors | genetic | changes | in | SARS | - | CoV-2 | and | assesses | whether | emerging | lineages"
+08_variant_surveillance,Custom,181,117,SARS-CoV-2 | Variant | Surveillance | Variant | surveillance | monitors | genetic | changes | in | SARS-CoV-2 | and | assesses | whether | emerging | lineages | have | characteristics | relevant | to | public
+08_variant_surveillance,Hybrid,181,117,SARS-CoV-2 | Variant | Surveillance | Variant | surveillance | monitors | genetic | changes | in | SARS-CoV-2 | and | assesses | whether | emerging | lineages | have | characteristics | relevant | to | public
+09_outbreak_investigation,NLTK,200,128,"Infectious | Disease | Outbreak | Investigation | An | outbreak | investigation | seeks | to | determine | whether | an | unusual | increase | in | disease | has | occurred | , | characterize"
+09_outbreak_investigation,spaCy,205,130,"Infectious | Disease | Outbreak | Investigation | 
+
+ | An | outbreak | investigation | seeks | to | determine | whether | an | unusual | increase | in | disease | has | occurred | ,"
+09_outbreak_investigation,Custom,200,128,"Infectious | Disease | Outbreak | Investigation | An | outbreak | investigation | seeks | to | determine | whether | an | unusual | increase | in | disease | has | occurred | , | characterize"
+09_outbreak_investigation,Hybrid,200,128,"Infectious | Disease | Outbreak | Investigation | An | outbreak | investigation | seeks | to | determine | whether | an | unusual | increase | in | disease | has | occurred | , | characterize"
+10_public_health_surveillance,NLTK,187,116,"Public | Health | Surveillance | Systems | Public | health | surveillance | is | the | continuous | and | systematic | collection | , | analysis | , | interpretation | , | and | dissemination"
+10_public_health_surveillance,spaCy,198,120,"Public | Health | Surveillance | Systems | 
+
+ | Public | health | surveillance | is | the | continuous | and | systematic | collection | , | analysis | , | interpretation | , | and"
+10_public_health_surveillance,Custom,187,116,"Public | Health | Surveillance | Systems | Public | health | surveillance | is | the | continuous | and | systematic | collection | , | analysis | , | interpretation | , | and | dissemination"
+10_public_health_surveillance,Hybrid,187,116,"Public | Health | Surveillance | Systems | Public | health | surveillance | is | the | continuous | and | systematic | collection | , | analysis | , | interpretation | , | and | dissemination"
+11_infection_prevention_healthcare,NLTK,172,105,Infection | Prevention | in | Healthcare | Settings | Healthcare | facilities | require | layered | infection-prevention | measures | because | patients | and | healthcare | workers | may | encounter | infectious | individuals
+11_infection_prevention_healthcare,spaCy,183,108,"Infection | Prevention | in | Healthcare | Settings | 
+
+ | Healthcare | facilities | require | layered | infection | - | prevention | measures | because | patients | and | healthcare | workers | may"
+11_infection_prevention_healthcare,Custom,172,105,Infection | Prevention | in | Healthcare | Settings | Healthcare | facilities | require | layered | infection-prevention | measures | because | patients | and | healthcare | workers | may | encounter | infectious | individuals
+11_infection_prevention_healthcare,Hybrid,172,105,Infection | Prevention | in | Healthcare | Settings | Healthcare | facilities | require | layered | infection-prevention | measures | because | patients | and | healthcare | workers | may | encounter | infectious | individuals
+12_vaccine_safety_monitoring,NLTK,188,123,Vaccine | Safety | and | Adverse | Event | Monitoring | Vaccine | safety | monitoring | continues | after | vaccines | are | authorized | or | licensed | because | very | rare | adverse
+12_vaccine_safety_monitoring,spaCy,195,126,"Vaccine | Safety | and | Adverse | Event | Monitoring | 
+
+ | Vaccine | safety | monitoring | continues | after | vaccines | are | authorized | or | licensed | because | very | rare"
+12_vaccine_safety_monitoring,Custom,188,123,Vaccine | Safety | and | Adverse | Event | Monitoring | Vaccine | safety | monitoring | continues | after | vaccines | are | authorized | or | licensed | because | very | rare | adverse
+12_vaccine_safety_monitoring,Hybrid,188,123,Vaccine | Safety | and | Adverse | Event | Monitoring | Vaccine | safety | monitoring | continues | after | vaccines | are | authorized | or | licensed | because | very | rare | adverse
+13_risk_communication,NLTK,175,115,Risk | Communication | During | Infectious | Disease | Events | Risk | communication | provides | people | with | information | needed | to | understand | a | public-health | threat | and | make
+13_risk_communication,spaCy,184,119,"Risk | Communication | During | Infectious | Disease | Events | 
+
+ | Risk | communication | provides | people | with | information | needed | to | understand | a | public | - | health"
+13_risk_communication,Custom,175,115,Risk | Communication | During | Infectious | Disease | Events | Risk | communication | provides | people | with | information | needed | to | understand | a | public-health | threat | and | make
+13_risk_communication,Hybrid,175,115,Risk | Communication | During | Infectious | Disease | Events | Risk | communication | provides | people | with | information | needed | to | understand | a | public-health | threat | and | make
+14_school_outbreak_prevention,NLTK,171,110,"Respiratory | Infection | Prevention | in | Schools | Schools | are | environments | where | students | and | staff | interact | frequently | , | so | respiratory | infections | can | spread"
+14_school_outbreak_prevention,spaCy,182,115,"Respiratory | Infection | Prevention | in | Schools | 
+
+ | Schools | are | environments | where | students | and | staff | interact | frequently | , | so | respiratory | infections | can"
+14_school_outbreak_prevention,Custom,171,110,"Respiratory | Infection | Prevention | in | Schools | Schools | are | environments | where | students | and | staff | interact | frequently | , | so | respiratory | infections | can | spread"
+14_school_outbreak_prevention,Hybrid,171,110,"Respiratory | Infection | Prevention | in | Schools | Schools | are | environments | where | students | and | staff | interact | frequently | , | so | respiratory | infections | can | spread"
+15_vulnerable_populations,NLTK,181,115,Protecting | Higher-Risk | Populations | During | Respiratory | Virus | Activity | Some | people | have | a | higher | risk | of | severe | outcomes | from | respiratory | infections | because
+15_vulnerable_populations,spaCy,194,118,"Protecting | Higher | - | Risk | Populations | During | Respiratory | Virus | Activity | 
+
+ | Some | people | have | a | higher | risk | of | severe | outcomes | from"
+15_vulnerable_populations,Custom,181,115,Protecting | Higher-Risk | Populations | During | Respiratory | Virus | Activity | Some | people | have | a | higher | risk | of | severe | outcomes | from | respiratory | infections | because
+15_vulnerable_populations,Hybrid,181,115,Protecting | Higher-Risk | Populations | During | Respiratory | Virus | Activity | Some | people | have | a | higher | risk | of | severe | outcomes | from | respiratory | infections | because
+16_antiviral_treatment_and_testing,NLTK,178,109,Testing | and | Antiviral | Treatment | in | COVID-19 | Care | Testing | can | help | identify | SARS-CoV-2 | infection | and | inform | clinical | or | public-health | decisions | .
+16_antiviral_treatment_and_testing,spaCy,189,114,"Testing | and | Antiviral | Treatment | in | COVID-19 | Care | 
+
+ | Testing | can | help | identify | SARS | - | CoV-2 | infection | and | inform | clinical | or"
+16_antiviral_treatment_and_testing,Custom,178,109,Testing | and | Antiviral | Treatment | in | COVID-19 | Care | Testing | can | help | identify | SARS-CoV-2 | infection | and | inform | clinical | or | public-health | decisions | .
+16_antiviral_treatment_and_testing,Hybrid,178,109,Testing | and | Antiviral | Treatment | in | COVID-19 | Care | Testing | can | help | identify | SARS-CoV-2 | infection | and | inform | clinical | or | public-health | decisions | .
+17_misinformation_and_health_literacy,NLTK,179,121,"Health | Literacy | and | Infectious | Disease | Misinformation | Health | literacy | involves | the | ability | to | find | , | understand | , | evaluate | , | and | use"
+17_misinformation_and_health_literacy,spaCy,188,124,"Health | Literacy | and | Infectious | Disease | Misinformation | 
+
+ | Health | literacy | involves | the | ability | to | find | , | understand | , | evaluate | , | and"
+17_misinformation_and_health_literacy,Custom,179,121,"Health | Literacy | and | Infectious | Disease | Misinformation | Health | literacy | involves | the | ability | to | find | , | understand | , | evaluate | , | and | use"
+17_misinformation_and_health_literacy,Hybrid,179,121,"Health | Literacy | and | Infectious | Disease | Misinformation | Health | literacy | involves | the | ability | to | find | , | understand | , | evaluate | , | and | use"
+18_global_outbreak_preparedness,NLTK,194,120,"Global | Outbreak | Preparedness | and | Response | Outbreak | preparedness | involves | building | the | capacity | to | detect | , | assess | , | communicate | about | , | and"
+18_global_outbreak_preparedness,spaCy,207,126,"Global | Outbreak | Preparedness | and | Response | 
+
+ | Outbreak | preparedness | involves | building | the | capacity | to | detect | , | assess | , | communicate | about | ,"
+18_global_outbreak_preparedness,Custom,194,120,"Global | Outbreak | Preparedness | and | Response | Outbreak | preparedness | involves | building | the | capacity | to | detect | , | assess | , | communicate | about | , | and"
+18_global_outbreak_preparedness,Hybrid,194,120,"Global | Outbreak | Preparedness | and | Response | Outbreak | preparedness | involves | building | the | capacity | to | detect | , | assess | , | communicate | about | , | and"
+19_epidemiological_models,NLTK,187,127,Epidemiological | Models | for | Infectious | Disease | Planning | Mathematical | and | computational | models | can | help | researchers | explore | how | infectious | diseases | may | spread | under
+19_epidemiological_models,spaCy,196,132,"Epidemiological | Models | for | Infectious | Disease | Planning | 
+
+ | Mathematical | and | computational | models | can | help | researchers | explore | how | infectious | diseases | may | spread"
+19_epidemiological_models,Custom,187,127,Epidemiological | Models | for | Infectious | Disease | Planning | Mathematical | and | computational | models | can | help | researchers | explore | how | infectious | diseases | may | spread | under
+19_epidemiological_models,Hybrid,187,127,Epidemiological | Models | for | Infectious | Disease | Planning | Mathematical | and | computational | models | can | help | researchers | explore | how | infectious | diseases | may | spread | under
+20_post_outbreak_evaluation,NLTK,189,123,"Evaluating | Public | Health | Responses | After | an | Outbreak | After | an | infectious | disease | outbreak | , | a | structured | evaluation | can | examine | what | happened"
+20_post_outbreak_evaluation,spaCy,198,125,"Evaluating | Public | Health | Responses | After | an | Outbreak | 
+
+ | After | an | infectious | disease | outbreak | , | a | structured | evaluation | can | examine | what"
+20_post_outbreak_evaluation,Custom,189,123,"Evaluating | Public | Health | Responses | After | an | Outbreak | After | an | infectious | disease | outbreak | , | a | structured | evaluation | can | examine | what | happened"
+20_post_outbreak_evaluation,Hybrid,189,123,"Evaluating | Public | Health | Responses | After | an | Outbreak | After | an | infectious | disease | outbreak | , | a | structured | evaluation | can | examine | what | happened"

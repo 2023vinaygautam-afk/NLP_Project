@@ -1,0 +1,111 @@
+{
+    "total_documents": 20,
+    "unique_terms": 1028,
+    "total_token_occurrences": 3376,
+    "average_document_length": 168.8,
+    "average_document_frequency": 2.31,
+    "top_20_terms_by_document_frequency": [
+        {
+            "term": "and",
+            "document_frequency": 20
+        },
+        {
+            "term": "can",
+            "document_frequency": 20
+        },
+        {
+            "term": "may",
+            "document_frequency": 20
+        },
+        {
+            "term": "is",
+            "document_frequency": 19
+        },
+        {
+            "term": "the",
+            "document_frequency": 19
+        },
+        {
+            "term": "to",
+            "document_frequency": 19
+        },
+        {
+            "term": "a",
+            "document_frequency": 18
+        },
+        {
+            "term": "or",
+            "document_frequency": 18
+        },
+        {
+            "term": "in",
+            "document_frequency": 17
+        },
+        {
+            "term": "of",
+            "document_frequency": 17
+        },
+        {
+            "term": "are",
+            "document_frequency": 16
+        },
+        {
+            "term": "for",
+            "document_frequency": 15
+        },
+        {
+            "term": "not",
+            "document_frequency": 15
+        },
+        {
+            "term": "should",
+            "document_frequency": 15
+        },
+        {
+            "term": "when",
+            "document_frequency": 15
+        },
+        {
+            "term": "disease",
+            "document_frequency": 14
+        },
+        {
+            "term": "infectious",
+            "document_frequency": 14
+        },
+        {
+            "term": "on",
+            "document_frequency": 14
+        },
+        {
+            "term": "public-health",
+            "document_frequency": 14
+        },
+        {
+            "term": "with",
+            "document_frequency": 13
+        }
+    ],
+    "document_lengths": {
+        "D01": 234,
+        "D02": 184,
+        "D03": 185,
+        "D04": 182,
+        "D05": 186,
+        "D06": 172,
+        "D07": 164,
+        "D08": 161,
+        "D09": 172,
+        "D10": 160,
+        "D11": 147,
+        "D12": 168,
+        "D13": 154,
+        "D14": 154,
+        "D15": 156,
+        "D16": 156,
+        "D17": 154,
+        "D18": 163,
+        "D19": 163,
+        "D20": 161
+    }
+}

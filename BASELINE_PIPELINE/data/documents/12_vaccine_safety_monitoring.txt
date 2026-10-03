@@ -1,0 +1,9 @@
+Vaccine Safety and Adverse Event Monitoring
+
+Vaccine safety monitoring continues after vaccines are authorized or licensed because very rare adverse events may only become detectable when millions of doses are administered. Surveillance systems collect reports of health events that occur after vaccination and investigate signals that may indicate a potential association.
+
+An adverse event following immunization is not automatically caused by the vaccine. The event may be coincidental, associated with another medical condition, or potentially related to vaccination. Safety assessment therefore considers background rates, timing, biological plausibility, comparison groups, and other evidence.
+
+Passive reporting systems are valuable for signal detection but can be affected by underreporting, stimulated reporting, and incomplete clinical information. Active surveillance and epidemiological studies can provide stronger estimates of incidence and relative risk.
+
+Clear communication should distinguish a reported event from a confirmed causal relationship. Vaccine safety decisions are based on accumulated evidence rather than a single report. Monitoring can lead to updated warnings, recommendations, or continued use when evidence supports a favorable benefit-risk profile.

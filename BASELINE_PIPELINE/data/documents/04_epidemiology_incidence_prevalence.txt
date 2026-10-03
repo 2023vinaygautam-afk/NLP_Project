@@ -1,0 +1,9 @@
+Incidence and Prevalence in Infectious Disease Epidemiology
+
+Incidence and prevalence describe different aspects of disease occurrence. Incidence focuses on new cases occurring in a population during a specified period. Prevalence describes the proportion of a population that has a condition at a particular time or over a defined period.
+
+For an infectious disease, incidence can help describe how quickly new infections are occurring. Prevalence can reflect both new cases and the duration of illness. A disease with short duration may have substantial incidence but relatively low point prevalence. Conversely, a chronic condition can have lower incidence but high prevalence because people remain affected for long periods.
+
+Epidemiologists define the population, time interval, case definition, and measurement method carefully. Changes in testing availability or reporting practices can affect observed incidence without representing an equivalent change in true transmission. For COVID-19, widespread changes in testing behavior made reported case counts difficult to interpret in isolation during some periods.
+
+Other indicators, including hospitalization, mortality, test positivity, syndromic surveillance, and wastewater measurements, can complement reported cases. Using multiple indicators provides a broader picture of disease activity.

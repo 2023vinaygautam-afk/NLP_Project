@@ -1,0 +1,16 @@
+{
+    "Pipeline_A_Stemming": {
+        "queries": 400,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "macro_f1": 0.0,
+        "average_retrieved_documents": 16.74
+    },
+    "Pipeline_B_Lemmatization": {
+        "queries": 400,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "macro_f1": 0.0,
+        "average_retrieved_documents": 15.65
+    }
+}

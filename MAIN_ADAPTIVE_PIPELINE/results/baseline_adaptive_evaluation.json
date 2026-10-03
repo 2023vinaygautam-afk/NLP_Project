@@ -1,0 +1,417 @@
+{
+    "evaluation_type": "Five-query baseline versus adaptive retrieval",
+    "query_count": 5,
+    "relevance_note": "Relevant documents are provisional manual judgments and must be checked against the corpus.",
+    "summary": {
+        "baseline": {
+            "precision": 0.1,
+            "recall": 1.0,
+            "f1": 0.1803124411820064,
+            "precision_at_5": 0.28,
+            "recall_at_5": 0.7333333333333333,
+            "average_retrieved": 20.0
+        },
+        "adaptive": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "precision_at_5": 0.0,
+            "recall_at_5": 0.0,
+            "average_retrieved": 0.0
+        }
+    },
+    "query_results": [
+        {
+            "query_id": "Q01",
+            "query": "What are the main causes of COVID-19 transmission and how can it be prevented?",
+            "query_info": {
+                "query": "What are the main causes of COVID-19 transmission and how can it be prevented?",
+                "query_type": "AND",
+                "terms": [
+                    "what",
+                    "are",
+                    "the",
+                    "main",
+                    "causes",
+                    "of",
+                    "covid-19",
+                    "transmission",
+                    "how",
+                    "can",
+                    "it",
+                    "be",
+                    "prevented"
+                ],
+                "term_count": 13,
+                "contains_question_word": true,
+                "question_words": [
+                    "what",
+                    "how"
+                ],
+                "complexity": "HIGH"
+            },
+            "relevant_documents": [
+                "D01"
+            ],
+            "baseline": {
+                "method": "KEYWORD",
+                "retrieved_documents": [
+                    "D01",
+                    "D02",
+                    "D03",
+                    "D04",
+                    "D05",
+                    "D06",
+                    "D07",
+                    "D08",
+                    "D09",
+                    "D10",
+                    "D11",
+                    "D12",
+                    "D13",
+                    "D14",
+                    "D15",
+                    "D16",
+                    "D17",
+                    "D18",
+                    "D19",
+                    "D20"
+                ],
+                "retrieved_count": 20,
+                "precision": 0.05,
+                "recall": 1.0,
+                "f1": 0.09523809523809523,
+                "precision_at_5": 0.2,
+                "recall_at_5": 1.0
+            },
+            "adaptive": {
+                "method": "AND",
+                "decision": {
+                    "selected_method": "AND",
+                    "decision_reason": "The query contains an explicit AND operator.",
+                    "query_complexity": "HIGH",
+                    "number_of_terms": 13
+                },
+                "retrieved_documents": [],
+                "retrieved_count": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "precision_at_5": 0.0,
+                "recall_at_5": 0.0
+            }
+        },
+        {
+            "query_id": "Q02",
+            "query": "How effective are COVID-19 vaccines in preventing infection and reducing disease severity?",
+            "query_info": {
+                "query": "How effective are COVID-19 vaccines in preventing infection and reducing disease severity?",
+                "query_type": "AND",
+                "terms": [
+                    "how",
+                    "effective",
+                    "are",
+                    "covid-19",
+                    "vaccines",
+                    "in",
+                    "preventing",
+                    "infection",
+                    "reducing",
+                    "disease",
+                    "severity"
+                ],
+                "term_count": 11,
+                "contains_question_word": true,
+                "question_words": [
+                    "how"
+                ],
+                "complexity": "HIGH"
+            },
+            "relevant_documents": [
+                "D02",
+                "D03"
+            ],
+            "baseline": {
+                "method": "KEYWORD",
+                "retrieved_documents": [
+                    "D01",
+                    "D02",
+                    "D03",
+                    "D04",
+                    "D05",
+                    "D06",
+                    "D07",
+                    "D08",
+                    "D09",
+                    "D10",
+                    "D11",
+                    "D12",
+                    "D13",
+                    "D14",
+                    "D15",
+                    "D16",
+                    "D17",
+                    "D18",
+                    "D19",
+                    "D20"
+                ],
+                "retrieved_count": 20,
+                "precision": 0.1,
+                "recall": 1.0,
+                "f1": 0.18181818181818182,
+                "precision_at_5": 0.4,
+                "recall_at_5": 1.0
+            },
+            "adaptive": {
+                "method": "AND",
+                "decision": {
+                    "selected_method": "AND",
+                    "decision_reason": "The query contains an explicit AND operator.",
+                    "query_complexity": "HIGH",
+                    "number_of_terms": 11
+                },
+                "retrieved_documents": [],
+                "retrieved_count": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "precision_at_5": 0.0,
+                "recall_at_5": 0.0
+            }
+        },
+        {
+            "query_id": "Q03",
+            "query": "How does COVID-19 vaccination help protect individuals and communities from infection?",
+            "query_info": {
+                "query": "How does COVID-19 vaccination help protect individuals and communities from infection?",
+                "query_type": "AND",
+                "terms": [
+                    "how",
+                    "does",
+                    "covid-19",
+                    "vaccination",
+                    "help",
+                    "protect",
+                    "individuals",
+                    "communities",
+                    "from",
+                    "infection"
+                ],
+                "term_count": 10,
+                "contains_question_word": true,
+                "question_words": [
+                    "how"
+                ],
+                "complexity": "HIGH"
+            },
+            "relevant_documents": [
+                "D01",
+                "D02"
+            ],
+            "baseline": {
+                "method": "KEYWORD",
+                "retrieved_documents": [
+                    "D01",
+                    "D02",
+                    "D03",
+                    "D04",
+                    "D05",
+                    "D06",
+                    "D07",
+                    "D08",
+                    "D09",
+                    "D10",
+                    "D11",
+                    "D12",
+                    "D13",
+                    "D14",
+                    "D15",
+                    "D16",
+                    "D17",
+                    "D18",
+                    "D19",
+                    "D20"
+                ],
+                "retrieved_count": 20,
+                "precision": 0.1,
+                "recall": 1.0,
+                "f1": 0.18181818181818182,
+                "precision_at_5": 0.4,
+                "recall_at_5": 1.0
+            },
+            "adaptive": {
+                "method": "AND",
+                "decision": {
+                    "selected_method": "AND",
+                    "decision_reason": "The query contains an explicit AND operator.",
+                    "query_complexity": "HIGH",
+                    "number_of_terms": 10
+                },
+                "retrieved_documents": [],
+                "retrieved_count": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "precision_at_5": 0.0,
+                "recall_at_5": 0.0
+            }
+        },
+        {
+            "query_id": "Q04",
+            "query": "What is the relationship between vaccination, COVID-19 testing, and early detection of infection?",
+            "query_info": {
+                "query": "What is the relationship between vaccination, COVID-19 testing, and early detection of infection?",
+                "query_type": "AND",
+                "terms": [
+                    "what",
+                    "is",
+                    "the",
+                    "relationship",
+                    "between",
+                    "vaccination",
+                    "covid-19",
+                    "testing",
+                    "early",
+                    "detection",
+                    "of",
+                    "infection"
+                ],
+                "term_count": 12,
+                "contains_question_word": true,
+                "question_words": [
+                    "what"
+                ],
+                "complexity": "HIGH"
+            },
+            "relevant_documents": [
+                "D02",
+                "D03",
+                "D16"
+            ],
+            "baseline": {
+                "method": "KEYWORD",
+                "retrieved_documents": [
+                    "D01",
+                    "D02",
+                    "D03",
+                    "D04",
+                    "D05",
+                    "D06",
+                    "D07",
+                    "D08",
+                    "D09",
+                    "D10",
+                    "D11",
+                    "D12",
+                    "D13",
+                    "D14",
+                    "D15",
+                    "D16",
+                    "D17",
+                    "D18",
+                    "D19",
+                    "D20"
+                ],
+                "retrieved_count": 20,
+                "precision": 0.15,
+                "recall": 1.0,
+                "f1": 0.2608695652173913,
+                "precision_at_5": 0.4,
+                "recall_at_5": 0.6666666666666666
+            },
+            "adaptive": {
+                "method": "AND",
+                "decision": {
+                    "selected_method": "AND",
+                    "decision_reason": "The query contains an explicit AND operator.",
+                    "query_complexity": "HIGH",
+                    "number_of_terms": 12
+                },
+                "retrieved_documents": [],
+                "retrieved_count": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "precision_at_5": 0.0,
+                "recall_at_5": 0.0
+            }
+        },
+        {
+            "query_id": "Q05",
+            "query": "How do quarantine and contact tracing help control infectious disease outbreaks?",
+            "query_info": {
+                "query": "How do quarantine and contact tracing help control infectious disease outbreaks?",
+                "query_type": "AND",
+                "terms": [
+                    "how",
+                    "do",
+                    "quarantine",
+                    "contact",
+                    "tracing",
+                    "help",
+                    "control",
+                    "infectious",
+                    "disease",
+                    "outbreaks"
+                ],
+                "term_count": 10,
+                "contains_question_word": true,
+                "question_words": [
+                    "how"
+                ],
+                "complexity": "HIGH"
+            },
+            "relevant_documents": [
+                "D06",
+                "D09"
+            ],
+            "baseline": {
+                "method": "KEYWORD",
+                "retrieved_documents": [
+                    "D01",
+                    "D02",
+                    "D03",
+                    "D04",
+                    "D05",
+                    "D06",
+                    "D07",
+                    "D08",
+                    "D09",
+                    "D10",
+                    "D11",
+                    "D12",
+                    "D13",
+                    "D14",
+                    "D15",
+                    "D16",
+                    "D17",
+                    "D18",
+                    "D19",
+                    "D20"
+                ],
+                "retrieved_count": 20,
+                "precision": 0.1,
+                "recall": 1.0,
+                "f1": 0.18181818181818182,
+                "precision_at_5": 0.0,
+                "recall_at_5": 0.0
+            },
+            "adaptive": {
+                "method": "AND",
+                "decision": {
+                    "selected_method": "AND",
+                    "decision_reason": "The query contains an explicit AND operator.",
+                    "query_complexity": "HIGH",
+                    "number_of_terms": 10
+                },
+                "retrieved_documents": [],
+                "retrieved_count": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "precision_at_5": 0.0,
+                "recall_at_5": 0.0
+            }
+        }
+    ]
+}

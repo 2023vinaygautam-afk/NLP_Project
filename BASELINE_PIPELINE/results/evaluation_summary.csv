@@ -1,0 +1,9 @@
+Metric,Value
+Macro Precision,0.5052941176470588
+Macro Recall,1.0
+Macro F1,0.5763636363636363
+Macro Precision@5,0.27999999999999997
+Macro Recall@5,0.7333333333333333
+Micro Precision,0.2222222222222222
+Micro Recall,1.0
+Micro F1,0.3636363636363636

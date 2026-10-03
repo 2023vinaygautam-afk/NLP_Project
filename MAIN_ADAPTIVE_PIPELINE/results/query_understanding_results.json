@@ -1,0 +1,230 @@
+[
+    {
+        "query": "COVID",
+        "query_type": "KEYWORD",
+        "terms": [
+            "covid"
+        ],
+        "keywords": [
+            "covid"
+        ],
+        "domain_terms": [
+            "covid"
+        ],
+        "term_count": 1,
+        "keyword_count": 1,
+        "contains_question_word": false,
+        "question_words": [],
+        "complexity": "LOW"
+    },
+    {
+        "query": "vaccine effectiveness",
+        "query_type": "KEYWORD",
+        "terms": [
+            "vaccine",
+            "effectiveness"
+        ],
+        "keywords": [
+            "vaccine",
+            "effectiveness"
+        ],
+        "domain_terms": [
+            "vaccine",
+            "effectiveness"
+        ],
+        "term_count": 2,
+        "keyword_count": 2,
+        "contains_question_word": false,
+        "question_words": [],
+        "complexity": "LOW"
+    },
+    {
+        "query": "COVID AND vaccination",
+        "query_type": "AND",
+        "terms": [
+            "covid",
+            "vaccination"
+        ],
+        "keywords": [
+            "covid",
+            "vaccination"
+        ],
+        "domain_terms": [
+            "covid",
+            "vaccination"
+        ],
+        "term_count": 2,
+        "keyword_count": 2,
+        "contains_question_word": false,
+        "question_words": [],
+        "complexity": "HIGH"
+    },
+    {
+        "query": "vaccination OR testing",
+        "query_type": "OR",
+        "terms": [
+            "vaccination",
+            "testing"
+        ],
+        "keywords": [
+            "vaccination",
+            "testing"
+        ],
+        "domain_terms": [
+            "vaccination",
+            "testing"
+        ],
+        "term_count": 2,
+        "keyword_count": 2,
+        "contains_question_word": false,
+        "question_words": [],
+        "complexity": "HIGH"
+    },
+    {
+        "query": "COVID NOT vaccination",
+        "query_type": "NOT",
+        "terms": [
+            "covid",
+            "vaccination"
+        ],
+        "keywords": [
+            "covid",
+            "vaccination"
+        ],
+        "domain_terms": [
+            "covid",
+            "vaccination"
+        ],
+        "term_count": 2,
+        "keyword_count": 2,
+        "contains_question_word": false,
+        "question_words": [],
+        "complexity": "HIGH"
+    },
+    {
+        "query": "\"vaccine effectiveness\"",
+        "query_type": "PHRASE",
+        "terms": [
+            "vaccine",
+            "effectiveness"
+        ],
+        "keywords": [
+            "vaccine",
+            "effectiveness"
+        ],
+        "domain_terms": [
+            "vaccine",
+            "effectiveness"
+        ],
+        "term_count": 2,
+        "keyword_count": 2,
+        "contains_question_word": false,
+        "question_words": [],
+        "complexity": "LOW"
+    },
+    {
+        "query": "How does contact tracing work?",
+        "query_type": "KEYWORD",
+        "terms": [
+            "how",
+            "does",
+            "contact",
+            "tracing",
+            "work"
+        ],
+        "keywords": [
+            "contact",
+            "tracing",
+            "work"
+        ],
+        "domain_terms": [
+            "contact",
+            "tracing"
+        ],
+        "term_count": 5,
+        "keyword_count": 3,
+        "contains_question_word": true,
+        "question_words": [
+            "how"
+        ],
+        "complexity": "MEDIUM"
+    },
+    {
+        "query": "COVID vaccination and prevention",
+        "query_type": "KEYWORD",
+        "terms": [
+            "covid",
+            "vaccination",
+            "prevention"
+        ],
+        "keywords": [
+            "covid",
+            "vaccination",
+            "prevention"
+        ],
+        "domain_terms": [
+            "covid",
+            "vaccination",
+            "prevention"
+        ],
+        "term_count": 3,
+        "keyword_count": 3,
+        "contains_question_word": false,
+        "question_words": [],
+        "complexity": "MEDIUM"
+    },
+    {
+        "query": "How does vaccination help prevent infection?",
+        "query_type": "KEYWORD",
+        "terms": [
+            "how",
+            "does",
+            "vaccination",
+            "help",
+            "prevent",
+            "infection"
+        ],
+        "keywords": [
+            "vaccination",
+            "prevent",
+            "infection"
+        ],
+        "domain_terms": [
+            "vaccination",
+            "infection"
+        ],
+        "term_count": 6,
+        "keyword_count": 3,
+        "contains_question_word": true,
+        "question_words": [
+            "how"
+        ],
+        "complexity": "MEDIUM"
+    },
+    {
+        "query": "contact tracing AND outbreak investigation",
+        "query_type": "AND",
+        "terms": [
+            "contact",
+            "tracing",
+            "outbreak",
+            "investigation"
+        ],
+        "keywords": [
+            "contact",
+            "tracing",
+            "outbreak",
+            "investigation"
+        ],
+        "domain_terms": [
+            "contact",
+            "tracing",
+            "outbreak"
+        ],
+        "term_count": 4,
+        "keyword_count": 4,
+        "contains_question_word": false,
+        "question_words": [],
+        "complexity": "HIGH"
+    }
+]

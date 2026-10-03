@@ -1,0 +1,9 @@
+Wastewater Surveillance for Respiratory Viruses
+
+Wastewater surveillance analyzes biological material in sewage to estimate the presence or trends of infectious agents within a community. Because infected individuals can shed viral genetic material into wastewater, wastewater measurements can provide population-level information that does not depend on every infected person seeking a clinical test.
+
+Wastewater surveillance can be especially useful when individual testing declines. Trends may provide an early signal of changing transmission, although the relationship between wastewater concentration and the exact number of infections is not straightforward.
+
+Interpretation requires attention to sampling location, population served by the treatment system, rainfall and dilution, laboratory methods, sampling frequency, and changes in shedding patterns. Wastewater data are most useful when combined with clinical surveillance, hospital data, and other epidemiological indicators.
+
+Wastewater surveillance generally does not identify individual infected people. Its population-level nature can therefore complement other surveillance systems while reducing dependence on individual testing. It is a monitoring tool rather than a direct diagnostic test for an individual.

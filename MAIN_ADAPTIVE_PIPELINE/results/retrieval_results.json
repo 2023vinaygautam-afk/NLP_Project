@@ -1,0 +1,198 @@
+[
+    {
+        "query": "COVID",
+        "method": "KEYWORD",
+        "retrieved_count": 2,
+        "results": [
+            {
+                "document_id": "D01",
+                "score": 7.1103,
+                "matched_terms": [
+                    "covid"
+                ],
+                "coverage": 1.0,
+                "total_term_frequency": 3,
+                "weighted_score": 5.1103
+            },
+            {
+                "document_id": "D02",
+                "score": 6.123,
+                "matched_terms": [
+                    "covid"
+                ],
+                "coverage": 1.0,
+                "total_term_frequency": 2,
+                "weighted_score": 4.123
+            }
+        ],
+        "retrieved_documents": [
+            "01_covid_transmission_and_prevention",
+            "02_covid_vaccination_basics"
+        ]
+    },
+    {
+        "query": "\"vaccine effectiveness\"",
+        "method": "PHRASE",
+        "retrieved_count": 2,
+        "results": [
+            {
+                "document_id": "D03",
+                "score": 15.232,
+                "matched_terms": [
+                    "effectiveness",
+                    "vaccine"
+                ],
+                "coverage": 1.0,
+                "total_term_frequency": 10,
+                "weighted_score": 13.232
+            },
+            {
+                "document_id": "D02",
+                "score": 11.6111,
+                "matched_terms": [
+                    "effectiveness",
+                    "vaccine"
+                ],
+                "coverage": 1.0,
+                "total_term_frequency": 5,
+                "weighted_score": 9.6111
+            }
+        ],
+        "retrieved_documents": [
+            "03_vaccine_effectiveness_and_studies",
+            "02_covid_vaccination_basics"
+        ]
+    },
+    {
+        "query": "COVID AND vaccination",
+        "method": "AND",
+        "retrieved_count": 2,
+        "results": [
+            {
+                "document_id": "D02",
+                "score": 10.2536,
+                "matched_terms": [
+                    "covid",
+                    "vaccination"
+                ],
+                "coverage": 1.0,
+                "total_term_frequency": 8,
+                "weighted_score": 8.2536
+            },
+            {
+                "document_id": "D01",
+                "score": 9.6154,
+                "matched_terms": [
+                    "covid",
+                    "vaccination"
+                ],
+                "coverage": 1.0,
+                "total_term_frequency": 5,
+                "weighted_score": 7.6154
+            }
+        ],
+        "retrieved_documents": [
+            "02_covid_vaccination_basics",
+            "01_covid_transmission_and_prevention"
+        ]
+    },
+    {
+        "query": "vaccination OR testing",
+        "method": "OR",
+        "retrieved_count": 5,
+        "results": [
+            {
+                "document_id": "D09",
+                "score": 6.4289,
+                "matched_terms": [
+                    "testing",
+                    "vaccination"
+                ],
+                "coverage": 1.0,
+                "total_term_frequency": 3,
+                "weighted_score": 4.4289
+            },
+            {
+                "document_id": "D15",
+                "score": 6.2471,
+                "matched_terms": [
+                    "testing",
+                    "vaccination"
+                ],
+                "coverage": 1.0,
+                "total_term_frequency": 3,
+                "weighted_score": 4.2471
+            },
+            {
+                "document_id": "D16",
+                "score": 5.8631,
+                "matched_terms": [
+                    "testing"
+                ],
+                "coverage": 0.5,
+                "total_term_frequency": 6,
+                "weighted_score": 4.8631
+            },
+            {
+                "document_id": "D05",
+                "score": 5.2215,
+                "matched_terms": [
+                    "testing",
+                    "vaccination"
+                ],
+                "coverage": 1.0,
+                "total_term_frequency": 2,
+                "weighted_score": 3.2215
+            },
+            {
+                "document_id": "D20",
+                "score": 5.2215,
+                "matched_terms": [
+                    "testing",
+                    "vaccination"
+                ],
+                "coverage": 1.0,
+                "total_term_frequency": 2,
+                "weighted_score": 3.2215
+            }
+        ],
+        "retrieved_documents": [
+            "09_outbreak_investigation",
+            "15_vulnerable_populations",
+            "16_antiviral_treatment_and_testing",
+            "05_basic_reproduction_number",
+            "20_post_outbreak_evaluation"
+        ]
+    },
+    {
+        "query": "COVID NOT vaccination",
+        "method": "NOT",
+        "retrieved_count": 2,
+        "results": [
+            {
+                "document_id": "D04",
+                "score": 3.4351,
+                "matched_terms": [
+                    "covid"
+                ],
+                "coverage": 0.5,
+                "total_term_frequency": 1,
+                "weighted_score": 2.4351
+            },
+            {
+                "document_id": "D16",
+                "score": 3.4351,
+                "matched_terms": [
+                    "covid"
+                ],
+                "coverage": 0.5,
+                "total_term_frequency": 1,
+                "weighted_score": 2.4351
+            }
+        ],
+        "retrieved_documents": [
+            "04_epidemiology_incidence_prevalence",
+            "16_antiviral_treatment_and_testing"
+        ]
+    }
+]

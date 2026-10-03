@@ -1,0 +1,6 @@
+Method,Total_Tokens,Average_Tokens,Total_Document_Vocabulary,Domain_Term_Count
+Original,3872,193.6,2417,131
+Porter_Stemming,2831,141.55,1752,28
+Snowball_Stemming,2831,141.55,1753,28
+Stopword_Removal,2831,141.55,1902,131
+WordNet_Lemmatization,2831,141.55,1842,148

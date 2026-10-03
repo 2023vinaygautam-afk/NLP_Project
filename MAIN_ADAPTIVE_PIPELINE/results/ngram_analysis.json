@@ -1,0 +1,4978 @@
+{
+    "total_documents": 20,
+    "ngram_range": "1-gram to 5-gram",
+    "corpus_analysis": {
+        "1-gram": {
+            "total_occurrences": 3376,
+            "unique_ngrams": 1028,
+            "top_10": [
+                {
+                    "ngram": "and",
+                    "frequency": 140
+                },
+                {
+                    "ngram": "can",
+                    "frequency": 82
+                },
+                {
+                    "ngram": "the",
+                    "frequency": 67
+                },
+                {
+                    "ngram": "a",
+                    "frequency": 61
+                },
+                {
+                    "ngram": "to",
+                    "frequency": 46
+                },
+                {
+                    "ngram": "of",
+                    "frequency": 44
+                },
+                {
+                    "ngram": "when",
+                    "frequency": 36
+                },
+                {
+                    "ngram": "or",
+                    "frequency": 36
+                },
+                {
+                    "ngram": "is",
+                    "frequency": 35
+                },
+                {
+                    "ngram": "may",
+                    "frequency": 34
+                }
+            ]
+        },
+        "2-gram": {
+            "total_occurrences": 3356,
+            "unique_ngrams": 2884,
+            "top_10": [
+                {
+                    "ngram": "and the",
+                    "frequency": 11
+                },
+                {
+                    "ngram": "infectious disease",
+                    "frequency": 11
+                },
+                {
+                    "ngram": "can be",
+                    "frequency": 10
+                },
+                {
+                    "ngram": "can reduce",
+                    "frequency": 9
+                },
+                {
+                    "ngram": "does not",
+                    "frequency": 8
+                },
+                {
+                    "ngram": "a single",
+                    "frequency": 7
+                },
+                {
+                    "ngram": "changes in",
+                    "frequency": 7
+                },
+                {
+                    "ngram": "rather than",
+                    "frequency": 6
+                },
+                {
+                    "ngram": "can provide",
+                    "frequency": 6
+                },
+                {
+                    "ngram": "should be",
+                    "frequency": 6
+                }
+            ]
+        },
+        "3-gram": {
+            "total_occurrences": 3336,
+            "unique_ngrams": 3278,
+            "top_10": [
+                {
+                    "ngram": "an infectious disease",
+                    "frequency": 3
+                },
+                {
+                    "ngram": "changes in testing",
+                    "frequency": 3
+                },
+                {
+                    "ngram": "rather than a",
+                    "frequency": 3
+                },
+                {
+                    "ngram": "and when people",
+                    "frequency": 2
+                },
+                {
+                    "ngram": "rather than relying",
+                    "frequency": 2
+                },
+                {
+                    "ngram": "can reduce exposure",
+                    "frequency": 2
+                },
+                {
+                    "ngram": "is an important",
+                    "frequency": 2
+                },
+                {
+                    "ngram": "the immune system",
+                    "frequency": 2
+                },
+                {
+                    "ngram": "protection against infection",
+                    "frequency": 2
+                },
+                {
+                    "ngram": "can change over",
+                    "frequency": 2
+                }
+            ]
+        },
+        "4-gram": {
+            "total_occurrences": 3316,
+            "unique_ngrams": 3311,
+            "top_10": [
+                {
+                    "ngram": "can change over time",
+                    "frequency": 2
+                },
+                {
+                    "ngram": "over time and across",
+                    "frequency": 2
+                },
+                {
+                    "ngram": "comparison group time period",
+                    "frequency": 2
+                },
+                {
+                    "ngram": "the effective reproduction number",
+                    "frequency": 2
+                },
+                {
+                    "ngram": "rather than a single",
+                    "frequency": 2
+                },
+                {
+                    "ngram": "covid-19 transmission and community",
+                    "frequency": 1
+                },
+                {
+                    "ngram": "transmission and community prevention",
+                    "frequency": 1
+                },
+                {
+                    "ngram": "and community prevention covid-19",
+                    "frequency": 1
+                },
+                {
+                    "ngram": "community prevention covid-19 is",
+                    "frequency": 1
+                },
+                {
+                    "ngram": "prevention covid-19 is caused",
+                    "frequency": 1
+                }
+            ]
+        },
+        "5-gram": {
+            "total_occurrences": 3296,
+            "unique_ngrams": 3296,
+            "top_10": [
+                {
+                    "ngram": "covid-19 transmission and community prevention",
+                    "frequency": 1
+                },
+                {
+                    "ngram": "transmission and community prevention covid-19",
+                    "frequency": 1
+                },
+                {
+                    "ngram": "and community prevention covid-19 is",
+                    "frequency": 1
+                },
+                {
+                    "ngram": "community prevention covid-19 is caused",
+                    "frequency": 1
+                },
+                {
+                    "ngram": "prevention covid-19 is caused by",
+                    "frequency": 1
+                },
+                {
+                    "ngram": "covid-19 is caused by infection",
+                    "frequency": 1
+                },
+                {
+                    "ngram": "is caused by infection with",
+                    "frequency": 1
+                },
+                {
+                    "ngram": "caused by infection with sars-cov-2",
+                    "frequency": 1
+                },
+                {
+                    "ngram": "by infection with sars-cov-2 transmission",
+                    "frequency": 1
+                },
+                {
+                    "ngram": "infection with sars-cov-2 transmission can",
+                    "frequency": 1
+                }
+            ]
+        }
+    },
+    "document_analysis": [
+        {
+            "doc_id": "D01",
+            "document_name": "01_covid_transmission_and_prevention",
+            "token_count": 234,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 234,
+                    "unique_ngrams": 152,
+                    "top_10": [
+                        {
+                            "ngram": "and",
+                            "frequency": 8
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 7
+                        },
+                        {
+                            "ngram": "transmission",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "the",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "of",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "to",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "prevention",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "is",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "when",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "in",
+                            "frequency": 4
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 233,
+                    "unique_ngrams": 225,
+                    "top_10": [
+                        {
+                            "ngram": "can reduce",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "community prevention",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "people are",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "ventilation and",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "transmission is",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "to the",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "protection against",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "covid-19 transmission",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "transmission and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and community",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 232,
+                    "unique_ngrams": 232,
+                    "top_10": [
+                        {
+                            "ngram": "covid-19 transmission and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "transmission and community",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and community prevention",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "community prevention covid-19",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevention covid-19 is",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "covid-19 is caused",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is caused by",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "caused by infection",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "by infection with",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infection with sars-cov-2",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 231,
+                    "unique_ngrams": 231,
+                    "top_10": [
+                        {
+                            "ngram": "covid-19 transmission and community",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "transmission and community prevention",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and community prevention covid-19",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "community prevention covid-19 is",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevention covid-19 is caused",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "covid-19 is caused by",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is caused by infection",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "caused by infection with",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "by infection with sars-cov-2",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infection with sars-cov-2 transmission",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 230,
+                    "unique_ngrams": 230,
+                    "top_10": [
+                        {
+                            "ngram": "covid-19 transmission and community prevention",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "transmission and community prevention covid-19",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and community prevention covid-19 is",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "community prevention covid-19 is caused",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevention covid-19 is caused by",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "covid-19 is caused by infection",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is caused by infection with",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "caused by infection with sars-cov-2",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "by infection with sars-cov-2 transmission",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infection with sars-cov-2 transmission can",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D02",
+            "document_name": "02_covid_vaccination_basics",
+            "token_count": 184,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 184,
+                    "unique_ngrams": 127,
+                    "top_10": [
+                        {
+                            "ngram": "and",
+                            "frequency": 7
+                        },
+                        {
+                            "ngram": "vaccination",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "to",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "a",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "immune",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "the",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "vaccine",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "when",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "time",
+                            "frequency": 3
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 183,
+                    "unique_ngrams": 179,
+                    "top_10": [
+                        {
+                            "ngram": "a person",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "vaccine effectiveness",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "vaccination and",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "and circulating",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "covid-19 vaccination",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccination basic",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "basic concepts",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "concepts covid-19",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "covid-19 vaccines",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccines are",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 182,
+                    "unique_ngrams": 182,
+                    "top_10": [
+                        {
+                            "ngram": "covid-19 vaccination basic",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccination basic concepts",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "basic concepts covid-19",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "concepts covid-19 vaccines",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "covid-19 vaccines are",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccines are designed",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "are designed to",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "designed to stimulate",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "to stimulate an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "stimulate an immune",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 181,
+                    "unique_ngrams": 181,
+                    "top_10": [
+                        {
+                            "ngram": "covid-19 vaccination basic concepts",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccination basic concepts covid-19",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "basic concepts covid-19 vaccines",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "concepts covid-19 vaccines are",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "covid-19 vaccines are designed",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccines are designed to",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "are designed to stimulate",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "designed to stimulate an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "to stimulate an immune",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "stimulate an immune response",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 180,
+                    "unique_ngrams": 180,
+                    "top_10": [
+                        {
+                            "ngram": "covid-19 vaccination basic concepts covid-19",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccination basic concepts covid-19 vaccines",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "basic concepts covid-19 vaccines are",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "concepts covid-19 vaccines are designed",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "covid-19 vaccines are designed to",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccines are designed to stimulate",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "are designed to stimulate an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "designed to stimulate an immune",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "to stimulate an immune response",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "stimulate an immune response against",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D03",
+            "document_name": "03_vaccine_effectiveness_and_studies",
+            "token_count": 185,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 185,
+                    "unique_ngrams": 132,
+                    "top_10": [
+                        {
+                            "ngram": "effectiveness",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "and",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "vaccine",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "may",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "conditions",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "observational",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "studies",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "for",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "are",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "the",
+                            "frequency": 3
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 184,
+                    "unique_ngrams": 180,
+                    "top_10": [
+                        {
+                            "ngram": "vaccine effectiveness",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "observational studies",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "effectiveness against",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "evaluating vaccine",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "effectiveness vaccine",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "effectiveness is",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is usually",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "usually estimated",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "estimated by",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "by comparing",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 183,
+                    "unique_ngrams": 183,
+                    "top_10": [
+                        {
+                            "ngram": "evaluating vaccine effectiveness",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccine effectiveness vaccine",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "effectiveness vaccine effectiveness",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccine effectiveness is",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "effectiveness is usually",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is usually estimated",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "usually estimated by",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "estimated by comparing",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "by comparing disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "comparing disease outcomes",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 182,
+                    "unique_ngrams": 182,
+                    "top_10": [
+                        {
+                            "ngram": "evaluating vaccine effectiveness vaccine",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccine effectiveness vaccine effectiveness",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "effectiveness vaccine effectiveness is",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccine effectiveness is usually",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "effectiveness is usually estimated",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is usually estimated by",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "usually estimated by comparing",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "estimated by comparing disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "by comparing disease outcomes",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "comparing disease outcomes between",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 181,
+                    "unique_ngrams": 181,
+                    "top_10": [
+                        {
+                            "ngram": "evaluating vaccine effectiveness vaccine effectiveness",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccine effectiveness vaccine effectiveness is",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "effectiveness vaccine effectiveness is usually",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccine effectiveness is usually estimated",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "effectiveness is usually estimated by",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is usually estimated by comparing",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "usually estimated by comparing disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "estimated by comparing disease outcomes",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "by comparing disease outcomes between",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "comparing disease outcomes between vaccinated",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D04",
+            "document_name": "04_epidemiology_incidence_prevalence",
+            "token_count": 182,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 182,
+                    "unique_ngrams": 115,
+                    "top_10": [
+                        {
+                            "ngram": "a",
+                            "frequency": 9
+                        },
+                        {
+                            "ngram": "incidence",
+                            "frequency": 7
+                        },
+                        {
+                            "ngram": "prevalence",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "in",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "and",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "disease",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "of",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "new",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "cases",
+                            "frequency": 3
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 181,
+                    "unique_ngrams": 172,
+                    "top_10": [
+                        {
+                            "ngram": "incidence and",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "and prevalence",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "infectious disease",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "of disease",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "new cases",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "a population",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "incidence but",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "changes in",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "in testing",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "prevalence in",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 180,
+                    "unique_ngrams": 178,
+                    "top_10": [
+                        {
+                            "ngram": "incidence and prevalence",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "changes in testing",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "and prevalence in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevalence in infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease epidemiology",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease epidemiology incidence",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "epidemiology incidence and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and prevalence describe",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevalence describe different",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 179,
+                    "unique_ngrams": 179,
+                    "top_10": [
+                        {
+                            "ngram": "incidence and prevalence in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and prevalence in infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevalence in infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in infectious disease epidemiology",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease epidemiology incidence",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease epidemiology incidence and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "epidemiology incidence and prevalence",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "incidence and prevalence describe",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and prevalence describe different",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevalence describe different aspects",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 178,
+                    "unique_ngrams": 178,
+                    "top_10": [
+                        {
+                            "ngram": "incidence and prevalence in infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and prevalence in infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevalence in infectious disease epidemiology",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in infectious disease epidemiology incidence",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease epidemiology incidence and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease epidemiology incidence and prevalence",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "epidemiology incidence and prevalence describe",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "incidence and prevalence describe different",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and prevalence describe different aspects",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevalence describe different aspects of",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D05",
+            "document_name": "05_basic_reproduction_number",
+            "token_count": 186,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 186,
+                    "unique_ngrams": 120,
+                    "top_10": [
+                        {
+                            "ngram": "the",
+                            "frequency": 8
+                        },
+                        {
+                            "ngram": "reproduction",
+                            "frequency": 7
+                        },
+                        {
+                            "ngram": "and",
+                            "frequency": 7
+                        },
+                        {
+                            "ngram": "a",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "number",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "of",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "numbers",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "population",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "under",
+                            "frequency": 3
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 185,
+                    "unique_ngrams": 177,
+                    "top_10": [
+                        {
+                            "ngram": "reproduction number",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "reproduction numbers",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "be interpreted",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "the effective",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "effective reproduction",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "numbers and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak growth",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "growth the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the basic",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 184,
+                    "unique_ngrams": 182,
+                    "top_10": [
+                        {
+                            "ngram": "the effective reproduction",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "effective reproduction number",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "reproduction numbers and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "numbers and outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and outbreak growth",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak growth the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "growth the basic",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the basic reproduction",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "basic reproduction number",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "reproduction number 0",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 183,
+                    "unique_ngrams": 182,
+                    "top_10": [
+                        {
+                            "ngram": "the effective reproduction number",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "reproduction numbers and outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "numbers and outbreak growth",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and outbreak growth the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak growth the basic",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "growth the basic reproduction",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the basic reproduction number",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "basic reproduction number 0",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "reproduction number 0 describes",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "number 0 describes the",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 182,
+                    "unique_ngrams": 182,
+                    "top_10": [
+                        {
+                            "ngram": "reproduction numbers and outbreak growth",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "numbers and outbreak growth the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and outbreak growth the basic",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak growth the basic reproduction",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "growth the basic reproduction number",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the basic reproduction number 0",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "basic reproduction number 0 describes",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "reproduction number 0 describes the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "number 0 describes the average",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "0 describes the average number",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D06",
+            "document_name": "06_contact_tracing",
+            "token_count": 172,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 172,
+                    "unique_ngrams": 115,
+                    "top_10": [
+                        {
+                            "ngram": "and",
+                            "frequency": 11
+                        },
+                        {
+                            "ngram": "when",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "contact",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "tracing",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "to",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "is",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "a",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "may",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "have",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "information",
+                            "frequency": 3
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 171,
+                    "unique_ngrams": 164,
+                    "top_10": [
+                        {
+                            "ngram": "contact tracing",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "and exposure",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "tracing is",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "when cases",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "be identified",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "tracing and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "exposure management",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "management contact",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is a",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "a public-health",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 170,
+                    "unique_ngrams": 169,
+                    "top_10": [
+                        {
+                            "ngram": "contact tracing is",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "contact tracing and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "tracing and exposure",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and exposure management",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "exposure management contact",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "management contact tracing",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "tracing is a",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is a public-health",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "a public-health process",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "public-health process used",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 169,
+                    "unique_ngrams": 169,
+                    "top_10": [
+                        {
+                            "ngram": "contact tracing and exposure",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "tracing and exposure management",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and exposure management contact",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "exposure management contact tracing",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "management contact tracing is",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "contact tracing is a",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "tracing is a public-health",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is a public-health process",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "a public-health process used",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "public-health process used to",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 168,
+                    "unique_ngrams": 168,
+                    "top_10": [
+                        {
+                            "ngram": "contact tracing and exposure management",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "tracing and exposure management contact",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and exposure management contact tracing",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "exposure management contact tracing is",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "management contact tracing is a",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "contact tracing is a public-health",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "tracing is a public-health process",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is a public-health process used",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "a public-health process used to",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "public-health process used to identify",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D07",
+            "document_name": "07_wastewater_surveillance",
+            "token_count": 164,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 164,
+                    "unique_ngrams": 112,
+                    "top_10": [
+                        {
+                            "ngram": "wastewater",
+                            "frequency": 8
+                        },
+                        {
+                            "ngram": "surveillance",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "the",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "a",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "individual",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "and",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "of",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "infected",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "not",
+                            "frequency": 3
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 163,
+                    "unique_ngrams": 157,
+                    "top_10": [
+                        {
+                            "ngram": "wastewater surveillance",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "does not",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "useful when",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "individual testing",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "surveillance for",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "for respiratory",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "respiratory viruses",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "viruses wastewater",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance analyzes",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "analyzes biological",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 162,
+                    "unique_ngrams": 162,
+                    "top_10": [
+                        {
+                            "ngram": "wastewater surveillance for",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance for respiratory",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "for respiratory viruses",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "respiratory viruses wastewater",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "viruses wastewater surveillance",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "wastewater surveillance analyzes",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance analyzes biological",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "analyzes biological material",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "biological material in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "material in sewage",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 161,
+                    "unique_ngrams": 161,
+                    "top_10": [
+                        {
+                            "ngram": "wastewater surveillance for respiratory",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance for respiratory viruses",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "for respiratory viruses wastewater",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "respiratory viruses wastewater surveillance",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "viruses wastewater surveillance analyzes",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "wastewater surveillance analyzes biological",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance analyzes biological material",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "analyzes biological material in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "biological material in sewage",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "material in sewage to",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 160,
+                    "unique_ngrams": 160,
+                    "top_10": [
+                        {
+                            "ngram": "wastewater surveillance for respiratory viruses",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance for respiratory viruses wastewater",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "for respiratory viruses wastewater surveillance",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "respiratory viruses wastewater surveillance analyzes",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "viruses wastewater surveillance analyzes biological",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "wastewater surveillance analyzes biological material",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance analyzes biological material in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "analyzes biological material in sewage",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "biological material in sewage to",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "material in sewage to estimate",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D08",
+            "document_name": "08_variant_surveillance",
+            "token_count": 161,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 161,
+                    "unique_ngrams": 115,
+                    "top_10": [
+                        {
+                            "ngram": "and",
+                            "frequency": 8
+                        },
+                        {
+                            "ngram": "variant",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "surveillance",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "changes",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "lineages",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "sequencing",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "clinical",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "a",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "of",
+                            "frequency": 3
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 160,
+                    "unique_ngrams": 157,
+                    "top_10": [
+                        {
+                            "ngram": "variant surveillance",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "can identify",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "sars-cov-2 variant",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance variant",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance monitors",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "monitors genetic",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "genetic changes",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "changes in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in sars-cov-2",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "sars-cov-2 and",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 159,
+                    "unique_ngrams": 159,
+                    "top_10": [
+                        {
+                            "ngram": "sars-cov-2 variant surveillance",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "variant surveillance variant",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance variant surveillance",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "variant surveillance monitors",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance monitors genetic",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "monitors genetic changes",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "genetic changes in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "changes in sars-cov-2",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in sars-cov-2 and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "sars-cov-2 and assesses",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 158,
+                    "unique_ngrams": 158,
+                    "top_10": [
+                        {
+                            "ngram": "sars-cov-2 variant surveillance variant",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "variant surveillance variant surveillance",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance variant surveillance monitors",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "variant surveillance monitors genetic",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance monitors genetic changes",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "monitors genetic changes in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "genetic changes in sars-cov-2",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "changes in sars-cov-2 and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in sars-cov-2 and assesses",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "sars-cov-2 and assesses whether",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 157,
+                    "unique_ngrams": 157,
+                    "top_10": [
+                        {
+                            "ngram": "sars-cov-2 variant surveillance variant surveillance",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "variant surveillance variant surveillance monitors",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance variant surveillance monitors genetic",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "variant surveillance monitors genetic changes",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance monitors genetic changes in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "monitors genetic changes in sars-cov-2",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "genetic changes in sars-cov-2 and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "changes in sars-cov-2 and assesses",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in sars-cov-2 and assesses whether",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "sars-cov-2 and assesses whether emerging",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D09",
+            "document_name": "09_outbreak_investigation",
+            "token_count": 172,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 172,
+                    "unique_ngrams": 126,
+                    "top_10": [
+                        {
+                            "ngram": "and",
+                            "frequency": 11
+                        },
+                        {
+                            "ngram": "the",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "outbreak",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "investigation",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "an",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "or",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "measures",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "investigators",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "disease",
+                            "frequency": 2
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 171,
+                    "unique_ngrams": 168,
+                    "top_10": [
+                        {
+                            "ngram": "outbreak investigation",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "control measures",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "testing and",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "investigation an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "an outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "investigation seeks",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "seeks to",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "to determine",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 170,
+                    "unique_ngrams": 170,
+                    "top_10": [
+                        {
+                            "ngram": "infectious disease outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease outbreak investigation",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak investigation an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "investigation an outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "an outbreak investigation",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak investigation seeks",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "investigation seeks to",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "seeks to determine",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "to determine whether",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "determine whether an",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 169,
+                    "unique_ngrams": 169,
+                    "top_10": [
+                        {
+                            "ngram": "infectious disease outbreak investigation",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease outbreak investigation an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak investigation an outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "investigation an outbreak investigation",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "an outbreak investigation seeks",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak investigation seeks to",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "investigation seeks to determine",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "seeks to determine whether",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "to determine whether an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "determine whether an unusual",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 168,
+                    "unique_ngrams": 168,
+                    "top_10": [
+                        {
+                            "ngram": "infectious disease outbreak investigation an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease outbreak investigation an outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak investigation an outbreak investigation",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "investigation an outbreak investigation seeks",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "an outbreak investigation seeks to",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak investigation seeks to determine",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "investigation seeks to determine whether",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "seeks to determine whether an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "to determine whether an unusual",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "determine whether an unusual increase",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D10",
+            "document_name": "10_public_health_surveillance",
+            "token_count": 160,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 160,
+                    "unique_ngrams": 114,
+                    "top_10": [
+                        {
+                            "ngram": "surveillance",
+                            "frequency": 8
+                        },
+                        {
+                            "ngram": "and",
+                            "frequency": 8
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "data",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "health",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "systems",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "information",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "case",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "reporting",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "be",
+                            "frequency": 3
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 159,
+                    "unique_ngrams": 154,
+                    "top_10": [
+                        {
+                            "ngram": "public health",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "health surveillance",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "surveillance systems",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "sites and",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "and can",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "systems public",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance is",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the continuous",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "continuous and",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 158,
+                    "unique_ngrams": 157,
+                    "top_10": [
+                        {
+                            "ngram": "public health surveillance",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "health surveillance systems",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance systems public",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "systems public health",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "health surveillance is",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance is the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is the continuous",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the continuous and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "continuous and systematic",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and systematic collection",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 157,
+                    "unique_ngrams": 157,
+                    "top_10": [
+                        {
+                            "ngram": "public health surveillance systems",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "health surveillance systems public",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance systems public health",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "systems public health surveillance",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "public health surveillance is",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "health surveillance is the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance is the continuous",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is the continuous and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the continuous and systematic",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "continuous and systematic collection",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 156,
+                    "unique_ngrams": 156,
+                    "top_10": [
+                        {
+                            "ngram": "public health surveillance systems public",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "health surveillance systems public health",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance systems public health surveillance",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "systems public health surveillance is",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "public health surveillance is the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "health surveillance is the continuous",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "surveillance is the continuous and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "is the continuous and systematic",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the continuous and systematic collection",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "continuous and systematic collection analysis",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D11",
+            "document_name": "11_infection_prevention_healthcare",
+            "token_count": 147,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 147,
+                    "unique_ngrams": 103,
+                    "top_10": [
+                        {
+                            "ngram": "and",
+                            "frequency": 9
+                        },
+                        {
+                            "ngram": "healthcare",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "prevention",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "in",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "include",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "infection",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "facilities",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "layered",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "measures",
+                            "frequency": 2
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 146,
+                    "unique_ngrams": 140,
+                    "top_10": [
+                        {
+                            "ngram": "infection prevention",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "healthcare workers",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "personal protective",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "protective equipment",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "according to",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "to the",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "prevention in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in healthcare",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "healthcare settings",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "settings healthcare",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 145,
+                    "unique_ngrams": 143,
+                    "top_10": [
+                        {
+                            "ngram": "personal protective equipment",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "according to the",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "infection prevention in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevention in healthcare",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in healthcare settings",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "healthcare settings healthcare",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "settings healthcare facilities",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "healthcare facilities require",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "facilities require layered",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "require layered infection-prevention",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 144,
+                    "unique_ngrams": 144,
+                    "top_10": [
+                        {
+                            "ngram": "infection prevention in healthcare",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevention in healthcare settings",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in healthcare settings healthcare",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "healthcare settings healthcare facilities",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "settings healthcare facilities require",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "healthcare facilities require layered",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "facilities require layered infection-prevention",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "require layered infection-prevention measures",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "layered infection-prevention measures because",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infection-prevention measures because patients",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 143,
+                    "unique_ngrams": 143,
+                    "top_10": [
+                        {
+                            "ngram": "infection prevention in healthcare settings",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevention in healthcare settings healthcare",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in healthcare settings healthcare facilities",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "healthcare settings healthcare facilities require",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "settings healthcare facilities require layered",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "healthcare facilities require layered infection-prevention",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "facilities require layered infection-prevention measures",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "require layered infection-prevention measures because",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "layered infection-prevention measures because patients",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infection-prevention measures because patients and",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D12",
+            "document_name": "12_vaccine_safety_monitoring",
+            "token_count": 168,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 168,
+                    "unique_ngrams": 121,
+                    "top_10": [
+                        {
+                            "ngram": "and",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "a",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "vaccine",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "safety",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "event",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "are",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "adverse",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "monitoring",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "or",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "may",
+                            "frequency": 3
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 167,
+                    "unique_ngrams": 164,
+                    "top_10": [
+                        {
+                            "ngram": "vaccine safety",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "adverse event",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "safety and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and adverse",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "event monitoring",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "monitoring vaccine",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "safety monitoring",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "monitoring continues",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "continues after",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "after vaccines",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 166,
+                    "unique_ngrams": 166,
+                    "top_10": [
+                        {
+                            "ngram": "vaccine safety and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "safety and adverse",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and adverse event",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "adverse event monitoring",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "event monitoring vaccine",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "monitoring vaccine safety",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccine safety monitoring",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "safety monitoring continues",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "monitoring continues after",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "continues after vaccines",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 165,
+                    "unique_ngrams": 165,
+                    "top_10": [
+                        {
+                            "ngram": "vaccine safety and adverse",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "safety and adverse event",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and adverse event monitoring",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "adverse event monitoring vaccine",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "event monitoring vaccine safety",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "monitoring vaccine safety monitoring",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccine safety monitoring continues",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "safety monitoring continues after",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "monitoring continues after vaccines",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "continues after vaccines are",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 164,
+                    "unique_ngrams": 164,
+                    "top_10": [
+                        {
+                            "ngram": "vaccine safety and adverse event",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "safety and adverse event monitoring",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and adverse event monitoring vaccine",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "adverse event monitoring vaccine safety",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "event monitoring vaccine safety monitoring",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "monitoring vaccine safety monitoring continues",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "vaccine safety monitoring continues after",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "safety monitoring continues after vaccines",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "monitoring continues after vaccines are",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "continues after vaccines are authorized",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D13",
+            "document_name": "13_risk_communication",
+            "token_count": 154,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 154,
+                    "unique_ngrams": 113,
+                    "top_10": [
+                        {
+                            "ngram": "and",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "risk",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "communication",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "a",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "should",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "information",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "what",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "be",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "for",
+                            "frequency": 3
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 153,
+                    "unique_ngrams": 149,
+                    "top_10": [
+                        {
+                            "ngram": "risk communication",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "communication should",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "what is",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "can be",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "communication during",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "during infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease events",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "events risk",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "communication provides",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 152,
+                    "unique_ngrams": 152,
+                    "top_10": [
+                        {
+                            "ngram": "risk communication during",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "communication during infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "during infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease events",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease events risk",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "events risk communication",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "risk communication provides",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "communication provides people",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "provides people with",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "people with information",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 151,
+                    "unique_ngrams": 151,
+                    "top_10": [
+                        {
+                            "ngram": "risk communication during infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "communication during infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "during infectious disease events",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease events risk",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease events risk communication",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "events risk communication provides",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "risk communication provides people",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "communication provides people with",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "provides people with information",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "people with information needed",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 150,
+                    "unique_ngrams": 150,
+                    "top_10": [
+                        {
+                            "ngram": "risk communication during infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "communication during infectious disease events",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "during infectious disease events risk",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease events risk communication",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease events risk communication provides",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "events risk communication provides people",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "risk communication provides people with",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "communication provides people with information",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "provides people with information needed",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "people with information needed to",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D14",
+            "document_name": "14_school_outbreak_prevention",
+            "token_count": 154,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 154,
+                    "unique_ngrams": 108,
+                    "top_10": [
+                        {
+                            "ngram": "and",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "to",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "respiratory",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "should",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "prevention",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "schools",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "be",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "of",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "when",
+                            "frequency": 3
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 153,
+                    "unique_ngrams": 151,
+                    "top_10": [
+                        {
+                            "ngram": "can reduce",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "according to",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "respiratory infection",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infection prevention",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevention in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in schools",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "schools schools",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "schools are",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "are environments",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "environments where",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 152,
+                    "unique_ngrams": 152,
+                    "top_10": [
+                        {
+                            "ngram": "respiratory infection prevention",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infection prevention in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevention in schools",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in schools schools",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "schools schools are",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "schools are environments",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "are environments where",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "environments where students",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "where students and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "students and staff",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 151,
+                    "unique_ngrams": 151,
+                    "top_10": [
+                        {
+                            "ngram": "respiratory infection prevention in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infection prevention in schools",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevention in schools schools",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in schools schools are",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "schools schools are environments",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "schools are environments where",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "are environments where students",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "environments where students and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "where students and staff",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "students and staff interact",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 150,
+                    "unique_ngrams": 150,
+                    "top_10": [
+                        {
+                            "ngram": "respiratory infection prevention in schools",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infection prevention in schools schools",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "prevention in schools schools are",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in schools schools are environments",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "schools schools are environments where",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "schools are environments where students",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "are environments where students and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "environments where students and staff",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "where students and staff interact",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "students and staff interact frequently",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D15",
+            "document_name": "15_vulnerable_populations",
+            "token_count": 156,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 156,
+                    "unique_ngrams": 113,
+                    "top_10": [
+                        {
+                            "ngram": "and",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "of",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "access",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "respiratory",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "have",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "a",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "risk",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "higher-risk",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "during",
+                            "frequency": 2
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 155,
+                    "unique_ngrams": 153,
+                    "top_10": [
+                        {
+                            "ngram": "can reduce",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "access and",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "protecting higher-risk",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "higher-risk populations",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "populations during",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "during respiratory",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "respiratory virus",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "virus activity",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "activity some",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "some people",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 154,
+                    "unique_ngrams": 154,
+                    "top_10": [
+                        {
+                            "ngram": "protecting higher-risk populations",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "higher-risk populations during",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "populations during respiratory",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "during respiratory virus",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "respiratory virus activity",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "virus activity some",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "activity some people",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "some people have",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "people have a",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "have a higher",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 153,
+                    "unique_ngrams": 153,
+                    "top_10": [
+                        {
+                            "ngram": "protecting higher-risk populations during",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "higher-risk populations during respiratory",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "populations during respiratory virus",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "during respiratory virus activity",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "respiratory virus activity some",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "virus activity some people",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "activity some people have",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "some people have a",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "people have a higher",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "have a higher risk",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 152,
+                    "unique_ngrams": 152,
+                    "top_10": [
+                        {
+                            "ngram": "protecting higher-risk populations during respiratory",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "higher-risk populations during respiratory virus",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "populations during respiratory virus activity",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "during respiratory virus activity some",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "respiratory virus activity some people",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "virus activity some people have",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "activity some people have a",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "some people have a higher",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "people have a higher risk",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "have a higher risk of",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D16",
+            "document_name": "16_antiviral_treatment_and_testing",
+            "token_count": 156,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 156,
+                    "unique_ngrams": 107,
+                    "top_10": [
+                        {
+                            "ngram": "and",
+                            "frequency": 9
+                        },
+                        {
+                            "ngram": "testing",
+                            "frequency": 6
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "treatment",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "the",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "in",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "infection",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "tests",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "test",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "timing",
+                            "frequency": 3
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 155,
+                    "unique_ngrams": 149,
+                    "top_10": [
+                        {
+                            "ngram": "testing and",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "antiviral treatment",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "detect viral",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "and the",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "eligible patients",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "and treatment",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "and antiviral",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "treatment in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in covid-19",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "covid-19 care",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 154,
+                    "unique_ngrams": 154,
+                    "top_10": [
+                        {
+                            "ngram": "testing and antiviral",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and antiviral treatment",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "antiviral treatment in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "treatment in covid-19",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in covid-19 care",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "covid-19 care testing",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "care testing can",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "testing can help",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "can help identify",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "help identify sars-cov-2",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 153,
+                    "unique_ngrams": 153,
+                    "top_10": [
+                        {
+                            "ngram": "testing and antiviral treatment",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and antiviral treatment in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "antiviral treatment in covid-19",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "treatment in covid-19 care",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in covid-19 care testing",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "covid-19 care testing can",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "care testing can help",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "testing can help identify",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "can help identify sars-cov-2",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "help identify sars-cov-2 infection",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 152,
+                    "unique_ngrams": 152,
+                    "top_10": [
+                        {
+                            "ngram": "testing and antiviral treatment in",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and antiviral treatment in covid-19",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "antiviral treatment in covid-19 care",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "treatment in covid-19 care testing",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "in covid-19 care testing can",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "covid-19 care testing can help",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "care testing can help identify",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "testing can help identify sars-cov-2",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "can help identify sars-cov-2 infection",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "help identify sars-cov-2 infection and",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D17",
+            "document_name": "17_misinformation_and_health_literacy",
+            "token_count": 154,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 154,
+                    "unique_ngrams": 119,
+                    "top_10": [
+                        {
+                            "ngram": "health",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "and",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "the",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "information",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "a",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "literacy",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "from",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "evidence",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "or",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "infectious",
+                            "frequency": 2
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 153,
+                    "unique_ngrams": 150,
+                    "top_10": [
+                        {
+                            "ngram": "health literacy",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "infectious disease",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "literacy and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease misinformation",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "misinformation health",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "literacy involves",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "involves the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the ability",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "ability to",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 152,
+                    "unique_ngrams": 152,
+                    "top_10": [
+                        {
+                            "ngram": "health literacy and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "literacy and infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease misinformation",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease misinformation health",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "misinformation health literacy",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "health literacy involves",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "literacy involves the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "involves the ability",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the ability to",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 151,
+                    "unique_ngrams": 151,
+                    "top_10": [
+                        {
+                            "ngram": "health literacy and infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "literacy and infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and infectious disease misinformation",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease misinformation health",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease misinformation health literacy",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "misinformation health literacy involves",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "health literacy involves the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "literacy involves the ability",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "involves the ability to",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the ability to find",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 150,
+                    "unique_ngrams": 150,
+                    "top_10": [
+                        {
+                            "ngram": "health literacy and infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "literacy and infectious disease misinformation",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and infectious disease misinformation health",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease misinformation health literacy",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease misinformation health literacy involves",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "misinformation health literacy involves the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "health literacy involves the ability",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "literacy involves the ability to",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "involves the ability to find",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the ability to find understand",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D18",
+            "document_name": "18_global_outbreak_preparedness",
+            "token_count": 163,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 163,
+                    "unique_ngrams": 118,
+                    "top_10": [
+                        {
+                            "ngram": "and",
+                            "frequency": 9
+                        },
+                        {
+                            "ngram": "outbreak",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "preparedness",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "a",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "response",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "capacity",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "to",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "systems",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "may",
+                            "frequency": 3
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 162,
+                    "unique_ngrams": 160,
+                    "top_10": [
+                        {
+                            "ngram": "outbreak preparedness",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "can identify",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "global outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "preparedness and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and response",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "response outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "preparedness involves",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "involves building",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "building the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the capacity",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 161,
+                    "unique_ngrams": 161,
+                    "top_10": [
+                        {
+                            "ngram": "global outbreak preparedness",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak preparedness and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "preparedness and response",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and response outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "response outbreak preparedness",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak preparedness involves",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "preparedness involves building",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "involves building the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "building the capacity",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the capacity to",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 160,
+                    "unique_ngrams": 160,
+                    "top_10": [
+                        {
+                            "ngram": "global outbreak preparedness and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak preparedness and response",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "preparedness and response outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and response outbreak preparedness",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "response outbreak preparedness involves",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak preparedness involves building",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "preparedness involves building the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "involves building the capacity",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "building the capacity to",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the capacity to detect",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 159,
+                    "unique_ngrams": 159,
+                    "top_10": [
+                        {
+                            "ngram": "global outbreak preparedness and response",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak preparedness and response outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "preparedness and response outbreak preparedness",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and response outbreak preparedness involves",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "response outbreak preparedness involves building",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak preparedness involves building the",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "preparedness involves building the capacity",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "involves building the capacity to",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "building the capacity to detect",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "the capacity to detect assess",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D19",
+            "document_name": "19_epidemiological_models",
+            "token_count": 163,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 163,
+                    "unique_ngrams": 125,
+                    "top_10": [
+                        {
+                            "ngram": "and",
+                            "frequency": 7
+                        },
+                        {
+                            "ngram": "models",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "assumptions",
+                            "frequency": 5
+                        },
+                        {
+                            "ngram": "are",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "data",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "model",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "infectious",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "how",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "such",
+                            "frequency": 2
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 162,
+                    "unique_ngrams": 160,
+                    "top_10": [
+                        {
+                            "ngram": "models can",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "such as",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "epidemiological models",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "models for",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "for infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease planning",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "planning mathematical",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "mathematical and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and computational",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 161,
+                    "unique_ngrams": 161,
+                    "top_10": [
+                        {
+                            "ngram": "epidemiological models for",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "models for infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "for infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease planning",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease planning mathematical",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "planning mathematical and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "mathematical and computational",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and computational models",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "computational models can",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "models can help",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 160,
+                    "unique_ngrams": 160,
+                    "top_10": [
+                        {
+                            "ngram": "epidemiological models for infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "models for infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "for infectious disease planning",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease planning mathematical",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease planning mathematical and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "planning mathematical and computational",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "mathematical and computational models",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and computational models can",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "computational models can help",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "models can help researchers",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 159,
+                    "unique_ngrams": 159,
+                    "top_10": [
+                        {
+                            "ngram": "epidemiological models for infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "models for infectious disease planning",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "for infectious disease planning mathematical",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease planning mathematical and",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "disease planning mathematical and computational",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "planning mathematical and computational models",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "mathematical and computational models can",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "and computational models can help",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "computational models can help researchers",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "models can help researchers explore",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "doc_id": "D20",
+            "document_name": "20_post_outbreak_evaluation",
+            "token_count": 161,
+            "analysis": {
+                "1-gram": {
+                    "total_occurrences": 161,
+                    "unique_ngrams": 121,
+                    "top_10": [
+                        {
+                            "ngram": "the",
+                            "frequency": 8
+                        },
+                        {
+                            "ngram": "and",
+                            "frequency": 4
+                        },
+                        {
+                            "ngram": "after",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "an",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "outbreak",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "evaluation",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "can",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "to",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "infectious",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "disease",
+                            "frequency": 2
+                        }
+                    ]
+                },
+                "2-gram": {
+                    "total_occurrences": 160,
+                    "unique_ngrams": 154,
+                    "top_10": [
+                        {
+                            "ngram": "after an",
+                            "frequency": 3
+                        },
+                        {
+                            "ngram": "infectious disease",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "evaluation should",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "may include",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "and the",
+                            "frequency": 2
+                        },
+                        {
+                            "ngram": "evaluating public",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "public health",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "health responses",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "responses after",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "an outbreak",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "3-gram": {
+                    "total_occurrences": 159,
+                    "unique_ngrams": 159,
+                    "top_10": [
+                        {
+                            "ngram": "evaluating public health",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "public health responses",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "health responses after",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "responses after an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "after an outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "an outbreak after",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak after an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "after an infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "an infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease outbreak",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "4-gram": {
+                    "total_occurrences": 158,
+                    "unique_ngrams": 158,
+                    "top_10": [
+                        {
+                            "ngram": "evaluating public health responses",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "public health responses after",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "health responses after an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "responses after an outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "after an outbreak after",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "an outbreak after an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak after an infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "after an infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "an infectious disease outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease outbreak a",
+                            "frequency": 1
+                        }
+                    ]
+                },
+                "5-gram": {
+                    "total_occurrences": 157,
+                    "unique_ngrams": 157,
+                    "top_10": [
+                        {
+                            "ngram": "evaluating public health responses after",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "public health responses after an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "health responses after an outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "responses after an outbreak after",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "after an outbreak after an",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "an outbreak after an infectious",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "outbreak after an infectious disease",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "after an infectious disease outbreak",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "an infectious disease outbreak a",
+                            "frequency": 1
+                        },
+                        {
+                            "ngram": "infectious disease outbreak a structured",
+                            "frequency": 1
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

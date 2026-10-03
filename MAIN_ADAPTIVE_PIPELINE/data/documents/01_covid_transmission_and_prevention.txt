@@ -1,0 +1,9 @@
+COVID-19 Transmission and Community Prevention
+
+COVID-19 is caused by infection with SARS-CoV-2. Transmission can occur when an infected person releases respiratory particles while breathing, speaking, coughing, or sneezing. Risk generally increases in crowded or poorly ventilated indoor environments and when people are in close proximity for prolonged periods. Prevention therefore combines several measures rather than relying on a single intervention.
+
+Improving indoor ventilation and filtration can reduce the concentration of infectious particles in shared air. Staying home when acutely ill can reduce exposure to other people. Mask use can provide an additional layer of protection in settings where respiratory virus transmission is elevated or where vulnerable people are present. Hand hygiene remains useful for reducing transmission of many infections, although respiratory transmission is a major route for COVID-19.
+
+Vaccination is an important prevention measure because it prepares the immune system to respond to the virus. Vaccine protection against infection can change over time and across variants, while protection against severe disease can remain stronger. Public-health programs therefore consider vaccination together with surveillance, clinical care, ventilation, and risk-based protective measures.
+
+Community prevention works best when measures are matched to the local epidemiological situation. Public-health authorities may use indicators such as reported cases, hospitalizations, wastewater signals, and outbreak reports to guide communication and interventions. Individuals can reduce risk by considering the intensity of local transmission, their own health risks, and the vulnerability of people around them.
