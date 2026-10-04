@@ -1,0 +1,15 @@
+import re
+
+TOKEN_PATTERN = re.compile(
+    r"\d+(?:\.\d+)?%?"
+    r"|[A-Za-z]+(?:[-'][A-Za-z0-9]+)*"
+    r"|[^\w\s]"
+)
+
+
+def tokenize(text):
+    """
+    Extract words, hyphenated terms, numbers, and punctuation.
+    Punctuation is preserved as individual tokens.
+    """
+    return TOKEN_PATTERN.findall(text)

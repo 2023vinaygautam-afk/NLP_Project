@@ -1,0 +1,23 @@
+{
+  "training_corpus": "NLTK Penn Treebank",
+  "algorithm": "Supervised Hidden Markov Model (HMM)",
+  "smoothing": "Lidstone gamma=0.1",
+  "random_seed": 42,
+  "split": "Randomized sentence-level 80:20 holdout",
+  "training_sentences": 3131,
+  "test_sentences": 783,
+  "test_tokens": 19655,
+  "correct_test_tokens": 17893,
+  "heldout_treebank_accuracy": 0.9103535995929789,
+  "domain_accuracy": null,
+  "domain_accuracy_note": "Domain accuracy was not measured because the project corpus does not contain manually annotated gold POS labels. NLTK/HMM agreement is reported separately and must not be interpreted as accuracy.",
+  "domain_documents_tagged": 20,
+  "domain_tokens_tagged": 3376,
+  "nltk_hmm_agreement_tokens": 2391,
+  "nltk_hmm_agreement_rate": 0.7082345971563981,
+  "nltk_hmm_disagreement_tokens": 985,
+  "domain_agreement_caveat": "Agreement with NLTK is not domain-specific POS accuracy. A manually annotated gold-standard sample is required to calculate domain accuracy.",
+  "input_file": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\NLP_Project1\\MAIN_ADAPTIVE_PIPELINE\\results\\cleaned_corpus.json",
+  "output_csv": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\NLP_Project1\\MAIN_ADAPTIVE_PIPELINE\\results\\custom_pos_ml_comparison.csv",
+  "output_json": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\NLP_Project1\\MAIN_ADAPTIVE_PIPELINE\\results\\custom_pos_ml_comparison.json"
+}
