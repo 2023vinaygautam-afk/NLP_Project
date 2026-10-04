@@ -1,0 +1,8 @@
+﻿term,occurrences,nltk_tags,ml_tags
+covid-19,7,"{'JJ': 2, 'NNP': 5}","{'CD': 3, 'NNP': 1, 'JJ': 2, 'NN': 1}"
+sars-cov-2,5,"{'NNP': 3, 'JJ': 2}","{'CD': 4, 'JJ': 1}"
+antiviral,2,"{'NNP': 1, 'JJ': 1}",{'JJ': 2}
+vaccination,21,{'NN': 21},"{'NN': 19, 'NNP': 2}"
+epidemiology,2,"{'NNP': 1, 'NN': 1}",{'NN': 2}
+asymptomatic,1,{'JJ': 1},{'JJ': 1}
+surveillance,28,"{'NN': 22, 'JJ': 1, 'NNP': 5}","{'NN': 21, 'NNP': 6, 'VBP': 1}"

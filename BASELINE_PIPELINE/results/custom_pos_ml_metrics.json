@@ -1,0 +1,18 @@
+{
+  "model": "Supervised Hidden Markov Model (HMM)",
+  "training_data": "NLTK Penn Treebank",
+  "random_seed": 42,
+  "split_strategy": "Randomized file-level 90/10 split",
+  "smoothing_gamma": 0.1,
+  "training_sentences": 3574,
+  "test_sentences": 340,
+  "training_files": 179,
+  "test_files": 20,
+  "test_tokens": 8414,
+  "correct_tokens": 7504,
+  "heldout_treebank_accuracy": 0.891846921797005,
+  "domain_documents_tagged": 20,
+  "domain_tokens_tagged": 3870,
+  "comparison_csv": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\NLP_Project1\\BASELINE_PIPELINE\\results\\custom_pos_ml_comparison.csv",
+  "interpretation": "Held-out Treebank accuracy is not domain-specific accuracy. NLTK-vs-HMM agreement on project documents is not ground-truth accuracy. Annotate a representative domain sample to measure true domain accuracy."
+}
