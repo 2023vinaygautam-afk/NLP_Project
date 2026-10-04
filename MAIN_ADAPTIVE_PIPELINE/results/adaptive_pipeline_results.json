@@ -63,9 +63,9 @@
         },
         "status": "RETRIEVAL_COMPLETED",
         "query_id": "Q01",
-        "expected_document": "D01",
-        "expected_document_rank": 1,
-        "expected_document_retrieved": true
+        "expected_documents": [
+            "D01"
+        ]
     },
     {
         "query": "How effective are COVID-19 vaccines in preventing infection and reducing disease severity?",
@@ -148,9 +148,10 @@
         },
         "status": "RETRIEVAL_COMPLETED",
         "query_id": "Q02",
-        "expected_document": "D03",
-        "expected_document_rank": null,
-        "expected_document_retrieved": false
+        "expected_documents": [
+            "D02",
+            "D03"
+        ]
     },
     {
         "query": "How does COVID-19 vaccination help protect individuals and communities from infection?",
@@ -228,9 +229,10 @@
         },
         "status": "RETRIEVAL_COMPLETED",
         "query_id": "Q03",
-        "expected_document": "D02",
-        "expected_document_rank": 2,
-        "expected_document_retrieved": true
+        "expected_documents": [
+            "D01",
+            "D02"
+        ]
     },
     {
         "query": "What is the relationship between vaccination, COVID-19 testing, and early detection of infection?",
@@ -323,9 +325,11 @@
         },
         "status": "RETRIEVAL_COMPLETED",
         "query_id": "Q04",
-        "expected_document": "D16",
-        "expected_document_rank": 1,
-        "expected_document_retrieved": true
+        "expected_documents": [
+            "D02",
+            "D03",
+            "D16"
+        ]
     },
     {
         "query": "How do quarantine and contact tracing help control infectious disease outbreaks?",
@@ -394,8 +398,9 @@
         },
         "status": "RETRIEVAL_COMPLETED",
         "query_id": "Q05",
-        "expected_document": "D06",
-        "expected_document_rank": 1,
-        "expected_document_retrieved": true
+        "expected_documents": [
+            "D06",
+            "D09"
+        ]
     }
 ]

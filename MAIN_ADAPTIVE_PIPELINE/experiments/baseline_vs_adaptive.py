@@ -1,5 +1,6 @@
 from pathlib import Path
 import json
+import sys
 import pandas as pd
 
 
@@ -9,6 +10,9 @@ import pandas as pd
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 RESULTS_DIR = BASE_DIR / "results"
+
+sys.path.insert(0, str(BASE_DIR / "src"))
+from adaptive_pipeline import FIXED_QUERIES
 
 RETRIEVAL_FILE = RESULTS_DIR / "baseline_pipeline_results.json"
 ADAPTIVE_FILE = RESULTS_DIR / "adaptive_pipeline_results.json"
@@ -21,31 +25,8 @@ RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 # =====================================================
 
 RELEVANCE = {
-
-    "What are the main causes of COVID-19 transmission and how can it be prevented?": {
-        "01_covid_transmission_and_prevention"
-    },
-
-    "How effective are COVID-19 vaccines in preventing infection and reducing disease severity?": {
-        "02_covid_vaccination_basics",
-        "03_vaccine_effectiveness_and_studies"
-    },
-
-    "How does COVID-19 vaccination help protect individuals and communities from infection?": {
-        "01_covid_transmission_and_prevention",
-        "02_covid_vaccination_basics"
-    },
-
-    "What is the relationship between vaccination, COVID-19 testing, and early detection of infection?": {
-        "02_covid_vaccination_basics",
-        "03_vaccine_effectiveness_and_studies",
-        "16_antiviral_treatment_and_testing"
-    },
-
-    "How do quarantine and contact tracing help control infectious disease outbreaks?": {
-        "06_contact_tracing",
-        "09_outbreak_investigation"
-    }
+    item["query"]: set(item["expected_documents"])
+    for item in FIXED_QUERIES
 }
 
 
@@ -118,7 +99,7 @@ def normalize_documents(value):
 # 4. METRIC CALCULATION
 # =====================================================
 
-def calculate_metrics(retrieved, relevant, k=5):
+def calculate_metrics(retrieved, relevant):
 
     retrieved = normalize_documents(retrieved)
     relevant = normalize_documents(relevant)
@@ -154,21 +135,6 @@ def calculate_metrics(retrieved, relevant, k=5):
         else 0.0
     )
 
-    top_k = retrieved[:k]
-
-    relevant_top_k = sum(
-        doc in relevant_set
-        for doc in top_k
-    )
-
-    precision_at_k = relevant_top_k / k
-
-    recall_at_k = (
-        relevant_top_k / len(relevant_set)
-        if relevant_set
-        else 0.0
-    )
-
     return {
         "TP": tp,
         "FP": fp,
@@ -176,8 +142,6 @@ def calculate_metrics(retrieved, relevant, k=5):
         "Precision": precision,
         "Recall": recall,
         "F1_Score": f1,
-        "Precision@5": precision_at_k,
-        "Recall@5": recall_at_k,
         "Retrieved_Count": len(retrieved)
     }
 
@@ -272,8 +236,7 @@ def evaluate_pipeline(result_map, pipeline_name):
 
         metrics = calculate_metrics(
             retrieved,
-            relevant,
-            k=5
+            relevant
         )
 
         rows.append({
@@ -343,9 +306,7 @@ def main():
     metric_names = [
         "Precision",
         "Recall",
-        "F1_Score",
-        "Precision@5",
-        "Recall@5"
+        "F1_Score"
     ]
 
     for metric in metric_names:
@@ -387,58 +348,12 @@ def main():
 
             "Recall": float(frame["Recall"].mean()),
 
-            "F1_Score": float(frame["F1_Score"].mean()),
-
-            "Precision@5": float(frame["Precision@5"].mean()),
-
-            "Recall@5": float(frame["Recall@5"].mean())
+            "F1_Score": float(frame["F1_Score"].mean())
 
         }
 
     # -------------------------------------------------
-    # 11. MICRO METRICS
-    # -------------------------------------------------
-
-    for pipeline_name, frame in [
-        ("Baseline", baseline),
-        ("Adaptive", adaptive)
-    ]:
-
-        tp = int(frame["TP"].sum())
-        fp = int(frame["FP"].sum())
-        fn = int(frame["FN"].sum())
-
-        micro_precision = (
-            tp / (tp + fp)
-            if tp + fp > 0
-            else 0.0
-        )
-
-        micro_recall = (
-            tp / (tp + fn)
-            if tp + fn > 0
-            else 0.0
-        )
-
-        micro_f1 = (
-            2 * micro_precision * micro_recall
-            / (micro_precision + micro_recall)
-            if micro_precision + micro_recall > 0
-            else 0.0
-        )
-
-        summary[pipeline_name].update({
-
-            "Micro_Precision": micro_precision,
-
-            "Micro_Recall": micro_recall,
-
-            "Micro_F1": micro_f1
-
-        })
-
-    # -------------------------------------------------
-    # 12. ADAPTIVE MINUS BASELINE
+    # 11. ADAPTIVE MINUS BASELINE
     # -------------------------------------------------
 
     difference = {}
@@ -483,7 +398,7 @@ def main():
     }
 
     # -------------------------------------------------
-    # 13. SAVE RESULTS
+    # 12. SAVE RESULTS
     # -------------------------------------------------
 
     baseline.to_csv(
@@ -514,7 +429,7 @@ def main():
         )
 
     # -------------------------------------------------
-    # 14. DISPLAY RESULTS
+    # 13. DISPLAY RESULTS
     # -------------------------------------------------
 
     print("\nQUERY-WISE COMPARISON")
@@ -552,10 +467,6 @@ def main():
     for metric, value in difference.items():
 
         print(f"{metric}: {value:+.4f}")
-
-    print("\nQUERY-WISE F1 OUTCOME")
-
-    print(summary["Query_Wise_Comparison"])
 
     print("\nGenerated files:")
 

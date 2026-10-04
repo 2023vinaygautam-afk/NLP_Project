@@ -26,9 +26,6 @@ OUTPUT_FILE = RESULTS_DIR / "adaptive_pipeline_results.json"
 METRICS_JSON = RESULTS_DIR / "adaptive_evaluation_metrics.json"
 METRICS_CSV = RESULTS_DIR / "adaptive_evaluation_metrics.csv"
 
-K = 5
-
-
 # ==================================================
 # 2. FIVE FIXED EVALUATION QUERIES
 # ==================================================
@@ -40,7 +37,7 @@ FIXED_QUERIES = [
             "What are the main causes of COVID-19 "
             "transmission and how can it be prevented?"
         ),
-        "expected_document": "D01"
+        "expected_documents": ["D01"]
     },
     {
         "query_id": "Q02",
@@ -48,7 +45,7 @@ FIXED_QUERIES = [
             "How effective are COVID-19 vaccines in "
             "preventing infection and reducing disease severity?"
         ),
-        "expected_document": "D03"
+        "expected_documents": ["D02", "D03"]
     },
     {
         "query_id": "Q03",
@@ -56,7 +53,7 @@ FIXED_QUERIES = [
             "How does COVID-19 vaccination help protect "
             "individuals and communities from infection?"
         ),
-        "expected_document": "D02"
+        "expected_documents": ["D01", "D02"]
     },
     {
         "query_id": "Q04",
@@ -64,7 +61,7 @@ FIXED_QUERIES = [
             "What is the relationship between vaccination, "
             "COVID-19 testing, and early detection of infection?"
         ),
-        "expected_document": "D16"
+        "expected_documents": ["D02", "D03", "D16"]
     },
     {
         "query_id": "Q05",
@@ -72,7 +69,7 @@ FIXED_QUERIES = [
             "How do quarantine and contact tracing help "
             "control infectious disease outbreaks?"
         ),
-        "expected_document": "D06"
+        "expected_documents": ["D06", "D09"]
     }
 ]
 
@@ -318,7 +315,15 @@ def calculate_metrics(all_results):
 
         query_id = result["query_id"]
 
-        expected = result["expected_document"]
+        expected_value = result.get(
+            "expected_documents",
+            result.get("expected_document", []),
+        )
+        relevant_set = (
+            set(expected_value)
+            if isinstance(expected_value, (list, tuple, set))
+            else {expected_value}
+        )
 
         retrieved = [
             item["document_id"]
@@ -329,13 +334,7 @@ def calculate_metrics(all_results):
 
         retrieved = list(dict.fromkeys(retrieved))
 
-        retrieved_top5 = retrieved[:K]
-
-        relevant_set = {expected}
-
         retrieved_set = set(retrieved)
-
-        retrieved_top5_set = set(retrieved_top5)
 
         # Confusion counts
 
@@ -363,65 +362,17 @@ def calculate_metrics(all_results):
             else 0.0
         )
 
-        # Precision@1
-
-        precision_at_1 = (
-            1.0
-            if retrieved and retrieved[0] == expected
-            else 0.0
-        )
-
-        # Fixed denominator K=5 for consistency
-
-        precision_at_5 = (
-            len(relevant_set & retrieved_top5_set) / K
-        )
-
-        recall_at_5 = (
-            len(relevant_set & retrieved_top5_set)
-            / len(relevant_set)
-        )
-
-        f1_at_5 = (
-            2 * precision_at_5 * recall_at_5
-            / (precision_at_5 + recall_at_5)
-            if precision_at_5 + recall_at_5 > 0
-            else 0.0
-        )
-
-        # Reciprocal rank
-
-        expected_rank = (
-            retrieved.index(expected) + 1
-            if expected in retrieved
-            else None
-        )
-
-        reciprocal_rank = (
-            1 / expected_rank
-            if expected_rank is not None
-            else 0.0
-        )
-
-        hit_at_5 = int(
-            expected in retrieved_top5
-        )
-
-        expected_retrieved = int(
-            expected in retrieved
-        )
-
         row = {
 
             "query_id": query_id,
 
-            "expected_document": expected,
+            "expected_documents": ";".join(sorted(relevant_set)),
+
+            "relevant_count": len(relevant_set),
 
             "retrieved_documents": ";".join(retrieved),
 
             "retrieved_count": len(retrieved),
-
-            "expected_document_rank": expected_rank,
 
             "TP": tp,
 
@@ -433,21 +384,7 @@ def calculate_metrics(all_results):
 
             "Recall": recall,
 
-            "F1": f1,
-
-            "Precision@1": precision_at_1,
-
-            "Precision@5": precision_at_5,
-
-            "Recall@5": recall_at_5,
-
-            "F1@5": f1_at_5,
-
-            "Reciprocal_Rank": reciprocal_rank,
-
-            "Hit@5": hit_at_5,
-
-            "Expected_Document_Retrieved": expected_retrieved
+            "F1": f1
 
         }
 
@@ -459,17 +396,7 @@ def calculate_metrics(all_results):
 
     # Macro averages
 
-    metric_names = [
-        "Precision",
-        "Recall",
-        "F1",
-        "Precision@1",
-        "Precision@5",
-        "Recall@5",
-        "F1@5",
-        "Reciprocal_Rank",
-        "Hit@5"
-    ]
+    metric_names = ["Precision", "Recall", "F1"]
 
     macro_metrics = {}
 
@@ -480,32 +407,6 @@ def calculate_metrics(all_results):
             / len(query_metrics)
             if query_metrics else 0.0
         )
-
-    # Micro metrics
-
-    micro_precision = (
-        total_tp / (total_tp + total_fp)
-        if total_tp + total_fp > 0
-        else 0.0
-    )
-
-    micro_recall = (
-        total_tp / (total_tp + total_fn)
-        if total_tp + total_fn > 0
-        else 0.0
-    )
-
-    micro_f1 = (
-        2 * micro_precision * micro_recall
-        / (micro_precision + micro_recall)
-        if micro_precision + micro_recall > 0
-        else 0.0
-    )
-
-    successful_queries = sum(
-        row["Expected_Document_Retrieved"]
-        for row in query_metrics
-    )
 
     summary = {
 
@@ -519,37 +420,15 @@ def calculate_metrics(all_results):
 
         "total_false_negatives": total_fn,
 
-        "expected_document_retrieval_rate": (
-            successful_queries / len(query_metrics)
-            if query_metrics else 0.0
-        ),
-
         "macro_metrics": macro_metrics,
-
-        "micro_metrics": {
-
-            "Precision": micro_precision,
-
-            "Recall": micro_recall,
-
-            "F1": micro_f1
-
-        },
 
         "evaluation_definition": {
 
-            "relevance": "One fixed relevant document per query",
+            "relevance": "One or more manually assigned relevant documents per query",
 
-            "k": K,
-
-            "precision_at_5_denominator": (
-                "Fixed K=5, including when fewer than 5 "
-                "documents are returned"
-            ),
-
-            "reciprocal_rank": (
-                "Inverse rank of the expected document, "
-                "or zero when not retrieved"
+            "metrics": (
+                "Macro set-based Precision, Recall, and F1 over all retrieved "
+                "documents"
             )
 
         }
@@ -604,7 +483,7 @@ def save_evaluation(
 
             "Evaluation uses five fixed queries.",
 
-            "One relevant document is assigned to each query.",
+            "Each query has one or more manually assigned relevant documents.",
 
             "Relevance labels require manual validation.",
 
@@ -678,7 +557,7 @@ def run_fixed_evaluation(
 
         query = item["query"]
 
-        expected_document = item["expected_document"]
+        expected_documents = item["expected_documents"]
 
         print("\n" + "-" * 70)
 
@@ -687,7 +566,7 @@ def run_fixed_evaluation(
         print(f"Query: {query}")
 
         print(
-            f"Expected Relevant Document: {expected_document}"
+            f"Expected Relevant Documents: {', '.join(expected_documents)}"
         )
 
         output = run_adaptive_pipeline(
@@ -702,21 +581,9 @@ def run_fixed_evaluation(
             for result in output["retrieval"]["results"]
         ]
 
-        expected_rank = (
-            retrieved_ids.index(expected_document) + 1
-            if expected_document in retrieved_ids
-            else None
-        )
-
         output["query_id"] = query_id
 
-        output["expected_document"] = expected_document
-
-        output["expected_document_rank"] = expected_rank
-
-        output["expected_document_retrieved"] = (
-            expected_document in retrieved_ids
-        )
+        output["expected_documents"] = expected_documents
 
         all_results.append(output)
 
@@ -728,11 +595,6 @@ def run_fixed_evaluation(
         print(
             f"Retrieved Documents: "
             f"{output['retrieval']['count']}"
-        )
-
-        print(
-            "Expected Document Rank: "
-            f"{expected_rank if expected_rank is not None else 'Not Retrieved'}"
         )
 
         print(f"Status: {output['status']}")
@@ -767,19 +629,6 @@ def run_fixed_evaluation(
 
         print(f"F1: {row['F1']:.4f}")
 
-        print(f"Precision@5: {row['Precision@5']:.4f}")
-
-        print(f"Recall@5: {row['Recall@5']:.4f}")
-
-        print(f"F1@5: {row['F1@5']:.4f}")
-
-        print(
-            f"Reciprocal Rank: "
-            f"{row['Reciprocal_Rank']:.4f}"
-        )
-
-        print(f"Hit@5: {row['Hit@5']}")
-
     # Print macro summary
 
     print("\n" + "=" * 70)
@@ -790,22 +639,9 @@ def run_fixed_evaluation(
 
     print(f"Total Queries: {summary['total_queries']}")
 
-    print(f"Total Documents: {summary['total_documents']}")
-
-    print(
-        "Expected Document Retrieval Rate: "
-        f"{summary['expected_document_retrieval_rate']:.2%}"
-    )
-
     print("\nMACRO METRICS")
 
     for metric, value in summary["macro_metrics"].items():
-
-        print(f"{metric}: {value:.4f}")
-
-    print("\nMICRO METRICS")
-
-    for metric, value in summary["micro_metrics"].items():
 
         print(f"{metric}: {value:.4f}")
 

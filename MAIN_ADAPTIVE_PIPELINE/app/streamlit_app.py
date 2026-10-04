@@ -224,130 +224,6 @@ def get_resources():
     return load_resources()
 
 
-def retrieve_ids(output: dict) -> list[str]:
-    retrieval = output.get("retrieval", {})
-    rows = retrieval.get("results", []) if isinstance(retrieval, dict) else []
-    return [
-        str(row.get("document_id"))
-        for row in rows
-        if row.get("document_id") is not None
-    ]
-
-
-def evaluate_fixed_queries(index, document_mapping, corpus, k: int = 5):
-    rows = []
-    outputs = []
-
-    for item in FIXED_QUERIES:
-        output = run_adaptive_pipeline(
-            item["query"], index, document_mapping, corpus
-        )
-        retrieved_ids = retrieve_ids(output)
-        expected_value = item["expected_document"]
-        expected_documents = (
-            {str(value) for value in expected_value}
-            if isinstance(expected_value, (list, tuple, set))
-            else {str(expected_value)}
-        )
-        relevant_count = len(expected_documents)
-        matches_at_k = expected_documents.intersection(retrieved_ids[:k])
-        matches_all = expected_documents.intersection(retrieved_ids)
-        rank = next(
-            (
-                position
-                for position, document_id in enumerate(retrieved_ids, start=1)
-                if document_id in expected_documents
-            ),
-            None,
-        )
-        precision_at_1 = len(expected_documents.intersection(retrieved_ids[:1]))
-        precision_at_k = len(matches_at_k) / k
-        recall_at_k = len(matches_at_k) / relevant_count if relevant_count else 0.0
-        f1_at_k = (
-            2 * precision_at_k * recall_at_k / (precision_at_k + recall_at_k)
-            if precision_at_k + recall_at_k
-            else 0.0
-        )
-        reciprocal_rank = (
-            1 / rank if rank is not None and rank <= k else 0.0
-        )
-        full_precision = len(matches_all) / len(retrieved_ids) if retrieved_ids else 0.0
-        full_recall = len(matches_all) / relevant_count if relevant_count else 0.0
-        full_f1 = (
-            2 * full_precision * full_recall / (full_precision + full_recall)
-            if full_precision + full_recall
-            else 0.0
-        )
-        decision = output.get("adaptive_decision", {})
-
-        rows.append({
-            "Query_ID": item["query_id"],
-            "Query": item["query"],
-            "Relevant_Document(s)": ", ".join(sorted(expected_documents)),
-            "Relevant_Count": relevant_count,
-            "Selected_Method": decision.get(
-                "method", decision.get("selected_method", "Unknown")
-            ),
-            "Retrieved_Documents": ", ".join(retrieved_ids),
-            "First_Relevant_Rank": rank,
-            "Precision": full_precision,
-            "Recall": full_recall,
-            "F1": full_f1,
-            "Precision@1": precision_at_1,
-            f"Precision@{k}": precision_at_k,
-            f"Recall@{k}": recall_at_k,
-            f"F1@{k}": f1_at_k,
-            "Relevant_Found@K": len(matches_at_k),
-            "Relevant_Found": len(matches_all),
-            "Reciprocal_Rank": reciprocal_rank,
-            f"Hit@{k}": int(bool(matches_at_k)),
-            "Status": output.get("status", "UNKNOWN"),
-        })
-        outputs.append(output)
-
-    frame = pd.DataFrame(rows)
-    frame["First_Relevant_Rank"] = pd.array(
-        frame["First_Relevant_Rank"],
-        dtype="Int64",
-    )
-    metric_columns = [
-        "Precision", "Recall", "F1", "Precision@1",
-        f"Precision@{k}", f"Recall@{k}", f"F1@{k}",
-        "Reciprocal_Rank", f"Hit@{k}",
-    ]
-    metrics = {key: float(frame[key].mean()) for key in metric_columns}
-    total_relevant = sum(
-        len(
-            item["expected_document"]
-            if isinstance(item["expected_document"], (list, tuple, set))
-            else [item["expected_document"]]
-        )
-        for item in FIXED_QUERIES
-    )
-    total_retrieved = sum(len(retrieve_ids(output)) for output in outputs)
-    total_relevant_retrieved = int(frame["Relevant_Found@K"].sum())
-    total_relevant_found = int(frame["Relevant_Found"].sum())
-    metrics.update({
-        "Micro_Precision": (
-            total_relevant_found / total_retrieved if total_retrieved else 0.0
-        ),
-        "Micro_Recall": (
-            total_relevant_found / total_relevant if total_relevant else 0.0
-        ),
-        "K": k,
-        "Total_Queries": len(frame),
-        "Total_Documents": len(document_mapping),
-        "Expected_Documents_Retrieved": total_relevant_retrieved,
-    })
-    metrics["Micro_F1"] = (
-        2 * metrics["Micro_Precision"] * metrics["Micro_Recall"]
-        / (metrics["Micro_Precision"] + metrics["Micro_Recall"])
-        if metrics["Micro_Precision"] + metrics["Micro_Recall"]
-        else 0.0
-    )
-    return frame, metrics, outputs
-
-
 @st.cache_data(ttl=600, max_entries=4)
 def cached_feature_tokens(
     documents: tuple[tuple[str, str], ...],
@@ -793,8 +669,8 @@ elif page == "Information Retrieval":
 elif page == "Evaluation Queries":
     st.header("Fixed Evaluation Queries — Q01 to Q05")
     st.caption(
-        "Canonical five-query test set. Each query currently has one expected "
-        "relevant document, validated against the loaded D01–D20 corpus."
+        "Canonical five-query test set with multi-document relevance labels. "
+        "These labels are used for the set-based baseline/adaptive comparison."
     )
     selected_query_id = st.selectbox(
         "Inspect an evaluation query",
@@ -803,140 +679,80 @@ elif page == "Evaluation Queries":
     selected_query = next(
         item for item in FIXED_QUERIES if item["query_id"] == selected_query_id
     )
-    expected_id = selected_query["expected_document"]
-    expected_text = docs.get(expected_id)
-    if expected_text is None:
-        st.error(f"{selected_query_id} refers to missing corpus document {expected_id}.")
-    else:
-        with st.container(border=True):
-            st.markdown(f"**Query:** {selected_query['query']}")
-            st.markdown(
-                f"**Expected document:** {expected_id} — "
-                f"{title_of(expected_text, expected_id)}"
-            )
-            st.caption(
-                "The label is the project's current ground truth; inspect the "
-                "source document to validate whether it remains relevant."
-            )
-            with st.expander("View expected document text"):
+    expected_ids = selected_query["expected_documents"]
+    with st.container(border=True):
+        st.markdown(f"**Query:** {selected_query['query']}")
+        st.markdown("**Relevant documents:**")
+        for expected_id in expected_ids:
+            expected_text = docs.get(expected_id)
+            if expected_text is None:
+                st.error(
+                    f"{selected_query_id} refers to missing corpus document "
+                    f"{expected_id}."
+                )
+                continue
+            st.markdown(f"- **{expected_id}** — {title_of(expected_text, expected_id)}")
+            with st.expander(f"View {expected_id} document text"):
                 st.text(expected_text)
+        st.caption(
+            "These are the project's manual relevance judgments; review them "
+            "against the corpus if the test set changes."
+        )
     for item in FIXED_QUERIES:
         with st.expander(
-            f'{item["query_id"]} — Expected: {item["expected_document"]}'
+            f'{item["query_id"]} — Relevant: {", ".join(item["expected_documents"])}'
         ):
             st.write(item["query"])
-            st.write("Relevant document:", item["expected_document"])
+            st.write("Relevant documents:", ", ".join(item["expected_documents"]))
 
 elif page == "Evaluation Results":
-    st.header("Main Adaptive Pipeline Evaluation Results")
+    st.header("Five-Query Baseline vs Adaptive Evaluation")
     st.caption(
-        "Metrics are recalculated from the current retrieval output and the fixed "
-        "Q01–Q05 relevance labels."
+        "Official protocol: the same five queries, multi-document relevance "
+        "labels, and macro set-based Precision, Recall, and F1 over all retrieved "
+        "documents."
     )
-    k = st.select_slider(
-        "K for top-K metrics",
-        options=[1, 3, 5, 10, 20],
-        value=5,
-        help=(
-            "Precision@K uses K as its fixed denominator, matching this project's "
-            "saved evaluation convention. Recall@K divides relevant hits by the "
-            "number of relevant labels for that query."
-        ),
-    )
-    if st.button(
-        f"Run Adaptive Evaluation (Q01–Q05, K={k})",
-        type="primary",
-    ):
-        try:
-            with st.spinner("Evaluating the five fixed queries..."):
-                index, mapping, corpus = get_resources()
-                frame, metrics, outputs = evaluate_fixed_queries(
-                    index, mapping, corpus, k
-                )
-            st.session_state["adaptive_eval_frame"] = frame
-            st.session_state["adaptive_eval_metrics"] = metrics
-            st.session_state["adaptive_eval_outputs"] = outputs
-        except Exception as exc:
-            st.exception(exc)
-
-    result_df = st.session_state.get("adaptive_eval_frame")
-    metrics = st.session_state.get("adaptive_eval_metrics")
-    if result_df is None or metrics is None:
-        st.info("Click the evaluation button to calculate current adaptive results.")
+    summary = read_json("same_query_evaluation_summary.json")
+    comparison_path = RESULTS_DIR / "same_query_comparison.csv"
+    if not summary or not comparison_path.exists():
+        st.info(
+            "The shared comparison report is not available. Regenerate it from "
+            "MAIN_ADAPTIVE_PIPELINE with experiments\\run_baseline.py, "
+            "src\\adaptive_pipeline.py, and experiments\\baseline_vs_adaptive.py."
+        )
     else:
-        evaluated_k = int(metrics.get("K", 5))
-        if evaluated_k != k:
-            st.info(
-                f"Displayed results use K={evaluated_k}. Run the evaluation again "
-                f"to calculate metrics for K={k}."
-            )
-        metric_keys = [
-            ("Precision", "Precision"),
-            ("Recall", "Recall"),
-            ("F1", "F1"),
-            ("Precision@1", "Precision@1"),
-            (f"Precision@{evaluated_k}", f"Precision@{evaluated_k}"),
-            (f"Recall@{evaluated_k}", f"Recall@{evaluated_k}"),
-            (f"F1@{evaluated_k}", f"F1@{evaluated_k}"),
-            ("MRR@K", "Reciprocal_Rank"),
-            (f"Hit@{evaluated_k}", f"Hit@{evaluated_k}"),
+        comparison = pd.read_csv(comparison_path)
+        summary_rows = [
+            {
+                "Pipeline": pipeline,
+                "Precision": summary[pipeline]["Precision"],
+                "Recall": summary[pipeline]["Recall"],
+                "F1": summary[pipeline]["F1_Score"],
+            }
+            for pipeline in ("Baseline", "Adaptive")
         ]
-        for start in range(0, len(metric_keys), 3):
-            metric_cols = st.columns(3)
-            for column, (label, key) in zip(
-                metric_cols,
-                metric_keys[start : start + 3],
-            ):
-                column.metric(label, f"{metrics[key]:.3f}")
-
-        st.caption(
-            f"Macro averages over {metrics['Total_Queries']} queries. "
-            f"{metrics['Expected_Documents_Retrieved']} relevant document(s) "
-            f"were retrieved within K={evaluated_k}."
+        st.dataframe(
+            pd.DataFrame(summary_rows).round(3),
+            hide_index=True,
+            use_container_width=True,
         )
-        st.subheader("Micro-average over all retrieved documents")
-        micro_columns = st.columns(3)
-        micro_columns[0].metric("Micro precision", f"{metrics['Micro_Precision']:.3f}")
-        micro_columns[1].metric("Micro recall", f"{metrics['Micro_Recall']:.3f}")
-        micro_columns[2].metric("Micro F1", f"{metrics['Micro_F1']:.3f}")
+        columns = [
+            "Query_ID",
+            "Query",
+            "Expected_Relevant_Documents_Baseline",
+            "Relevant_Count",
+            "Precision_Baseline",
+            "Recall_Baseline",
+            "F1_Score_Baseline",
+            "Precision_Adaptive",
+            "Recall_Adaptive",
+            "F1_Score_Adaptive",
+        ]
         st.subheader("Per-query results")
-        query_filter = st.selectbox(
-            "Filter query results",
-            ["All queries", *result_df["Query_ID"].tolist()],
-        )
-        filtered_results = result_df
-        if query_filter != "All queries":
-            filtered_results = result_df.loc[
-                result_df["Query_ID"] == query_filter
-            ]
-        st.dataframe(filtered_results, hide_index=True, width="stretch")
-        chart_columns = [
-            f"Precision@{evaluated_k}",
-            f"Recall@{evaluated_k}",
-            f"F1@{evaluated_k}",
-        ]
-        st.subheader(f"Query-level top-{evaluated_k} metrics")
-        st.bar_chart(
-            result_df.set_index("Query_ID")[chart_columns],
-            width="stretch",
-        )
-        st.download_button(
-            "Download adaptive fixed-query evaluation CSV",
-            result_df.to_csv(index=False),
-            f"adaptive_q01_q05_evaluation_k{evaluated_k}.csv",
-            "text/csv",
-        )
-        st.download_button(
-            "Download adaptive metrics JSON",
-            json.dumps(metrics, indent=2),
-            f"adaptive_q01_q05_metrics_k{evaluated_k}.json",
-            "application/json",
-        )
-        st.warning(
-            "Precision@K uses a fixed K denominator even when fewer than K "
-            "documents are returned. MRR is zero when the first relevant result "
-            "appears below the selected K. The test set has one labeled relevant "
-            "document per query; labels should be reviewed when the corpus changes."
+        st.dataframe(
+            comparison[columns].round(3),
+            hide_index=True,
+            use_container_width=True,
         )
 
 elif page == "Pipeline and Methodology":
@@ -944,8 +760,9 @@ elif page == "Pipeline and Methodology":
     st.markdown("""
     **Corpus:** healthcare/public-health text documents.
 
-    **Formal test set:** the five fixed queries Q01–Q05, each with its predefined
-    relevant document label.
+    **Formal evaluation:** five fixed queries (Q01–Q05), with one or more
+    manually assigned relevant documents per query. The same labels are used to
+    compare baseline and adaptive retrieval.
 
     **Pipeline:**
     ```text
@@ -966,10 +783,9 @@ elif page == "Pipeline and Methodology":
        Display retrieved evidence documents
     ```
 
-    **Metrics:** Precision, Recall, F1, Precision@K, Recall@K, F1@K, MRR@K,
-    and Hit@K. Precision@K uses a fixed K denominator even when fewer than K
-    documents are returned; recall divides relevant results by the number of
-    relevant labels for that query.
+    **Reported metrics:** macro set-based Precision, Recall, and F1 over all
+    retrieved documents. The app displays only these metrics for the official
+    baseline/adaptive comparison.
 
     **Scope:** adaptive lexical retrieval. Embeddings, vector search, graph or
     multi-hop retrieval, and LLM answer generation are not added by this app.
@@ -985,8 +801,8 @@ elif page == "Pipeline and Methodology":
         "ner_entities.csv", "ner_domain_terms.csv", "bpe_summary.csv",
         "bpe_document_comparison.csv", "bpe_subword_frequencies.csv",
         "adaptive_pipeline_results.json",
-        "adaptive_evaluation_metrics.csv",
-        "adaptive_evaluation_metrics.json",
+        "same_query_comparison.csv",
+        "same_query_evaluation_summary.json",
     ]:
         available_path = resolve_result_path(filename)
         st.write(

@@ -9,6 +9,7 @@ import streamlit as st
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data" / "documents"
 RESULTS_DIR = BASE_DIR / "results"
+MAIN_RESULTS_DIR = BASE_DIR.parent / "MAIN_ADAPTIVE_PIPELINE" / "results"
 QUERY_FILE = DATA_DIR / "Query" / "queries_400.csv"
 
 st.set_page_config(
@@ -112,8 +113,8 @@ def read_csv(filename):
         return pd.DataFrame()
 
 
-def read_json(filename):
-    path = RESULTS_DIR / filename
+def read_json(filename, results_dir=RESULTS_DIR):
+    path = results_dir / filename
     if not path.exists():
         return None
     try:
@@ -246,52 +247,54 @@ elif page == "Information Retrieval":
                 st.info("No matching documents found.")
 
 elif page == "Evaluation Results":
-    st.header("Baseline Evaluation")
-    st.caption("Evaluation files are displayed separately because they use different query sets.")
-
-    summary_file = RESULTS_DIR / "evaluation_summary.csv"
-    if summary_file.exists():
-        st.subheader("Five-Query Evaluation")
-        summary_df = pd.read_csv(summary_file)
-        metrics = dict(zip(summary_df["Metric"], summary_df["Value"]))
-        cols = st.columns(4)
-        for col, name in zip(cols, ["Macro Precision", "Macro Recall", "Macro F1", "Micro F1"]):
-            if name in metrics:
-                col.metric(name, f"{metrics[name] * 100:.2f}%")
-        st.dataframe(summary_df, use_container_width=True, hide_index=True)
+    st.header("Five-Query Baseline vs Adaptive Evaluation")
+    st.caption(
+        "Official protocol: the same five queries, multi-document relevance "
+        "labels, and macro set-based Precision, Recall, and F1 over all retrieved "
+        "documents."
+    )
+    summary = read_json("same_query_evaluation_summary.json", MAIN_RESULTS_DIR)
+    comparison_path = MAIN_RESULTS_DIR / "same_query_comparison.csv"
+    if not summary or not comparison_path.exists():
+        st.info(
+            "The shared comparison report is not available. Regenerate it from "
+            "MAIN_ADAPTIVE_PIPELINE with experiments\\run_baseline.py, "
+            "src\\adaptive_pipeline.py, and experiments\\baseline_vs_adaptive.py."
+        )
     else:
-        st.info("Five-query evaluation not found. Run evaluation.py first.")
-
-    st.divider()
-    baseline_metrics = read_json("baseline_evaluation_metrics.json")
-    if baseline_metrics:
-        st.subheader("Saved baseline evaluation artifact")
-        st.json(baseline_metrics)
-
-    precision_file = RESULTS_DIR / "precision_at_k_summary.csv"
-    if precision_file.exists():
-        st.subheader("400-Query Precision@K Evaluation")
-        precision_df = pd.read_csv(precision_file)
-        metric_rows = precision_df[precision_df["Metric"].str.startswith("Macro Precision@")]
-        if not metric_rows.empty:
-            chart_df = metric_rows.copy()
-            chart_df["Metric"] = chart_df["Metric"].str.replace("Macro ", "", regex=False)
-            st.bar_chart(chart_df.set_index("Metric")["Value"])
-        st.dataframe(precision_df, use_container_width=True, hide_index=True)
-    else:
-        st.info("Precision@K results not found. Run precision_at_k.py first.")
-
-    st.divider()
-    ranked_file = RESULTS_DIR / "baseline_ranked_evaluation_summary.csv"
-    if ranked_file.exists():
-        st.subheader("400-Query Ranked Baseline Evaluation")
-        ranked_df = pd.read_csv(ranked_file)
-        st.dataframe(ranked_df, use_container_width=True, hide_index=True)
-
-    query_eval_file = RESULTS_DIR / "evaluation_results.csv"
-    if query_eval_file.exists():
-        st.subheader("Five-Query Detailed Results")
-        st.dataframe(pd.read_csv(query_eval_file), use_container_width=True, hide_index=True)
+        comparison = pd.read_csv(comparison_path)
+        summary_rows = [
+            {
+                "Pipeline": pipeline,
+                "Precision": summary[pipeline]["Precision"],
+                "Recall": summary[pipeline]["Recall"],
+                "F1": summary[pipeline]["F1_Score"],
+            }
+            for pipeline in ("Baseline", "Adaptive")
+        ]
+        st.dataframe(
+            pd.DataFrame(summary_rows).round(3),
+            hide_index=True,
+            use_container_width=True,
+        )
+        columns = [
+            "Query_ID",
+            "Query",
+            "Expected_Relevant_Documents_Baseline",
+            "Relevant_Count",
+            "Precision_Baseline",
+            "Recall_Baseline",
+            "F1_Score_Baseline",
+            "Precision_Adaptive",
+            "Recall_Adaptive",
+            "F1_Score_Adaptive",
+        ]
+        st.subheader("Per-query results")
+        st.dataframe(
+            comparison[columns].round(3),
+            hide_index=True,
+            use_container_width=True,
+        )
 
 elif page == "Query Dataset":
     st.header("Evaluation Query Dataset")
@@ -374,13 +377,13 @@ elif page == "Pipeline and Methodology":
         "This project implements a static baseline healthcare retrieval system. The Q01–Q05 evaluation and corpus artifacts are the authoritative project outputs."
     )
 
-    st.subheader("Saved evaluation artifact")
-    saved = read_json("baseline_evaluation_metrics.json")
-    if saved is None:
-        st.info("No saved baseline_evaluation_metrics.json found yet.")
-    else:
-        st.success("Found results/baseline_evaluation_metrics.json")
-        st.json(saved)
+    st.subheader("Official evaluation")
+    st.write(
+        "The official result is the shared five-query baseline/adaptive "
+        "comparison, using multi-document relevance labels and macro "
+        "set-based Precision, Recall, and F1. Other saved evaluation artifacts "
+        "remain in the results folder but are not presented as project metrics."
+    )
 
 st.divider()
 st.caption("Healthcare NLP | Baseline Pipeline | Fixed evaluation: Q01–Q05")

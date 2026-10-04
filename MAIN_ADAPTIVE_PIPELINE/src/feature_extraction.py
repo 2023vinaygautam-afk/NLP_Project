@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+import nltk
 from collections import Counter
 from typing import Iterable, Sequence
 
@@ -32,13 +33,20 @@ def tokenize_documents(
 
 def english_stop_words() -> set[str]:
     """Return the standard NLTK English stop-word list."""
+
     try:
         return set(stopwords.words("english"))
-    except LookupError as error:
-        raise LookupError(
-            "NLTK's English stop-word corpus is unavailable. Install it with "
-            "`python -m nltk.downloader stopwords` in the app's Python environment."
-        ) from error
+
+    except LookupError:
+        nltk.download("stopwords", quiet=True)
+
+        try:
+            return set(stopwords.words("english"))
+
+        except LookupError as error:
+            raise RuntimeError(
+                "Unable to download or load the NLTK English stopwords corpus."
+            ) from error
 
 
 def remove_stop_words(

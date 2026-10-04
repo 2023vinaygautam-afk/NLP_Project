@@ -5,8 +5,8 @@ The Streamlit application retains its radio-navigation layout and provides:
 - Dashboard and corpus overview calculated from the current adaptive corpus.
 - Document explorer with document search and download.
 - Preprocessing, tokenization, N-gram, POS, NER, and BPE analysis sections.
-- Interactive adaptive lexical retrieval, fixed evaluation queries, and
-  selectable-K evaluation.
+- Interactive adaptive lexical retrieval, fixed evaluation queries, and the
+  official five-query baseline/adaptive comparison.
 - Feature Extraction & Terms Dictionary with NLTK tokenization, Porter
   stemming, stop-word removal, term/document frequencies, sorting, and CSV
   downloads.
@@ -15,16 +15,46 @@ When an analysis CSV is not present in `MAIN_ADAPTIVE_PIPELINE\results`, the
 app looks for the corresponding artifact in the sibling
 `BASELINE_PIPELINE\results`. Those analysis snapshots are labeled in the UI;
 the two project document folders were checked to contain the same 20 source
-documents. The baseline application and its result files are not modified.
+documents. Both applications display the same baseline/adaptive comparison
+report; the baseline app's other saved evaluation artifacts are retained but
+not presented as official results.
 
 Analysis result tables support searching, sorting, and full-source downloads.
 Large tables preview up to 500 rows to keep the app responsive.
 
-Evaluation supports K values 1, 3, 5, 10, and 20. Precision@K uses K as a fixed
-denominator (including when fewer than K documents are returned), and recall
-divides relevant hits in the top K by the number of relevant labels. The
-current fixed query set has one expected document for each query. The live
-evaluation can also handle multiple relevant-document labels if configured.
+## Official evaluation protocol
+
+The official comparison uses the same five fixed queries for both pipelines
+and multi-document relevance labels:
+
+| Query | Relevant documents |
+| --- | --- |
+| Q01 | D01 |
+| Q02 | D02, D03 |
+| Q03 | D01, D02 |
+| Q04 | D02, D03, D16 |
+| Q05 | D06, D09 |
+
+Only macro set-based Precision, Recall, and F1 over all retrieved documents
+are reported. Precision is relevant retrieved documents divided by all
+retrieved documents; recall is relevant retrieved documents divided by all
+relevant labels; F1 is their harmonic mean. The app displays the paired
+comparison saved by `experiments\baseline_vs_adaptive.py`.
+
+Current results (rounded to three decimals):
+
+| Pipeline | Precision | Recall | F1 |
+| --- | ---: | ---: | ---: |
+| Baseline | 0.123 | 1.000 | 0.218 |
+| Adaptive | 0.833 | 0.733 | 0.767 |
+
+Regenerate the shared report from this directory, in order:
+
+```powershell
+python experiments\run_baseline.py
+python src\adaptive_pipeline.py
+python experiments\baseline_vs_adaptive.py
+```
 
 ## Run
 
