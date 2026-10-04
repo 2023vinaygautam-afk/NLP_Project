@@ -133,13 +133,37 @@ def show_artifact(label: str, filename: str):
         st.warning(f"{path} is present but contains no readable rows.")
         return
 
+    added_pos_ml_counts = 0
+    if filename == "pos_tagging_summary.csv":
+        ml_comparison = read_csv("custom_pos_ml_comparison.csv")
+        if {"ml_pos"}.issubset(ml_comparison.columns):
+            ml_tags = ml_comparison["ml_pos"].dropna().astype(str).str.strip()
+            ml_tags = ml_tags[ml_tags.ne("")]
+            ml_counts = (
+                ml_tags.value_counts()
+                .rename_axis("POS_Tag")
+                .rename("Frequency")
+                .reset_index()
+            )
+            ml_counts.insert(0, "Method", "Custom ML (LinearSVC)")
+            added_pos_ml_counts = len(ml_tags)
+            frame = pd.concat([frame, ml_counts], ignore_index=True)
+
     frame = normalize_document_ids(frame)
     source = (
         "adaptive results"
         if path.parent.resolve() == RESULTS_DIR.resolve()
         else "baseline analysis snapshot (same 20 source documents)"
     )
-    st.caption(f"Source: {path.parent.name}/{path.name} · {source} · {len(frame):,} rows")
+    source_note = (
+        f" · includes {added_pos_ml_counts:,} Custom ML (LinearSVC) tags"
+        if added_pos_ml_counts
+        else ""
+    )
+    st.caption(
+        f"Source: {path.parent.name}/{path.name} · {source}{source_note} · "
+        f"{len(frame):,} rows"
+    )
     with st.expander(f"Filter and sort {label}", expanded=False):
         search = st.text_input(
             f"Search {label.lower()}",
@@ -204,6 +228,74 @@ def show_artifact(label: str, filename: str):
             key=f"download_filtered_{filename}",
         )
 
+
+def show_pos_accuracy():
+    st.subheader("POS tagging accuracy")
+    metrics = read_json("custom_pos_ml_metrics.json")
+    if not isinstance(metrics, dict):
+        metrics = {}
+
+    benchmark_scenarios = (
+        (
+            "Held-out original case",
+            "heldout_original_case_tokens",
+            "heldout_original_case_nltk_accuracy",
+            "heldout_original_case_ml_accuracy",
+            "heldout_original_case_improvement_percentage_points",
+        ),
+        (
+            "Held-out lowercase",
+            "heldout_lowercase_tokens",
+            "heldout_lowercase_nltk_accuracy",
+            "heldout_lowercase_ml_accuracy",
+            "heldout_lowercase_improvement_percentage_points",
+        ),
+        (
+            "Unseen words",
+            "unseen_word_tokens_lowercase",
+            "unseen_word_nltk_accuracy",
+            "unseen_word_ml_accuracy",
+            None,
+        ),
+    )
+    benchmark_rows = []
+    for label, tokens_key, nltk_key, ml_key, improvement_key in benchmark_scenarios:
+        nltk_accuracy = metrics.get(nltk_key)
+        ml_accuracy = metrics.get(ml_key)
+        if not all(
+            isinstance(value, (int, float)) and not isinstance(value, bool)
+            for value in (nltk_accuracy, ml_accuracy)
+        ):
+            continue
+
+        improvement = (
+            metrics.get(improvement_key) if improvement_key is not None else None
+        )
+        if not isinstance(improvement, (int, float)):
+            improvement = (ml_accuracy - nltk_accuracy) * 100
+
+        tokens = metrics.get(tokens_key)
+        benchmark_rows.append({
+            "Evaluation": label,
+            "Tokens": f"{tokens:,}" if isinstance(tokens, int) else "—",
+            "NLTK default": f"{nltk_accuracy:.2%}",
+            "Custom ML (LinearSVC)": f"{ml_accuracy:.2%}",
+            "ML improvement": f"{improvement:+.2f} pp",
+        })
+
+    if benchmark_rows:
+        st.dataframe(
+            pd.DataFrame(benchmark_rows),
+            hide_index=True,
+            width="stretch",
+        )
+    else:
+        st.info("Benchmark accuracy values are missing from the POS metrics file.")
+
+    st.caption(
+        "These benchmark scores use held-out Penn Treebank data and cover NLTK "
+        "and Custom ML (LinearSVC) only. They are not healthcare-domain accuracy."
+    )
 
 def normalize_document_ids(frame: pd.DataFrame) -> pd.DataFrame:
     result = frame.copy()
@@ -535,8 +627,13 @@ elif page == "N-gram Analysis":
 
 elif page == "POS Tagging":
     st.header("Part-of-Speech Tagging")
+    show_pos_accuracy()
     show_artifact("POS tag frequencies", "pos_tagging_summary.csv")
     show_artifact("POS tagging comparison", "pos_tagging_comparison.csv")
+    show_artifact(
+        "Custom ML (LinearSVC) token-level comparison",
+        "custom_pos_ml_comparison.csv",
+    )
 
 elif page == "Named Entity Recognition":
     st.header("Named Entity Recognition")
@@ -800,6 +897,8 @@ elif page == "Pipeline and Methodology":
         "pos_tagging_comparison.csv", "ner_summary.csv",
         "ner_entities.csv", "ner_domain_terms.csv", "bpe_summary.csv",
         "bpe_document_comparison.csv", "bpe_subword_frequencies.csv",
+        "custom_pos_ml_metrics.json", "custom_pos_ml_comparison.csv",
+        "pos_gold_sample.csv", "custom_pos_domain_accuracy.json",
         "adaptive_pipeline_results.json",
         "same_query_comparison.csv",
         "same_query_evaluation_summary.json",
